@@ -1,8 +1,10 @@
 # Nexo Digital Studio
 
-Sitio corporativo multipágina con Next.js 16, React 19 y TypeScript. Esta rama propone una nueva Home con Tailwind CSS 4 y shadcn/ui; las páginas interiores conservan V2 hasta aprobación visual.
+Sitio corporativo multipágina con Next.js 16, React 19 y TypeScript. Esta rama refina las secciones inferiores de la Home V3 con Tailwind CSS 4 y shadcn/ui, conservando el hero y el logo aprobados. Las páginas interiores conservan V2.
 
-[Propuesta de Home y decisiones](docs/home-proposal/DESIGN.md) · [QA: 87/87 PASS](docs/home-proposal/QA.md) · [Comparativa con V2](docs/home-proposal/comparison-1440.jpg).
+[Refinamiento V3.1](docs/qa-v3-1/DESIGN.md) · [QA V3.1](docs/qa-v3-1/QA.md) · [Capturas de todas las secciones](docs/qa-v3-1/GALLERY.md).
+
+[Propuesta de Home y decisiones](docs/home-proposal/DESIGN.md) · [QA de V3: 87 escenarios](docs/home-proposal/QA.md) · [Comparativa con V2](docs/home-proposal/comparison-1440.jpg).
 
 [Informe de QA V2](docs/QA-REPORT.md) · [Memoria de diseño](docs/qa-v2/DESIGN.md) · [Comparación antes/después](docs/qa-v2/comparison-1440.jpg).
 

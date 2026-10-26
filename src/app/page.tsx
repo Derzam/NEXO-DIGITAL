@@ -1,14 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, MoveDown, FolderOpen } from "lucide-react";
+import { ArrowRight, ArrowUpRight, MoveDown } from "lucide-react";
 import { Button } from "@/components/shadcn/button";
-import {
-  HomeFaq,
-  Methodology,
-  ServicesBento,
-  MethodSignal,
-} from "@/components/proposal/interactions";
+import { RefinedSections } from "@/components/proposal/refined-sections";
 import { whatsappUrl } from "@/lib/content";
 export const metadata: Metadata = { alternates: { canonical: "/" } };
 
@@ -78,152 +73,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="servicios" className="proposal-section">
-        <div className="proposal-container">
-          <div className="tw:mb-10 tw:grid tw:items-end tw:gap-6 tw:md:grid-cols-[1.15fr_.85fr]">
-            <h2 className="tw:max-w-[620px] tw:text-[clamp(36px,4.2vw,60px)] tw:leading-[1.12]">
-              Lo que imaginas.
-              <br />
-              Lo que hacemos.
-            </h2>
-            <p className="tw:max-w-[460px] tw:text-[18px] tw:leading-relaxed tw:text-muted-foreground">
-              La tecnología es el medio. El punto de partida es lo que tu
-              negocio necesita resolver.
-            </p>
-          </div>
-          <ServicesBento />
-          <div className="tw:mt-8 tw:flex tw:justify-end">
-            <Button
-              asChild
-              variant="link"
-              className="tw:h-12 tw:px-0 tw:text-[16px] tw:text-[#cbe9ff]"
-            >
-              <Link href="/servicios">
-                Ver todos los servicios <ArrowUpRight aria-hidden="true" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="proposal-section tw:bg-[#0a1423]">
-        <div className="proposal-container tw:grid tw:items-center tw:gap-12 tw:lg:grid-cols-[1.1fr_.9fr]">
-          <div className="case-art" aria-hidden="true">
-            <div className="case-folder">
-              <FolderOpen className="tw:size-9 tw:text-[#9ad7ff]" />
-              <strong>
-                Reto y<br />
-                solución.
-              </strong>
-              <span>Casos de estudio · Próximamente</span>
-            </div>
-          </div>
-          <div>
-            <h2 className="tw:text-[clamp(36px,3.8vw,54px)] tw:leading-[1.12]">
-              El trabajo habla.
-              <br />
-              Con contexto.
-            </h2>
-            <p className="tw:mt-6 tw:text-[18px] tw:leading-relaxed tw:text-muted-foreground">
-              Estamos preparando casos de estudio para compartir qué había que
-              resolver, cómo lo abordamos y qué aprendimos.
-            </p>
-            <p className="tw:mt-5 tw:text-[16px] tw:leading-relaxed tw:text-muted-foreground">
-              Publicaremos proyectos con sus materiales y permisos verificados.
-            </p>
-            <Button
-              asChild
-              variant="outline"
-              className="tw:mt-8 tw:h-12 tw:rounded-full tw:border-border tw:bg-transparent tw:px-6 tw:text-[15px] tw:shadow-none"
-            >
-              <Link href="/portafolio">
-                Conocer el portafolio <ArrowUpRight aria-hidden="true" />
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="proposal-section">
-        <div className="proposal-container tw:grid tw:gap-14 tw:lg:grid-cols-[.85fr_1.15fr]">
-          <div>
-            <h2 className="tw:text-[clamp(36px,4vw,58px)] tw:leading-[1.12]">
-              Claridad en
-              <br />
-              cada paso.
-            </h2>
-            <p className="tw:mt-6 tw:max-w-[390px] tw:text-[18px] tw:leading-relaxed tw:text-muted-foreground">
-              Avanzamos con un alcance compartido, decisiones revisables y una
-              entrega que puedas entender.
-            </p>
-            <div className="tw:mt-9">
-              <MethodSignal />
-            </div>
-            <Button
-              asChild
-              variant="link"
-              className="tw:mt-6 tw:h-12 tw:px-0 tw:text-[16px] tw:text-[#cbe9ff]"
-            >
-              <Link href="/nosotros">
-                Conoce nuestra metodología <ArrowUpRight aria-hidden="true" />
-              </Link>
-            </Button>
-          </div>
-          <Methodology />
-        </div>
-      </section>
-
-      <section className="proposal-section tw:bg-[#0a1423]">
-        <div className="proposal-container tw:grid tw:gap-12 tw:lg:grid-cols-[.75fr_1.25fr]">
-          <div>
-            <h2 className="tw:text-[clamp(36px,3.8vw,54px)] tw:leading-[1.12]">
-              Antes de
-              <br />
-              dar el paso.
-            </h2>
-            <p className="tw:mt-6 tw:max-w-[340px] tw:text-[17px] tw:text-muted-foreground">
-              Algunas respuestas para empezar con una idea más clara.
-            </p>
-          </div>
-          <HomeFaq />
-        </div>
-      </section>
-
-      <section className="proposal-section">
-        <div className="proposal-container tw:relative tw:overflow-hidden tw:rounded-[24px] tw:bg-[#112b48] tw:px-8 tw:py-14 tw:md:px-16 tw:md:py-20">
-          <div className="tw:grid tw:items-center tw:gap-9 tw:lg:grid-cols-[1.25fr_.75fr]">
-            <div>
-              <h2 className="tw:max-w-[650px] tw:text-[clamp(36px,4.5vw,64px)] tw:leading-[1.1]">
-                Tu idea
-                <br />
-                empieza aquí.
-              </h2>
-              <p className="tw:mt-6 tw:max-w-[490px] tw:text-[18px] tw:leading-relaxed tw:text-[#c3d7ed]">
-                Cuéntanos qué estás imaginando. Conectemos los puntos y
-                encontremos una forma de hacerlo posible.
-              </p>
-            </div>
-            <div className="tw:lg:justify-self-end">
-              <Button
-                asChild
-                size="lg"
-                className="tw:h-14 tw:rounded-full tw:bg-[#e0f1ff] tw:px-7 tw:text-[16px] tw:text-[#0b1a2b] tw:hover:bg-white"
-              >
-                <a
-                  href={whatsappUrl(
-                    "Hola, quiero conversar sobre un proyecto para mi negocio.",
-                  )}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Hablemos de tu proyecto{" "}
-                  <ArrowUpRight className="tw:size-5" aria-hidden="true" />
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <RefinedSections />
     </div>
   );
 }

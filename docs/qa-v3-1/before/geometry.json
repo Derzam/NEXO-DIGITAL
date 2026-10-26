@@ -1,0 +1,116 @@
+[
+  {
+    "width": 390,
+    "height": 844,
+    "pageHeight": 6478,
+    "sections": [
+      {
+        "id": "hero",
+        "height": 900,
+        "top": 76
+      },
+      {
+        "id": "servicios",
+        "height": 1522.828125,
+        "top": 976
+      },
+      {
+        "id": "portfolio",
+        "height": 895.625,
+        "top": 2498.828125
+      },
+      {
+        "id": "methodology",
+        "height": 1015.46875,
+        "top": 3394.453125
+      },
+      {
+        "id": "faq",
+        "height": 788.71875,
+        "top": 4409.921875
+      },
+      {
+        "id": "cta",
+        "height": 568.1875,
+        "top": 5198.640625
+      }
+    ],
+    "headerHeight": 76
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "pageHeight": 5883,
+    "sections": [
+      {
+        "id": "hero",
+        "height": 790,
+        "top": 88
+      },
+      {
+        "id": "servicios",
+        "height": 1401.859375,
+        "top": 878
+      },
+      {
+        "id": "portfolio",
+        "height": 893.125,
+        "top": 2279.859375
+      },
+      {
+        "id": "methodology",
+        "height": 1007.90625,
+        "top": 3172.984375
+      },
+      {
+        "id": "faq",
+        "height": 778.703125,
+        "top": 4180.890625
+      },
+      {
+        "id": "cta",
+        "height": 589.6875,
+        "top": 4959.59375
+      }
+    ],
+    "headerHeight": 88
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "pageHeight": 4766,
+    "sections": [
+      {
+        "id": "hero",
+        "height": 790,
+        "top": 88
+      },
+      {
+        "id": "servicios",
+        "height": 1052.640625,
+        "top": 878
+      },
+      {
+        "id": "portfolio",
+        "height": 604,
+        "top": 1930.640625
+      },
+      {
+        "id": "methodology",
+        "height": 674.78125,
+        "top": 2534.640625
+      },
+      {
+        "id": "faq",
+        "height": 617.984375,
+        "top": 3209.421875
+      },
+      {
+        "id": "cta",
+        "height": 607.28125,
+        "top": 3827.40625
+      }
+    ],
+    "headerHeight": 88
+  }
+]

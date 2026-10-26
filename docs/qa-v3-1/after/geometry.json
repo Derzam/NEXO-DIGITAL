@@ -1,0 +1,131 @@
+[
+  {
+    "width": 390,
+    "height": 844,
+    "pageHeight": 7215,
+    "headerHeight": 76,
+    "sections": [
+      {
+        "id": "hero",
+        "top": 76,
+        "height": 900
+      },
+      {
+        "id": "servicios",
+        "top": 976,
+        "height": 1795.984375
+      },
+      {
+        "id": "portafolio",
+        "top": 2771.984375,
+        "height": 1041.890625
+      },
+      {
+        "id": "soluciones",
+        "top": 3813.875,
+        "height": 871.25
+      },
+      {
+        "id": "metodologia",
+        "top": 4685.125,
+        "height": 723.03125
+      },
+      {
+        "id": "preguntas",
+        "top": 5408.15625,
+        "height": 575
+      },
+      {
+        "id": "conversemos",
+        "top": 5983.15625,
+        "height": 520.375
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "pageHeight": 6363,
+    "headerHeight": 88,
+    "sections": [
+      {
+        "id": "hero",
+        "top": 88,
+        "height": 790
+      },
+      {
+        "id": "servicios",
+        "top": 878,
+        "height": 1577.046875
+      },
+      {
+        "id": "portafolio",
+        "top": 2455.046875,
+        "height": 1026.15625
+      },
+      {
+        "id": "soluciones",
+        "top": 3481.203125,
+        "height": 741
+      },
+      {
+        "id": "metodologia",
+        "top": 4222.203125,
+        "height": 728.296875
+      },
+      {
+        "id": "preguntas",
+        "top": 4950.5,
+        "height": 583.875
+      },
+      {
+        "id": "conversemos",
+        "top": 5534.375,
+        "height": 495.125
+      }
+    ]
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "pageHeight": 4957,
+    "headerHeight": 88,
+    "sections": [
+      {
+        "id": "hero",
+        "top": 88,
+        "height": 790
+      },
+      {
+        "id": "servicios",
+        "top": 878,
+        "height": 1085.390625
+      },
+      {
+        "id": "portafolio",
+        "top": 1963.390625,
+        "height": 655.78125
+      },
+      {
+        "id": "soluciones",
+        "top": 2619.171875,
+        "height": 537.46875
+      },
+      {
+        "id": "metodologia",
+        "top": 3156.640625,
+        "height": 484.796875
+      },
+      {
+        "id": "preguntas",
+        "top": 3641.4375,
+        "height": 428
+      },
+      {
+        "id": "conversemos",
+        "top": 4069.4375,
+        "height": 555.9375
+      }
+    ]
+  }
+]

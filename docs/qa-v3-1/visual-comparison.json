@@ -1,0 +1,186 @@
+{
+  "heroMarkupUnchanged": true,
+  "heroMarkupSha256": "17aaa1e260b983417610bee695970b9bb7d1dcc09e9c4e02f5085a14f8d78e4c",
+  "checks": [
+    {
+      "file": "home-390-fold.png",
+      "width": 390,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "1-hero-390.png",
+      "width": 390,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "header-390.png",
+      "width": 390,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "contacto-390-full.png",
+      "width": 390,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "landing-pages-390-full.png",
+      "width": 390,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "home-768-fold.png",
+      "width": 768,
+      "sameDimensions": true,
+      "changedPixels": 14397,
+      "exactPixelMatch": false,
+      "changedBounds": {
+        "minY": 957,
+        "maxY": 1023
+      },
+      "note": "El viewport tablet incluye el inicio de Servicios por debajo del hero a y=878; esa franja cambia de forma intencional."
+    },
+    {
+      "file": "1-hero-768.png",
+      "width": 768,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "header-768.png",
+      "width": 768,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "contacto-768-full.png",
+      "width": 768,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "landing-pages-768-full.png",
+      "width": 768,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "home-1440-fold.png",
+      "width": 1440,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "1-hero-1440.png",
+      "width": 1440,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "header-1440.png",
+      "width": 1440,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "contacto-1440-full.png",
+      "width": 1440,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    },
+    {
+      "file": "landing-pages-1440-full.png",
+      "width": 1440,
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true,
+      "changedBounds": null
+    }
+  ],
+  "compact": [
+    {
+      "width": 390,
+      "methodology": {
+        "before": 1015.46875,
+        "after": 723.03125,
+        "reductionPercent": 28.798276657947376
+      },
+      "faq": {
+        "before": 788.71875,
+        "after": 575,
+        "reductionPercent": 27.096953128095404
+      },
+      "combinedReductionPercent": 28.054525929261786,
+      "pageHeight": {
+        "before": 6478,
+        "after": 7215
+      }
+    },
+    {
+      "width": 768,
+      "methodology": {
+        "before": 1007.90625,
+        "after": 728.296875,
+        "reductionPercent": 27.74160543205283
+      },
+      "faq": {
+        "before": 778.703125,
+        "after": 583.875,
+        "reductionPercent": 25.01956377791601
+      },
+      "combinedReductionPercent": 26.555189211407782,
+      "pageHeight": {
+        "before": 5883,
+        "after": 6363
+      }
+    },
+    {
+      "width": 1440,
+      "methodology": {
+        "before": 674.78125,
+        "after": 484.796875,
+        "reductionPercent": 28.154957625156296
+      },
+      "faq": {
+        "before": 617.984375,
+        "after": 428,
+        "reductionPercent": 30.74258552248995
+      },
+      "combinedReductionPercent": 29.391928641357556,
+      "pageHeight": {
+        "before": 4766,
+        "after": 4957
+      }
+    }
+  ]
+}

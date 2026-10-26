@@ -1,12 +1,11 @@
 "use client";
 import Link from "next/link";
+import { ArrowUpRight, ArrowRight, Check } from "lucide-react";
 import {
-  ArrowUpRight,
-  ArrowRight,
-  Blocks,
-  MoveRight,
-  Sparkles,
-} from "lucide-react";
+  ProductPreview,
+  CompanionPreview,
+  DeliveryPreview,
+} from "@/components/proposal/product-previews";
 import {
   Tabs,
   TabsList,
@@ -79,7 +78,7 @@ const groups = [
       href: "/servicios/seo",
     },
   },
-];
+] as const;
 export function ServicesBento() {
   return (
     <Tabs defaultValue="web" className="tw:gap-8">
@@ -113,39 +112,32 @@ export function ServicesBento() {
                     {group.lead.text}
                   </p>
                 </CardContent>
-                <div
-                  className="bento-art tw:mt-auto tw:md:min-h-[235px]"
-                  aria-hidden="true"
-                >
-                  <div className="bento-panels" />
+                <div className="tw:mx-6 tw:mb-6 tw:mt-auto tw:md:mx-8 tw:md:mb-8">
+                  <ProductPreview family={group.id} />
                 </div>
               </Link>
             </Card>
             <Card className="proposal-grid-card tw:col-span-12 tw:gap-0 tw:rounded-2xl tw:p-0 tw:lg:col-span-5">
               <Link
                 href={group.secondary.href}
-                className="tw:block tw:h-full tw:p-8"
+                className="tw:flex tw:h-full tw:flex-col"
               >
-                <div className="tw:flex tw:items-start tw:justify-between tw:gap-6">
-                  <h3 className="tw:max-w-[320px] tw:text-[28px] tw:leading-tight">
-                    {group.secondary.title}
-                  </h3>
-                  <ArrowUpRight
-                    className="tw:size-5 tw:text-[#93cfff]"
-                    aria-hidden="true"
-                  />
+                <div className="tw:p-7">
+                  <div className="tw:flex tw:items-start tw:justify-between tw:gap-6">
+                    <h3 className="tw:max-w-[320px] tw:text-[28px] tw:leading-tight">
+                      {group.secondary.title}
+                    </h3>
+                    <ArrowUpRight
+                      className="tw:size-5 tw:text-[#93cfff]"
+                      aria-hidden="true"
+                    />
+                  </div>
+                  <p className="tw:mt-4 tw:text-[16px] tw:text-muted-foreground">
+                    {group.secondary.text}
+                  </p>
                 </div>
-                <p className="tw:mt-4 tw:text-[16px] tw:text-muted-foreground">
-                  {group.secondary.text}
-                </p>
-                <div className="bento-network" aria-hidden="true">
-                  <span>
-                    <Blocks className="tw:mx-auto tw:size-7" />
-                  </span>
-                  <MoveRight className="tw:size-5 tw:text-[#72b8ff]" />
-                  <span>Experiencia</span>
-                  <MoveRight className="tw:size-5 tw:text-[#72b8ff]" />
-                  <span>Conexión</span>
+                <div className="tw:mx-6 tw:mb-6 tw:mt-auto">
+                  <CompanionPreview family={group.id} />
                 </div>
               </Link>
             </Card>
@@ -165,17 +157,21 @@ export function ServicesBento() {
                     Conocer servicio{" "}
                     <ArrowRight className="tw:size-4" aria-hidden="true" />
                   </span>
+                  <DeliveryPreview family={group.id} />
                 </div>
               </Link>
             </Card>
           </div>
         </TabsContent>
       ))}
+      <p className="tw:text-[14px] tw:leading-relaxed tw:text-muted-foreground">
+        Interfaces demostrativas. Datos de ejemplo.
+      </p>
     </Tabs>
   );
 }
 const triggerStyle =
-  "tw:items-center tw:rounded-none tw:border-0 tw:bg-transparent tw:py-6 tw:text-[22px] tw:leading-[1.4] tw:tracking-[-.035em] tw:text-foreground tw:hover:text-[#9bd8ff] tw:hover:no-underline tw:max-sm:text-[20px]";
+  "tw:items-center tw:rounded-none tw:border-0 tw:bg-transparent tw:py-4 tw:text-[20px] tw:leading-[1.4] tw:tracking-[-.035em] tw:text-foreground tw:hover:text-[#9bd8ff] tw:hover:no-underline tw:max-sm:text-[18px]";
 export function Methodology() {
   return (
     <Accordion
@@ -242,13 +238,119 @@ export function HomeFaq() {
     </Accordion>
   );
 }
-export function MethodSignal() {
+const solutions = [
+  {
+    id: "commerce",
+    label: "Comercios",
+    title: (
+      <>
+        Del catálogo
+        <br />
+        al pedido.
+      </>
+    ),
+    description:
+      "Una presencia digital que ayuda a encontrar tu oferta y dar el siguiente paso.",
+    items: [
+      "Catálogos y canales de contacto",
+      "Pedidos e inventario, según tu alcance",
+    ],
+    flow: ["Tu oferta", "La consulta", "La atención"],
+  },
+  {
+    id: "professionals",
+    label: "Profesionales",
+    title: (
+      <>
+        De la consulta
+        <br />a la cita.
+      </>
+    ),
+    description:
+      "Servicios bien explicados y una experiencia clara para organizar la atención.",
+    items: [
+      "Sitio profesional y solicitud de citas",
+      "Agenda e integración con tus canales",
+    ],
+    flow: ["Tu servicio", "La reserva", "La agenda"],
+  },
+  {
+    id: "teams",
+    label: "Equipos",
+    title: (
+      <>
+        Menos pasos.
+        <br />
+        Más contexto.
+      </>
+    ),
+    description:
+      "Herramientas internas que siguen el proceso de tu equipo y conectan su información.",
+    items: [
+      "Gestión, roles e información compartida",
+      "Integraciones y automatización de procesos",
+    ],
+    flow: ["La solicitud", "El proceso", "El seguimiento"],
+  },
+];
+
+export function SolutionsExplorer() {
   return (
-    <div className="tw:flex tw:items-center tw:gap-4 tw:text-[#a8d9ff]">
-      <Sparkles className="tw:size-6" aria-hidden="true" />
-      <span className="tw:text-[15px]">
-        Pensado con claridad. Construido con criterio.
-      </span>
-    </div>
+    <Tabs defaultValue="commerce" className="tw:gap-7">
+      <TabsList
+        aria-label="Soluciones por negocio"
+        className="tw:h-12 tw:max-w-full tw:flex-nowrap tw:justify-start tw:gap-1 tw:rounded-lg tw:bg-transparent tw:p-0 tw:group-data-[orientation=horizontal]/tabs:h-12"
+      >
+        {solutions.map((solution) => (
+          <TabsTrigger
+            key={solution.id}
+            value={solution.id}
+            className="tw:h-11 tw:flex-none tw:rounded-lg tw:px-4 tw:text-[14px] tw:data-[state=active]:bg-[#dcefff] tw:data-[state=active]:text-[#0b1a2c] tw:dark:data-[state=active]:bg-[#dcefff] tw:dark:data-[state=active]:text-[#0b1a2c] tw:sm:text-[16px] tw:max-sm:px-3"
+          >
+            {solution.label}
+          </TabsTrigger>
+        ))}
+      </TabsList>
+      {solutions.map((solution) => (
+        <TabsContent key={solution.id} value={solution.id}>
+          <div className="solution-layout">
+            <div>
+              <h3 className="tw:text-[clamp(32px,3.2vw,44px)] tw:leading-[1.15]">
+                {solution.title}
+              </h3>
+              <p className="tw:mt-5 tw:max-w-[530px] tw:text-[18px] tw:leading-relaxed tw:text-muted-foreground">
+                {solution.description}
+              </p>
+              <ul className="tw:mt-6 tw:grid tw:list-none tw:gap-3 tw:p-0">
+                {solution.items.map((item) => (
+                  <li
+                    className="tw:flex tw:items-start tw:gap-3 tw:text-[16px] tw:text-[#c4d6ea]"
+                    key={item}
+                  >
+                    <Check
+                      className="tw:mt-1 tw:size-4 tw:shrink-0 tw:text-[#94ceff]"
+                      aria-hidden="true"
+                    />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="solution-chain" aria-label="Recorrido propuesto">
+              {solution.flow.map((step, index) => (
+                <div key={step}>
+                  <span>{step}</span>
+                  {index < 2 ? (
+                    <ArrowRight size={20} aria-hidden="true" />
+                  ) : (
+                    <Check size={20} aria-hidden="true" />
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        </TabsContent>
+      ))}
+    </Tabs>
   );
 }

@@ -1,6 +1,7 @@
 @layer theme, base, legacy, components, utilities;
 @import "tailwindcss/theme.css" layer(theme) prefix(tw);
 @import "../app/globals.css" layer(legacy);
+@import "./refinement.css" layer(components);
 @import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
 @import "tw-animate-css";
 @source "../";

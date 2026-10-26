@@ -1,5 +1,7 @@
 # Nexo Digital Studio — QA de UI Premium V2
 
+> Refinamiento independiente actual: [QA V3.1](qa-v3-1/QA.md) y [galería de todas las secciones](qa-v3-1/GALLERY.md). Hero y logo V3 conservados; interiores sin migrar. El informe V2 que sigue es una referencia histórica.
+
 > La rama `codex/home-shadcn-proposal` añade una propuesta independiente de Home sobre V2. Su [informe de QA](home-proposal/QA.md), [decisiones de diseño](home-proposal/DESIGN.md) y [comparativas](home-proposal/comparison-1440.jpg) documentan el alcance nuevo. El informe V2 que sigue permanece como referencia histórica.
 
 26 de octubre de 2026 · America/Guayaquil. Rama `feat/nexo-website-v1`, PR #1 OPEN / DRAFT. Referencia conservada: `08eb734fb29ce693f3002143f0230bb662720b0f`.
