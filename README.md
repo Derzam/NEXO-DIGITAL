@@ -1,32 +1,54 @@
 # Nexo Digital Studio
 
-Sitio corporativo multipágina de Nexo Digital Studio, preparado para Vercel.
+Sitio corporativo multipágina con Next.js 16, React 19, TypeScript y CSS responsive.
 
-## Stack
+## Instalación reproducible
 
-Next.js 16 (App Router), React 19, TypeScript, CSS responsive y Lucide React.
+Node.js 22 LTS (CI) o posterior compatible; npm. El lockfile se versiona.
 
-## Desarrollo
+```sh
+npm ci
+npm run dev
+```
 
-Requisitos: Node.js 20.9 o posterior.
+Abrir http://localhost:3000. Para ejecutar la versión de producción local:
 
-1. Instalar dependencias con npm install.
-2. Iniciar el servidor con npm run dev.
-3. Abrir http://localhost:3000.
-4. Comprobar tipos con npm run typecheck.
-5. Compilar con npm run build.
+```sh
+npm run build
+npm start
+```
 
-## Vercel
+## Verificación
 
-Importar Derzam/NEXO-DIGITAL, seleccionar Next.js y conectar la raíz del repositorio. Configurar NEXT_PUBLIC_SITE_URL con el dominio real cuando esté disponible, sin barra final. Las ramas de desarrollo deben usar Preview y main queda reservada para producción después de las pruebas.
+```sh
+npm run lint
+npm run typecheck
+npm run build
+npx playwright install chromium
+npm run test:e2e
+```
 
-## Estado de implementación
+Playwright inicia y detiene un servidor de producción en `127.0.0.1:3100`; requiere un build previo y el puerto libre. En Linux, usar `npx playwright install --with-deps chromium`.
 
-- Inicio, catálogo de nueve servicios con rutas individuales, soluciones por industria, portafolio, acerca de, blog y contacto.
-- Menú móvil, SEO básico, sitemap y robots.
-- El formulario prepara un mensaje para enviar desde WhatsApp; no envía automáticamente ni almacena los datos.
-- Portafolio y blog no contienen proyectos o publicaciones inventadas.
+- Chromium en 390×844, 768×1024 y 1440×900.
+- Las 16 páginas, enlaces internos, navegación, nueve servicios y errores 404.
+- Validaciones y codificación del formulario, presupuesto opcional y alternativa cuando se bloquea una ventana emergente.
+- Enlaces de WhatsApp al número configurado; las pruebas interceptan el salto externo y no envían mensajes.
+- axe WCAG 2/2.1 A/AA, teclado, movimiento reducido, metadatos, canonical, sitemap y robots.
+- Evidencia local de LCP/CLS/TTFB y presupuesto de JavaScript; no sustituye mediciones de campo.
 
-## Pendientes antes de publicar
+`npm run test:e2e:report` abre el informe HTML. `test-results/` conserva JSON y trazas de fallos; `qa-artifacts/` contiene capturas de las páginas. Son artefactos generados, excluidos de Git. GitHub Actions usa `npm ci` y adjunta las evidencias durante siete días.
 
-Integrar el logotipo original, revisar textos comerciales, ejecutar instalación/build/typecheck, verificar recorridos responsive (incluyendo 390 px), formularios y links; habilitar pruebas E2E, comprobar accesibilidad y aprobar cualquier política legal necesaria. No fusionar sin QA.
+## Contenido y contacto
+
+La portada, servicios, soluciones, nosotros, portafolio, blog y contacto se definen en `src/app`; el catálogo y número de WhatsApp, en `src/lib/content.ts`.
+
+El formulario prepara un mensaje: la persona lo revisa y pulsa enviar dentro de WhatsApp. No existe un backend de cotizaciones, envío automático ni almacenamiento de datos en esta aplicación. Si el navegador bloquea la nueva pestaña, queda un enlace para abrir la solicitud preparada.
+
+## Configuración antes de producción
+
+Definir `NEXT_PUBLIC_SITE_URL` con el dominio oficial y sin barra final antes del build para canonical, sitemap y metadataBase. En Vercel se usa `VERCEL_URL` como alternativa; localmente se utiliza `http://localhost:3000`. No usar el dominio local como configuración de producción.
+
+Pendientes editoriales: incorporar el logotipo oficial, aprobar textos comerciales y políticas legales necesarias, y añadir únicamente proyectos y publicaciones verificables. Validar la futura Preview y el número de WhatsApp en un dispositivo real antes de aprobar producción.
+
+Esta revisión no fusiona el PR, no despliega producción ni modifica facturación. Véase `docs/QA-REPORT.md` para resultados y límites de la auditoría.

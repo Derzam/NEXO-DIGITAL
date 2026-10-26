@@ -119,7 +119,7 @@ export const industries = [
   { title: "Emprendedores", text: "Validación de ideas, productos mínimos viables y plataformas escalables." }
 ];
 
-export const process = [
+export const processSteps = [
   { title: "Descubrimiento", text: "Escuchamos la necesidad, objetivos, usuarios y restricciones." },
   { title: "Diseño y alcance", text: "Definimos la solución, entregables y criterios de aceptación." },
   { title: "Desarrollo", text: "Construimos por etapas con revisiones técnicas y funcionales." },

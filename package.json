@@ -7,20 +7,24 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint . --max-warnings=0"
+    "lint": "eslint . --max-warnings=0",
+    "test:e2e": "playwright test",
+    "test:e2e:report": "playwright show-report"
   },
   "dependencies": {
+    "lucide-react": "^0.468.0",
     "next": "16.4.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "lucide-react": "^0.468.0"
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@playwright/test": "^1.64.1",
     "@types/node": "^22.15.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
-    "typescript": "^5.9.0",
     "eslint": "^9.39.0",
-    "eslint-config-next": "16.4.3"
+    "eslint-config-next": "16.4.3",
+    "typescript": "^5.9.0"
   }
 }
