@@ -1,0 +1,44 @@
+[
+  {
+    "width": 390,
+    "kind": "fold",
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "pass": true
+  },
+  {
+    "width": 390,
+    "kind": "full",
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "pass": true
+  },
+  {
+    "width": 768,
+    "kind": "fold",
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "pass": true
+  },
+  {
+    "width": 768,
+    "kind": "full",
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "kind": "fold",
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "pass": true
+  },
+  {
+    "width": 1440,
+    "kind": "full",
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "pass": true
+  }
+]

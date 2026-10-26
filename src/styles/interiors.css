@@ -76,6 +76,43 @@
   gap: 16px 25px;
   margin-top: 28px;
 }
+.interior-body { color: var(--muted-foreground); font-size: 18px; line-height: 1.7; }
+.interior-text-link { display: inline-flex; align-items: center; gap: 12px; color: #acd5ff; font-size: 16px; font-weight: 500; min-height: 44px; }
+.interior-catalog { padding-top: 0; }
+.interior-feature-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; }
+.interior-service-tile { overflow: hidden; }
+.interior-shell .service-card {
+  display: flex; flex-direction: column; align-items: stretch; gap: 28px; padding: 30px; min-height: 0; height: 100%;
+  border: 0; background: transparent; border-radius: 12px; box-shadow: none;
+  transition: background-color 180ms ease;
+}
+.interior-shell .service-card:hover { transform: none; background: #13243a; }
+.interior-shell .service-card:focus-visible { outline: 2px solid var(--ring); outline-offset: -3px; }
+.interior-service-copy { flex: 1; }
+.interior-shell .service-card h2 { font-size: 26px; margin-top: 12px; line-height: 1.2; }
+.interior-shell .service-card p { font-size: 17px; line-height: 1.65; color: var(--muted-foreground); margin-block: 16px; max-width: 540px; }
+.interior-service-preview { display: grid; gap: 12px; padding: 0 30px 30px; }
+.interior-service-featured .service-card { height: auto; flex: 1; }
+.interior-service-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 40px; margin-top: 36px; }
+.interior-service-list .interior-service-tile { background: transparent; border-radius: 0; border-bottom: 1px solid #213148; }
+.interior-service-list .service-card { padding: 30px 12px; }
+.interior-service-list .interior-service-tile:last-child { grid-column: 1 / -1; }
+.interior-service-list .interior-service-tile:last-child .interior-service-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
+.interior-service-list .interior-service-tile:last-child p { grid-column: 2; grid-row: 1 / 4; align-self: center; }
+.interior-detail-grid, .interior-scope-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: 60px; }
+.interior-demo { min-width: 0; margin: 0; }
+.interior-demo figcaption { margin-top: 16px; max-width: 500px; }
+.interior-scope-grid { align-items: start; gap: 100px; }
+.interior-scope-grid h2 { font-size: 32px; }
+.interior-check-list { list-style: none; padding: 0; margin-top: 30px; display: grid; gap: 22px; }
+.interior-check-list li { display: flex; gap: 14px; font-size: 18px; line-height: 1.6; }
+.interior-check-list svg { color: #8ecbff; flex-shrink: 0; margin-top: 5px; }
+.interior-deliverables { list-style: none; padding: 0; margin-top: 20px; }
+.interior-deliverables li { padding-block: 17px; border-bottom: 1px solid #24364f; font-size: 18px; line-height: 1.6; }
+.interior-heading-row { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 32px; }
+.interior-related-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
+.interior-related-grid .service-card { padding: 26px; }
+.interior-related-grid .service-card h2 { font-size: 23px; }
 @media (max-width: 900px) {
   .interior-shell {
     --nexo-section-space: 64px;
@@ -87,6 +124,10 @@
   .interior-intro {
     padding-block: 56px 48px;
   }
+  .interior-detail-grid { grid-template-columns: 1fr; gap: 40px; }
+  .interior-detail-grid .interior-demo { max-width: 650px; }
+  .interior-scope-grid { gap: 40px; }
+  .interior-feature-grid, .interior-related-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
   .interior-shell {
@@ -105,4 +146,11 @@
   .interior-cta-copy p {
     font-size: 17px;
   }
+  .interior-service-list, .interior-scope-grid { grid-template-columns: 1fr; }
+  .interior-service-list .interior-service-tile:last-child .interior-service-copy { display: block; }
+  .interior-shell .service-card { padding: 25px; }
+  .interior-service-preview { padding: 0 25px 25px; }
+  .interior-service-list .service-card { padding: 28px 4px; }
+  .interior-shell .service-card h2 { font-size: 25px; }
+  .interior-heading-row { align-items: flex-start; flex-direction: column; gap: 16px; }
 }

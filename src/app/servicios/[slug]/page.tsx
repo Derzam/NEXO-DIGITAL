@@ -1,14 +1,63 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { ArrowRight, ArrowUpRight, CheckCircle2, ChevronRight } from "lucide-react";
-import { CtaBand, ServiceCard } from "@/components/ui";
+import { ArrowRight, ArrowUpRight, Check } from "lucide-react";
+import { Button } from "@/components/shadcn/button";
+import { InteriorBreadcrumb, InteriorCta, InteriorShell } from "@/components/interiors/shell";
+import { ServiceTile, serviceFamily } from "@/components/interiors/service-tile";
+import { ProductPreview } from "@/components/proposal/product-previews";
 import { services, whatsappUrl } from "@/lib/content";
 type Props={params:Promise<{slug:string}>};
 export function generateStaticParams(){return services.map(s=>({slug:s.slug}))}
 export async function generateMetadata({params}:Props):Promise<Metadata>{const {slug}=await params;const service=services.find(s=>s.slug===slug);return service?{alternates:{canonical:"/servicios/"+service.slug},title:service.title,description:service.short}:{title:"Servicio no encontrado"}}
-export default async function ServiceDetail({params}:Props){const {slug}=await params;const service=services.find(s=>s.slug===slug);if(!service)notFound();const related=services.filter(s=>s.slug!==slug).slice(0,3);return <>
- <section className="container detail-hero"><div><nav className="breadcrumb" aria-label="Ruta de navegación"><Link href="/">Inicio</Link><ChevronRight size={13}/><Link href="/servicios">Servicios</Link><ChevronRight size={13}/><span>{service.title}</span></nav><h1>{service.title}</h1><p>{service.description}</p><a href={whatsappUrl("Hola, quiero cotizar el servicio de "+service.title+" con Nexo Digital Studio.")} target="_blank" rel="noopener noreferrer" className="button button-primary detail-actions">Cotizar este servicio <ArrowUpRight size={17}/></a></div>
- <aside className="detail-list"><h2>¿Qué podemos incluir?</h2><ul>{service.bullets.map(item=><li key={item}><CheckCircle2 size={19}/>{item}</li>)}</ul><p className="form-note">Las funcionalidades definitivas se acuerdan durante el levantamiento de requerimientos.</p></aside></section>
- <section className="section section-soft detail-copy"><div className="container"><h2>Tu proyecto incluye</h2><div className="deliverable-grid">{service.deliverables.map(item=><div className="mini-card" key={item}><h3>{item}</h3><p>Se definirá su alcance concreto en la propuesta técnica y comercial.</p></div>)}</div></div></section>
- <section className="section"><div className="container"><div className="section-heading"><h2>Más conexiones.</h2></div><div className="service-grid">{related.map(s=><ServiceCard key={s.slug} service={s}/>)}</div><div className="section-actions"><Link className="button button-ghost" href="/servicios">Todos los servicios <ArrowRight size={17}/></Link></div></div></section><CtaBand/></>}
+export default async function ServiceDetail({ params }: Props) {
+  const { slug } = await params;
+  const service = services.find(s => s.slug === slug);
+  if (!service) notFound();
+  const related = services.filter(s => s.slug !== slug).slice(0, 3);
+  return (
+    <InteriorShell>
+      <section className="interior-intro">
+        <div className="proposal-container">
+          <InteriorBreadcrumb title={service.title} services />
+          <div className="interior-detail-grid">
+            <div>
+              <h1>{service.title}</h1>
+              <p className="interior-lead">{service.description}</p>
+              <div className="interior-actions">
+                <Button asChild className="tw:h-13 tw:rounded-full tw:px-6 tw:text-[16px]">
+                  <a href={whatsappUrl("Hola, quiero cotizar el servicio de " + service.title + " con Nexo Digital Studio.")} target="_blank" rel="noopener noreferrer">Cotizar este servicio <ArrowUpRight size={18} aria-hidden="true" /></a>
+                </Button>
+              </div>
+            </div>
+            <figure className="interior-demo">
+              <ProductPreview family={serviceFamily(service.slug)} />
+              <figcaption className="interior-note">Interfaz demostrativa. Ilustra posibilidades del servicio, no un proyecto de cliente.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section className="interior-section interior-section-soft">
+        <div className="proposal-container interior-scope-grid">
+          <div>
+            <h2>¿Qué podemos incluir?</h2>
+            <ul className="interior-check-list">{service.bullets.map(item => <li key={item}><Check size={19} aria-hidden="true" /><span>{item}</span></li>)}</ul>
+            <p className="interior-note tw:mt-6">Las funcionalidades definitivas se acuerdan durante el levantamiento de requerimientos.</p>
+          </div>
+          <div>
+            <h2>Tu proyecto incluye</h2>
+            <p className="interior-body tw:mt-5">Se definirá el alcance concreto de cada entrega en la propuesta técnica y comercial.</p>
+            <ul className="interior-deliverables">{service.deliverables.map(item => <li key={item}>{item}</li>)}</ul>
+          </div>
+        </div>
+      </section>
+      <section className="interior-section">
+        <div className="proposal-container">
+          <div className="interior-heading-row"><h2>Más conexiones.</h2><Button asChild variant="ghost" className="tw:h-12 tw:text-[16px]"><Link href="/servicios">Todos los servicios <ArrowRight size={18} aria-hidden="true" /></Link></Button></div>
+          <div className="interior-related-grid">{related.map(s => <ServiceTile key={s.slug} service={s} />)}</div>
+        </div>
+      </section>
+      <InteriorCta />
+    </InteriorShell>
+  );
+}
