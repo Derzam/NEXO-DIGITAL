@@ -1,0 +1,37 @@
+{
+  "findings": [
+    {
+      "level": "WARN",
+      "id": "size-count",
+      "width": 1440,
+      "message": "14 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 32, 54, 58, 104).",
+      "fix": "A page needs about five: display, heading, lead, body, small.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "few-pictures",
+      "width": 1440,
+      "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+      "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+    },
+    {
+      "level": "WARN",
+      "id": "no-footage",
+      "width": 1440,
+      "message": "No video anywhere on the page.",
+      "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+    },
+    {
+      "level": "WARN",
+      "id": "off-centre",
+      "width": 1440,
+      "message": "The margins differ: 80px on the left, 97px on the right, at 1440px.",
+      "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+    }
+  ],
+  "allow": []
+}
