@@ -1,0 +1,92 @@
+[
+  {
+    "route": "contacto",
+    "width": 390,
+    "before": {
+      "width": 390,
+      "height": 2926
+    },
+    "after": {
+      "width": 390,
+      "height": 2926
+    },
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "exactPixelMatch": true
+  },
+  {
+    "route": "landing-pages",
+    "width": 390,
+    "before": {
+      "width": 390,
+      "height": 4694
+    },
+    "after": {
+      "width": 390,
+      "height": 4694
+    },
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "exactPixelMatch": true
+  },
+  {
+    "route": "contacto",
+    "width": 768,
+    "before": {
+      "width": 768,
+      "height": 2524
+    },
+    "after": {
+      "width": 768,
+      "height": 2524
+    },
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "exactPixelMatch": true
+  },
+  {
+    "route": "landing-pages",
+    "width": 768,
+    "before": {
+      "width": 768,
+      "height": 3970
+    },
+    "after": {
+      "width": 768,
+      "height": 3970
+    },
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "exactPixelMatch": true
+  },
+  {
+    "route": "contacto",
+    "width": 1440,
+    "before": {
+      "width": 1440,
+      "height": 1872
+    },
+    "after": {
+      "width": 1440,
+      "height": 1872
+    },
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "exactPixelMatch": true
+  },
+  {
+    "route": "landing-pages",
+    "width": 1440,
+    "before": {
+      "width": 1440,
+      "height": 3456
+    },
+    "after": {
+      "width": 1440,
+      "height": 3456
+    },
+    "sameDimensions": true,
+    "changedPixels": 0,
+    "exactPixelMatch": true
+  }
+]

@@ -1,6 +1,8 @@
 # Nexo Digital Studio
 
-Sitio corporativo multipágina con Next.js 16, React 19, TypeScript y CSS responsive. UI Premium V2: sistema azul noche, identidad orbital y metodología accesible.
+Sitio corporativo multipágina con Next.js 16, React 19 y TypeScript. Esta rama propone una nueva Home con Tailwind CSS 4 y shadcn/ui; las páginas interiores conservan V2 hasta aprobación visual.
+
+[Propuesta de Home y decisiones](docs/home-proposal/DESIGN.md) · [QA: 87/87 PASS](docs/home-proposal/QA.md) · [Comparativa con V2](docs/home-proposal/comparison-1440.jpg).
 
 [Informe de QA V2](docs/QA-REPORT.md) · [Memoria de diseño](docs/qa-v2/DESIGN.md) · [Comparación antes/después](docs/qa-v2/comparison-1440.jpg).
 

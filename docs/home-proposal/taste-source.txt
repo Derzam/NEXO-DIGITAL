@@ -1,0 +1,38 @@
+TASTESKILL · LINT   31 file(s)
+
+FAIL
+  [shadow] Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may.  (7×)
+      src/app/globals.css:327  box-shadow:
+      src/app/globals.css:1460  box-shadow:
+      src/components/shadcn/navigation-menu.tsx:93  shadow
+      src/components/shadcn/navigation-menu.tsx:114  shadow
+      src/components/shadcn/navigation-menu.tsx:152  shadow-md
+      src/components/shadcn/sheet.tsx:62  shadow-lg
+      … 1 more
+  [gradient] Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception).  (6×)
+      src/app/globals.css:334  radial-gradient(
+      src/components/shadcn/navigation-menu.tsx:92  from-right-52
+      src/styles/app.css:110  linear-gradient(
+      src/styles/app.css:111  linear-gradient(
+      src/styles/app.css:119  linear-gradient(
+      src/styles/app.css:277  linear-gradient(
+  [hairline] Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields.  (7×)
+      src/components/shadcn/accordion.tsx:21  border-b
+      src/components/shadcn/card.tsx:22  border-b
+      src/components/shadcn/card.tsx:78  border-t
+      src/components/shadcn/sheet.tsx:64  border-l
+      src/components/shadcn/sheet.tsx:66  border-r
+      src/components/shadcn/sheet.tsx:68  border-b
+      … 1 more
+
+WARN
+  [outlined-box] A 1px outlined box. Prefer a filled surface or no box.  (1×)
+      src/components/proposal/interactions.tsx:190  border
+  [transition-all] transition: all. Name the properties (transform, opacity).  (4×)
+      src/components/shadcn/accordion.tsx:37  transition-all
+      src/components/shadcn/button.tsx:7  transition-all
+      src/components/shadcn/navigation-menu.tsx:131  transition-all
+      src/components/shadcn/tabs.tsx:66  transition-all
+
+RESULT: 20 FAIL, 5 WARN — fix the FAILs before rendering.
+Interface fragments marked data-ui keep their own borders and shadows. Any other line that must keep a flagged pattern for a real reason can carry the comment taste-skill-ignore.

@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { usePathname } from "next/navigation";
 import { useRef, useState } from "react";
 import { ArrowUpRight, Menu, MessageCircle, X } from "lucide-react";
@@ -7,7 +8,9 @@ import { NexoMark } from "@/components/nexo-artwork";
 import { whatsappUrl } from "@/lib/content";
 const links = [{ href: "/", label: "Inicio" },{href:"/servicios",label:"Servicios"},{href:"/soluciones",label:"Soluciones"},{href:"/portafolio",label:"Portafolio"},{href:"/nosotros",label:"Nosotros"},{href:"/blog",label:"Blog"},{href:"/contacto",label:"Contacto"}];
 export function Logo(){return <Link className="logo" href="/" title="Nexo Digital Studio — inicio"><NexoMark className="logo-mark"/><span>Nexo Digital<small>Studio</small></span></Link>}
-export function SiteHeader(){
+const ProposalHeader=dynamic(()=>import("@/components/proposal/header").then(module=>module.ProposalHeader));
+export function SiteHeader(){const path=usePathname();return path==="/"?<ProposalHeader/>:<LegacySiteHeader/>}
+function LegacySiteHeader(){
  const menuButton=useRef<HTMLButtonElement>(null);
  const [opened,setOpened]=useState(false);const path=usePathname();
  return <header className="site-header" onKeyDown={event=>{if(event.key==="Escape"&&opened){setOpened(false);menuButton.current?.focus();}}}><div className="container header-inner"><Logo/>

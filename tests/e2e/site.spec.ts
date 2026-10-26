@@ -206,13 +206,13 @@ for (const route of ["/", "/contacto"]) {
 test("premium methodology opens by pointer and keyboard", async ({ page }) => {
   await page.goto("/");
   if (page.viewportSize()!.width <= 1100) await expect(page.getByRole("link", { name: "Escribir por WhatsApp", exact: true })).toBeVisible();
-  const development = page.locator(".method-step").filter({ has: page.getByRole("heading", { name: "Desarrollo", exact: true }) });
-  await development.locator("summary").click();
+  const development = page.locator(".method-step").filter({ has: page.getByRole("button", { name: "Desarrollo", exact: true }) });
+  await development.getByRole("button", { name: "Desarrollo", exact: true }).click();
   await expect(development.locator("p")).toBeVisible();
-  const validation = page.locator(".method-step").filter({ has: page.getByRole("heading", { name: "Validación", exact: true }) });
-  await validation.locator("summary").focus();
+  const validation = page.locator(".method-step").filter({ has: page.getByRole("button", { name: "Validación", exact: true }) });
+  await validation.getByRole("button", { name: "Validación", exact: true }).focus();
   await page.keyboard.press("Enter");
   await expect(validation.locator("p")).toBeVisible();
   await page.emulateMedia({ reducedMotion: "reduce" });
-  expect(await page.locator(".orbit-rings").evaluate(element => getComputedStyle(element).animationName)).toBe("none");
+  expect(await page.locator(".cinematic-scene").evaluate(element => getComputedStyle(element).animationName)).toBe("none");
 });

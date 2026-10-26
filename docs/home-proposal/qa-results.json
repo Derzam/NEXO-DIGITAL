@@ -1,0 +1,1032 @@
+{
+  "date": "2026-10-26",
+  "phase": "Home proposal — Tailwind + shadcn/ui",
+  "branch": "codex/home-shadcn-proposal",
+  "baselineSha": "c5c0e857984a0ecea3c4f41735a64a6c19ca6e28",
+  "environment": {
+    "node": "24.14.0",
+    "npm": "11.9.0",
+    "next": "16.4.3",
+    "tailwind": "4.3.3",
+    "radix": "1.8.1",
+    "playwright": "1.64.1",
+    "axe": "4.14.0",
+    "browser": "Chromium"
+  },
+  "checks": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "build": "PASS",
+    "lockMatchesManifest": true
+  },
+  "stats": {
+    "startTime": "2026-10-26T21:00:13.008Z",
+    "duration": 203382.291,
+    "expected": 87,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "existingScenarios": 75,
+  "addedScenarios": 12,
+  "tests": [
+    {
+      "project": "mobile-390",
+      "title": "cinematic hero keeps enough image resolution for portrait crops",
+      "status": "expected",
+      "durationMs": 2204
+    },
+    {
+      "project": "mobile-390",
+      "title": "service families support selection and keyboard",
+      "status": "expected",
+      "durationMs": 3712
+    },
+    {
+      "project": "mobile-390",
+      "title": "FAQ exposes answers and collapses with keyboard",
+      "status": "expected",
+      "durationMs": 3623
+    },
+    {
+      "project": "mobile-390",
+      "title": "portfolio area remains honest and links to the existing route",
+      "status": "expected",
+      "durationMs": 1090
+    },
+    {
+      "project": "tablet-768",
+      "title": "cinematic hero keeps enough image resolution for portrait crops",
+      "status": "expected",
+      "durationMs": 3471
+    },
+    {
+      "project": "tablet-768",
+      "title": "service families support selection and keyboard",
+      "status": "expected",
+      "durationMs": 5713
+    },
+    {
+      "project": "tablet-768",
+      "title": "FAQ exposes answers and collapses with keyboard",
+      "status": "expected",
+      "durationMs": 7712
+    },
+    {
+      "project": "tablet-768",
+      "title": "portfolio area remains honest and links to the existing route",
+      "status": "expected",
+      "durationMs": 5294
+    },
+    {
+      "project": "desktop-1440",
+      "title": "cinematic hero keeps enough image resolution for portrait crops",
+      "status": "expected",
+      "durationMs": 3552
+    },
+    {
+      "project": "desktop-1440",
+      "title": "service families support selection and keyboard",
+      "status": "expected",
+      "durationMs": 5300
+    },
+    {
+      "project": "desktop-1440",
+      "title": "FAQ exposes answers and collapses with keyboard",
+      "status": "expected",
+      "durationMs": 7573
+    },
+    {
+      "project": "desktop-1440",
+      "title": "portfolio area remains honest and links to the existing route",
+      "status": "expected",
+      "durationMs": 5595
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected",
+      "durationMs": 8328
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios",
+      "status": "expected",
+      "durationMs": 3444
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /soluciones",
+      "status": "expected",
+      "durationMs": 3426
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /portafolio",
+      "status": "expected",
+      "durationMs": 3993
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /nosotros",
+      "status": "expected",
+      "durationMs": 3928
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /blog",
+      "status": "expected",
+      "durationMs": 8367
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /contacto",
+      "status": "expected",
+      "durationMs": 8338
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+      "status": "expected",
+      "durationMs": 9076
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+      "status": "expected",
+      "durationMs": 8107
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+      "status": "expected",
+      "durationMs": 8700
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+      "status": "expected",
+      "durationMs": 9126
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+      "status": "expected",
+      "durationMs": 9675
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+      "status": "expected",
+      "durationMs": 9995
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+      "status": "expected",
+      "durationMs": 9753
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+      "status": "expected",
+      "durationMs": 9576
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+      "status": "expected",
+      "durationMs": 8311
+    },
+    {
+      "project": "mobile-390",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected",
+      "durationMs": 20192
+    },
+    {
+      "project": "mobile-390",
+      "title": "service discovery and quotation link",
+      "status": "expected",
+      "durationMs": 11202
+    },
+    {
+      "project": "mobile-390",
+      "title": "quotation validation, encoding and blocked-popup fallback",
+      "status": "expected",
+      "durationMs": 14286
+    },
+    {
+      "project": "mobile-390",
+      "title": "404 pages and return home",
+      "status": "expected",
+      "durationMs": 6213
+    },
+    {
+      "project": "mobile-390",
+      "title": "keyboard skip link and reduced motion",
+      "status": "expected",
+      "durationMs": 2677
+    },
+    {
+      "project": "mobile-390",
+      "title": "robots and complete sitemap",
+      "status": "expected",
+      "durationMs": 2001
+    },
+    {
+      "project": "mobile-390",
+      "title": "local performance evidence: /",
+      "status": "expected",
+      "durationMs": 2894
+    },
+    {
+      "project": "mobile-390",
+      "title": "local performance evidence: /contacto",
+      "status": "expected",
+      "durationMs": 2866
+    },
+    {
+      "project": "mobile-390",
+      "title": "premium methodology opens by pointer and keyboard",
+      "status": "expected",
+      "durationMs": 3290
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected",
+      "durationMs": 5165
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios",
+      "status": "expected",
+      "durationMs": 4223
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /soluciones",
+      "status": "expected",
+      "durationMs": 4569
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /portafolio",
+      "status": "expected",
+      "durationMs": 3832
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /nosotros",
+      "status": "expected",
+      "durationMs": 5081
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /blog",
+      "status": "expected",
+      "durationMs": 3863
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /contacto",
+      "status": "expected",
+      "durationMs": 5529
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+      "status": "expected",
+      "durationMs": 4914
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+      "status": "expected",
+      "durationMs": 4769
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+      "status": "expected",
+      "durationMs": 4502
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+      "status": "expected",
+      "durationMs": 4125
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+      "status": "expected",
+      "durationMs": 4465
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+      "status": "expected",
+      "durationMs": 4636
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+      "status": "expected",
+      "durationMs": 4777
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+      "status": "expected",
+      "durationMs": 4115
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+      "status": "expected",
+      "durationMs": 5574
+    },
+    {
+      "project": "tablet-768",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected",
+      "durationMs": 14198
+    },
+    {
+      "project": "tablet-768",
+      "title": "service discovery and quotation link",
+      "status": "expected",
+      "durationMs": 10618
+    },
+    {
+      "project": "tablet-768",
+      "title": "quotation validation, encoding and blocked-popup fallback",
+      "status": "expected",
+      "durationMs": 8426
+    },
+    {
+      "project": "tablet-768",
+      "title": "404 pages and return home",
+      "status": "expected",
+      "durationMs": 5080
+    },
+    {
+      "project": "tablet-768",
+      "title": "keyboard skip link and reduced motion",
+      "status": "expected",
+      "durationMs": 2486
+    },
+    {
+      "project": "tablet-768",
+      "title": "robots and complete sitemap",
+      "status": "expected",
+      "durationMs": 497
+    },
+    {
+      "project": "tablet-768",
+      "title": "local performance evidence: /",
+      "status": "expected",
+      "durationMs": 2949
+    },
+    {
+      "project": "tablet-768",
+      "title": "local performance evidence: /contacto",
+      "status": "expected",
+      "durationMs": 2804
+    },
+    {
+      "project": "tablet-768",
+      "title": "premium methodology opens by pointer and keyboard",
+      "status": "expected",
+      "durationMs": 3445
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected",
+      "durationMs": 9131
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios",
+      "status": "expected",
+      "durationMs": 8501
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /soluciones",
+      "status": "expected",
+      "durationMs": 7002
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /portafolio",
+      "status": "expected",
+      "durationMs": 5389
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /nosotros",
+      "status": "expected",
+      "durationMs": 5703
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /blog",
+      "status": "expected",
+      "durationMs": 4943
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /contacto",
+      "status": "expected",
+      "durationMs": 5176
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+      "status": "expected",
+      "durationMs": 5072
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+      "status": "expected",
+      "durationMs": 4907
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+      "status": "expected",
+      "durationMs": 5604
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+      "status": "expected",
+      "durationMs": 5454
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+      "status": "expected",
+      "durationMs": 5500
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+      "status": "expected",
+      "durationMs": 5572
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+      "status": "expected",
+      "durationMs": 5341
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+      "status": "expected",
+      "durationMs": 5018
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+      "status": "expected",
+      "durationMs": 7350
+    },
+    {
+      "project": "desktop-1440",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected",
+      "durationMs": 7499
+    },
+    {
+      "project": "desktop-1440",
+      "title": "service discovery and quotation link",
+      "status": "expected",
+      "durationMs": 6937
+    },
+    {
+      "project": "desktop-1440",
+      "title": "quotation validation, encoding and blocked-popup fallback",
+      "status": "expected",
+      "durationMs": 7905
+    },
+    {
+      "project": "desktop-1440",
+      "title": "404 pages and return home",
+      "status": "expected",
+      "durationMs": 5366
+    },
+    {
+      "project": "desktop-1440",
+      "title": "keyboard skip link and reduced motion",
+      "status": "expected",
+      "durationMs": 4058
+    },
+    {
+      "project": "desktop-1440",
+      "title": "robots and complete sitemap",
+      "status": "expected",
+      "durationMs": 445
+    },
+    {
+      "project": "desktop-1440",
+      "title": "local performance evidence: /",
+      "status": "expected",
+      "durationMs": 3258
+    },
+    {
+      "project": "desktop-1440",
+      "title": "local performance evidence: /contacto",
+      "status": "expected",
+      "durationMs": 2639
+    },
+    {
+      "project": "desktop-1440",
+      "title": "premium methodology opens by pointer and keyboard",
+      "status": "expected",
+      "durationMs": 2395
+    }
+  ],
+  "accessibility": [
+    {
+      "project": "mobile-390",
+      "route": "/",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/soluciones",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/portafolio",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/nosotros",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/blog",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/contacto",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/landing-pages",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/sitios-corporativos",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/sistemas-web",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/aplicaciones-moviles",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/inteligencia-artificial",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/automatizacion",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/auditoria-qa",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/seo",
+      "violations": []
+    },
+    {
+      "project": "mobile-390",
+      "route": "/servicios/integraciones",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/soluciones",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/portafolio",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/nosotros",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/blog",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/contacto",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/landing-pages",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/sitios-corporativos",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/sistemas-web",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/aplicaciones-moviles",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/inteligencia-artificial",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/automatizacion",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/auditoria-qa",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/seo",
+      "violations": []
+    },
+    {
+      "project": "tablet-768",
+      "route": "/servicios/integraciones",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/soluciones",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/portafolio",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/nosotros",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/blog",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/contacto",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/landing-pages",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/sitios-corporativos",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/sistemas-web",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/aplicaciones-moviles",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/inteligencia-artificial",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/automatizacion",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/auditoria-qa",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/seo",
+      "violations": []
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/servicios/integraciones",
+      "violations": []
+    }
+  ],
+  "additionalAxeStates": {
+    "scans": 6,
+    "violations": 0,
+    "states": [
+      "IA y flujos selected",
+      "Pricing FAQ expanded"
+    ]
+  },
+  "performance": [
+    {
+      "project": "mobile-390",
+      "route": "/",
+      "lcp": 336,
+      "cls": 0,
+      "ttfb": 22.30000001192093,
+      "domContentLoaded": 309.5,
+      "jsBytes": 171009,
+      "resourceCount": 18,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "mobile-390",
+      "route": "/contacto",
+      "lcp": 600,
+      "cls": 0,
+      "ttfb": 112.7999999821186,
+      "domContentLoaded": 580.6999999880791,
+      "jsBytes": 172514,
+      "resourceCount": 15,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "tablet-768",
+      "route": "/",
+      "lcp": 368,
+      "cls": 0,
+      "ttfb": 33.39999997615814,
+      "domContentLoaded": 334.59999999403954,
+      "jsBytes": 171009,
+      "resourceCount": 20,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "tablet-768",
+      "route": "/contacto",
+      "lcp": 472,
+      "cls": 0,
+      "ttfb": 111.40000000596046,
+      "domContentLoaded": 441.2000000178814,
+      "jsBytes": 172514,
+      "resourceCount": 15,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/",
+      "lcp": 356,
+      "cls": 0,
+      "ttfb": 7.4000000059604645,
+      "domContentLoaded": 306.80000001192093,
+      "jsBytes": 172514,
+      "resourceCount": 29,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/contacto",
+      "lcp": 464,
+      "cls": 0,
+      "ttfb": 30.599999994039536,
+      "domContentLoaded": 394.09999999403954,
+      "jsBytes": 172514,
+      "resourceCount": 27,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    }
+  ],
+  "interiorComparison": [
+    {
+      "route": "contacto",
+      "width": 390,
+      "before": {
+        "width": 390,
+        "height": 2926
+      },
+      "after": {
+        "width": 390,
+        "height": 2926
+      },
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "route": "landing-pages",
+      "width": 390,
+      "before": {
+        "width": 390,
+        "height": 4694
+      },
+      "after": {
+        "width": 390,
+        "height": 4694
+      },
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "route": "contacto",
+      "width": 768,
+      "before": {
+        "width": 768,
+        "height": 2524
+      },
+      "after": {
+        "width": 768,
+        "height": 2524
+      },
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "route": "landing-pages",
+      "width": 768,
+      "before": {
+        "width": 768,
+        "height": 3970
+      },
+      "after": {
+        "width": 768,
+        "height": 3970
+      },
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "route": "contacto",
+      "width": 1440,
+      "before": {
+        "width": 1440,
+        "height": 1872
+      },
+      "after": {
+        "width": 1440,
+        "height": 1872
+      },
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true
+    },
+    {
+      "route": "landing-pages",
+      "width": 1440,
+      "before": {
+        "width": 1440,
+        "height": 3456
+      },
+      "after": {
+        "width": 1440,
+        "height": 3456
+      },
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "exactPixelMatch": true
+    }
+  ],
+  "taste": {
+    "result": "FAIL",
+    "fail": 2,
+    "warn": 2,
+    "allow": [],
+    "findings": [
+      {
+        "level": "WARN",
+        "id": "size-count",
+        "width": 1440,
+        "message": "18 different font sizes (13, 14, 15, 16, 17, 18, 19, 22, 23, 25, 28, 43, 47, 54, 58, 60, 64, 98).",
+        "fix": "A page needs about five: display, heading, lead, body, small.",
+        "alsoAt": [
+          768,
+          390
+        ]
+      },
+      {
+        "level": "FAIL",
+        "id": "few-pictures",
+        "width": 1440,
+        "message": "Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+        "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+      },
+      {
+        "level": "WARN",
+        "id": "no-footage",
+        "width": 1440,
+        "message": "No video anywhere on the page.",
+        "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+      },
+      {
+        "level": "FAIL",
+        "id": "still-page",
+        "width": 1440,
+        "message": "Only 2 element(s) moved while the page loaded and scrolled.",
+        "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+      }
+    ],
+    "source": {
+      "fail": 20,
+      "warn": 5,
+      "scope": "src; includes preserved V2 styles and unused/generated overlay variants"
+    }
+  },
+  "constraints": {
+    "interiorMigration": "pending visual approval",
+    "originalV2BranchPreserved": true,
+    "pr1Draft": true,
+    "mainUnmodified": true,
+    "productionDeploy": false,
+    "billingChanged": false,
+    "actionsRerun": false
+  },
+  "limitations": [
+    "Local unthrottled Chromium; no field CWV or INP measurement",
+    "No real WhatsApp message sent",
+    "Safari, Firefox, screen reader and device verification pending",
+    "Strict TasteSkill remains FAIL; see QA.md"
+  ]
+}

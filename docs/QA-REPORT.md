@@ -1,5 +1,7 @@
 # Nexo Digital Studio — QA de UI Premium V2
 
+> La rama `codex/home-shadcn-proposal` añade una propuesta independiente de Home sobre V2. Su [informe de QA](home-proposal/QA.md), [decisiones de diseño](home-proposal/DESIGN.md) y [comparativas](home-proposal/comparison-1440.jpg) documentan el alcance nuevo. El informe V2 que sigue permanece como referencia histórica.
+
 26 de octubre de 2026 · America/Guayaquil. Rama `feat/nexo-website-v1`, PR #1 OPEN / DRAFT. Referencia conservada: `08eb734fb29ce693f3002143f0230bb662720b0f`.
 
 **Resultado: listo para revisión visual y técnica en Draft.** Lint, TypeScript, build y las **75 pruebas E2E** pasan. Se conservaron las 72 pruebas originales y se añadieron tres comprobaciones de metodología, una por tamaño. No se cambiaron sus expectativas para eludir regresiones.
