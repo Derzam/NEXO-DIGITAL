@@ -1,117 +1,126 @@
-# Auditoría de Nexo Digital Studio v1
+# Nexo Digital Studio — QA de UI Premium V2
 
-Fecha: 26 de octubre de 2026, America/Guayaquil. Repositorio: `Derzam/NEXO-DIGITAL`. Rama: `feat/nexo-website-v1`. [PR #1](https://github.com/Derzam/NEXO-DIGITAL/pull/1), conservado como borrador.
+26 de octubre de 2026 · America/Guayaquil. Rama `feat/nexo-website-v1`, PR #1 OPEN / DRAFT. Referencia conservada: `08eb734fb29ce693f3002143f0230bb662720b0f`.
 
-**Resultado funcional local: PASS. 72 pruebas E2E aprobadas, 0 fallos, 0 omitidas y 0 pruebas inestables en 80,2 s.** La evaluación estética estricta de TasteSkill sigue en FAIL y se detalla como pendiente; este informe no equivale a aprobación de producción.
+**Resultado: listo para revisión visual y técnica en Draft.** Lint, TypeScript, build y las **75 pruebas E2E** pasan. Se conservaron las 72 pruebas originales y se añadieron tres comprobaciones de metodología, una por tamaño. No se cambiaron sus expectativas para eludir regresiones.
 
-## Preservación y entorno
+TasteSkill pasa de **14 FAIL / 6 WARN** a **1 FAIL / 3 WARN**. El resultado estricto sigue siendo FAIL por el mínimo de cuatro fotografías: la dirección aprobada utiliza ilustraciones vectoriales originales. Se documenta la decisión; no se desactivó ninguna regla.
 
-La carpeta inicial contenía un repositorio sin commits, `.agents/` y `skills-lock.json`. Se conservaron intactos. El proyecto se clonó en `NEXO-DIGITAL/`; su rama estaba limpia y apuntaba a `9b10aad22c3d07852fabc0c7bee4315a29a42d58`. No se usó reset, force push ni rebase. El SHA final publicado queda identificado en el PR y en la entrega; `git rev-parse HEAD` lo obtiene desde este checkout.
+## Qué cambió
 
-Windows, Node 24.14.0, npm 11.9.0, Next.js 16.4.3, Playwright 1.64.1, Chromium 156.0.8078.4 y axe 4.14.0. La CI está configurada con Node 22. Se conservaron las dependencias de producción; se añadieron únicamente Playwright y axe para el QA pedido. Después de la indicación de reutilizar dependencias se trabajó con las instaladas, incluido `next/font` de Next.js.
+- Hero completo: “Ideas que conectan.”, núcleo N orbital original, horizonte azul, texto editorial y dos acciones existentes.
+- Sistema azul noche en las 16 rutas, títulos breves, lectura de 16–18 px y estados de foco visibles.
+- Servicios con dos superficies principales y un directorio en Home; catálogo de anchos alternos y detalles sin numeración decorativa.
+- Conexión gráfica entre idea y solución; metodología nativa con cinco desplegables accesibles.
+- Header, navegación, CTA final y footer compartidos rediseñados.
+- Portafolio y blog conservan sus estados vacíos honestos.
+- Formulario, validación, enlaces de WhatsApp, metadatos, canonical, robots y sitemap conservados. `contact-form.tsx`, el catálogo y las configuraciones de paquetes no se modificaron.
 
-## Pruebas ejecutadas
+La [memoria de diseño](qa-v2/DESIGN.md) explica las referencias y las decisiones frente a TasteSkill. Se usaron sus tres imágenes como referencias, sin copiar sus composiciones ni su contenido comercial. No hay dependencias nuevas ni WebGL, canvas, librerías de animación o peticiones de imágenes externas.
 
-| Comprobación | Resultado | Evidencia |
+## Resultados ejecutados
+
+| Verificación | Resultado | Evidencia |
 | --- | --- | --- |
-| Instalación y lockfile | PASS | `npm install` y después `npm ci --no-fund`: 351 paquetes instalados, 352 auditados, cero vulnerabilidades reportadas |
-| Lint | PASS | `npm run lint`, cero errores y advertencias |
+| Git y preservación | PASS | Rama inicial limpia en el SHA de referencia; no reset, rebase ni force push |
+| Lint | PASS | `npm run lint`, cero errores/advertencias |
 | TypeScript | PASS | `npm run typecheck` |
-| Producción | PASS | `npm run build`; 20 entradas generadas, incluyendo 16 páginas comerciales, rutas auxiliares y 404 |
-| Arranque | PASS | `next start` en localhost; Playwright usa el puerto 3100 |
-| Páginas, enlaces y responsive | PASS | 16 rutas × 3 tamaños, HTTP 200, un H1, sin overflow horizontal ni errores JS/consola |
-| Navegación y servicios | PASS | Menú, siete destinos principales, Escape y foco, nueve servicios, descubrimiento y regreso al catálogo |
-| Cotización y WhatsApp | PASS | Validación, codificación, presupuesto opcional, mensaje preparado y alternativa a ventana bloqueada |
-| Errores 404 | PASS | Ruta inexistente y servicio inexistente responden 404; enlace de regreso funcional |
-| Accesibilidad básica | PASS | Cero infracciones axe WCAG 2/2.1 A/AA en las 48 combinaciones; salto al contenido, teclado y movimiento reducido |
-| SEO técnico local | PASS | Títulos, descripciones, idioma español, viewport, canonical por página, sitemap de 16 URLs y robots |
-| Rendimiento local | PASS | CLS 0 y JavaScript transferido menor a 350 KB en las seis mediciones; cero peticiones a Google Fonts desde el navegador |
-| `git diff --check` | PASS | Sin errores de whitespace |
-| GitHub Actions remoto | FAIL / BLOQUEADO | El job no inició: cuenta bloqueada por un problema de facturación; no ejecutó pruebas |
-| TasteSkill, criterio estético estricto | FAIL | Inspector final: 14 FAIL y 6 WARN; no se ocultan ni se desactivan reglas |
+| Build de producción | PASS | `npm run build`; 20 entradas generadas, incluidas las 16 páginas comerciales |
+| 72 pruebas existentes | PASS | Todas pasan sin modificar sus recorridos ni expectativas |
+| Metodología nueva | PASS | Tres pruebas adicionales: apertura por puntero, Enter y preferencia de movimiento reducido |
+| Total Playwright | PASS | 75 esperadas, 0 fallos, 0 omitidas, 0 inestables |
+| Responsive | PASS | 390×844, 768×1024 y 1440×900; sin overflow horizontal |
+| Accesibilidad automatizada | PASS | Cero infracciones axe WCAG 2/2.1 A/AA en 16 páginas × 3 tamaños |
+| Teclado | PASS | Menú/Escape, retorno de foco, salto al contenido y desplegables |
+| Cotización/WhatsApp | PASS | Requeridos, espacios, correo, caracteres especiales, presupuesto opcional, popup y alternativa |
+| SEO | PASS | Un H1, títulos, descripción, canonical por página, sitemap y robots |
+| Rendimiento local | PASS | CLS 0 en las seis mediciones; JS < 350 KB y ninguna petición externa a Google Fonts |
+| TasteSkill inspector | FAIL | 1 FAIL y 3 WARN, detalle abajo |
+| TasteSkill lint de fuente | FAIL justificado | 3 FAIL y 0 WARN: dos reglas de sombra y un gradiente del horizonte solicitado |
+| GitHub Actions | BLOQUEO HISTÓRICO | Último diagnóstico: cuenta bloqueada por facturación; no se solicitó rerun ni se modificó facturación |
 
-Los tamaños fueron **390×844**, **768×1024** y **1440×900**, todos con Chromium. La matriz y las métricas están en [qa-results.json](qa-results.json). El workflow usa `npm ci`, lint, tipos, build, Chromium y Playwright; publica el reporte HTML, JSON, capturas y trazas de fallos durante siete días. La ejecución remota [40353422820](https://github.com/Derzam/NEXO-DIGITAL/actions/runs/40353422820/job/121679347200), sobre el commit de código `71ea361685d597326b7613407ed953a6f7b4c252`, terminó en failure sin iniciar el job. GitHub indica: “The job was not started because your account is locked due to a billing issue.” Este es un bloqueo de la cuenta, no un fallo de lint/build/E2E remoto observado. No se modificó facturación ni se reintentó automáticamente. El commit posterior solo documenta este resultado; no cambia el código probado.
-
-## Errores corregidos
-
-1. **Colisión con `process`:** el catálogo exportaba una lista llamada `process` que ocultaba el global usado en `process.env`. Se renombró a `processSteps` y se actualizaron ambos consumidores.
-2. **Lint bloqueado:** ocho comillas de JSX sin escapar y exportación anónima de la configuración ESLint. Se corrigieron sin desactivar las reglas.
-3. **Formulario aceptaba espacios:** nombre y proyecto se recortan y validan antes de generar WhatsApp; el error se limpia al editar. Se mantiene la validación nativa de correo, selección y longitudes.
-4. **Ventanas emergentes bloqueadas:** ahora se muestra un estado y un enlace accesible al mensaje preparado, que se elimina al cambiar los datos.
-5. **Controles en móvil:** el botón de envío puede envolver el texto dentro de su contenedor; los campos usan 16 px y el botón del menú tiene un objetivo de al menos 44×44 px.
-6. **Accesibilidad:** colores de texto con contraste insuficiente, nombre accesible del logotipo, falta de Escape y devolución del foco en el menú, salto al contenido y preferencia de movimiento reducido.
-7. **SEO:** se añadió un canonical específico a las 16 páginas.
-8. **Salto de diseño por fuentes:** una ejecución registró CLS 0,264 en la portada de escritorio. Se sustituyó el `@import` remoto por `next/font` con fuentes servidas por la aplicación y fallback ajustado. La medición final registró CLS 0 en los seis casos.
-9. **Reproducibilidad:** lockfile versionado, CI con `npm ci`, pruebas E2E y documentación de ejecución.
-10. **Legibilidad:** siguiendo UI/UX Pro Max y TasteSkill, texto principal de tarjetas y secciones a 16 px, notas del formulario a 13 px, enlaces del pie a 14 px y botones principales con color plano.
-
-Durante el trabajo se resolvieron dos incidencias del entorno: instalaciones npm concurrentes que se regeneraron secuencialmente y un EPERM del sandbox de Windows al escribir `.next`, resuelto compilando con permisos adecuados. Un selector del test móvil se corrigió para admitir el cambio de nombre de “Abrir menú” a “Cerrar menú”. No eran fallos pendientes del producto.
+La ejecución final tardó **144,5 s** y usa Chromium instalado. El servidor revisado es `next start`, no el modo de desarrollo. Se revisaron capturas de las 16 rutas en los tres tamaños y las siete hojas finales del inspector. Los datos están en [qa-results.json](qa-results.json).
 
 ## Rendimiento
 
-Mediciones del build de producción local, sin limitación de CPU o red, con procesos de QA simultáneos. No representan rendimiento de campo, Lighthouse ni INP.
-
 | Tamaño | Ruta | LCP (ms) | CLS | TTFB (ms) | JS transferido (bytes) |
 | --- | --- | ---: | ---: | ---: | ---: |
-| mobile-390 | `/` | 244 | 0.000 | 20.5 | 139947 |
-| mobile-390 | `/contacto` | 188 | 0.000 | 8.6 | 141452 |
-| tablet-768 | `/` | 288 | 0.000 | 9.3 | 139947 |
-| tablet-768 | `/contacto` | 276 | 0.000 | 27.9 | 141452 |
-| desktop-1440 | `/` | 308 | 0.000 | 7.0 | 141452 |
-| desktop-1440 | `/contacto` | 228 | 0.000 | 3.7 | 141452 |
+| mobile-390 | `/` | 320 | 0.000 | 20.8 | 140016 |
+| mobile-390 | `/contacto` | 332 | 0.000 | 12.1 | 141521 |
+| tablet-768 | `/` | 296 | 0.000 | 8.0 | 140016 |
+| tablet-768 | `/contacto` | 264 | 0.000 | 10.9 | 141521 |
+| desktop-1440 | `/` | 308 | 0.000 | 6.1 | 141521 |
+| desktop-1440 | `/contacto` | 268 | 0.000 | 15.8 | 141521 |
 
-Presupuestos automatizados: CLS ≤ 0,1 y JavaScript transferido < 350.000 bytes. Las páginas se prerenderizan. Las fuentes se descargan durante el build y se sirven desde la aplicación; un build sin caché necesita acceso a Google Fonts. No se incorporaron paquetes de tipografía nuevos.
+Mediciones locales sin limitar red o CPU, con capturas y QA simultáneos; no son métricas de campo ni Lighthouse. LCP 264–332 ms, CLS 0 y JavaScript 140,016–141,521 bytes. El presupuesto automatizado de 350 KB se mantiene sin dependencias nuevas. Las fuentes continúan servidas por Next.js.
 
-## Revisión visual y TasteSkill
+Las animaciones usan transformaciones y no reducen la opacidad de los textos. El modo de movimiento reducido elimina las animaciones y el scroll suave. No hay carga de imágenes pesadas ni cambios de layout registrados.
 
-Se usaron UI/UX Pro Max y `design-taste-frontend` (TasteSkill), junto con las revisiones de verificación y React. Se aplicó el flujo de **revisión de un sitio existente**, sin sortear una dirección nueva, sin semilla ni redibujos, y sin reemplazar la identidad del sitio. No se añadieron imágenes, clientes, testimonios o métricas comerciales inventados.
+## Evaluación estética real
 
-El inspector de la portada se ejecutó en los tres anchos. Pasó de **16 FAIL / 6 WARN** a **14 FAIL / 6 WARN** al mejorar el cuerpo de texto y eliminar los efectos del botón principal. Se revisaron las nueve capturas finales que produjo, las vistas de las 16 rutas y el formulario móvil. El criterio estético estricto queda pendiente, aunque los recorridos funcionales y axe pasan.
+Dirección **The dark room**, semilla **1640262902**, interpretada dentro de la dirección dark cosmic aprobada. La idea es convertir el significado de Nexo en un núcleo que conecta diseño, software e IA. Los objetos iluminados y el horizonte se limitan al hero; los controles y las demás superficies son planos.
 
-ROUND 3
+| Medición | V1 | V2 |
+| --- | ---: | ---: |
+| FAIL de TasteSkill | 14 | 1 |
+| WARN de TasteSkill | 6 | 3 |
+| Titular Home en móvil | 4 líneas | 2 líneas |
+| Títulos de Home sobre 2 líneas, 3 tamaños | Presentes | 0 |
+| Tipografías en Home | 3 | 2 |
+| Elementos animados observados | 0 | 25 |
+| Overflow horizontal de Home | 0 | 0 |
 
-- Seen in one second: titular y panel conceptual sobre fondo oscuro; acción de explorar servicios visible.
-- Idea (one sentence): Nexo presenta su catálogo y metodología mediante una estética tecnológica común, todavía sin un recurso visual propio que distinga al estudio.
-- Live thing: la cotización transforma los datos del proyecto en un mensaje editable de WhatsApp.
-- Layout words by section: hero=split / servicios=grid / metodología=split / proceso=list / sectores=split-grid / contacto=band / footer=columns.
-- Scores: design 6 · usability 8 · creativity 5 · content 6 → overall **6,0**, aplicando el límite por FAIL del inspector (aritmético 6,4).
-- Caps applied: FAIL pendientes, titular móvil de cuatro líneas, ausencia de imágenes reales y lenguaje visual de categoría.
+Se resolvieron los títulos largos, rótulos previos, monospace decorativo, numeración, microetiquetas, botones con efectos, líneas y contornos de tarjetas, repetición de tarjetas con iconos, texto pequeño y ausencia de movimiento.
+
+### Hallazgos conservados
+
+- **FAIL `few-pictures`:** cero fotografías/raster contabilizadas; el inspector excluye SVG. La propuesta contiene dos ilustraciones vectoriales originales y el horizonte CSS. Añadir cuatro fotos genéricas o convertir dibujos en raster solo para aprobar el contador no aportaría evidencia del estudio. Se conserva como divergencia documentada de la dirección aprobada.
+- **WARN `no-footage`:** sin video. Se priorizan peso y lectura; no existe material audiovisual propio aprobado.
+- **WARN `size-count`:** 14 tamaños medidos. Los tamaños corresponden a marca, navegación, cuerpo y títulos responsive; sigue siendo una oportunidad de reducir tokens.
+- **WARN `off-centre`:** el inspector registra 80/97 px. La medición DOM independiente del contenedor da **80/80 px**, ancho 1280 en viewport 1440; [evidencia](qa-v2/frame-measurement.json). No se alteró la regla para ocultar esta discrepancia.
+
+El [lint de fuente](qa-v2/taste-source-lint.txt) también se ejecutó sin exclusiones: **3 FAIL / 0 WARN** por dos declaraciones de sombra (horizonte de escritorio y móvil) y un radial-gradient. Estas declaraciones construyen el horizonte luminoso pedido; no son sombras de tarjetas o botones.
+
+El brillo y los gradientes puntuales del recurso orbital responden expresamente a las referencias y a la dirección aprobada, aunque contradicen la prohibición estética general de TasteSkill. No se extienden a todos los componentes. No se usó `--allow`, ni comentarios de exclusión o cambios al inspector.
+
+### Crítica final — ROUND 3
+
+- Seen in one second: titular breve, núcleo N y horizonte azul; acción principal visible.
+- Idea (one sentence): el nombre Nexo se convierte en un centro de conexión entre disciplinas y en el hilo del recorrido.
+- Live thing: explorar las etapas de trabajo y preparar una cotización de WhatsApp con datos reales del formulario.
+- Layout words by section: hero=split-orbit / servicios=featured-directory / enfoque=graphic-split / metodología=disclosure-list / sectores=editorial-list / CTA=reply-band / footer=wordmark-columns.
+- Scores, revisión según el brief aprobado: design 8 · usability 8,5 · creativity 7,5 · content 8 → **8,05/10**, evaluación subjetiva.
+- Caps applied: con la rúbrica estricta de TasteSkill y su FAIL pendiente, el resultado limitado es **6,0/10**. La valoración del brief no reemplaza ese resultado ni constituye un PASS del inspector.
 - Top three problems:
-  1. `mobile-fold.jpg`: el título principal ocupa cuatro líneas. Acortar la propuesta de valor en una siguiente revisión editorial.
-  2. `desktop-page-01.jpg`: tarjetas, numeración y rótulos repetidos. Replantear la composición con ejemplos reales del trabajo del estudio cuando estén disponibles.
-  3. `tablet-fold.jpg`: el panel es conceptual y conserva efectos decorativos. Sustituirlo por material propio aprobado y simplificar efectos, sin inventar proyectos.
+  1. `home-1440-full.png`: falta material real de proyectos que permita reemplazar los estados vacíos y enriquecer las secciones interiores.
+  2. `home-390-full.png`: la Home sigue siendo un recorrido largo; conviene validarlo con usuarios y priorizar contenido según consultas reales.
+  3. `contacto-390-full.png`: faltan validaciones con Safari y lectores de pantalla reales. El acceso persistente a WhatsApp se trasladó al header en móvil/tablet para evitar superposición de contenido.
 
-Las 14 marcas FAIL son: títulos largos (dos mediciones), eyebrows, monospace fuera de código semántico, numeración decorativa, rótulos pequeños, degradados, sombras, líneas, cajas delineadas, tarjetas repetidas, escasez de imágenes, texto decorativo pequeño y ausencia de animación de entrada. Las seis WARN son vidrio, número de tipografías y tamaños, texto gris, ausencia de video y márgenes visuales. Son criterios de dirección artística; no se presentan como infracciones WCAG. La ausencia de animaciones no bloquea la lectura ni la interacción.
+No se atribuyen a Nexo clientes, cifras, resultados ni testimonios inventados. El símbolo N propuesto es una marca vectorial de trabajo, pendiente de validación oficial.
 
-## Pendientes antes de aprobar producción
+## Comparativas y capturas
 
-- Resolver por el titular el bloqueo de facturación de GitHub y volver a ejecutar Website QA. El agente no cambió esa configuración.
+- [Antes/después 1440 px](qa-v2/comparison-1440.jpg), [768 px](qa-v2/comparison-768.jpg), [390 px](qa-v2/comparison-390.jpg).
+- [Home completa V1 móvil](qa-v2/before/home-390-full.png) y [V2 móvil](qa-v2/after/home-390-full.png).
+- [Home V2 escritorio](qa-v2/after/home-1440-full.png), [contacto móvil](qa-v2/after/contacto-390-full.png), [detalle de servicio](qa-v2/after/landing-pages-1440-full.png).
+- Vistas de 16 rutas: [escritorio](qa-v2/after/desktop-1440-overview.jpg), [tablet](qa-v2/after/tablet-768-overview.jpg), [móvil](qa-v2/after/mobile-390-overview.jpg).
+- Findings crudos: [antes](qa-v2/before/taste-results.json), [después](qa-v2/after/taste-results.json).
+- Historial: [informe V1](QA-REPORT-V1.md) y [datos V1](qa-results-v1.json).
 
-- Aprobar una dirección visual propia y resolver los hallazgos de TasteSkill si se exige su conformidad completa.
-- Integrar logotipo oficial y materiales reales para portafolio/blog; revisar textos y requisitos legales.
-- Definir el dominio oficial mediante `NEXT_PUBLIC_SITE_URL` y validar canonical, robots e indexación de la futura Preview/producción. Localmente el fallback sigue siendo localhost.
-- Comprobar el número de WhatsApp en un dispositivo real con la cuenta del negocio. Se verificaron URL, número y texto; no se envió ningún mensaje ni se certificó la existencia de esa cuenta externa.
-- Probar Safari/Firefox, lector de pantalla y dispositivos reales. Chromium emulado y axe no constituyen una certificación completa de accesibilidad.
-- Medir rendimiento desde el alojamiento real y red móvil; añadir seguimiento de métricas de campo si corresponde.
-- npm advierte que ESLint 9 está fuera de soporte. Se conservó la versión compatible instalada; su actualización mayor queda para una revisión separada. El audit de esta instalación no reportó vulnerabilidades.
+## Archivos de producto y pruebas
 
-No se fusionó el PR, no se hizo despliegue de producción y no se modificó facturación.
+- `src/app/globals.css`: tokens, superficies oscuras, composición, responsive, foco y movimiento.
+- `src/app/page.tsx`: Home y metodología.
+- `src/components/nexo-artwork.tsx`: símbolo N e ilustraciones originales.
+- `src/components/ui.tsx`, `site-header.tsx`, `site-footer.tsx`: componentes compartidos.
+- Páginas de `servicios`, `servicios/[slug]`, `soluciones`, `nosotros`, `portafolio`, `blog`, `contacto` y `not-found`: sistema visual y textos breves.
+- `tests/e2e/site.spec.ts`: un caso nuevo por tamaño; conserva las 72 comprobaciones originales.
+- `docs/QA-REPORT.md`, `docs/qa-results.json`, `docs/qa-v2/` y archivos históricos: resultados y evidencias.
 
-## Evidencias y reproducción
+## Riesgos y recomendación
 
-- [Portada escritorio](qa-evidence/desktop-fold.jpg), [tablet](qa-evidence/tablet-fold.jpg), [móvil](qa-evidence/mobile-fold.jpg).
-- [Vista de 16 páginas en escritorio](qa-evidence/desktop-1440-overview.jpg), [tablet](qa-evidence/tablet-768-overview.jpg), [móvil](qa-evidence/mobile-390-overview.jpg).
-- [Formulario completo en 390 px](qa-evidence/mobile-390-contacto.png).
-- [Resultados estructurados y hallazgos de TasteSkill](qa-results.json).
+**Recomendación: apto para revisión visual y técnica en Draft; todavía no aprobar producción.** Falta validación de marca y contenido, dominio/indexación de la futura Preview, WhatsApp real, Safari/Firefox, lectores de pantalla y rendimiento desde el alojamiento. Las pruebas usan Chromium emulado; axe no equivale a una certificación completa de accesibilidad.
 
-```sh
-npm ci
-npm run lint
-npm run typecheck
-npm run build
-npx playwright install chromium
-npm run test:e2e
-npm run test:e2e:report
-```
+GitHub Actions seguía bloqueado por facturación en el último diagnóstico confirmado de la V1. No se reintentó manualmente ni se intervino en facturación. La publicación en la rama conserva el workflow existente; este informe no afirma un PASS remoto de CI.
 
-Las capturas completas de las 48 combinaciones y el HTML de Playwright se generan localmente en `qa-artifacts/` y `playwright-report/`; no se incluyen dependencias ni builds en Git.
+La rama existente recibe un commit normal, sin modificar main ni fusionar el PR. El SHA final publicado se identifica en la descripción del PR y la entrega. No se hicieron despliegues de producción.

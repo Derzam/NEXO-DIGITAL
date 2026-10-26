@@ -1,0 +1,659 @@
+{
+  "date": "2026-10-26",
+  "baselineSha": "9b10aad22c3d07852fabc0c7bee4315a29a42d58",
+  "environment": {
+    "os": "Windows",
+    "node": "24.14.0",
+    "npm": "11.9.0",
+    "next": "16.4.3",
+    "playwright": "1.64.1",
+    "axe": "4.14.0"
+  },
+  "stats": {
+    "startTime": "2026-10-26T15:45:31.491Z",
+    "duration": 80230.375,
+    "expected": 72,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /soluciones",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /portafolio",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /nosotros",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /blog",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /contacto",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "service discovery and quotation link",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "quotation validation, encoding and blocked-popup fallback",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "404 pages and return home",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "keyboard skip link and reduced motion",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "robots and complete sitemap",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "local performance evidence: /",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "local performance evidence: /contacto",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /soluciones",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /portafolio",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /nosotros",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /blog",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /contacto",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "service discovery and quotation link",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "quotation validation, encoding and blocked-popup fallback",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "404 pages and return home",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "keyboard skip link and reduced motion",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "robots and complete sitemap",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "local performance evidence: /",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "local performance evidence: /contacto",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /soluciones",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /portafolio",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /nosotros",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /blog",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /contacto",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "service discovery and quotation link",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "quotation validation, encoding and blocked-popup fallback",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "404 pages and return home",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "keyboard skip link and reduced motion",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "robots and complete sitemap",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "local performance evidence: /",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "local performance evidence: /contacto",
+      "status": "expected"
+    }
+  ],
+  "performance": [
+    {
+      "project": "mobile-390",
+      "route": "/",
+      "lcp": 244,
+      "cls": 0,
+      "ttfb": 20.5,
+      "domContentLoaded": 216.7999999821186,
+      "jsBytes": 139947,
+      "resourceCount": 13,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "mobile-390",
+      "route": "/contacto",
+      "lcp": 188,
+      "cls": 0,
+      "ttfb": 8.599999994039536,
+      "domContentLoaded": 171.5,
+      "jsBytes": 141452,
+      "resourceCount": 12,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "tablet-768",
+      "route": "/",
+      "lcp": 288,
+      "cls": 0,
+      "ttfb": 9.300000011920929,
+      "domContentLoaded": 77,
+      "jsBytes": 139947,
+      "resourceCount": 13,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "tablet-768",
+      "route": "/contacto",
+      "lcp": 276,
+      "cls": 0,
+      "ttfb": 27.900000005960464,
+      "domContentLoaded": 245.2999999821186,
+      "jsBytes": 141452,
+      "resourceCount": 12,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/",
+      "lcp": 308,
+      "cls": 0,
+      "ttfb": 7,
+      "domContentLoaded": 56.69999998807907,
+      "jsBytes": 141452,
+      "resourceCount": 24,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    },
+    {
+      "project": "desktop-1440",
+      "route": "/contacto",
+      "lcp": 228,
+      "cls": 0,
+      "ttfb": 3.699999988079071,
+      "domContentLoaded": 49.5,
+      "jsBytes": 141452,
+      "resourceCount": 24,
+      "externalFonts": 0,
+      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+    }
+  ],
+  "tasteFindings": [
+    {
+      "level": "FAIL",
+      "id": "headline-lines",
+      "width": 1440,
+      "message": "3 headline(s) wrap past two lines at 1440px: \"Transformamos ideas en soluciones digitales real\" → 3 lines (6 words, 67px); \"Más que código, construimos soluciones que funci\" → 3 lines (7 words, 45px); \"Tu sector tiene retos. Nosotros ayudamos a resol\" → 3 lines (8 words, 45px)",
+      "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+    },
+    {
+      "level": "FAIL",
+      "id": "eyebrow",
+      "width": 1440,
+      "message": "6 eyebrow/kicker label(s) above headings: \"ESTUDIO DE DESARROLLO DIGITAL\" above \"Transformamos ideas en soluciones digita\"; \"QUÉ HACEMOS\" above \"Tecnología diseñada para cada desafío\"; \"POR QUÉ NEXO\" above \"Más que código, construimos soluciones q\"; \"NUESTRO PROCESO\" above \"Una forma clara de hacer las cosas\"; \"SOLUCIONES PARA NEGOCIOS\" above \"Tu sector tiene retos. Nosotros ayudamos\"",
+      "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "mono",
+      "width": 1440,
+      "message": "Monospace type outside code: monospace — e.g. \"build into reality\", \"<\", \"ideas\", \"/>\"",
+      "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "numbering",
+      "width": 1440,
+      "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\", \"05\", \"06\"",
+      "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "micro-label",
+      "width": 1440,
+      "message": "11 tiny uppercase letter-spaced labels (e.g. \"ESTUDIO DE DESARROLLO DIGITAL\", \"NEXO / DIGITAL WORKSPACE\", \"QUÉ HACEMOS\", \"POR QUÉ NEXO\").",
+      "fix": "Use sentence-case text at a readable size, or delete the label.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "gradient",
+      "width": 1440,
+      "message": "3 gradient fill(s): section.hero → radial-gradient(at 72% 30%, rgb(18, 46, 83) 0%, rgba(0, 0, 0, 0) 52%), linear-gradient(135deg, rgb(7, 17, 31)  | div.feature-visual → linear-gradient(130deg, rgb(16, 30, 54), rgb(9, 19, 38)) | section.container.cta-band → linear-gradient(115deg, rgb(9, 96, 202), rgb(7, 59, 142) 65%, rgb(7, 30, 79))",
+      "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "shadow",
+      "width": 1440,
+      "message": "5 box-shadow(s) on elements at rest: div.dashboard → rgba(3, 8, 17, 0.667) 0px 35px 100px 0px | div.visual-float.float-code → rgba(3, 8, 17, 0.533) 0px 20px 35px 0px | div.visual-float.float-mobile → rgba(3, 8, 17, 0.533) 0px 20px 35px 0px",
+      "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "hairline",
+      "width": 1440,
+      "message": "5 thin rule(s)/divider line(s): header.site-header 1440px | div.dash-top 510px | div.graph-bars 427px | div.stats-strip 1440px",
+      "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "outlined-box",
+      "width": 1440,
+      "message": "17 boxes drawn with a 1px outline.",
+      "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "glass",
+      "width": 1440,
+      "message": "3 backdrop-blur surfaces.",
+      "fix": "One blurred sticky bar at most; glass cards are a tell.",
+      "alsoAt": [
+        768
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "icon-cards",
+      "width": 1440,
+      "message": "1 row(s) of identical cards each topped with a small icon (6 cards).",
+      "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+      "alsoAt": [
+        768
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "font-count",
+      "width": 1440,
+      "message": "3 typefaces in use (DM Sans, Manrope, monospace).",
+      "fix": "Two at most.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "size-count",
+      "width": 1440,
+      "message": "15 different font sizes (9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 22, 23, 40, 45, 67).",
+      "fix": "A page needs about five: display, heading, lead, body, small.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "FAIL",
+      "id": "few-pictures",
+      "width": 1440,
+      "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+      "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+    },
+    {
+      "level": "WARN",
+      "id": "no-footage",
+      "width": 1440,
+      "message": "No video anywhere on the page.",
+      "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+    },
+    {
+      "level": "FAIL",
+      "id": "small-text",
+      "width": 1440,
+      "message": "38 text blocks under 13px.",
+      "fix": "Nothing meant to be read goes below 13px.",
+      "alsoAt": [
+        768,
+        390
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "off-centre",
+      "width": 1440,
+      "message": "The margins differ: 130px on the left, 160px on the right, at 1440px.",
+      "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+      "alsoAt": [
+        768
+      ]
+    },
+    {
+      "level": "WARN",
+      "id": "ragged-edges",
+      "width": 1440,
+      "message": "Left-aligned text starts at 11 different lines (130px, 190px, 162px, 562px, 962px, 1076px, 369px); the three most used hold only 56% of it.",
+      "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+    },
+    {
+      "level": "FAIL",
+      "id": "still-page",
+      "width": 1440,
+      "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+      "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+    },
+    {
+      "level": "FAIL",
+      "id": "headline-lines",
+      "width": 390,
+      "message": "4 headline(s) wrap past two lines at 390px: \"Transformamos ideas en soluciones digitales real\" → 4 lines (6 words, 42px); \"Más que código, construimos soluciones que funci\" → 3 lines (7 words, 31px); \"Tu sector tiene retos. Nosotros ayudamos a resol\" → 3 lines (8 words, 31px); \"Tu próximo proyecto empieza con una conversación\" → 3 lines (7 words, 27px)",
+      "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+    }
+  ],
+  "remoteCI": {
+    "testedCodeSha": "71ea361685d597326b7613407ed953a6f7b4c252",
+    "conclusion": "failure",
+    "started": false,
+    "reason": "The job was not started because your account is locked due to a billing issue.",
+    "url": "https://github.com/Derzam/NEXO-DIGITAL/actions/runs/40353422820/job/121679347200",
+    "billingModified": false
+  }
+}

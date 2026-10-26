@@ -1,0 +1,11 @@
+TASTESKILL · LINT   19 file(s)
+
+FAIL
+  [shadow] Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may.  (2×)
+      src/app/globals.css:328  box-shadow:
+      src/app/globals.css:1461  box-shadow:
+  [gradient] Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception).  (1×)
+      src/app/globals.css:335  radial-gradient(
+
+RESULT: 3 FAIL, 0 WARN — fix the FAILs before rendering.
+Interface fragments marked data-ui keep their own borders and shadows. Any other line that must keep a flagged pattern for a real reason can carry the comment taste-skill-ignore.

@@ -201,3 +201,18 @@ for (const route of ["/", "/contacto"]) {
     expect(metrics.jsBytes).toBeLessThan(350_000);
   });
 }
+
+
+test("premium methodology opens by pointer and keyboard", async ({ page }) => {
+  await page.goto("/");
+  if (page.viewportSize()!.width <= 1100) await expect(page.getByRole("link", { name: "Escribir por WhatsApp", exact: true })).toBeVisible();
+  const development = page.locator(".method-step").filter({ has: page.getByRole("heading", { name: "Desarrollo", exact: true }) });
+  await development.locator("summary").click();
+  await expect(development.locator("p")).toBeVisible();
+  const validation = page.locator(".method-step").filter({ has: page.getByRole("heading", { name: "Validación", exact: true }) });
+  await validation.locator("summary").focus();
+  await page.keyboard.press("Enter");
+  await expect(validation.locator("p")).toBeVisible();
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  expect(await page.locator(".orbit-rings").evaluate(element => getComputedStyle(element).animationName)).toBe("none");
+});
