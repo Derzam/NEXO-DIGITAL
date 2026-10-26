@@ -1,0 +1,6 @@
+import type { Metadata } from "next";
+import { ArrowUpRight } from "lucide-react";
+import { CtaBand, PageIntro } from "@/components/ui";
+import { industries, whatsappUrl } from "@/lib/content";
+export const metadata:Metadata={title:"Soluciones por industria",description:"Soluciones digitales para comercios, restaurantes, transporte, delivery, emprendedores y empresas."};
+export default function SolutionsPage(){return <><PageIntro eyebrow="SOLUCIONES POR INDUSTRIA" title="Tecnología para la forma en que trabaja tu negocio" text="Cada industria enfrenta desafíos distintos. Estas son algunas soluciones que podemos diseñar según tus objetivos y operaciones."/><section className="section section-soft"><div className="container industry-grid">{industries.map((industry,index)=><article className="mini-card" key={industry.title}><span>SECTOR / 0{index+1}</span><h3>{industry.title}</h3><p>{industry.text}</p><a style={{display:"inline-flex",alignItems:"center",gap:7,color:"#1177df",fontSize:12,fontWeight:800,marginTop:22}} href={whatsappUrl("Hola, me interesa una solución digital para "+industry.title+".")} target="_blank" rel="noopener noreferrer">Consultar solución <ArrowUpRight size={15}/></a></article>)}</div></section><CtaBand/></>}
