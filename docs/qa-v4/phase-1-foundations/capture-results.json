@@ -1,0 +1,44 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 390,
+    "status": 200,
+    "height": 4496,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 768,
+    "status": 200,
+    "height": 3595,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 1440,
+    "status": 200,
+    "height": 3456,
+    "overflow": false
+  }
+]
