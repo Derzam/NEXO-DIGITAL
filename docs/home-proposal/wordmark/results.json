@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-26",
+  "baseline": "4b119c71c61d09a22239eb755e9268d66cfd9fed",
+  "scope": "wordmark in Home header and footer",
+  "checks": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "build": "PASS"
+  },
+  "stats": {
+    "startTime": "2026-10-26T21:16:16.559Z",
+    "duration": 44355.313,
+    "expected": 9,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "project": "mobile-390",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected",
+      "attachments": [
+        {
+          "name": "accessibility",
+          "data": []
+        }
+      ]
+    },
+    {
+      "project": "mobile-390",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected",
+      "attachments": []
+    },
+    {
+      "project": "mobile-390",
+      "title": "local performance evidence: /",
+      "status": "expected",
+      "attachments": [
+        {
+          "name": "performance",
+          "data": {
+            "lcp": 780,
+            "cls": 0,
+            "ttfb": 57.80000001192093,
+            "domContentLoaded": 761.6000000238419,
+            "jsBytes": 171330,
+            "resourceCount": 20,
+            "externalFonts": 0,
+            "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+          }
+        }
+      ]
+    },
+    {
+      "project": "tablet-768",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected",
+      "attachments": [
+        {
+          "name": "accessibility",
+          "data": []
+        }
+      ]
+    },
+    {
+      "project": "tablet-768",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected",
+      "attachments": []
+    },
+    {
+      "project": "tablet-768",
+      "title": "local performance evidence: /",
+      "status": "expected",
+      "attachments": [
+        {
+          "name": "performance",
+          "data": {
+            "lcp": 304,
+            "cls": 0,
+            "ttfb": 32.80000001192093,
+            "domContentLoaded": 256.40000000596046,
+            "jsBytes": 171330,
+            "resourceCount": 22,
+            "externalFonts": 0,
+            "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+          }
+        }
+      ]
+    },
+    {
+      "project": "desktop-1440",
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "status": "expected",
+      "attachments": [
+        {
+          "name": "accessibility",
+          "data": []
+        }
+      ]
+    },
+    {
+      "project": "desktop-1440",
+      "title": "main navigation and mobile keyboard dismissal",
+      "status": "expected",
+      "attachments": []
+    },
+    {
+      "project": "desktop-1440",
+      "title": "local performance evidence: /",
+      "status": "expected",
+      "attachments": [
+        {
+          "name": "performance",
+          "data": {
+            "lcp": 396,
+            "cls": 0,
+            "ttfb": 21.400000005960464,
+            "domContentLoaded": 322.90000000596046,
+            "jsBytes": 172835,
+            "resourceCount": 31,
+            "externalFonts": 0,
+            "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+          }
+        }
+      ]
+    }
+  ]
+}

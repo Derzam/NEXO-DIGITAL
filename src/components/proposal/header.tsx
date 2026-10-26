@@ -17,7 +17,7 @@ import {
   SheetDescription,
   SheetClose,
 } from "@/components/shadcn/sheet";
-import { NexoMark } from "@/components/nexo-artwork";
+import { NexoWordmark } from "@/components/nexo-wordmark";
 import { whatsappUrl } from "@/lib/content";
 const links = [
   ["/", "Inicio"],
@@ -35,13 +35,7 @@ export function ProposalBrand() {
       aria-label="Nexo Digital Studio — inicio"
       className="tw:inline-flex tw:items-center tw:gap-3 tw:text-foreground"
     >
-      <NexoMark className="tw:size-9" />
-      <span className="tw:text-[18px] tw:font-semibold tw:leading-tight tw:tracking-[-.04em]">
-        Nexo Digital{" "}
-        <span className="tw:block tw:text-[13px] tw:font-normal tw:tracking-normal tw:text-muted-foreground">
-          Studio
-        </span>
-      </span>
+      <NexoWordmark eager />
     </Link>
   );
 }

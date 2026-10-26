@@ -1,5 +1,7 @@
 # Nexo — propuesta de Home con Tailwind y shadcn/ui
 
+> Actualización posterior: [wordmark del propietario en header y footer](wordmark/QA.md), con capturas y nueve comprobaciones de regresión. Los resultados completos de este informe corresponden a la propuesta anterior a ese ajuste de marca.
+
 26 de octubre de 2026. Rama `codex/home-shadcn-proposal`, creada desde `c5c0e857984a0ecea3c4f41735a64a6c19ca6e28`. Alcance: Home, su header/footer y fundamentos de estilo. Las páginas interiores quedan en V2 hasta aprobación visual.
 
 **Resultado técnico: PASS. Propuesta lista para revisión visual.** El resultado estricto de TasteSkill permanece **FAIL**, con sus hallazgos documentados y sin reglas excluidas. El SHA de entrega se identifica en el commit de esta rama y en la entrega del chat; este documento no intenta incluir su propio hash de commit.

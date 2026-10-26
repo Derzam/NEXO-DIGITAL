@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { NexoMark } from "@/components/nexo-artwork";
+import { NexoWordmark } from "@/components/nexo-wordmark";
 import { whatsappUrl } from "@/lib/content";
 export function ProposalFooter() {
   return (
@@ -13,10 +13,10 @@ export function ProposalFooter() {
           <div>
             <Link
               href="/"
+              aria-label="Nexo Digital Studio — inicio"
               className="tw:inline-flex tw:items-center tw:gap-3 tw:text-[23px] tw:tracking-[-.04em]"
             >
-              <NexoMark className="tw:size-9" />
-              Nexo Digital Studio
+              <NexoWordmark className="tw:w-[240px] tw:max-sm:w-[220px]" />
             </Link>
             <p className="tw:mt-6 tw:max-w-[330px] tw:text-[17px] tw:leading-relaxed tw:text-muted-foreground">
               Diseño, software e inteligencia artificial para lo que viene.
