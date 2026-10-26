@@ -27,9 +27,10 @@ Windows, Node 24.14.0, npm 11.9.0, Next.js 16.4.3, Playwright 1.64.1, Chromium 1
 | SEO técnico local | PASS | Títulos, descripciones, idioma español, viewport, canonical por página, sitemap de 16 URLs y robots |
 | Rendimiento local | PASS | CLS 0 y JavaScript transferido menor a 350 KB en las seis mediciones; cero peticiones a Google Fonts desde el navegador |
 | `git diff --check` | PASS | Sin errores de whitespace |
+| GitHub Actions remoto | FAIL / BLOQUEADO | El job no inició: cuenta bloqueada por un problema de facturación; no ejecutó pruebas |
 | TasteSkill, criterio estético estricto | FAIL | Inspector final: 14 FAIL y 6 WARN; no se ocultan ni se desactivan reglas |
 
-Los tamaños fueron **390×844**, **768×1024** y **1440×900**, todos con Chromium. La matriz y las métricas están en [qa-results.json](qa-results.json). El workflow usa `npm ci`, lint, tipos, build, Chromium y Playwright; publica el reporte HTML, JSON, capturas y trazas de fallos durante siete días. Su resultado remoto debe consultarse en los Checks del PR.
+Los tamaños fueron **390×844**, **768×1024** y **1440×900**, todos con Chromium. La matriz y las métricas están en [qa-results.json](qa-results.json). El workflow usa `npm ci`, lint, tipos, build, Chromium y Playwright; publica el reporte HTML, JSON, capturas y trazas de fallos durante siete días. La ejecución remota [40353422820](https://github.com/Derzam/NEXO-DIGITAL/actions/runs/40353422820/job/121679347200), sobre el commit de código `71ea361685d597326b7613407ed953a6f7b4c252`, terminó en failure sin iniciar el job. GitHub indica: “The job was not started because your account is locked due to a billing issue.” Este es un bloqueo de la cuenta, no un fallo de lint/build/E2E remoto observado. No se modificó facturación ni se reintentó automáticamente. El commit posterior solo documenta este resultado; no cambia el código probado.
 
 ## Errores corregidos
 
@@ -83,6 +84,8 @@ ROUND 3
 Las 14 marcas FAIL son: títulos largos (dos mediciones), eyebrows, monospace fuera de código semántico, numeración decorativa, rótulos pequeños, degradados, sombras, líneas, cajas delineadas, tarjetas repetidas, escasez de imágenes, texto decorativo pequeño y ausencia de animación de entrada. Las seis WARN son vidrio, número de tipografías y tamaños, texto gris, ausencia de video y márgenes visuales. Son criterios de dirección artística; no se presentan como infracciones WCAG. La ausencia de animaciones no bloquea la lectura ni la interacción.
 
 ## Pendientes antes de aprobar producción
+
+- Resolver por el titular el bloqueo de facturación de GitHub y volver a ejecutar Website QA. El agente no cambió esa configuración.
 
 - Aprobar una dirección visual propia y resolver los hallazgos de TasteSkill si se exige su conformidad completa.
 - Integrar logotipo oficial y materiales reales para portafolio/blog; revisar textos y requisitos legales.

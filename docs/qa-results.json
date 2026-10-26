@@ -647,5 +647,13 @@
       "message": "4 headline(s) wrap past two lines at 390px: \"Transformamos ideas en soluciones digitales real\" → 4 lines (6 words, 42px); \"Más que código, construimos soluciones que funci\" → 3 lines (7 words, 31px); \"Tu sector tiene retos. Nosotros ayudamos a resol\" → 3 lines (8 words, 31px); \"Tu próximo proyecto empieza con una conversación\" → 3 lines (7 words, 27px)",
       "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
     }
-  ]
+  ],
+  "remoteCI": {
+    "testedCodeSha": "71ea361685d597326b7613407ed953a6f7b4c252",
+    "conclusion": "failure",
+    "started": false,
+    "reason": "The job was not started because your account is locked due to a billing issue.",
+    "url": "https://github.com/Derzam/NEXO-DIGITAL/actions/runs/40353422820/job/121679347200",
+    "billingModified": false
+  }
 }
