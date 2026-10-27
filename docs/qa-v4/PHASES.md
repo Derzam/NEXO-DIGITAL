@@ -7,7 +7,7 @@ Base aprobada: `881817b5e6a67cdda3d17807d95ff30c64a7ec22`. Rama: `codex/interior
 | 1. Fundamentos | PASS | Lint, TypeScript, build; 90/90 E2E; Home completa y primer viewport idénticos en 390, 768 y 1440 px. [Datos](phase-1-foundations/results.json), [píxeles](phase-1-foundations/home-comparison.json). |
 | 2. Servicios | PASS | Lint, TypeScript, build; 90/90 E2E. Catálogo y nueve detalles; mismas URLs, metadatos y cotizaciones. [Datos](phase-2-services/results.json), [Home idéntica](phase-2-services/home-comparison.json). |
 | 3. Soluciones y Portafolio | PASS tras repetición | Lint, TypeScript, build; **93/93 E2E**, 0 flaky/skipped. [Datos](phase-3-solutions-portfolio/results.json), [Home idéntica](phase-3-solutions-portfolio/home-comparison.json). Primera ejecución: 86 PASS / 7 FAIL, [diagnóstico conservado](phase-3-solutions-portfolio/interrupted-run.json). |
-| 4. Nosotros y Blog | Pendiente | Identidad, metodología y estructura editorial. |
+| 4. Nosotros y Blog | PASS | Lint, TypeScript, build; **96/96 E2E**. Metodología con teclado y axe; blog vacío. [Datos](phase-4-about-blog/results.json), [Home idéntica](phase-4-about-blog/home-comparison.json). |
 | 5. Contacto | Pendiente | Campos y validación; misma lógica de WhatsApp. |
 | 6. Consistencia y QA | Pendiente | Shell global, 404, npm ci, suite completa y galería. |
 
@@ -26,3 +26,7 @@ Las seis industrias alternan texto comercial e interfaces de ejemplo adaptadas a
 La primera suite registró 86 PASS y 7 FAIL: seis timeouts con duraciones de 20–44 minutos pese al límite configurado de 45 segundos, y una navegación `chrome-error`. La anomalía sugiere interrupción del entorno, sin causa confirmada. Se conservan títulos, errores y tiempos del resultado fallido. Se exige una repetición completa sin modificar aserciones, reintentos o timeouts antes de la siguiente fase. La revisión automática de permisos impidió un intento de repetición por límite de uso; ese comando no se ejecutó. La repetición posterior pudo iniciarse tras la indicación del propietario de continuar.
 
 La repetición completa terminó **93/93 PASS en 1,5 minutos**, sin cambios de código ni configuración entre ejecuciones. Los siete casos anteriores pasan de nuevo. No queda un fallo reproducible que bloquee la fase siguiente; la incidencia se mantiene documentada.
+
+## Fase 4 — Nosotros y Blog
+
+Propósito se presenta como declaración editorial; Enfoque y Compromiso conservan los textos originales. La metodología reutiliza el Accordion aprobado, con las cinco etapas originales y apertura por teclado. Blog mantiene el estado vacío y distingue los temas futuros de publicaciones reales, sin fechas, autores o artículos inventados. Se añaden tres escenarios de teclado, cierre, axe en estado expandido y navegación desde Blog. Los 90 escenarios originales siguen intactos. Capturas en los tres tamaños y seis comparaciones exactas de Home en `phase-4-about-blog/`.

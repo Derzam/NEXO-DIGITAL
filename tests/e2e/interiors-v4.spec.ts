@@ -1,4 +1,5 @@
 import { expect, test } from "@playwright/test";
+import AxeBuilder from "@axe-core/playwright";
 
 test("industry quotations preserve all six specific contexts", async ({ page }) => {
   await page.goto("/soluciones");
@@ -20,4 +21,25 @@ test("industry quotations preserve all six specific contexts", async ({ page }) 
   await expect(page.getByText("Este espacio permanece en preparación", { exact: false })).toBeVisible();
   await page.getByRole("link", { name: "Conversemos sobre tu proyecto" }).click();
   await expect(page).toHaveURL("/contacto");
+});
+
+test("about methodology supports keyboard and blog preserves its empty state", async ({ page }, testInfo) => {
+  await page.goto("/nosotros");
+  const validation = page.getByRole("button", { name: "Validación", exact: true });
+  await validation.focus();
+  await page.keyboard.press("Enter");
+  await expect(validation).toHaveAttribute("aria-expanded", "true");
+  await expect(page.getByText("Probamos los recorridos principales antes de la entrega.")).toBeVisible();
+  const accessibility = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
+  await testInfo.attach("accessibility", { body: JSON.stringify(accessibility.violations), contentType: "application/json" });
+  expect(accessibility.violations).toEqual([]);
+  await page.keyboard.press("Enter");
+  await expect(validation).toHaveAttribute("aria-expanded", "false");
+  await expect(validation).toBeFocused();
+  await page.goto("/blog");
+  await expect(page.getByRole("heading", { name: "Ideas en camino." })).toBeVisible();
+  await expect(page.getByText("Contenido editorial en preparación.")).toBeVisible();
+  await expect(page.getByRole("article")).toHaveCount(0);
+  await page.getByRole("link", { name: "Explora nuestros servicios", exact: true }).click();
+  await expect(page).toHaveURL("/servicios");
 });
