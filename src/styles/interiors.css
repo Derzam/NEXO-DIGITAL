@@ -142,15 +142,16 @@
 .interior-contact-grid h2 { font-size: 30px; }
 .interior-form-panel { min-width: 0; padding: 36px; border-radius: var(--nexo-radius-panel); background: var(--card); }
 .interior-contact-form { --input: var(--nexo-control-border); margin-top: 25px; display: grid; gap: 24px; }
+.interior-contact-fields { min-width: 0; margin: 0; padding: 0; border: 0; display: grid; gap: 24px; }
 .interior-field-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
 .interior-field { display: grid; gap: 10px; align-content: start; min-width: 0; }
 .interior-field label { font-size: 16px; line-height: 1.5; color: var(--foreground); }
 .interior-field-error { font-size: 15px; line-height: 1.5; color: var(--destructive); }
 .interior-contact-form .interior-note a { color: #b9dfff; text-decoration: underline; text-underline-offset: 3px; }
 .interior-contact-form .interior-note { font-size: 16px; max-width: 60ch; }
-.interior-contact-form :is(input, select, textarea) { scroll-margin-block: 44px 24px; }
+.interior-contact-form :is(input, select, textarea) { scroll-margin-block-end: 24px; }
 /* Native validation must settle immediately under the sticky header. */
-html:has(.interior-contact-form) { scroll-behavior: auto; }
+html:has(.interior-contact-form) { scroll-behavior: auto; scroll-padding-top: 144px; }
 .interior-contact-details { display: grid; gap: 14px; margin-top: 28px; }
 .interior-contact-details > * { display: flex; align-items: center; gap: 12px; min-height: 44px; line-height: 1.5; font-size: 17px; }
 .interior-contact-details svg { color: #9dceff; flex-shrink: 0; }

@@ -1,0 +1,194 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false,
+    "title": "Nexo Digital Studio | Soluciones digitales a medida"
+  },
+  {
+    "route": "/servicios",
+    "width": 390,
+    "status": 200,
+    "height": 4971,
+    "overflow": false,
+    "title": "Servicios | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 390,
+    "status": 200,
+    "height": 4420,
+    "overflow": false,
+    "title": "Landing pages | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 390,
+    "status": 200,
+    "height": 4359,
+    "overflow": false,
+    "title": "Sistemas web a medida | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 390,
+    "status": 200,
+    "height": 4360,
+    "overflow": false,
+    "title": "Aplicaciones móviles | Nexo Digital Studio"
+  },
+  {
+    "route": "/contacto",
+    "width": 390,
+    "status": 200,
+    "height": 2876,
+    "overflow": false,
+    "title": "Contacto y cotizaciones | Nexo Digital Studio"
+  },
+  {
+    "route": "/soluciones",
+    "width": 390,
+    "status": 200,
+    "height": 5833,
+    "overflow": false,
+    "title": "Soluciones por industria | Nexo Digital Studio"
+  },
+  {
+    "route": "/portafolio",
+    "width": 390,
+    "status": 200,
+    "height": 3165,
+    "overflow": false,
+    "title": "Portafolio | Nexo Digital Studio"
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false,
+    "title": "Nexo Digital Studio | Soluciones digitales a medida"
+  },
+  {
+    "route": "/servicios",
+    "width": 768,
+    "status": 200,
+    "height": 3693,
+    "overflow": false,
+    "title": "Servicios | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 768,
+    "status": 200,
+    "height": 3221,
+    "overflow": false,
+    "title": "Landing pages | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 768,
+    "status": 200,
+    "height": 3224,
+    "overflow": false,
+    "title": "Sistemas web a medida | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 768,
+    "status": 200,
+    "height": 3221,
+    "overflow": false,
+    "title": "Aplicaciones móviles | Nexo Digital Studio"
+  },
+  {
+    "route": "/contacto",
+    "width": 768,
+    "status": 200,
+    "height": 1953,
+    "overflow": false,
+    "title": "Contacto y cotizaciones | Nexo Digital Studio"
+  },
+  {
+    "route": "/soluciones",
+    "width": 768,
+    "status": 200,
+    "height": 5288,
+    "overflow": false,
+    "title": "Soluciones por industria | Nexo Digital Studio"
+  },
+  {
+    "route": "/portafolio",
+    "width": 768,
+    "status": 200,
+    "height": 2461,
+    "overflow": false,
+    "title": "Portafolio | Nexo Digital Studio"
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false,
+    "title": "Nexo Digital Studio | Soluciones digitales a medida"
+  },
+  {
+    "route": "/servicios",
+    "width": 1440,
+    "status": 200,
+    "height": 2998,
+    "overflow": false,
+    "title": "Servicios | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 1440,
+    "status": 200,
+    "height": 2946,
+    "overflow": false,
+    "title": "Landing pages | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 1440,
+    "status": 200,
+    "height": 2978,
+    "overflow": false,
+    "title": "Sistemas web a medida | Nexo Digital Studio"
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 1440,
+    "status": 200,
+    "height": 2946,
+    "overflow": false,
+    "title": "Aplicaciones móviles | Nexo Digital Studio"
+  },
+  {
+    "route": "/contacto",
+    "width": 1440,
+    "status": 200,
+    "height": 1585,
+    "overflow": false,
+    "title": "Contacto y cotizaciones | Nexo Digital Studio"
+  },
+  {
+    "route": "/soluciones",
+    "width": 1440,
+    "status": 200,
+    "height": 4165,
+    "overflow": false,
+    "title": "Soluciones por industria | Nexo Digital Studio"
+  },
+  {
+    "route": "/portafolio",
+    "width": 1440,
+    "status": 200,
+    "height": 2199,
+    "overflow": false,
+    "title": "Portafolio | Nexo Digital Studio"
+  }
+]

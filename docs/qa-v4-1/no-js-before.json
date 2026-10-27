@@ -1,0 +1,18 @@
+{
+  "javaScriptEnabled": false,
+  "attemptedNavigations": [
+    {
+      "method": "GET",
+      "path": "/contacto",
+      "queryKeys": [
+        "nombre",
+        "correo",
+        "servicio",
+        "presupuesto",
+        "proyecto"
+      ]
+    }
+  ],
+  "personalFieldsInQuery": true,
+  "note": "Synthetic data only; query navigation intercepted, never sent to the application server."
+}

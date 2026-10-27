@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "startTime": "2026-10-27T03:19:32.597Z",
+    "duration": 144078.238,
+    "expected": 105,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  },
+  "failures": [
+    {
+      "title": "quotation fails safely without JavaScript and explains the WhatsApp handoff",
+      "project": "mobile-390",
+      "status": "failed",
+      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeDisabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('group', { name: 'Datos de cotización' })\nExpected: disabled\nReceived: enabled\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeDisabled\" getByRole('group', { name: 'Datos de cotización' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('group', { name: 'Datos de cotización' })\u001b[22m\n\u001b[2m    13 × locator resolved to <fieldset disabled class=\"interior-contact-fields\" aria-label=\"Datos de cotización\">…</fieldset>\u001b[22m\n\u001b[2m       - unexpected value \"enabled\"\u001b[22m\n"
+    },
+    {
+      "title": "quotation fails safely without JavaScript and explains the WhatsApp handoff",
+      "project": "tablet-768",
+      "status": "failed",
+      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeDisabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('group', { name: 'Datos de cotización' })\nExpected: disabled\nReceived: enabled\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeDisabled\" getByRole('group', { name: 'Datos de cotización' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('group', { name: 'Datos de cotización' })\u001b[22m\n\u001b[2m    13 × locator resolved to <fieldset disabled class=\"interior-contact-fields\" aria-label=\"Datos de cotización\">…</fieldset>\u001b[22m\n\u001b[2m       - unexpected value \"enabled\"\u001b[22m\n"
+    },
+    {
+      "title": "quotation fails safely without JavaScript and explains the WhatsApp handoff",
+      "project": "desktop-1440",
+      "status": "failed",
+      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeDisabled\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('group', { name: 'Datos de cotización' })\nExpected: disabled\nReceived: enabled\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toBeDisabled\" getByRole('group', { name: 'Datos de cotización' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('group', { name: 'Datos de cotización' })\u001b[22m\n\u001b[2m    13 × locator resolved to <fieldset disabled class=\"interior-contact-fields\" aria-label=\"Datos de cotización\">…</fieldset>\u001b[22m\n\u001b[2m       - unexpected value \"enabled\"\u001b[22m\n"
+    }
+  ]
+}

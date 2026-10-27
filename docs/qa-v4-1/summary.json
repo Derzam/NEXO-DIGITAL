@@ -1,0 +1,53 @@
+{
+  "auditDate": "2026-10-27",
+  "referenceBranch": "codex/interiors-shadcn-migration",
+  "referenceSha": "29d1925b4641bad49572c1ac582a45e5d693be04",
+  "auditBranch": "codex/v4-1-preflight",
+  "gates": {
+    "visual": "PASS",
+    "performance": "PARTIAL",
+    "compatibility": "PARTIAL",
+    "securitySeo": "PASS_WITH_OWNER_ACTIONS",
+    "regressions": "PARTIAL",
+    "integrationReadiness": "PASS_FOR_REVIEW"
+  },
+  "e2e": {
+    "existingCasesPreserved": 105,
+    "newCases": 1,
+    "executionsPerFullEngine": 108,
+    "fullRuns": {
+      "chromium": { "passed": 108, "failed": 0, "skipped": 0, "flaky": 0, "note": "Final full suite on the audited source: 108/108 passed, including the final contact scroll-padding adjustment." },
+      "firefox": { "passed": 108, "failed": 0, "skipped": 0, "flaky": 0, "note": "Final full suite on the audited source: 108/108 passed, including the final contact scroll-padding adjustment." },
+      "webkit": { "passed": 105, "failed": 3, "skipped": 0, "flaky": 0, "note": "Final full suite. All failures are the skip link not receiving focus from the first Tab under this WebKit keyboard policy." }
+    },
+    "postAdjustmentContact": {
+      "chromium": "6/6 PASS",
+      "firefox": "6/6 PASS",
+      "webkitValidationRepeated": "9/9 PASS"
+    }
+  },
+  "build": {
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "nextBuildTurbopack": "FAIL: local Turbopack auxiliary CSS process exited before connection",
+    "nextBuildWebpack": "PASS"
+  },
+  "visualEvidence": {
+    "pages": 24,
+    "routes": 8,
+    "viewports": [390, 768, 1440],
+    "http200": true,
+    "horizontalOverflow": false,
+    "approvedHomePixelComparisons": "6/6 exact; 0 changed pixels"
+  },
+  "security": {
+    "npmAuditVulnerabilities": 0,
+    "secretScanFindings": 0,
+    "userDataStorageOrApplicationApi": false,
+    "ownerLegalAndCanonicalDomainReviewPending": true
+  },
+  "performanceSamples": 30,
+  "productionDeploymentPerformed": false,
+  "mainOrHistoricalBranchesModified": false,
+  "githubActionsRerunRequested": false
+}

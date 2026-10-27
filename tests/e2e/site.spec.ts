@@ -90,12 +90,12 @@ test("service discovery and quotation link", async ({ page, context }) => {
 });
 
 test("quotation validation, encoding and blocked-popup fallback", async ({ page }) => {
-  await page.goto("/contacto");
   // Capture only the browser handoff: never send personal data or a real WhatsApp message.
-  await page.evaluate(() => {
+  await page.addInitScript(() => {
     Object.assign(window, { openedUrls: [] });
     window.open = (url) => { (window as unknown as { openedUrls: string[] }).openedUrls.push(String(url)); return null; };
   });
+  await page.goto("/contacto");
   const submit = page.getByRole("button", { name: "Preparar solicitud por WhatsApp" });
   await submit.click();
   await expect(page.locator("#nombre:invalid")).toHaveCount(1);
@@ -115,6 +115,8 @@ test("quotation validation, encoding and blocked-popup fallback", async ({ page 
   const project = "Necesito un sitio para café & té + reservas #2026.";
   await page.getByLabel("Cuéntanos sobre tu proyecto").fill(project);
   await page.getByLabel("Presupuesto estimado").selectOption("USD 500–1.500");
+  await page.getByLabel("Cuéntanos sobre tu proyecto").press("Tab");
+  await expect(submit).toBeFocused();
   await submit.click();
   const urls = await page.evaluate(() => (window as unknown as { openedUrls: string[] }).openedUrls);
   expect(urls).toHaveLength(1);
@@ -168,36 +170,49 @@ test("robots and complete sitemap", async ({ request }) => {
 for (const route of ["/", "/contacto"]) {
   test(`local performance evidence: ${route}`, async ({ page }, testInfo) => {
     await page.addInitScript(() => {
-      const metrics = { lcp: 0, cls: 0 };
+      const supported = PerformanceObserver.supportedEntryTypes;
+      const metrics = {
+        lcp: supported.includes("largest-contentful-paint") ? 0 : null,
+        cls: supported.includes("layout-shift") ? 0 : null,
+        supported,
+      };
       Object.assign(window, { qaPerformance: metrics });
-      new PerformanceObserver(list => {
+      if (metrics.lcp !== null) new PerformanceObserver(list => {
         for (const entry of list.getEntries()) metrics.lcp = entry.startTime;
       }).observe({ type: "largest-contentful-paint", buffered: true });
-      new PerformanceObserver(list => {
+      if (metrics.cls !== null) new PerformanceObserver(list => {
         for (const entry of list.getEntries()) {
           const shift = entry as PerformanceEntry & { hadRecentInput: boolean; value: number };
-          if (!shift.hadRecentInput) metrics.cls += shift.value;
+          if (!shift.hadRecentInput && metrics.cls !== null) metrics.cls += shift.value;
         }
       }).observe({ type: "layout-shift", buffered: true });
     });
     await page.goto(route, { waitUntil: "networkidle" });
     await page.evaluate(() => document.fonts.ready.then(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))));
+    await page.waitForFunction(() => {
+      const metrics = (window as unknown as { qaPerformance: { lcp: number | null } }).qaPerformance;
+      return metrics.lcp === null || metrics.lcp > 0;
+    });
     const metrics = await page.evaluate(() => {
       const navigation = performance.getEntriesByType("navigation")[0] as PerformanceNavigationTiming;
       const resources = performance.getEntriesByType("resource") as PerformanceResourceTiming[];
       return {
-        ...(window as unknown as { qaPerformance: { lcp: number; cls: number } }).qaPerformance,
+        ...(window as unknown as { qaPerformance: { lcp: number | null; cls: number | null; supported: string[] } }).qaPerformance,
         ttfb: navigation.responseStart - navigation.requestStart,
         domContentLoaded: navigation.domContentLoadedEventEnd,
-        jsBytes: resources.filter(entry => entry.initiatorType === "script").reduce((sum, entry) => sum + entry.encodedBodySize, 0),
+        jsBytes: resources.filter(entry => new URL(entry.name).pathname.endsWith(".js")).reduce((sum, entry) => sum + entry.encodedBodySize, 0),
+        legacyScriptJsBytes: resources.filter(entry => entry.initiatorType === "script").reduce((sum, entry) => sum + entry.encodedBodySize, 0),
         resourceCount: resources.length,
         externalFonts: resources.filter(entry => /fonts\.(googleapis|gstatic)\.com/.test(entry.name)).length,
-        note: "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement.",
+        note: "Local production build; unthrottled browser. All JavaScript initiators counted. Unsupported metrics are null, not zero. Not field Core Web Vitals or an INP measurement.",
       };
     });
     await testInfo.attach("performance", { body: JSON.stringify(metrics, null, 2), contentType: "application/json" });
     expect(metrics.externalFonts).toBe(0);
-    expect(metrics.cls).toBeLessThanOrEqual(0.1);
+    if (metrics.supported.includes("layout-shift")) expect(metrics.cls).toBeLessThanOrEqual(0.1);
+    else expect(metrics.cls).toBeNull();
+    if (metrics.supported.includes("largest-contentful-paint")) expect(metrics.lcp).toBeGreaterThan(0);
+    else expect(metrics.lcp).toBeNull();
     expect(metrics.jsBytes).toBeLessThan(350_000);
   });
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useState, useSyncExternalStore, type FormEvent } from "react";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/shadcn/button";
 import { Input } from "@/components/shadcn/input";
@@ -10,7 +10,13 @@ import { services, whatsappUrl } from "@/lib/content";
 
 type Errors = Partial<Record<string, string>>;
 
+const subscribeToHydration = () => () => {};
+const clientSnapshot = () => true;
+const serverSnapshot = () => false;
+
 export function ContactForm() {
+  // Keep native GET submission unavailable until the client handler is ready.
+  const hydrated = useSyncExternalStore(subscribeToHydration, clientSnapshot, serverSnapshot);
   const [preparedUrl, setPreparedUrl] = useState("");
   const [errors, setErrors] = useState<Errors>({});
 
@@ -20,8 +26,8 @@ export function ContactForm() {
     if (!form.reportValidity()) return;
     for (const field of ["nombre", "proyecto"]) {
       const input = form.elements.namedItem(field) as HTMLInputElement | HTMLTextAreaElement;
-      input.value = input.value.trim();
-      input.setCustomValidity(input.value.length < (field === "proyecto" ? 15 : 2)
+      const value = input.value.trim();
+      input.setCustomValidity(value.length < (field === "proyecto" ? 15 : 2)
         ? (field === "proyecto" ? "Describe tu proyecto con al menos 15 caracteres sin espacios al inicio o final." : "Ingresa tu nombre con al menos 2 caracteres.")
         : "");
     }
@@ -69,6 +75,8 @@ export function ContactForm() {
 
   return <form className="interior-contact-form" onSubmit={handleSubmit} onInput={handleInput} onInvalid={handleInvalid}>
     <p className="interior-note">Los campos con * son obligatorios. El presupuesto es opcional.</p>
+    <noscript><p className="interior-note">Activa JavaScript para preparar la solicitud con este formulario o <a href={whatsappUrl()} target="_blank" rel="noopener noreferrer">conversa directamente por WhatsApp</a>. Este enlace abre una consulta general sin datos del formulario.</p></noscript>
+    <fieldset className="interior-contact-fields" disabled={!hydrated} aria-label="Datos de cotización">
     <div className="interior-field-grid">
       <div className="interior-field"><label htmlFor="nombre">Nombre completo *</label><Input id="nombre" name="nombre" autoComplete="name" placeholder="Tu nombre" required maxLength={100} {...validationProps("nombre")} />{errorMessage("nombre")}</div>
       <div className="interior-field"><label htmlFor="correo">Correo electrónico *</label><Input id="correo" name="correo" type="email" autoComplete="email" placeholder="nombre@empresa.com" required maxLength={254} {...validationProps("correo")} />{errorMessage("correo")}</div>
@@ -83,8 +91,9 @@ export function ContactForm() {
       </div>
     </div>
     <div className="interior-field"><label htmlFor="proyecto">Cuéntanos sobre tu proyecto *</label><Textarea id="proyecto" name="proyecto" required minLength={15} maxLength={3000} placeholder="¿Qué deseas crear? ¿Qué problema debe resolver?" {...validationProps("proyecto")} />{errorMessage("proyecto")}</div>
-    <Button className="tw:h-auto tw:min-h-13 tw:justify-self-start tw:rounded-full tw:px-5 tw:py-4 tw:text-[16px] tw:whitespace-normal tw:text-left" type="submit">Preparar solicitud por WhatsApp <ArrowUpRight size={18} aria-hidden="true" /></Button>
+    <Button className="tw:h-auto tw:min-h-13 tw:justify-self-start tw:rounded-full tw:px-5 tw:py-4 tw:text-[16px] tw:whitespace-normal tw:text-left tw:disabled:cursor-not-allowed tw:disabled:bg-[#34455e] tw:disabled:text-white tw:disabled:opacity-100" type="submit">Preparar solicitud por WhatsApp <ArrowUpRight size={18} aria-hidden="true" /></Button>
+    </fieldset>
     {preparedUrl ? <p className="interior-note" role="status">Solicitud preparada. Si WhatsApp no se abrió, <a href={preparedUrl} target="_blank" rel="noopener noreferrer">abrir la solicitud en WhatsApp</a>.</p> : null}
-    <p className="interior-note">Al continuar se abrirá WhatsApp con el mensaje preparado. Revisa el contenido y pulsa enviar allí. Este formulario no almacena tus datos ni envía correos automáticamente.</p>
+    <p className="interior-note">Al continuar, compartirás los datos del mensaje con WhatsApp mediante el enlace. Revísalo y pulsa enviar allí. Este sitio no guarda la solicitud en el servidor ni envía el mensaje automáticamente.</p>
   </form>;
 }

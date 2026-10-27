@@ -1,0 +1,1064 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios",
+    "width": 390,
+    "status": 200,
+    "height": 4971,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 390,
+    "status": 200,
+    "height": 4420,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 390,
+    "status": 200,
+    "height": 4359,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 390,
+    "status": 200,
+    "height": 4360,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/soluciones",
+    "width": 390,
+    "status": 200,
+    "height": 5833,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/portafolio",
+    "width": 390,
+    "status": 200,
+    "height": 3165,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/contacto",
+    "width": 390,
+    "status": 200,
+    "height": 2850,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      },
+      {
+        "left": 35,
+        "right": 35,
+        "width": 320,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios",
+    "width": 768,
+    "status": 200,
+    "height": 3693,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 768,
+    "status": 200,
+    "height": 3221,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 768,
+    "status": 200,
+    "height": 3224,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 768,
+    "status": 200,
+    "height": 3221,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/soluciones",
+    "width": 768,
+    "status": 200,
+    "height": 5288,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/portafolio",
+    "width": 768,
+    "status": 200,
+    "height": 2461,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/contacto",
+    "width": 768,
+    "status": 200,
+    "height": 1953,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      },
+      {
+        "left": 47,
+        "right": 47,
+        "width": 674,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios",
+    "width": 1440,
+    "status": 200,
+    "height": 2998,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 1440,
+    "status": 200,
+    "height": 2946,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 1440,
+    "status": 200,
+    "height": 2978,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 1440,
+    "status": 200,
+    "height": 2946,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/soluciones",
+    "width": 1440,
+    "status": 200,
+    "height": 4165,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/portafolio",
+    "width": 1440,
+    "status": 200,
+    "height": 2199,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  },
+  {
+    "route": "/contacto",
+    "width": 1440,
+    "status": 200,
+    "height": 1559,
+    "overflow": false,
+    "containerFrames": [
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      },
+      {
+        "left": 80,
+        "right": 80,
+        "width": 1280,
+        "balanced": true
+      }
+    ]
+  }
+]
