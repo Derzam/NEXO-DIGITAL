@@ -1,0 +1,86 @@
+[
+  {
+    "engine": "chromium",
+    "version": "156.0.8078.4",
+    "explicitTabIndex": false,
+    "key": "Tab",
+    "activeElement": "<a href=\"#main\">Skip</a>"
+  },
+  {
+    "engine": "chromium",
+    "version": "156.0.8078.4",
+    "explicitTabIndex": false,
+    "key": "Alt+Tab",
+    "activeElement": "<body><a href=\"#main\">Skip</a><button>Next</button><main id=\"main\" tabindex=\"-1\">Main</main></body>"
+  },
+  {
+    "engine": "chromium",
+    "version": "156.0.8078.4",
+    "explicitTabIndex": true,
+    "key": "Tab",
+    "activeElement": "<a href=\"#main\" tabindex=\"0\">Skip</a>"
+  },
+  {
+    "engine": "chromium",
+    "version": "156.0.8078.4",
+    "explicitTabIndex": true,
+    "key": "Alt+Tab",
+    "activeElement": "<body><a href=\"#main\" tabindex=\"0\">Skip</a><button>Next</button><main id=\"main\" tabindex=\"-1\">Main</main></body>"
+  },
+  {
+    "engine": "firefox",
+    "version": "157.0",
+    "explicitTabIndex": false,
+    "key": "Tab",
+    "activeElement": "<a href=\"#main\">Skip</a>"
+  },
+  {
+    "engine": "firefox",
+    "version": "157.0",
+    "explicitTabIndex": false,
+    "key": "Alt+Tab",
+    "activeElement": "<body><a href=\"#main\">Skip</a><button>Next</button><main id=\"main\" tabindex=\"-1\">Main</main></body>"
+  },
+  {
+    "engine": "firefox",
+    "version": "157.0",
+    "explicitTabIndex": true,
+    "key": "Tab",
+    "activeElement": "<a href=\"#main\" tabindex=\"0\">Skip</a>"
+  },
+  {
+    "engine": "firefox",
+    "version": "157.0",
+    "explicitTabIndex": true,
+    "key": "Alt+Tab",
+    "activeElement": "<body><a href=\"#main\" tabindex=\"0\">Skip</a><button>Next</button><main id=\"main\" tabindex=\"-1\">Main</main></body>"
+  },
+  {
+    "engine": "webkit",
+    "version": "27.2",
+    "explicitTabIndex": false,
+    "key": "Tab",
+    "activeElement": "<button>Next</button>"
+  },
+  {
+    "engine": "webkit",
+    "version": "27.2",
+    "explicitTabIndex": false,
+    "key": "Alt+Tab",
+    "activeElement": "<button>Next</button>"
+  },
+  {
+    "engine": "webkit",
+    "version": "27.2",
+    "explicitTabIndex": true,
+    "key": "Tab",
+    "activeElement": "<a href=\"#main\" tabindex=\"0\">Skip</a>"
+  },
+  {
+    "engine": "webkit",
+    "version": "27.2",
+    "explicitTabIndex": true,
+    "key": "Alt+Tab",
+    "activeElement": "<a href=\"#main\" tabindex=\"0\">Skip</a>"
+  }
+]

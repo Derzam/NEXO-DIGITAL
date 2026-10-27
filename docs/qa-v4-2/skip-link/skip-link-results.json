@@ -1,0 +1,227 @@
+[
+  {
+    "engine": "chromium",
+    "width": 390,
+    "height": 844,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 27,
+        "bottom": 62.390625,
+        "right": 205.75
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "height": 1024,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 27,
+        "bottom": 64.046875,
+        "right": 214.421875
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "height": 900,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 27,
+        "bottom": 64.046875,
+        "right": 214.421875
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "firefox",
+    "width": 390,
+    "height": 844,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 12,
+        "bottom": 62.399993896484375,
+        "right": 190.68333435058594
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "firefox",
+    "width": 768,
+    "height": 1024,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 12,
+        "bottom": 64.05000305175781,
+        "right": 199.38333129882812
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "height": 900,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 12,
+        "bottom": 64.05000305175781,
+        "right": 199.38333129882812
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "width": 390,
+    "height": 844,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 12,
+        "bottom": 62.390625,
+        "right": 190.75
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "width": 768,
+    "height": 1024,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 12,
+        "bottom": 64.046875,
+        "right": 199.421875
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  },
+  {
+    "engine": "webkit",
+    "width": 1440,
+    "height": 900,
+    "beforeEnter": {
+      "tag": "A",
+      "href": "#contenido",
+      "tabIndex": 0,
+      "focused": true,
+      "visible": true,
+      "rect": {
+        "top": 12,
+        "left": 12,
+        "bottom": 64.046875,
+        "right": 199.421875
+      },
+      "transform": "none",
+      "outlineStyle": "solid"
+    },
+    "afterEnter": {
+      "hash": "#contenido",
+      "mainFocused": true
+    },
+    "pass": true
+  }
+]

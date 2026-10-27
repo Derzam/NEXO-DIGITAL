@@ -11,7 +11,7 @@ export const viewport:Viewport={width:"device-width",initialScale:1,themeColor:"
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return <html lang="es" className="dark">
     <body className={`${dmSans.variable} ${manrope.variable}`}>
-      <a className="skip-link" href="#contenido">Saltar al contenido</a>
+      <a className="skip-link" href="#contenido" tabIndex={0}>Saltar al contenido</a>
       <ProposalHeader />
       <main id="contenido" tabIndex={-1}>{children}</main>
       <ProposalFooter />

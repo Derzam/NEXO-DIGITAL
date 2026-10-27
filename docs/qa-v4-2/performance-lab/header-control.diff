@@ -1,0 +1,21 @@
+diff --git a/baseline/src/app/layout.tsx b/no-header/src/app/layout.tsx
+index 8a2644b..0069d3f 100644
+--- a/baseline/src/app/layout.tsx
++++ b/no-header/src/app/layout.tsx
+@@ -1,6 +1,6 @@
+ import type { Metadata, Viewport } from "next";
+ import { ProposalFooter } from "@/components/proposal/footer";
+-import { ProposalHeader } from "@/components/proposal/header";
++
+ import { brand, siteUrl } from "@/lib/content";
+ import { DM_Sans, Manrope } from "next/font/google";
+ import "../styles/app.css";
+@@ -12,7 +12,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
+   return <html lang="es" className="dark">
+     <body className={`${dmSans.variable} ${manrope.variable}`}>
+       <a className="skip-link" href="#contenido">Saltar al contenido</a>
+-      <ProposalHeader />
++
+       <main id="contenido" tabIndex={-1}>{children}</main>
+       <ProposalFooter />
+     </body>

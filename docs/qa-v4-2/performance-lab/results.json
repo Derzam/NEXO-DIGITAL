@@ -1,0 +1,1107 @@
+{
+  "completed": true,
+  "startedAt": "2026-10-27T16:57:49.029Z",
+  "baseSha": "08c3b1bc3bd54a2ce369366e45de302548441eb7",
+  "build": "Next.js 16.4.3 next build --webpack in isolated copies sharing the same installed node_modules",
+  "settings": {
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "cpuSlowdown": 4,
+    "latencyMs": 150,
+    "downloadBytesPerSecond": 200000,
+    "uploadBytesPerSecond": 93750,
+    "cacheDisabled": true,
+    "repetitions": 5,
+    "settleAfterNetworkIdleMs": 3500
+  },
+  "variants": [
+    {
+      "name": "baseline",
+      "url": "http://127.0.0.1:3140/contacto"
+    },
+    {
+      "name": "without-header-experimental",
+      "url": "http://127.0.0.1:3141/contacto"
+    },
+    {
+      "name": "without-form-experimental",
+      "url": "http://127.0.0.1:3142/contacto"
+    }
+  ],
+  "environment": {
+    "node": "v24.14.0",
+    "platform": "win32",
+    "cpu": "AMD Ryzen 5 7535HS with Radeon Graphics        ",
+    "chromium": "156.0.8078.4"
+  },
+  "samples": [
+    {
+      "variant": "baseline",
+      "repetition": 1,
+      "status": 200,
+      "lcp": 1560,
+      "cls": 0,
+      "jsEncodedBytes": 250113,
+      "jsTransferBytes": 253413,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-f3e0c2855807a44d.js",
+          "initiator": "script",
+          "encodedBytes": 6189,
+          "transferBytes": 6489
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-2a303e336838c231.js",
+          "initiator": "script",
+          "encodedBytes": 5763,
+          "transferBytes": 6063
+        },
+        {
+          "path": "/_next/static/chunks/743-bc2d192d262cb576.js",
+          "initiator": "script",
+          "encodedBytes": 7860,
+          "transferBytes": 8160
+        },
+        {
+          "path": "/_next/static/chunks/app/page-c38b9f70afed8b2b.js",
+          "initiator": "script",
+          "encodedBytes": 318,
+          "transferBytes": 618
+        }
+      ]
+    },
+    {
+      "variant": "without-header-experimental",
+      "repetition": 1,
+      "status": 200,
+      "lcp": 1372,
+      "cls": 0,
+      "jsEncodedBytes": 235315,
+      "jsTransferBytes": 237715,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/446-c3ff86ab83c98c36.js",
+          "initiator": "script",
+          "encodedBytes": 8213,
+          "transferBytes": 8513
+        },
+        {
+          "path": "/_next/static/chunks/214-2cb9c5e6df43302d.js",
+          "initiator": "script",
+          "encodedBytes": 77701,
+          "transferBytes": 78001
+        },
+        {
+          "path": "/_next/static/chunks/205-4c1db3222f61c3a2.js",
+          "initiator": "script",
+          "encodedBytes": 9660,
+          "transferBytes": 9960
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-b98812ecc1c73b91.js",
+          "initiator": "script",
+          "encodedBytes": 5671,
+          "transferBytes": 5971
+        }
+      ]
+    },
+    {
+      "variant": "without-form-experimental",
+      "repetition": 1,
+      "status": 200,
+      "lcp": 1228,
+      "cls": 0,
+      "jsEncodedBytes": 240890,
+      "jsTransferBytes": 244190,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-14d52309ff887a76.js",
+          "initiator": "script",
+          "encodedBytes": 4204,
+          "transferBytes": 4504
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-f9668dbe7c7abf7e.js",
+          "initiator": "script",
+          "encodedBytes": 322,
+          "transferBytes": 622
+        },
+        {
+          "path": "/_next/static/chunks/144-7fd71e4ac2d0834c.js",
+          "initiator": "script",
+          "encodedBytes": 6066,
+          "transferBytes": 6366
+        },
+        {
+          "path": "/_next/static/chunks/app/page-39bd789765f49ae5.js",
+          "initiator": "script",
+          "encodedBytes": 315,
+          "transferBytes": 615
+        }
+      ]
+    },
+    {
+      "variant": "without-header-experimental",
+      "repetition": 2,
+      "status": 200,
+      "lcp": 1332,
+      "cls": 0,
+      "jsEncodedBytes": 235315,
+      "jsTransferBytes": 237715,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/446-c3ff86ab83c98c36.js",
+          "initiator": "script",
+          "encodedBytes": 8213,
+          "transferBytes": 8513
+        },
+        {
+          "path": "/_next/static/chunks/214-2cb9c5e6df43302d.js",
+          "initiator": "script",
+          "encodedBytes": 77701,
+          "transferBytes": 78001
+        },
+        {
+          "path": "/_next/static/chunks/205-4c1db3222f61c3a2.js",
+          "initiator": "script",
+          "encodedBytes": 9660,
+          "transferBytes": 9960
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-b98812ecc1c73b91.js",
+          "initiator": "script",
+          "encodedBytes": 5671,
+          "transferBytes": 5971
+        }
+      ]
+    },
+    {
+      "variant": "without-form-experimental",
+      "repetition": 2,
+      "status": 200,
+      "lcp": 1232,
+      "cls": 0,
+      "jsEncodedBytes": 240890,
+      "jsTransferBytes": 244190,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-14d52309ff887a76.js",
+          "initiator": "script",
+          "encodedBytes": 4204,
+          "transferBytes": 4504
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-f9668dbe7c7abf7e.js",
+          "initiator": "script",
+          "encodedBytes": 322,
+          "transferBytes": 622
+        },
+        {
+          "path": "/_next/static/chunks/144-7fd71e4ac2d0834c.js",
+          "initiator": "script",
+          "encodedBytes": 6066,
+          "transferBytes": 6366
+        },
+        {
+          "path": "/_next/static/chunks/app/page-39bd789765f49ae5.js",
+          "initiator": "script",
+          "encodedBytes": 315,
+          "transferBytes": 615
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "repetition": 2,
+      "status": 200,
+      "lcp": 1404,
+      "cls": 0,
+      "jsEncodedBytes": 250113,
+      "jsTransferBytes": 253413,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-f3e0c2855807a44d.js",
+          "initiator": "script",
+          "encodedBytes": 6189,
+          "transferBytes": 6489
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-2a303e336838c231.js",
+          "initiator": "script",
+          "encodedBytes": 5763,
+          "transferBytes": 6063
+        },
+        {
+          "path": "/_next/static/chunks/743-bc2d192d262cb576.js",
+          "initiator": "script",
+          "encodedBytes": 7860,
+          "transferBytes": 8160
+        },
+        {
+          "path": "/_next/static/chunks/app/page-c38b9f70afed8b2b.js",
+          "initiator": "script",
+          "encodedBytes": 318,
+          "transferBytes": 618
+        }
+      ]
+    },
+    {
+      "variant": "without-form-experimental",
+      "repetition": 3,
+      "status": 200,
+      "lcp": 1240,
+      "cls": 0,
+      "jsEncodedBytes": 240890,
+      "jsTransferBytes": 244190,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-14d52309ff887a76.js",
+          "initiator": "script",
+          "encodedBytes": 4204,
+          "transferBytes": 4504
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-f9668dbe7c7abf7e.js",
+          "initiator": "script",
+          "encodedBytes": 322,
+          "transferBytes": 622
+        },
+        {
+          "path": "/_next/static/chunks/144-7fd71e4ac2d0834c.js",
+          "initiator": "script",
+          "encodedBytes": 6066,
+          "transferBytes": 6366
+        },
+        {
+          "path": "/_next/static/chunks/app/page-39bd789765f49ae5.js",
+          "initiator": "script",
+          "encodedBytes": 315,
+          "transferBytes": 615
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "repetition": 3,
+      "status": 200,
+      "lcp": 1272,
+      "cls": 0,
+      "jsEncodedBytes": 250113,
+      "jsTransferBytes": 253413,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-f3e0c2855807a44d.js",
+          "initiator": "script",
+          "encodedBytes": 6189,
+          "transferBytes": 6489
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-2a303e336838c231.js",
+          "initiator": "script",
+          "encodedBytes": 5763,
+          "transferBytes": 6063
+        },
+        {
+          "path": "/_next/static/chunks/743-bc2d192d262cb576.js",
+          "initiator": "script",
+          "encodedBytes": 7860,
+          "transferBytes": 8160
+        },
+        {
+          "path": "/_next/static/chunks/app/page-c38b9f70afed8b2b.js",
+          "initiator": "script",
+          "encodedBytes": 318,
+          "transferBytes": 618
+        }
+      ]
+    },
+    {
+      "variant": "without-header-experimental",
+      "repetition": 3,
+      "status": 200,
+      "lcp": 1292,
+      "cls": 0,
+      "jsEncodedBytes": 235315,
+      "jsTransferBytes": 237715,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/446-c3ff86ab83c98c36.js",
+          "initiator": "script",
+          "encodedBytes": 8213,
+          "transferBytes": 8513
+        },
+        {
+          "path": "/_next/static/chunks/214-2cb9c5e6df43302d.js",
+          "initiator": "script",
+          "encodedBytes": 77701,
+          "transferBytes": 78001
+        },
+        {
+          "path": "/_next/static/chunks/205-4c1db3222f61c3a2.js",
+          "initiator": "script",
+          "encodedBytes": 9660,
+          "transferBytes": 9960
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-b98812ecc1c73b91.js",
+          "initiator": "script",
+          "encodedBytes": 5671,
+          "transferBytes": 5971
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "repetition": 4,
+      "status": 200,
+      "lcp": 1340,
+      "cls": 0,
+      "jsEncodedBytes": 250113,
+      "jsTransferBytes": 253413,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-f3e0c2855807a44d.js",
+          "initiator": "script",
+          "encodedBytes": 6189,
+          "transferBytes": 6489
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-2a303e336838c231.js",
+          "initiator": "script",
+          "encodedBytes": 5763,
+          "transferBytes": 6063
+        },
+        {
+          "path": "/_next/static/chunks/743-bc2d192d262cb576.js",
+          "initiator": "script",
+          "encodedBytes": 7860,
+          "transferBytes": 8160
+        },
+        {
+          "path": "/_next/static/chunks/app/page-c38b9f70afed8b2b.js",
+          "initiator": "script",
+          "encodedBytes": 318,
+          "transferBytes": 618
+        }
+      ]
+    },
+    {
+      "variant": "without-header-experimental",
+      "repetition": 4,
+      "status": 200,
+      "lcp": 1356,
+      "cls": 0,
+      "jsEncodedBytes": 235315,
+      "jsTransferBytes": 237715,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/446-c3ff86ab83c98c36.js",
+          "initiator": "script",
+          "encodedBytes": 8213,
+          "transferBytes": 8513
+        },
+        {
+          "path": "/_next/static/chunks/214-2cb9c5e6df43302d.js",
+          "initiator": "script",
+          "encodedBytes": 77701,
+          "transferBytes": 78001
+        },
+        {
+          "path": "/_next/static/chunks/205-4c1db3222f61c3a2.js",
+          "initiator": "script",
+          "encodedBytes": 9660,
+          "transferBytes": 9960
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-b98812ecc1c73b91.js",
+          "initiator": "script",
+          "encodedBytes": 5671,
+          "transferBytes": 5971
+        }
+      ]
+    },
+    {
+      "variant": "without-form-experimental",
+      "repetition": 4,
+      "status": 200,
+      "lcp": 1312,
+      "cls": 0,
+      "jsEncodedBytes": 240890,
+      "jsTransferBytes": 244190,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-14d52309ff887a76.js",
+          "initiator": "script",
+          "encodedBytes": 4204,
+          "transferBytes": 4504
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-f9668dbe7c7abf7e.js",
+          "initiator": "script",
+          "encodedBytes": 322,
+          "transferBytes": 622
+        },
+        {
+          "path": "/_next/static/chunks/144-7fd71e4ac2d0834c.js",
+          "initiator": "script",
+          "encodedBytes": 6066,
+          "transferBytes": 6366
+        },
+        {
+          "path": "/_next/static/chunks/app/page-39bd789765f49ae5.js",
+          "initiator": "script",
+          "encodedBytes": 315,
+          "transferBytes": 615
+        }
+      ]
+    },
+    {
+      "variant": "without-header-experimental",
+      "repetition": 5,
+      "status": 200,
+      "lcp": 1284,
+      "cls": 0,
+      "jsEncodedBytes": 235315,
+      "jsTransferBytes": 237715,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/446-c3ff86ab83c98c36.js",
+          "initiator": "script",
+          "encodedBytes": 8213,
+          "transferBytes": 8513
+        },
+        {
+          "path": "/_next/static/chunks/214-2cb9c5e6df43302d.js",
+          "initiator": "script",
+          "encodedBytes": 77701,
+          "transferBytes": 78001
+        },
+        {
+          "path": "/_next/static/chunks/205-4c1db3222f61c3a2.js",
+          "initiator": "script",
+          "encodedBytes": 9660,
+          "transferBytes": 9960
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-b98812ecc1c73b91.js",
+          "initiator": "script",
+          "encodedBytes": 5671,
+          "transferBytes": 5971
+        }
+      ]
+    },
+    {
+      "variant": "without-form-experimental",
+      "repetition": 5,
+      "status": 200,
+      "lcp": 1232,
+      "cls": 0,
+      "jsEncodedBytes": 240890,
+      "jsTransferBytes": 244190,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-14d52309ff887a76.js",
+          "initiator": "script",
+          "encodedBytes": 4204,
+          "transferBytes": 4504
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-f9668dbe7c7abf7e.js",
+          "initiator": "script",
+          "encodedBytes": 322,
+          "transferBytes": 622
+        },
+        {
+          "path": "/_next/static/chunks/144-7fd71e4ac2d0834c.js",
+          "initiator": "script",
+          "encodedBytes": 6066,
+          "transferBytes": 6366
+        },
+        {
+          "path": "/_next/static/chunks/app/page-39bd789765f49ae5.js",
+          "initiator": "script",
+          "encodedBytes": 315,
+          "transferBytes": 615
+        }
+      ]
+    },
+    {
+      "variant": "baseline",
+      "repetition": 5,
+      "status": 200,
+      "lcp": 1216,
+      "cls": 0,
+      "jsEncodedBytes": 250113,
+      "jsTransferBytes": 253413,
+      "resources": [
+        {
+          "path": "/_next/static/chunks/webpack-b3af27d60cf27ee7.js",
+          "initiator": "link",
+          "encodedBytes": 1747,
+          "transferBytes": 2047
+        },
+        {
+          "path": "/_next/static/chunks/c5f957af-f4fd025fb05e37ba.js",
+          "initiator": "script",
+          "encodedBytes": 64056,
+          "transferBytes": 64356
+        },
+        {
+          "path": "/_next/static/chunks/998-78e9ed2e98e1aa3f.js",
+          "initiator": "script",
+          "encodedBytes": 67754,
+          "transferBytes": 68054
+        },
+        {
+          "path": "/_next/static/chunks/main-app-650332e1da37c2a5.js",
+          "initiator": "script",
+          "encodedBytes": 513,
+          "transferBytes": 813
+        },
+        {
+          "path": "/_next/static/chunks/427-07a41a8b6d23d22b.js",
+          "initiator": "script",
+          "encodedBytes": 28882,
+          "transferBytes": 29182
+        },
+        {
+          "path": "/_next/static/chunks/999-ce29c39d57ac507b.js",
+          "initiator": "script",
+          "encodedBytes": 9614,
+          "transferBytes": 9914
+        },
+        {
+          "path": "/_next/static/chunks/app/layout-f3e0c2855807a44d.js",
+          "initiator": "script",
+          "encodedBytes": 6189,
+          "transferBytes": 6489
+        },
+        {
+          "path": "/_next/static/chunks/555-8f77583aa173c001.js",
+          "initiator": "script",
+          "encodedBytes": 57417,
+          "transferBytes": 57717
+        },
+        {
+          "path": "/_next/static/chunks/app/contacto/page-2a303e336838c231.js",
+          "initiator": "script",
+          "encodedBytes": 5763,
+          "transferBytes": 6063
+        },
+        {
+          "path": "/_next/static/chunks/743-bc2d192d262cb576.js",
+          "initiator": "script",
+          "encodedBytes": 7860,
+          "transferBytes": 8160
+        },
+        {
+          "path": "/_next/static/chunks/app/page-c38b9f70afed8b2b.js",
+          "initiator": "script",
+          "encodedBytes": 318,
+          "transferBytes": 618
+        }
+      ]
+    }
+  ],
+  "finishedAt": "2026-10-27T16:59:33.552Z"
+}
