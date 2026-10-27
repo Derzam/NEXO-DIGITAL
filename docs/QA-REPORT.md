@@ -1,6 +1,18 @@
-# Informe de QA vigente — Nexo Digital Studio
+# Historial de QA — Nexo Digital Studio
 
-La revisión vigente es **V4, migración premium de interiores**, rama **codex/interiors-shadcn-migration**, desde **881817b5e6a67cdda3d17807d95ff30c64a7ec22**. El SHA de publicación se identifica en el head del [PR #2 Draft](https://github.com/Derzam/NEXO-DIGITAL/pull/2) y en la entrega.
+## Auditoría vigente V4.1
+
+La auditoría final de experiencia, compatibilidad y rendimiento corresponde a la rama independiente **codex/v4-1-preflight**, iniciada desde V4 `29d1925b4641bad49572c1ac582a45e5d693be04`. El detalle de los seis gates, resultados, riesgos y límites se documenta en [QA V4.1](qa-v4-1/QA.md), con [capturas comparativas](qa-v4-1/GALLERY.md), [rendimiento](qa-v4-1/PERFORMANCE.md), [seguridad y privacidad](qa-v4-1/SECURITY.md) y [plan de integración](qa-v4-1/INTEGRATION.md).
+
+La Home aprobada quedó intacta (6/6 comparaciones exactas). Chromium y Firefox pasaron 108/108; WebKit pasó 105/108, con tres fallos del primer Tab al skip link. El build Webpack pasó; el Turbopack predeterminado no pudo iniciar su proceso auxiliar CSS en este host. Revisión legal/dominio y compatibilidad física continúan pendientes.
+
+El [PR #3 V4.1](https://github.com/Derzam/NEXO-DIGITAL/pull/3) está abierto en Draft contra `codex/interiors-shadcn-migration`; sin integración a `main`. PR #1 y #2 siguen abiertos en Draft. No se desplegó producción, no se modificó facturación ni se reintentó GitHub Actions.
+
+---
+
+## Historial V4
+
+La revisión de esa fase fue **V4, migración premium de interiores**, rama **codex/interiors-shadcn-migration**, desde **881817b5e6a67cdda3d17807d95ff30c64a7ec22**. El SHA de publicación se identifica en el head del [PR #2 Draft](https://github.com/Derzam/NEXO-DIGITAL/pull/2) y en su entrega.
 
 **Resultado técnico: PASS. TasteSkill estricto: FAIL.** Preparado para revisión visual y técnica del propietario manteniendo Draft.
 

@@ -1,0 +1,4343 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--config=playwright.compat.config.ts",
+      "--workers=2"
+    ],
+    "configFile": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\playwright.compat.config.ts",
+    "rootDir": "C:/Users/Derly Zambrano/Documents/ChatGPT/DISEÑO DE PAGINAS/NEXO-DIGITAL/tests/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Derly Zambrano/Documents/ChatGPT/DISEÑO DE PAGINAS/NEXO-DIGITAL/test-results/compat-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "mobile-390",
+        "name": "mobile-390",
+        "testDir": "C:/Users/Derly Zambrano/Documents/ChatGPT/DISEÑO DE PAGINAS/NEXO-DIGITAL/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/Derly Zambrano/Documents/ChatGPT/DISEÑO DE PAGINAS/NEXO-DIGITAL/test-results/compat-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "tablet-768",
+        "name": "tablet-768",
+        "testDir": "C:/Users/Derly Zambrano/Documents/ChatGPT/DISEÑO DE PAGINAS/NEXO-DIGITAL/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      },
+      {
+        "outputDir": "C:/Users/Derly Zambrano/Documents/ChatGPT/DISEÑO DE PAGINAS/NEXO-DIGITAL/test-results/compat-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "id": "desktop-1440",
+        "name": "desktop-1440",
+        "testDir": "C:/Users/Derly Zambrano/Documents/ChatGPT/DISEÑO DE PAGINAS/NEXO-DIGITAL/tests/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 45000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\test-results\\compat-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "mobile-390",
+        "testDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3111",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "browserName": "firefox",
+          "viewport": {
+            "width": 390,
+            "height": 844
+          },
+          "isMobile": false,
+          "hasTouch": true
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "mobile-390"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\test-results\\compat-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "tablet-768",
+        "testDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3111",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "browserName": "firefox",
+          "viewport": {
+            "width": 768,
+            "height": 1024
+          },
+          "hasTouch": true,
+          "isMobile": false
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "tablet-768"
+      },
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\test-results\\compat-firefox",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 2
+        },
+        "name": "desktop-1440",
+        "testDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e",
+        "snapshotDir": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 45000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3111",
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure",
+          "browserName": "firefox",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "isMobile": false
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "desktop-1440"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "html",
+        {
+          "open": "never",
+          "outputFolder": "playwright-report/firefox"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results/firefox-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 2,
+    "webServer": {
+      "command": "npm run start -- --hostname 127.0.0.1 --port 3111",
+      "url": "http://127.0.0.1:3111",
+      "reuseExistingServer": false,
+      "timeout": 120000,
+      "env": {
+        "NEXT_TELEMETRY_DISABLED": "1"
+      }
+    }
+  },
+  "suites": [
+    {
+      "title": "home-proposal.spec.ts",
+      "file": "home-proposal.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "cinematic hero keeps enough image resolution for portrait crops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4442,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:23.772Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-d3ec24eb43088e0bd961",
+          "file": "home-proposal.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "service families support selection and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7310,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:23.805Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-b8cb45da5d087ec5e453",
+          "file": "home-proposal.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "FAQ exposes answers and collapses with keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4884,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:30.302Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-84db2d4bc07da3038431",
+          "file": "home-proposal.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "portfolio area remains honest and links to the existing route",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1855,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:32.116Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-418fdea7cd842977fbe1",
+          "file": "home-proposal.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "cinematic hero keeps enough image resolution for portrait crops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4247,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:02.352Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-4888a6e97b2e155abc2c",
+          "file": "home-proposal.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "service families support selection and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8022,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:04.018Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-9d995ad2cd057c37479e",
+          "file": "home-proposal.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "FAQ exposes answers and collapses with keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6167,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:07.937Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-525d064b70b0eb568328",
+          "file": "home-proposal.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "portfolio area remains honest and links to the existing route",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1897,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:13.382Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-1a4f27da3dcfecc7d2f8",
+          "file": "home-proposal.spec.ts",
+          "line": 76,
+          "column": 5
+        },
+        {
+          "title": "cinematic hero keeps enough image resolution for portrait crops",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5048,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:50.228Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-50204f33e57dce7a6d66",
+          "file": "home-proposal.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "service families support selection and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 10722,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:54.925Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-292111d48b0a65c3c5b0",
+          "file": "home-proposal.spec.ts",
+          "line": 18,
+          "column": 5
+        },
+        {
+          "title": "FAQ exposes answers and collapses with keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8760,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:56.759Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-30935ed6ace39d364588",
+          "file": "home-proposal.spec.ts",
+          "line": 46,
+          "column": 5
+        },
+        {
+          "title": "portfolio area remains honest and links to the existing route",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2995,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:05.560Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0cb7dd08a3698102db55-12cd02229c6e9ca2cf7e",
+          "file": "home-proposal.spec.ts",
+          "line": 76,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "home-refinement.spec.ts",
+      "file": "home-refinement.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "refined previews and solutions support pointer, keyboard and route discovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6270,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:34.024Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "43b914ca5d22c4753737-e53fd518c26728a58b9a",
+          "file": "home-refinement.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "refined previews and solutions support pointer, keyboard and route discovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6765,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:14.162Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "43b914ca5d22c4753737-0aa3f626b5a1e0a67214",
+          "file": "home-refinement.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "refined previews and solutions support pointer, keyboard and route discovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 13611,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:07.583Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "43b914ca5d22c4753737-236558a5b5279a2d57ec",
+          "file": "home-refinement.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "interiors-v4.spec.ts",
+      "file": "interiors-v4.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "industry quotations preserve all six specific contexts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3210,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:35.235Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-7bde6a2993729b3fca89",
+          "file": "interiors-v4.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "about methodology supports keyboard and blog preserves its empty state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4452,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:38.475Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-ed36889cd0116abe5cf2",
+          "file": "interiors-v4.spec.ts",
+          "line": 26,
+          "column": 5
+        },
+        {
+          "title": "contact inline errors are announced and native fields keep keyboard order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4296,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:40.342Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-7ccf852fb67f1aecdfaf",
+          "file": "interiors-v4.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "premium shell, current navigation, menu accessibility and 404 are consistent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11100,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:42.960Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility-menu",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    },
+                    {
+                      "name": "accessibility-404",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-1bf522edff6e489d4b0b",
+          "file": "interiors-v4.spec.ts",
+          "line": 83,
+          "column": 5
+        },
+        {
+          "title": "all nine services retain exact quotations and catalog discovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5924,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:44.673Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-b52a0daa624601fdecd1",
+          "file": "interiors-v4.spec.ts",
+          "line": 116,
+          "column": 5
+        },
+        {
+          "title": "industry quotations preserve all six specific contexts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3496,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:15.335Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-03a3009853ea1546b6cb",
+          "file": "interiors-v4.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "about methodology supports keyboard and blog preserves its empty state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4325,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:18.871Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-9395333909ce13165386",
+          "file": "interiors-v4.spec.ts",
+          "line": 26,
+          "column": 5
+        },
+        {
+          "title": "contact inline errors are announced and native fields keep keyboard order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4053,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:20.975Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-c8850d1226e5a47e5a57",
+          "file": "interiors-v4.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "premium shell, current navigation, menu accessibility and 404 are consistent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 14649,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:23.229Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility-menu",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    },
+                    {
+                      "name": "accessibility-404",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-b032e261ac5fc53e5ac9",
+          "file": "interiors-v4.spec.ts",
+          "line": 83,
+          "column": 5
+        },
+        {
+          "title": "all nine services retain exact quotations and catalog discovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9348,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:25.082Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-e503a857ce4b4b345383",
+          "file": "interiors-v4.spec.ts",
+          "line": 116,
+          "column": 5
+        },
+        {
+          "title": "industry quotations preserve all six specific contexts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6802,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:08.599Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-64229f8302d0f871a46e",
+          "file": "interiors-v4.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "about methodology supports keyboard and blog preserves its empty state",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 10966,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:15.430Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-bd643fb44bb90967f32c",
+          "file": "interiors-v4.spec.ts",
+          "line": 26,
+          "column": 5
+        },
+        {
+          "title": "contact inline errors are announced and native fields keep keyboard order",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7876,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:21.290Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-191fbdc8112eb51d2fc3",
+          "file": "interiors-v4.spec.ts",
+          "line": 47,
+          "column": 5
+        },
+        {
+          "title": "premium shell, current navigation, menu accessibility and 404 are consistent",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 13977,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:26.433Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility-menu",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    },
+                    {
+                      "name": "accessibility-404",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-617481802e90865e9864",
+          "file": "interiors-v4.spec.ts",
+          "line": 83,
+          "column": 5
+        },
+        {
+          "title": "all nine services retain exact quotations and catalog discovery",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9926,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:29.240Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b39ff53802cb33e15c5c-ee106de2ffc3aa80241f",
+          "file": "interiors-v4.spec.ts",
+          "line": 116,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "preflight-v4-1.spec.ts",
+      "file": "preflight-v4-1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "quotation fails safely without JavaScript and explains the WhatsApp handoff",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3864,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:50.653Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "no-js-security",
+                      "contentType": "application/json",
+                      "body": "eyJkaXNhYmxlZCI6dHJ1ZSwicmVxdWVzdHNXaXRoUXVlcnkiOltdLCJmYWxsYmFjayI6Imh0dHBzOi8vd2EubWUvNTkzOTg0NDQ3OTYwP3RleHQ9SG9sYSUyQyUyMHF1aWVybyUyMGluZm9ybWFjaSVDMyVCM24lMjBzb2JyZSUyMGxvcyUyMHNlcnZpY2lvcyUyMGRlJTIwTmV4byUyMERpZ2l0YWwlMjBTdHVkaW8uIn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "89b0d8df6951a49f7b33-e2c7ebbeebe80a5804f1",
+          "file": "preflight-v4-1.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "quotation fails safely without JavaScript and explains the WhatsApp handoff",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6342,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:34.517Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "no-js-security",
+                      "contentType": "application/json",
+                      "body": "eyJkaXNhYmxlZCI6dHJ1ZSwicmVxdWVzdHNXaXRoUXVlcnkiOltdLCJmYWxsYmFjayI6Imh0dHBzOi8vd2EubWUvNTkzOTg0NDQ3OTYwP3RleHQ9SG9sYSUyQyUyMHF1aWVybyUyMGluZm9ybWFjaSVDMyVCM24lMjBzb2JyZSUyMGxvcyUyMHNlcnZpY2lvcyUyMGRlJTIwTmV4byUyMERpZ2l0YWwlMjBTdHVkaW8uIn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "89b0d8df6951a49f7b33-34ff892caac181f02947",
+          "file": "preflight-v4-1.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "quotation fails safely without JavaScript and explains the WhatsApp handoff",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7194,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:39.258Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "no-js-security",
+                      "contentType": "application/json",
+                      "body": "eyJkaXNhYmxlZCI6dHJ1ZSwicmVxdWVzdHNXaXRoUXVlcnkiOltdLCJmYWxsYmFjayI6Imh0dHBzOi8vd2EubWUvNTkzOTg0NDQ3OTYwP3RleHQ9SG9sYSUyQyUyMHF1aWVybyUyMGluZm9ybWFjaSVDMyVCM24lMjBzb2JyZSUyMGxvcyUyMHNlcnZpY2lvcyUyMGRlJTIwTmV4byUyMERpZ2l0YWwlMjBTdHVkaW8uIn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "89b0d8df6951a49f7b33-35f1aeb0e3e43e7bf287",
+          "file": "preflight-v4-1.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "site.spec.ts",
+      "file": "site.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "page, links, SEO, accessibility and overflow: /",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7257,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:54.161Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-6c225989054ae295742a",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6669,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:35:54.585Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-6c4b2cd84b1d48428fe6",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /soluciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6035,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:01.295Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-cfb7b2390f0abdb102b9",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /portafolio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5825,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:01.486Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-dac6cafb2e0d22727afb",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /nosotros",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5278,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:07.357Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-27ac685d2e5fe66a053f",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /blog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8540,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:07.385Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-eed12025cb95bcf569a1",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /contacto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5379,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:12.681Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-dbad3cbc0f0f370b05bd",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5497,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:15.992Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-3fc67f6ec2a7c10b61d9",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8484,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:18.122Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-86889685c6dbb52487df",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5257,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:21.533Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-573a1610665f953a4a8a",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5850,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:26.658Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-c0c709b0c33ca148b74c",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5452,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:26.874Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-fb7adca8d29378306ecf",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5475,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:32.374Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-0cedcd139eb40c199c1f",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5702,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:32.560Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-b40f949cd7e5558acfa0",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5174,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:37.912Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-f2e5172e8047b3f6aa1f",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5341,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:38.302Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-25034d3ec8c2ec65efed",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "main navigation and mobile keyboard dismissal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 14422,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:43.135Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-ff5134326de577f42cfb",
+          "file": "site.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "service discovery and quotation link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4724,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:43.687Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-124bf8b3bcb4cdcfbbde",
+          "file": "site.spec.ts",
+          "line": 72,
+          "column": 5
+        },
+        {
+          "title": "quotation validation, encoding and blocked-popup fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4436,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:48.458Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-e8864442f36c3215c85b",
+          "file": "site.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "404 pages and return home",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3251,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:52.949Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-5204aa9d6e8868a6b1e0",
+          "file": "site.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "keyboard skip link and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1858,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:56.238Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-17bb4ffb4f072e9cdf1c",
+          "file": "site.spec.ts",
+          "line": 149,
+          "column": 5
+        },
+        {
+          "title": "robots and complete sitemap",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 208,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:57.614Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-4d7433dd31956151cb0e",
+          "file": "site.spec.ts",
+          "line": 159,
+          "column": 5
+        },
+        {
+          "title": "local performance evidence: /",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2054,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:57.864Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "performance",
+                      "contentType": "application/json",
+                      "body": "ewogICJsY3AiOiAyMzgsCiAgImNscyI6IG51bGwsCiAgInN1cHBvcnRlZCI6IFsKICAgICJldmVudCIsCiAgICAiZmlyc3QtaW5wdXQiLAogICAgImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsCiAgICAibWFyayIsCiAgICAibWVhc3VyZSIsCiAgICAibmF2aWdhdGlvbiIsCiAgICAicGFpbnQiLAogICAgInJlc291cmNlIgogIF0sCiAgInR0ZmIiOiA3LAogICJkb21Db250ZW50TG9hZGVkIjogMjM3LAogICJqc0J5dGVzIjogMjQ0NDIyLAogICJsZWdhY3lTY3JpcHRKc0J5dGVzIjogMjQyNjc1LAogICJyZXNvdXJjZUNvdW50IjogMjIsCiAgImV4dGVybmFsRm9udHMiOiAwLAogICJub3RlIjogIkxvY2FsIHByb2R1Y3Rpb24gYnVpbGQ7IHVudGhyb3R0bGVkIGJyb3dzZXIuIEFsbCBKYXZhU2NyaXB0IGluaXRpYXRvcnMgY291bnRlZC4gVW5zdXBwb3J0ZWQgbWV0cmljcyBhcmUgbnVsbCwgbm90IHplcm8uIE5vdCBmaWVsZCBDb3JlIFdlYiBWaXRhbHMgb3IgYW4gSU5QIG1lYXN1cmVtZW50LiIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-fc4df4cbf56cf355830e",
+          "file": "site.spec.ts",
+          "line": 171,
+          "column": 7
+        },
+        {
+          "title": "local performance evidence: /contacto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 1798,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:58.136Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "performance",
+                      "contentType": "application/json",
+                      "body": "ewogICJsY3AiOiAxODYsCiAgImNscyI6IG51bGwsCiAgInN1cHBvcnRlZCI6IFsKICAgICJldmVudCIsCiAgICAiZmlyc3QtaW5wdXQiLAogICAgImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsCiAgICAibWFyayIsCiAgICAibWVhc3VyZSIsCiAgICAibmF2aWdhdGlvbiIsCiAgICAicGFpbnQiLAogICAgInJlc291cmNlIgogIF0sCiAgInR0ZmIiOiA1LAogICJkb21Db250ZW50TG9hZGVkIjogMTgyLAogICJqc0J5dGVzIjogMjQ5ODk2LAogICJsZWdhY3lTY3JpcHRKc0J5dGVzIjogMjQ4MTQ5LAogICJyZXNvdXJjZUNvdW50IjogMTksCiAgImV4dGVybmFsRm9udHMiOiAwLAogICJub3RlIjogIkxvY2FsIHByb2R1Y3Rpb24gYnVpbGQ7IHVudGhyb3R0bGVkIGJyb3dzZXIuIEFsbCBKYXZhU2NyaXB0IGluaXRpYXRvcnMgY291bnRlZC4gVW5zdXBwb3J0ZWQgbWV0cmljcyBhcmUgbnVsbCwgbm90IHplcm8uIE5vdCBmaWVsZCBDb3JlIFdlYiBWaXRhbHMgb3IgYW4gSU5QIG1lYXN1cmVtZW50LiIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-d7a38037ea12ce551305",
+          "file": "site.spec.ts",
+          "line": 171,
+          "column": 7
+        },
+        {
+          "title": "premium methodology opens by pointer and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "mobile-390",
+              "projectName": "mobile-390",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 1771,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:36:59.951Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-cdc537d720a7153d0045",
+          "file": "site.spec.ts",
+          "line": 221,
+          "column": 5
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7989,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:37.948Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-dc5643c1804aa6f35634",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6983,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:40.979Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-9c8146904cd352d6249e",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /soluciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5933,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:45.996Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-2907128284828ad1f1c9",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /portafolio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4932,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:48.025Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-6766a098b246b5d6a552",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /nosotros",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5195,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:51.984Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-3c32bbe29edb1910b1d4",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /blog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8263,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:53.005Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-307b9fc0191807787a2a",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /contacto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 4941,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:37:57.230Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-4725b11459a629de951a",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5267,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:01.346Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-2148dc642d37efe602b0",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 9189,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:02.233Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-94c3077883ef5fe6c032",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5020,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:06.661Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-e32f5159403f01da445b",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5105,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:11.475Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-a61bacf9585ec57675a7",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5351,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:11.722Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-9728a682e9fb6b4e76ac",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5743,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:16.627Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-719e49555780c125a2c6",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6015,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:17.123Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-d2df2e987caa3eedd98a",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6626,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:22.413Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-2e605b09696295080c5a",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6793,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:23.192Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-354c64ede85b0db583f0",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "main navigation and mobile keyboard dismissal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 12494,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:29.104Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-297c87b8ab6b0daf967c",
+          "file": "site.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "service discovery and quotation link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5191,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:30.107Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-1d9663796e21c7a38b41",
+          "file": "site.spec.ts",
+          "line": 72,
+          "column": 5
+        },
+        {
+          "title": "quotation validation, encoding and blocked-popup fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4108,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:35.340Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-3bde48a2401393b61792",
+          "file": "site.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "404 pages and return home",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4040,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:39.487Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-9337126b289113123c33",
+          "file": "site.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "keyboard skip link and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2335,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:41.637Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-1d379928c6feca950bf5",
+          "file": "site.spec.ts",
+          "line": 149,
+          "column": 5
+        },
+        {
+          "title": "robots and complete sitemap",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 163,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:43.563Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-df9c0f7c36f3df19a87d",
+          "file": "site.spec.ts",
+          "line": 159,
+          "column": 5
+        },
+        {
+          "title": "local performance evidence: /",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2677,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:43.760Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "performance",
+                      "contentType": "application/json",
+                      "body": "ewogICJsY3AiOiAzNDYsCiAgImNscyI6IG51bGwsCiAgInN1cHBvcnRlZCI6IFsKICAgICJldmVudCIsCiAgICAiZmlyc3QtaW5wdXQiLAogICAgImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsCiAgICAibWFyayIsCiAgICAibWVhc3VyZSIsCiAgICAibmF2aWdhdGlvbiIsCiAgICAicGFpbnQiLAogICAgInJlc291cmNlIgogIF0sCiAgInR0ZmIiOiA2LAogICJkb21Db250ZW50TG9hZGVkIjogNDEzLAogICJqc0J5dGVzIjogMjQ0NzQ2LAogICJsZWdhY3lTY3JpcHRKc0J5dGVzIjogMjQyOTk5LAogICJyZXNvdXJjZUNvdW50IjogMjUsCiAgImV4dGVybmFsRm9udHMiOiAwLAogICJub3RlIjogIkxvY2FsIHByb2R1Y3Rpb24gYnVpbGQ7IHVudGhyb3R0bGVkIGJyb3dzZXIuIEFsbCBKYXZhU2NyaXB0IGluaXRpYXRvcnMgY291bnRlZC4gVW5zdXBwb3J0ZWQgbWV0cmljcyBhcmUgbnVsbCwgbm90IHplcm8uIE5vdCBmaWVsZCBDb3JlIFdlYiBWaXRhbHMgb3IgYW4gSU5QIG1lYXN1cmVtZW50LiIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-b1b207269af16108601d",
+          "file": "site.spec.ts",
+          "line": 171,
+          "column": 7
+        },
+        {
+          "title": "local performance evidence: /contacto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 2819,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:44.010Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "performance",
+                      "contentType": "application/json",
+                      "body": "ewogICJsY3AiOiAyNjEsCiAgImNscyI6IG51bGwsCiAgInN1cHBvcnRlZCI6IFsKICAgICJldmVudCIsCiAgICAiZmlyc3QtaW5wdXQiLAogICAgImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsCiAgICAibWFyayIsCiAgICAibWVhc3VyZSIsCiAgICAibmF2aWdhdGlvbiIsCiAgICAicGFpbnQiLAogICAgInJlc291cmNlIgogIF0sCiAgInR0ZmIiOiA1LAogICJkb21Db250ZW50TG9hZGVkIjogMjk0LAogICJqc0J5dGVzIjogMjQ5ODk2LAogICJsZWdhY3lTY3JpcHRKc0J5dGVzIjogMjQ4MTQ5LAogICJyZXNvdXJjZUNvdW50IjogMTksCiAgImV4dGVybmFsRm9udHMiOiAwLAogICJub3RlIjogIkxvY2FsIHByb2R1Y3Rpb24gYnVpbGQ7IHVudGhyb3R0bGVkIGJyb3dzZXIuIEFsbCBKYXZhU2NyaXB0IGluaXRpYXRvcnMgY291bnRlZC4gVW5zdXBwb3J0ZWQgbWV0cmljcyBhcmUgbnVsbCwgbm90IHplcm8uIE5vdCBmaWVsZCBDb3JlIFdlYiBWaXRhbHMgb3IgYW4gSU5QIG1lYXN1cmVtZW50LiIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-ef52ea04529e002bc41a",
+          "file": "site.spec.ts",
+          "line": 171,
+          "column": 7
+        },
+        {
+          "title": "premium methodology opens by pointer and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "tablet-768",
+              "projectName": "tablet-768",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5301,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:38:46.468Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-562ffa7aa484d436fbb5",
+          "file": "site.spec.ts",
+          "line": 221,
+          "column": 5
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 9393,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:40.495Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-f59701c3410c724b8370",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7271,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:46.545Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-fdf4202eb1f7ade8b72b",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /soluciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6454,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:49.958Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-3c7fdf788400328f113c",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /portafolio",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5701,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:53.865Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-2877866822185b2a42fb",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /nosotros",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5623,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:56.466Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-325935eae6321c5dafa8",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /blog",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5501,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:39:59.634Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-02a43f2d9d73627fbc8d",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /contacto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 8893,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:02.163Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-fe10f1b354a63ee3f78f",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8808,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:05.194Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-f01ac2ae526c681f08da",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6220,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:11.115Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-b55934210c39f6732f2c",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6456,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:14.081Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-d41182f4d9439569c204",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6213,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:17.390Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-c6f9297f89e1c4b1894a",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5805,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:20.592Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-827d9e4eba83d5f70f5e",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6402,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:23.672Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-bcc9fc6401c586d63ed6",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7350,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:26.450Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-0e6dca513aaa3650700c",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/seo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7137,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:30.130Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-6015ad310555c34b9d13",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6445,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:33.879Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "accessibility",
+                      "contentType": "application/json",
+                      "body": "W10="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-c12c6bc96c036011e402",
+          "file": "site.spec.ts",
+          "line": 9,
+          "column": 7
+        },
+        {
+          "title": "main navigation and mobile keyboard dismissal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6745,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:37.325Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-8cfe1acb7f3b6a1347d0",
+          "file": "site.spec.ts",
+          "line": 52,
+          "column": 5
+        },
+        {
+          "title": "service discovery and quotation link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5029,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:40.399Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-e7c126b943466922b06f",
+          "file": "site.spec.ts",
+          "line": 72,
+          "column": 5
+        },
+        {
+          "title": "quotation validation, encoding and blocked-popup fallback",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 5399,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:44.121Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-f7b0a5ad9fdea7778364",
+          "file": "site.spec.ts",
+          "line": 92,
+          "column": 5
+        },
+        {
+          "title": "404 pages and return home",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5182,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:45.473Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-70083cd11cf17700d209",
+          "file": "site.spec.ts",
+          "line": 139,
+          "column": 5
+        },
+        {
+          "title": "keyboard skip link and reduced motion",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3453,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:49.576Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-8f2e54004b23ed87b386",
+          "file": "site.spec.ts",
+          "line": 149,
+          "column": 5
+        },
+        {
+          "title": "robots and complete sitemap",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 151,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:50.710Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-23061ed304e16a3b80a8",
+          "file": "site.spec.ts",
+          "line": 159,
+          "column": 5
+        },
+        {
+          "title": "local performance evidence: /",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5098,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:50.940Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "performance",
+                      "contentType": "application/json",
+                      "body": "ewogICJsY3AiOiA2NzksCiAgImNscyI6IG51bGwsCiAgInN1cHBvcnRlZCI6IFsKICAgICJldmVudCIsCiAgICAiZmlyc3QtaW5wdXQiLAogICAgImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsCiAgICAibWFyayIsCiAgICAibWVhc3VyZSIsCiAgICAibmF2aWdhdGlvbiIsCiAgICAicGFpbnQiLAogICAgInJlc291cmNlIgogIF0sCiAgInR0ZmIiOiAyNywKICAiZG9tQ29udGVudExvYWRlZCI6IDQ3MSwKICAianNCeXRlcyI6IDI1MTE5MiwKICAibGVnYWN5U2NyaXB0SnNCeXRlcyI6IDI0OTQ0NSwKICAicmVzb3VyY2VDb3VudCI6IDM2LAogICJleHRlcm5hbEZvbnRzIjogMCwKICAibm90ZSI6ICJMb2NhbCBwcm9kdWN0aW9uIGJ1aWxkOyB1bnRocm90dGxlZCBicm93c2VyLiBBbGwgSmF2YVNjcmlwdCBpbml0aWF0b3JzIGNvdW50ZWQuIFVuc3VwcG9ydGVkIG1ldHJpY3MgYXJlIG51bGwsIG5vdCB6ZXJvLiBOb3QgZmllbGQgQ29yZSBXZWIgVml0YWxzIG9yIGFuIElOUCBtZWFzdXJlbWVudC4iCn0="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-16722c8b4848865673b1",
+          "file": "site.spec.ts",
+          "line": 171,
+          "column": 7
+        },
+        {
+          "title": "local performance evidence: /contacto",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3101,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:53.129Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "performance",
+                      "contentType": "application/json",
+                      "body": "ewogICJsY3AiOiAzNzEsCiAgImNscyI6IG51bGwsCiAgInN1cHBvcnRlZCI6IFsKICAgICJldmVudCIsCiAgICAiZmlyc3QtaW5wdXQiLAogICAgImxhcmdlc3QtY29udGVudGZ1bC1wYWludCIsCiAgICAibWFyayIsCiAgICAibWVhc3VyZSIsCiAgICAibmF2aWdhdGlvbiIsCiAgICAicGFpbnQiLAogICAgInJlc291cmNlIgogIF0sCiAgInR0ZmIiOiAzLAogICJkb21Db250ZW50TG9hZGVkIjogMzc3LAogICJqc0J5dGVzIjogMjUxMTkyLAogICJsZWdhY3lTY3JpcHRKc0J5dGVzIjogMjQ5NDQ1LAogICJyZXNvdXJjZUNvdW50IjogMzUsCiAgImV4dGVybmFsRm9udHMiOiAwLAogICJub3RlIjogIkxvY2FsIHByb2R1Y3Rpb24gYnVpbGQ7IHVudGhyb3R0bGVkIGJyb3dzZXIuIEFsbCBKYXZhU2NyaXB0IGluaXRpYXRvcnMgY291bnRlZC4gVW5zdXBwb3J0ZWQgbWV0cmljcyBhcmUgbnVsbCwgbm90IHplcm8uIE5vdCBmaWVsZCBDb3JlIFdlYiBWaXRhbHMgb3IgYW4gSU5QIG1lYXN1cmVtZW50LiIKfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-31af86e885f83c0b70d5",
+          "file": "site.spec.ts",
+          "line": 171,
+          "column": 7
+        },
+        {
+          "title": "premium methodology opens by pointer and keyboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 45000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "desktop-1440",
+              "projectName": "desktop-1440",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4403,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-27T16:40:56.108Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5c02723ad68c2a0d50c5-b8f5144a2405583fd770",
+          "file": "site.spec.ts",
+          "line": 221,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-27T16:35:20.601Z",
+    "duration": 341738.316,
+    "expected": 108,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -63,6 +63,12 @@ test("FAQ exposes answers and collapses with keyboard", async ({ page }) => {
         .analyze()
     ).violations,
   ).toEqual([]);
+  const focusableCount = await page.locator('a[href], button, input, select, textarea, [tabindex]:not([tabindex="-1"])').count();
+  for (let index = 0; index < focusableCount; index++) {
+    if (await question.evaluate(element => element === document.activeElement)) break;
+    await page.keyboard.press("Tab");
+  }
+  await expect(question).toBeFocused();
   await page.keyboard.press("Enter");
   await expect(question).toHaveAttribute("aria-expanded", "false");
 });
