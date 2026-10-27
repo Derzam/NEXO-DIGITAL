@@ -43,3 +43,24 @@ test("about methodology supports keyboard and blog preserves its empty state", a
   await page.getByRole("link", { name: "Explora nuestros servicios", exact: true }).click();
   await expect(page).toHaveURL("/servicios");
 });
+
+test("contact inline errors are announced and native fields keep keyboard order", async ({ page }, testInfo) => {
+  await page.goto("/contacto");
+  await page.getByRole("button", { name: "Preparar solicitud por WhatsApp" }).click();
+  const name = page.getByLabel("Nombre completo");
+  await expect(name).toBeFocused();
+  await expect(name).toHaveAttribute("aria-invalid", "true");
+  await expect(name).toHaveAttribute("aria-describedby", "nombre-error");
+  await expect(page.locator("#nombre-error")).toHaveAttribute("role", "alert");
+  await expect(page.locator("#nombre-error")).toHaveText("Completa este campo.");
+  await name.fill("QA de prueba");
+  await expect(name).not.toHaveAttribute("aria-invalid", "true");
+  await page.keyboard.press("Tab");
+  await expect(page.getByLabel("Correo electrónico")).toBeFocused();
+  await page.keyboard.press("Tab");
+  await expect(page.getByLabel("Servicio que necesitas")).toBeFocused();
+  const accessibility = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
+  await testInfo.attach("accessibility", { body: JSON.stringify(accessibility.violations), contentType: "application/json" });
+  expect(accessibility.violations).toEqual([]);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});

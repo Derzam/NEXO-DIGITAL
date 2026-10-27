@@ -1,5 +1,5 @@
 // Expanded phase by phase; legacy routes retain their original shell until migrated.
-export const premiumRoutes: readonly string[] = ["/", "/servicios", "/soluciones", "/portafolio", "/nosotros", "/blog"];
+export const premiumRoutes: readonly string[] = ["/", "/servicios", "/soluciones", "/portafolio", "/nosotros", "/blog", "/contacto"];
 
 export function isPremiumRoute(pathname: string) {
   return premiumRoutes.some(

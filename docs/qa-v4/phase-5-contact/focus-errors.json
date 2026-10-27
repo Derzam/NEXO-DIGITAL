@@ -1,0 +1,26 @@
+[
+  {
+    "width": 390,
+    "headerBottom": 76,
+    "focused": "nombre",
+    "focusTop": 99.890625,
+    "focusBottom": 151.890625,
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "headerBottom": 88,
+    "focused": "nombre",
+    "focusTop": 496.421875,
+    "focusBottom": 548.421875,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "headerBottom": 88,
+    "focused": "nombre",
+    "focusTop": 100.125,
+    "focusBottom": 152.125,
+    "overflow": false
+  }
+]

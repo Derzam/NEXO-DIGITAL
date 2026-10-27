@@ -8,7 +8,7 @@ Base aprobada: `881817b5e6a67cdda3d17807d95ff30c64a7ec22`. Rama: `codex/interior
 | 2. Servicios | PASS | Lint, TypeScript, build; 90/90 E2E. Catálogo y nueve detalles; mismas URLs, metadatos y cotizaciones. [Datos](phase-2-services/results.json), [Home idéntica](phase-2-services/home-comparison.json). |
 | 3. Soluciones y Portafolio | PASS tras repetición | Lint, TypeScript, build; **93/93 E2E**, 0 flaky/skipped. [Datos](phase-3-solutions-portfolio/results.json), [Home idéntica](phase-3-solutions-portfolio/home-comparison.json). Primera ejecución: 86 PASS / 7 FAIL, [diagnóstico conservado](phase-3-solutions-portfolio/interrupted-run.json). |
 | 4. Nosotros y Blog | PASS | Lint, TypeScript, build; **96/96 E2E**. Metodología con teclado y axe; blog vacío. [Datos](phase-4-about-blog/results.json), [Home idéntica](phase-4-about-blog/home-comparison.json). |
-| 5. Contacto | Pendiente | Campos y validación; misma lógica de WhatsApp. |
+| 5. Contacto | PASS | Lint, TypeScript, build; **99/99 E2E**. Validación, codificación, presupuesto opcional, fallback y errores accesibles. [Datos](phase-5-contact/results.json), [foco](phase-5-contact/focus-errors.json), [Home idéntica](phase-5-contact/home-comparison.json). |
 | 6. Consistencia y QA | Pendiente | Shell global, 404, npm ci, suite completa y galería. |
 
 Los estilos heredados se conservan; no se activa una página premium antes de migrar su contenido. Las limitaciones de CI remoto y las preferencias de TasteSkill se documentarán sin modificar facturación o desactivar reglas.
@@ -30,3 +30,11 @@ La repetición completa terminó **93/93 PASS en 1,5 minutos**, sin cambios de c
 ## Fase 4 — Nosotros y Blog
 
 Propósito se presenta como declaración editorial; Enfoque y Compromiso conservan los textos originales. La metodología reutiliza el Accordion aprobado, con las cinco etapas originales y apertura por teclado. Blog mantiene el estado vacío y distingue los temas futuros de publicaciones reales, sin fechas, autores o artículos inventados. Se añaden tres escenarios de teclado, cierre, axe en estado expandido y navegación desde Blog. Los 90 escenarios originales siguen intactos. Capturas en los tres tamaños y seis comparaciones exactas de Home en `phase-4-about-blog/`.
+
+## Fase 5 — Contacto
+
+Input, Textarea y NativeSelect siguen los patrones oficiales de shadcn y los tokens existentes, con Tailwind prefijado. Se eligió [Native Select](https://ui.shadcn.com/docs/components/base/native-select) para conservar validación HTML, selectores móviles, teclado, serialización y la cobertura `selectOption` existente. No requiere dependencias nuevas. [Input](https://ui.shadcn.com/docs/components/base/input) y [Textarea](https://ui.shadcn.com/docs/components/radix/textarea) comparten tamaños, foco y estados inválidos.
+
+Se conserva el manejador de WhatsApp: validación nativa y posterior recorte de nombre/proyecto, correo `type=email`, mínimos de contenido, presupuesto opcional, `encodeURIComponent`, apertura `noopener,noreferrer`, confirmación local y enlace alternativo. No se agregan almacenamiento, solicitudes de red con datos del formulario, backend ni servicios. Los errores en español usan `role=alert`, `aria-invalid` y `aria-describedby`; se retiran al editar el campo.
+
+El formulario aparece antes del apoyo comercial en móvil, con campos de 52 px y texto de 16 px. Los tres escenarios nuevos comprueban errores, foco, orden de Tab y axe en estado inválido. El envío vacío deja el primer campo visible bajo el header en los tres tamaños ([mediciones](phase-5-contact/focus-errors.json)); capturas iniciales e inválidas en `phase-5-contact/`. Los 90 escenarios previos pasan sin cambios y Home completa/primer viewport tienen cero píxeles distintos.
