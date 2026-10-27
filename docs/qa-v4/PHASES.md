@@ -6,7 +6,7 @@ Base aprobada: `881817b5e6a67cdda3d17807d95ff30c64a7ec22`. Rama: `codex/interior
 | --- | --- | --- |
 | 1. Fundamentos | PASS | Lint, TypeScript, build; 90/90 E2E; Home completa y primer viewport idénticos en 390, 768 y 1440 px. [Datos](phase-1-foundations/results.json), [píxeles](phase-1-foundations/home-comparison.json). |
 | 2. Servicios | PASS | Lint, TypeScript, build; 90/90 E2E. Catálogo y nueve detalles; mismas URLs, metadatos y cotizaciones. [Datos](phase-2-services/results.json), [Home idéntica](phase-2-services/home-comparison.json). |
-| 3. Soluciones y Portafolio | Pendiente | Categorías y estados honestos. |
+| 3. Soluciones y Portafolio | PASS tras repetición | Lint, TypeScript, build; **93/93 E2E**, 0 flaky/skipped. [Datos](phase-3-solutions-portfolio/results.json), [Home idéntica](phase-3-solutions-portfolio/home-comparison.json). Primera ejecución: 86 PASS / 7 FAIL, [diagnóstico conservado](phase-3-solutions-portfolio/interrupted-run.json). |
 | 4. Nosotros y Blog | Pendiente | Identidad, metodología y estructura editorial. |
 | 5. Contacto | Pendiente | Campos y validación; misma lógica de WhatsApp. |
 | 6. Consistencia y QA | Pendiente | Shell global, 404, npm ci, suite completa y galería. |
@@ -18,3 +18,11 @@ Los estilos heredados se conservan; no se activa una página premium antes de mi
 Dos servicios destacados utilizan Card de shadcn e interfaces HTML del sistema aprobado. El resto se presenta en filas editoriales, sin una cuadrícula de nueve tarjetas idénticas. Los detalles separan contexto, posibilidades, entregables y servicios relacionados; conservan todo el contenido comercial de `content.ts` y el mensaje específico de WhatsApp. Las demostraciones se identifican como ejemplos, sin atribuirlas a clientes.
 
 Se corrigió durante la revisión un conflicto de `align-items` heredado que estrechaba las interfaces dentro de los enlaces. La demostración ahora está fuera del enlace y ocupa el ancho disponible; el foco permanece visible. No se modificaron los 90 escenarios originales. Capturas de catálogo y Landing pages en 390/768/1440 px en `phase-2-services/`; Home completa y primer viewport con diferencia exacta de cero píxeles.
+
+## Fase 3 — Soluciones y Portafolio
+
+Las seis industrias alternan texto comercial e interfaces de ejemplo adaptadas a sus recorridos. Se mantienen las categorías, descripciones y mensajes de WhatsApp. El portafolio distingue el estudio conceptual de interfaz del futuro caso real autorizado; no se agregan clientes, métricas ni proyectos entregados. Capturas en `phase-3-solutions-portfolio/`, sin overflow, y seis comparaciones de Home idénticas.
+
+La primera suite registró 86 PASS y 7 FAIL: seis timeouts con duraciones de 20–44 minutos pese al límite configurado de 45 segundos, y una navegación `chrome-error`. La anomalía sugiere interrupción del entorno, sin causa confirmada. Se conservan títulos, errores y tiempos del resultado fallido. Se exige una repetición completa sin modificar aserciones, reintentos o timeouts antes de la siguiente fase. La revisión automática de permisos impidió un intento de repetición por límite de uso; ese comando no se ejecutó. La repetición posterior pudo iniciarse tras la indicación del propietario de continuar.
+
+La repetición completa terminó **93/93 PASS en 1,5 minutos**, sin cambios de código ni configuración entre ejecuciones. Los siete casos anteriores pasan de nuevo. No queda un fallo reproducible que bloquee la fase siguiente; la incidencia se mantiene documentada.

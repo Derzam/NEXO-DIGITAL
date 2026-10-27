@@ -113,6 +113,22 @@
 .interior-related-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
 .interior-related-grid .service-card { padding: 26px; }
 .interior-related-grid .service-card h2 { font-size: 23px; }
+.industry-stories { display: grid; gap: 72px; }
+.industry-story { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px; align-items: center; }
+.industry-story:nth-child(even) { grid-template-columns: 1.1fr 0.9fr; }
+.industry-story:nth-child(even) .industry-story-copy { order: 2; }
+.industry-story h2 { max-width: 440px; font-size: clamp(30px,3vw,42px); }
+.industry-story-copy .interior-body { max-width: 430px; }
+.industry-specimen { border-radius: 12px; overflow: hidden; background: #101f33; color: #e0edfc; }
+.industry-specimen-body { padding: 30px; }
+.industry-specimen-lead { font-size: 24px; line-height: 1.25; max-width: 330px; letter-spacing: -0.035em; }
+.industry-specimen-rows { display: grid; gap: 12px; margin-top: 28px; }
+.industry-specimen-rows > div { display: flex; align-items: center; gap: 14px; font-size: 16px; line-height: 1.5; padding: 15px; background: #19304a; border-radius: 7px; }
+.industry-specimen-rows svg { color: #98cfff; flex-shrink: 0; }
+.industry-specimen-rows svg:last-child { margin-left: auto; }
+.industry-specimen-1 .industry-specimen-rows > div, .industry-specimen-3 .industry-specimen-rows > div { background: transparent; border-bottom: 1px solid #29435f; border-radius: 0; }
+.interior-portfolio-layout { display: grid; grid-template-columns: 1.4fr 0.8fr; gap: 64px; align-items: center; }
+.interior-editorial-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px; }
 @media (max-width: 900px) {
   .interior-shell {
     --nexo-section-space: 64px;
@@ -128,6 +144,11 @@
   .interior-detail-grid .interior-demo { max-width: 650px; }
   .interior-scope-grid { gap: 40px; }
   .interior-feature-grid, .interior-related-grid { grid-template-columns: 1fr; }
+  .industry-story, .industry-story:nth-child(even), .interior-portfolio-layout { grid-template-columns: 1fr; gap: 32px; }
+  .industry-story:nth-child(even) .industry-story-copy { order: initial; }
+  .industry-story-copy .interior-body { max-width: 600px; }
+  .interior-portfolio-layout > div { max-width: 630px; }
+  .interior-editorial-grid { gap: 40px; }
 }
 @media (max-width: 560px) {
   .interior-shell {
@@ -153,4 +174,8 @@
   .interior-service-list .service-card { padding: 28px 4px; }
   .interior-shell .service-card h2 { font-size: 25px; }
   .interior-heading-row { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .industry-stories { gap: 56px; }
+  .industry-specimen-body { padding: 24px; }
+  .industry-specimen-rows > div { padding: 13px 10px; gap: 10px; font-size: 15px; }
+  .interior-editorial-grid { grid-template-columns: 1fr; gap: 24px; }
 }

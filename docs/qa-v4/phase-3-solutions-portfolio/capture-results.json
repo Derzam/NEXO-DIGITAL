@@ -1,0 +1,65 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false
+  },
+  {
+    "route": "/soluciones",
+    "width": 390,
+    "status": 200,
+    "height": 5971,
+    "overflow": false
+  },
+  {
+    "route": "/portafolio",
+    "width": 390,
+    "status": 200,
+    "height": 3165,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false
+  },
+  {
+    "route": "/soluciones",
+    "width": 768,
+    "status": 200,
+    "height": 5426,
+    "overflow": false
+  },
+  {
+    "route": "/portafolio",
+    "width": 768,
+    "status": 200,
+    "height": 2461,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false
+  },
+  {
+    "route": "/soluciones",
+    "width": 1440,
+    "status": 200,
+    "height": 4304,
+    "overflow": false
+  },
+  {
+    "route": "/portafolio",
+    "width": 1440,
+    "status": 200,
+    "height": 2199,
+    "overflow": false
+  }
+]
