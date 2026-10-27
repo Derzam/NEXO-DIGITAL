@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { navigationCurrent } from "@/lib/premium-routes";
+import { cn } from "@/lib/utils";
 import { ArrowUpRight, Menu, MessageCircle, X } from "lucide-react";
 import { Button } from "@/components/shadcn/button";
 import {
@@ -62,7 +63,7 @@ export function ProposalHeader() {
                 <NavigationMenuLink
                   asChild
                   active={!!navigationCurrent(pathname, href)}
-                  className="tw:rounded-md tw:px-3 tw:py-3 tw:text-[14px] tw:text-muted-foreground tw:transition-colors tw:hover:bg-transparent tw:hover:text-foreground tw:focus:bg-transparent tw:data-[active=true]:bg-transparent tw:data-[active=true]:text-foreground"
+                  className={cn("tw:rounded-md tw:px-3 tw:py-3 tw:text-[14px] tw:text-muted-foreground tw:transition-colors tw:hover:bg-transparent tw:hover:text-foreground tw:focus:bg-transparent tw:data-[active=true]:bg-transparent tw:data-[active=true]:text-foreground", pathname !== "/" && navigationCurrent(pathname, href) && "tw:text-foreground")}
                 >
                   <Link
                     href={href}
@@ -150,7 +151,7 @@ export function ProposalHeader() {
                     <Link
                       href={href}
                       aria-current={navigationCurrent(pathname, href)}
-                      className="tw:rounded-lg tw:px-3 tw:py-3 tw:text-[20px] tw:text-foreground tw:hover:bg-accent"
+                      className={cn("tw:rounded-lg tw:px-3 tw:py-3 tw:text-[20px] tw:text-foreground tw:hover:bg-accent", pathname !== "/" && navigationCurrent(pathname, href) && "tw:bg-accent")}
                     >
                       {label}
                     </Link>

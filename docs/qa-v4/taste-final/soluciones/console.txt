@@ -1,0 +1,39 @@
+TASTESKILL · INSPECT   http://127.0.0.1:3120/soluciones
+
+MEASURED (first viewport listed)
+  hero headline   "Tecnología en contexto."  3 words · 1 line(s) · 66px (4.6vw) · Manrope 500 · tracking -0.05em · leading 1.09
+  @768px          1 line(s) · 36px
+  @390px          2 line(s) · 36px
+  typefaces       DM Sans 93%, Manrope 7%
+  sizes in use    13 / 14 / 15 / 16 / 17 / 18 / 19 / 42 / 48 / 66 px   body 18px / 1.7
+  colour          page #070c17 · sections #070e1c #0b1728 #050b15 · button #14253d
+  page            4.6 screens · 311 words · 3 images · hero media none
+  headings        8 · longest 2 line(s) · median 3 words
+
+FAIL — fix every one of these
+  [still-page] @1440px  Only 0 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+  [eyebrow] @768px (+390)  5 eyebrow/kicker label(s) above headings: "Concepto de interfaz. Datos de ejemplo." above "Taxis y flotas"; "Concepto de interfaz. Datos de ejemplo." above "Delivery y logística"; "Concepto de interfaz. Datos de ejemplo." above "Profesionales"; "Concepto de interfaz. Datos de ejemplo." above "Equipos empresariales"; "Concepto de interfaz. Datos de ejemplo." above "Emprendedores"
+      → Delete them. If the label carried real information, fold it into the headline or the supporting sentence.
+
+WARN — fix, or be able to defend
+  [size-count] @1440px  10 different font sizes (13, 14, 15, 16, 17, 18, 19, 42, 48, 66).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-real-pictures] @1440px  Only 1 real photograph(s) or clip(s); the rest are interface fragments.
+      → Add two or more real pictures of the customer's world from scripts/assets.mjs, not stock of people at laptops.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [off-centre] @1440px  The margins differ: 80px on the left, 98px on the right, at 1440px.
+      → Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  docs/qa-v4/taste-final/soluciones/desktop-fold.jpg
+                  docs/qa-v4/taste-final/soluciones/desktop-page-01.jpg
+                  docs/qa-v4/taste-final/soluciones/desktop-page-02.jpg
+  tablet 768px    docs/qa-v4/taste-final/soluciones/tablet-fold.jpg
+                  docs/qa-v4/taste-final/soluciones/tablet-page-01.jpg
+  mobile 390px    docs/qa-v4/taste-final/soluciones/mobile-fold.jpg
+                  docs/qa-v4/taste-final/soluciones/mobile-page-01.jpg
+
+report: docs/qa-v4/taste-final/soluciones/report.json
+RESULT: 2 FAIL, 4 WARN — not done.

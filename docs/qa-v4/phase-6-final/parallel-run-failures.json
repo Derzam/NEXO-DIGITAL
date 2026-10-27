@@ -1,0 +1,91 @@
+{
+  "stats": {
+    "startTime": "2026-10-27T01:04:06.404Z",
+    "duration": 1071732.334,
+    "expected": 99,
+    "skipped": 0,
+    "unexpected": 6,
+    "flaky": 0
+  },
+  "failures": [
+    {
+      "title": "page, links, SEO, accessibility and overflow: /contacto",
+      "project": "mobile-390",
+      "results": [
+        {
+          "duration": 277209,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+      "project": "mobile-390",
+      "results": [
+        {
+          "duration": 277246,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+      "project": "mobile-390",
+      "results": [
+        {
+          "duration": 273853,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded while setting up \"page\".\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded while setting up \"page\".\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+      "project": "mobile-390",
+      "results": [
+        {
+          "duration": 626140,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+      "project": "mobile-390",
+      "results": [
+        {
+          "duration": 625428,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+      "project": "mobile-390",
+      "results": [
+        {
+          "duration": 623862,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    }
+  ],
+  "note": "FAIL retained: three Playwright workers and concurrent captures; six anomalous 4–10 minute timeouts, including page setup. Cause unconfirmed. Repeat all tests sequentially, with the same 45s limit and no concurrent browser jobs."
+}

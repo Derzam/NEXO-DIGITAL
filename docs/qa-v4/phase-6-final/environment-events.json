@@ -1,0 +1,14 @@
+{
+  "source": "Windows System event log, read-only queries during QA",
+  "timezone": "America/Guayaquil (UTC-05:00)",
+  "events": [
+    { "provider": "Microsoft-Windows-Kernel-Power", "id": 506, "localTime": "2026-10-26T18:32:09-05:00", "reason": "Lid", "meaning": "Entering modern standby" },
+    { "provider": "Microsoft-Windows-Power-Troubleshooter", "id": 1, "sleepUtc": "2026-10-26T23:52:23.2948671Z", "wakeUtc": "2026-10-27T00:37:01.4157496Z", "meaning": "44-minute sleep interval confirmed by Windows" },
+    { "provider": "Microsoft-Windows-Kernel-Power", "id": 506, "localTime": "2026-10-26T20:04:02-05:00", "reason": "Idle Timeout", "meaning": "Entering modern standby" },
+    { "provider": "Microsoft-Windows-Kernel-Power", "id": 506, "localTime": "2026-10-26T20:09:03-05:00", "reason": "Austerity Battery Drain Budget Exceeded", "meaning": "Entering modern standby" },
+    { "provider": "Microsoft-Windows-Kernel-Power", "id": 507, "localTime": "2026-10-26T20:19:31-05:00", "reason": "Power Button", "meaning": "Exiting modern standby" }
+  ],
+  "interpretation": "The standby intervals coincide with the anomalous test wall times. They explain the long timeout stalls; the first chrome-error navigation is not independently attributable to standby. Failed test results are retained separately.",
+  "mitigation": "Complete suite repeated with one Windows worker and no concurrent browser captures. Original three-worker configuration restored and final suite also passes 105/105. Timeouts and original assertions unchanged. Temporary SetThreadExecutionState SYSTEM_REQUIRED activity requests, maximum 15 minutes per process; released on completion or timeout. No permanent power settings changed.",
+  "apiReference": "https://learn.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate"
+}

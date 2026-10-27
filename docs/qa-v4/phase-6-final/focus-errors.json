@@ -1,0 +1,29 @@
+[
+  {
+    "width": 390,
+    "headerBottom": 76,
+    "focused": "nombre",
+    "labelTop": 110.484375,
+    "focusTop": 144.484375,
+    "focusBottom": 196.484375,
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "headerBottom": 88,
+    "focused": "nombre",
+    "labelTop": 465.71875,
+    "focusTop": 499.71875,
+    "focusBottom": 551.71875,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "headerBottom": 88,
+    "focused": "nombre",
+    "labelTop": 110.421875,
+    "focusTop": 144.421875,
+    "focusBottom": 196.421875,
+    "overflow": false
+  }
+]

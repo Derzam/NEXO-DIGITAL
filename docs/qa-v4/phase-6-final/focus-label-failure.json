@@ -1,0 +1,32 @@
+{
+  "stats": {
+    "startTime": "2026-10-27T02:09:34.285Z",
+    "duration": 154753.78900000002,
+    "expected": 104,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  },
+  "failures": [
+    {
+      "title": "contact inline errors are announced and native fields keep keyboard order",
+      "project": "desktop-1440",
+      "results": [
+        {
+          "duration": 8336,
+          "error": {
+            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m0\u001b[39m\nReceived:    \u001b[31m-37.578125\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate",
+            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeGreaterThanOrEqual\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected: >= \u001b[32m0\u001b[39m\nReceived:    \u001b[31m-37.578125\u001b[39m\n\nCall Log:\n- Timeout 5000ms exceeded while waiting on the predicate\n    at C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e\\interiors-v4.spec.ts:52:184",
+            "location": {
+              "file": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e\\interiors-v4.spec.ts",
+              "column": 184,
+              "line": 52
+            },
+            "snippet": "  50 |   const name = page.getByLabel(\"Nombre completo\");\n  51 |   await expect(name).toBeFocused();\n> 52 |   await expect.poll(() => page.locator('label[for=\"nombre\"]').evaluate(label => label.getBoundingClientRect().top - document.querySelector(\"header\")!.getBoundingClientRect().bottom)).toBeGreaterThanOrEqual(0);\n     |                                                                                                                                                                                        ^\n  53 |   await expect(name).toHaveAttribute(\"aria-invalid\", \"true\");\n  54 |   await expect(name).toHaveAttribute(\"aria-describedby\", \"nombre-error\");\n  55 |   await expect(page.locator(\"#nombre-error\")).toHaveAttribute(\"role\", \"alert\");"
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Real UI regression found by the new label visibility assertion: the 44px local scroll margin was insufficient on desktop with normal motion. Assertion retained; a larger reserve must pass before publication."
+}

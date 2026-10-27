@@ -1,0 +1,38 @@
+TASTESKILL · INSPECT   http://127.0.0.1:3120/servicios/integraciones
+
+MEASURED (first viewport listed)
+  hero headline   "APIs e integraciones"  3 words · 1 line(s) · 66px (4.6vw) · Manrope 500 · tracking -0.05em · leading 1.09
+  @768px          1 line(s) · 36px
+  @390px          1 line(s) · 36px
+  typefaces       DM Sans 91%, Manrope 9%
+  sizes in use    13 / 14 / 15 / 16 / 17 / 18 / 19 / 23 / 32 / 48 / 66 px   body 17px / 1.65
+  colour          page #070c17 · sections #070e1c #0a1423 #0b1728 #050b15 · button #2164e8
+  page            3 screens · 247 words · 3 images · hero media none
+  headings        5 · longest 2 line(s) · median 3 words
+
+FAIL — fix every one of these
+  [hairline] @1440px (+768, 390)  4 thin rule(s)/divider line(s): li 531px | li 531px | li 531px | li 531px
+      → Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.
+  [icon-cards] @1440px (+768, 390)  1 row(s) of identical cards each topped with a small icon (3 cards).
+      → Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.
+  [few-pictures] @1440px  Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.
+      → Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve.
+  [still-page] @1440px  Only 0 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+
+WARN — fix, or be able to defend
+  [size-count] @1440px (+768, 390)  11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  docs/qa-v4/taste/servicios-integraciones/desktop-fold.jpg
+                  docs/qa-v4/taste/servicios-integraciones/desktop-page-01.jpg
+  tablet 768px    docs/qa-v4/taste/servicios-integraciones/tablet-fold.jpg
+                  docs/qa-v4/taste/servicios-integraciones/tablet-page-01.jpg
+  mobile 390px    docs/qa-v4/taste/servicios-integraciones/mobile-fold.jpg
+                  docs/qa-v4/taste/servicios-integraciones/mobile-page-01.jpg
+
+report: docs/qa-v4/taste/servicios-integraciones/report.json
+RESULT: 4 FAIL, 2 WARN — not done.

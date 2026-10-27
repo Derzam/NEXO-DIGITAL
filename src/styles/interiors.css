@@ -94,7 +94,7 @@
 .interior-service-preview { display: grid; gap: 12px; padding: 0 30px 30px; }
 .interior-service-featured .service-card { height: auto; flex: 1; }
 .interior-service-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 40px; margin-top: 36px; }
-.interior-service-list .interior-service-tile { background: transparent; border-radius: 0; border-bottom: 1px solid #213148; }
+.interior-service-list .interior-service-tile { background: transparent; border-radius: 0; }
 .interior-service-list .service-card { padding: 30px 12px; }
 .interior-service-list .interior-service-tile:last-child { grid-column: 1 / -1; }
 .interior-service-list .interior-service-tile:last-child .interior-service-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
@@ -108,10 +108,12 @@
 .interior-check-list li { display: flex; gap: 14px; font-size: 18px; line-height: 1.6; }
 .interior-check-list svg { color: #8ecbff; flex-shrink: 0; margin-top: 5px; }
 .interior-deliverables { list-style: none; padding: 0; margin-top: 20px; }
-.interior-deliverables li { padding-block: 17px; border-bottom: 1px solid #24364f; font-size: 18px; line-height: 1.6; }
+.interior-deliverables li { padding-block: 17px; font-size: 18px; line-height: 1.6; }
 .interior-heading-row { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 32px; }
-.interior-related-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
-.interior-related-grid .service-card { padding: 26px; }
+.interior-related-grid { display: grid; gap: 24px; }
+.interior-related-grid .service-card { padding: 20px 12px; }
+.interior-related-grid .interior-service-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 40px; }
+.interior-related-grid .interior-service-copy > p { grid-column: 2; grid-row: 1 / 4; align-self: center; margin: 0; }
 .interior-related-grid .service-card h2 { font-size: 23px; }
 .industry-stories { display: grid; gap: 72px; }
 .industry-story { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px; align-items: center; }
@@ -129,7 +131,7 @@
 .industry-specimen-1 .industry-specimen-rows > div, .industry-specimen-3 .industry-specimen-rows > div { background: transparent; border-bottom: 1px solid #29435f; border-radius: 0; }
 .interior-portfolio-layout { display: grid; grid-template-columns: 1.4fr 0.8fr; gap: 64px; align-items: center; }
 .interior-editorial-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px; }
-.interior-statement { font-family: var(--nexo-font-display), sans-serif; font-size: clamp(26px,2.7vw,38px); line-height: 1.4; letter-spacing: -0.035em; color: #dae9fa; max-width: 710px; }
+.interior-statement { font-family: var(--nexo-font-display), sans-serif; font-size: clamp(24px,2.2vw,32px); line-height: 1.5; letter-spacing: -0.025em; color: #dae9fa; max-width: 710px; }
 .interior-about-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; align-items: start; gap: 100px; }
 .interior-principles { display: grid; gap: 48px; }
 .interior-principles h2 { font-size: 32px; }
@@ -139,12 +141,16 @@
 .interior-contact-grid { display: grid; grid-template-columns: 1.4fr 0.8fr; gap: 64px; align-items: start; }
 .interior-contact-grid h2 { font-size: 30px; }
 .interior-form-panel { min-width: 0; padding: 36px; border-radius: var(--nexo-radius-panel); background: var(--card); }
-.interior-contact-form { margin-top: 25px; display: grid; gap: 24px; }
+.interior-contact-form { --input: var(--nexo-control-border); margin-top: 25px; display: grid; gap: 24px; }
 .interior-field-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
 .interior-field { display: grid; gap: 10px; align-content: start; min-width: 0; }
 .interior-field label { font-size: 16px; line-height: 1.5; color: var(--foreground); }
 .interior-field-error { font-size: 15px; line-height: 1.5; color: var(--destructive); }
 .interior-contact-form .interior-note a { color: #b9dfff; text-decoration: underline; text-underline-offset: 3px; }
+.interior-contact-form .interior-note { font-size: 16px; max-width: 60ch; }
+.interior-contact-form :is(input, select, textarea) { scroll-margin-block: 44px 24px; }
+/* Native validation must settle immediately under the sticky header. */
+html:has(.interior-contact-form) { scroll-behavior: auto; }
 .interior-contact-details { display: grid; gap: 14px; margin-top: 28px; }
 .interior-contact-details > * { display: flex; align-items: center; gap: 12px; min-height: 44px; line-height: 1.5; font-size: 17px; }
 .interior-contact-details svg { color: #9dceff; flex-shrink: 0; }
@@ -199,6 +205,8 @@
   .interior-service-preview { padding: 0 25px 25px; }
   .interior-service-list .service-card { padding: 28px 4px; }
   .interior-shell .service-card h2 { font-size: 25px; }
+  .interior-related-grid .interior-service-copy { display: block; }
+  .interior-related-grid .interior-service-copy > p { margin-block: 16px; }
   .interior-heading-row { align-items: flex-start; flex-direction: column; gap: 16px; }
   .industry-stories { gap: 56px; }
   .industry-specimen-body { padding: 24px; }

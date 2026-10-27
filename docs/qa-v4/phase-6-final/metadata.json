@@ -1,0 +1,230 @@
+{
+  "base": "http://127.0.0.1:3120",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "description": "Desarrollamos páginas web, sistemas empresariales, aplicaciones móviles, automatizaciones e inteligencia artificial para negocios en Ecuador.",
+      "canonical": "http://localhost:3000",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios",
+      "status": 200,
+      "title": "Servicios | Nexo Digital Studio",
+      "description": "Servicios de desarrollo web, sistemas, apps móviles, automatización, inteligencia artificial y QA de Nexo Digital Studio.",
+      "canonical": "http://localhost:3000/servicios",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/soluciones",
+      "status": 200,
+      "title": "Soluciones por industria | Nexo Digital Studio",
+      "description": "Soluciones digitales para comercios, restaurantes, transporte, delivery, emprendedores y empresas.",
+      "canonical": "http://localhost:3000/soluciones",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/portafolio",
+      "status": 200,
+      "title": "Portafolio | Nexo Digital Studio",
+      "description": "Conoce las áreas de trabajo y los próximos casos de estudio del portafolio de Nexo Digital Studio.",
+      "canonical": "http://localhost:3000/portafolio",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/nosotros",
+      "status": 200,
+      "title": "Nosotros | Nexo Digital Studio",
+      "description": "Conoce el enfoque de trabajo, visión y metodología de Nexo Digital Studio.",
+      "canonical": "http://localhost:3000/nosotros",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/blog",
+      "status": 200,
+      "title": "Blog y recursos | Nexo Digital Studio",
+      "description": "Próximos recursos sobre desarrollo web, inteligencia artificial, automatización y calidad de software.",
+      "canonical": "http://localhost:3000/blog",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/contacto",
+      "status": 200,
+      "title": "Contacto y cotizaciones | Nexo Digital Studio",
+      "description": "Solicita una cotización de páginas web, aplicaciones, sistemas e IA con Nexo Digital Studio en Ecuador.",
+      "canonical": "http://localhost:3000/contacto",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/landing-pages",
+      "status": 200,
+      "title": "Landing pages | Nexo Digital Studio",
+      "description": "Páginas enfocadas en presentar tu oferta y convertir visitas en oportunidades.",
+      "canonical": "http://localhost:3000/servicios/landing-pages",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/sitios-corporativos",
+      "status": 200,
+      "title": "Sitios web corporativos | Nexo Digital Studio",
+      "description": "Sitios multipágina que transmiten confianza y explican tus servicios.",
+      "canonical": "http://localhost:3000/servicios/sitios-corporativos",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/sistemas-web",
+      "status": 200,
+      "title": "Sistemas web a medida | Nexo Digital Studio",
+      "description": "Plataformas empresariales para ordenar procesos y gestionar información.",
+      "canonical": "http://localhost:3000/servicios/sistemas-web",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/aplicaciones-moviles",
+      "status": 200,
+      "title": "Aplicaciones móviles | Nexo Digital Studio",
+      "description": "Experiencias Android y iOS para conectar servicios con usuarios.",
+      "canonical": "http://localhost:3000/servicios/aplicaciones-moviles",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/inteligencia-artificial",
+      "status": 200,
+      "title": "Inteligencia artificial | Nexo Digital Studio",
+      "description": "Asistentes y agentes que mejoran la atención y los procesos internos.",
+      "canonical": "http://localhost:3000/servicios/inteligencia-artificial",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/automatizacion",
+      "status": 200,
+      "title": "Automatización con n8n | Nexo Digital Studio",
+      "description": "Conecta herramientas y elimina tareas repetitivas con flujos automáticos.",
+      "canonical": "http://localhost:3000/servicios/automatizacion",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/auditoria-qa",
+      "status": 200,
+      "title": "Auditoría y QA de software | Nexo Digital Studio",
+      "description": "Revisiones técnicas y pruebas para publicar con mayor confianza.",
+      "canonical": "http://localhost:3000/servicios/auditoria-qa",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/seo",
+      "status": 200,
+      "title": "SEO y optimización | Nexo Digital Studio",
+      "description": "Bases técnicas para mejorar descubrimiento, velocidad y usabilidad.",
+      "canonical": "http://localhost:3000/servicios/seo",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/integraciones",
+      "status": 200,
+      "title": "APIs e integraciones | Nexo Digital Studio",
+      "description": "Conectamos aplicaciones, datos y servicios para construir flujos sólidos.",
+      "canonical": "http://localhost:3000/servicios/integraciones",
+      "robots": [
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/no-existe",
+      "status": 404,
+      "title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "description": "Desarrollamos páginas web, sistemas empresariales, aplicaciones móviles, automatizaciones e inteligencia artificial para negocios en Ecuador.",
+      "robots": [
+        "noindex",
+        "index, follow"
+      ],
+      "pass": true
+    },
+    {
+      "route": "/servicios/no-existe",
+      "status": 404,
+      "title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "description": "Desarrollamos páginas web, sistemas empresariales, aplicaciones móviles, automatizaciones e inteligencia artificial para negocios en Ecuador.",
+      "robots": [
+        "noindex",
+        "index, follow"
+      ],
+      "pass": true
+    }
+  ],
+  "sitemap": {
+    "status": 200,
+    "locations": [
+      "http://localhost:3000",
+      "http://localhost:3000/servicios",
+      "http://localhost:3000/soluciones",
+      "http://localhost:3000/portafolio",
+      "http://localhost:3000/nosotros",
+      "http://localhost:3000/blog",
+      "http://localhost:3000/contacto",
+      "http://localhost:3000/servicios/landing-pages",
+      "http://localhost:3000/servicios/sitios-corporativos",
+      "http://localhost:3000/servicios/sistemas-web",
+      "http://localhost:3000/servicios/aplicaciones-moviles",
+      "http://localhost:3000/servicios/inteligencia-artificial",
+      "http://localhost:3000/servicios/automatizacion",
+      "http://localhost:3000/servicios/auditoria-qa",
+      "http://localhost:3000/servicios/seo",
+      "http://localhost:3000/servicios/integraciones"
+    ]
+  },
+  "robots": {
+    "status": 200,
+    "text": "User-Agent: *\nAllow: /\n\nSitemap: http://localhost:3000/sitemap.xml\n"
+  },
+  "pass": true,
+  "note": "Local canonical origin uses the existing localhost:3000 fallback. Set the approved NEXT_PUBLIC_SITE_URL before building a future hosted environment."
+}

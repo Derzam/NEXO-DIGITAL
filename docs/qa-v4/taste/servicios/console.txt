@@ -1,0 +1,38 @@
+TASTESKILL · INSPECT   http://127.0.0.1:3120/servicios
+
+MEASURED (first viewport listed)
+  hero headline   "El siguiente paso."  3 words · 1 line(s) · 66px (4.6vw) · Manrope 500 · tracking -0.05em · leading 1.09
+  @768px          1 line(s) · 36px
+  @390px          1 line(s) · 36px
+  typefaces       DM Sans 90%, Manrope 10%
+  sizes in use    13 / 14 / 15 / 16 / 17 / 18 / 19 / 26 / 48 / 66 px   body 17px / 1.65
+  colour          page #070c17 · sections #070e1c #0d1a2c #0b1728 #050b15 · button #2164e8
+  page            3.3 screens · 308 words · 3 images · hero media none
+  headings        3 · longest 2 line(s) · median 5 words
+
+FAIL — fix every one of these
+  [hairline] @1440px (+768, 390)  7 thin rule(s)/divider line(s): div.tw:flex.tw:flex-col 620px | div.tw:flex.tw:flex-col 620px | div.tw:flex.tw:flex-col 620px | div.tw:flex.tw:flex-col 620px
+      → Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.
+  [few-pictures] @1440px  Only 3 picture(s) on the page (1 photographs, footage or raster images, 2 interface fragments). Drawings in SVG do not count.
+      → Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve.
+  [still-page] @1440px  Only 0 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+
+WARN — fix, or be able to defend
+  [size-count] @1440px (+768)  10 different font sizes (13, 14, 15, 16, 17, 18, 19, 26, 48, 66).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [off-centre] @1440px  The margins differ: 80px on the left, 116px on the right, at 1440px.
+      → Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  docs/qa-v4/taste/servicios/desktop-fold.jpg
+                  docs/qa-v4/taste/servicios/desktop-page-01.jpg
+  tablet 768px    docs/qa-v4/taste/servicios/tablet-fold.jpg
+                  docs/qa-v4/taste/servicios/tablet-page-01.jpg
+  mobile 390px    docs/qa-v4/taste/servicios/mobile-fold.jpg
+                  docs/qa-v4/taste/servicios/mobile-page-01.jpg
+
+report: docs/qa-v4/taste/servicios/report.json
+RESULT: 3 FAIL, 3 WARN — not done.

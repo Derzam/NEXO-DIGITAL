@@ -1,0 +1,172 @@
+{
+  "base": "881817b5e6a67cdda3d17807d95ff30c64a7ec22",
+  "preservation": [
+    {
+      "path": "src/app/page.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "e18a18ebd976abc2f51b226bebd73aa1d262fe99",
+      "sha256": "e38264582d89c750ffddcf07afb098d4307bd4bb16f95d11b4e77d59f4dd8f1a"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "7c7e47efcae3a8efac7d9642d5978615670a5ec6",
+      "sha256": "3cab2dc2278804e0b0de453e8b0bffc12d98bf71f1690bef282d299ea5bc7107"
+    },
+    {
+      "path": "src/components/proposal/refined-sections.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "d42f8182d2d77ded357a6edc9cfc6308fb325b9b",
+      "sha256": "f6fb0f33ab8216e7592228ec3d8223a731a249755b42bc8c20b733682ed4d471"
+    },
+    {
+      "path": "src/components/proposal/interactions.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "8b86d42a4cfcb643af3a180672b9e7275209cb97",
+      "sha256": "4e350a6a9910b7d90747985224cbe679d7d3b05e46cedd85d69397480cc16994"
+    },
+    {
+      "path": "src/components/proposal/product-previews.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "1b48e7ee33d906d8184718a47ca0e249eec4d627",
+      "sha256": "90441f3e1ef716adc511fa3424c6d9296ce6079bfed1b75598a15ed2954ea579"
+    },
+    {
+      "path": "src/components/nexo-wordmark.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "7c47ba4a248dd3a4ce01487f47337451cd7e313f",
+      "sha256": "88d8ea8e32b7494fece3df94fd42e7686a07be3e6317bcc5d6b66f52844f2903"
+    },
+    {
+      "path": "src/styles/refinement.css",
+      "unchangedFromBase": true,
+      "baseBlob": "e0be4a2da13428abc8e4b95753aed815abffb8be",
+      "sha256": "020d7378320c1929fb4eb84e1c3fbce28117189dfb3b7302faa1b59757dcdadb"
+    },
+    {
+      "path": "public/images/nexo-threshold.webp",
+      "unchangedFromBase": true,
+      "baseBlob": "4923c6dddc6992810550c823cd1360a1994441ee",
+      "sha256": "22b72be8a5a44ee5f8a51e331b7c9185682ec5e73e5388580bb5bf5b69a56f91"
+    },
+    {
+      "path": "public/images/nexo-wordmark.webp",
+      "unchangedFromBase": true,
+      "baseBlob": "4227c2ad32cd310267a7eed25aa3ebeed25416f1",
+      "sha256": "8892677ab8f142028d104bac80922a0fef8f0d473d3ea6163d3380cf6603ed0e"
+    },
+    {
+      "path": "package.json",
+      "unchangedFromBase": true,
+      "baseBlob": "8e9ef0e2ffd98a92c121fd14c70ec2678da1f355",
+      "sha256": "5c4cd9a356f91c9f7247e6a03e298b7191608b10479e57a84c04bf129343788c"
+    },
+    {
+      "path": "package-lock.json",
+      "unchangedFromBase": true,
+      "baseBlob": "43a5110dd11b8c6029bf87ae60ed87e976eea60a",
+      "sha256": "b71e85e7d6671586bf423dbc8a971c5c8a572f311eb535097f5f3cf462f03712"
+    },
+    {
+      "path": "tests/e2e/site.spec.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "423fb32d1ae11e3b69fdc7e8b1168522bf24018e",
+      "sha256": "c390f3c44fe31c835a0cfa0282315edf2d84ca630c77cc034d03029da3eeefef"
+    },
+    {
+      "path": "tests/e2e/home-proposal.spec.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "d2b64ffdfc0f8bb8e7ae2a15390a26249c72f631",
+      "sha256": "da490a611e39f5cfbfa41119b3cfa315ae0da7dd128a97bfcc0b3d9847807668"
+    },
+    {
+      "path": "tests/e2e/home-refinement.spec.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "d6277f45972375820842617cd81a6274f3c2f7a1",
+      "sha256": "b260e468a6d93ea7bb1dd832eb79ac8c6e22a7c43354248df11f6a34fefd3411"
+    },
+    {
+      "path": "playwright.config.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "c0dfa43405abc894e1c1255a884842744e766175",
+      "sha256": "3e09092d15eee9eaa4cd18d7f713ad7de438effb0ecaa163e0176822430a63c1"
+    }
+  ],
+  "contrast": [
+    {
+      "role": "Texto principal",
+      "foreground": "#eef4ff",
+      "background": "#070e1c",
+      "ratio": 17.471428624174195,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Texto secundario",
+      "foreground": "#a9bad0",
+      "background": "#070e1c",
+      "ratio": 9.756759659133921,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Texto secundario sobre panel",
+      "foreground": "#a9bad0",
+      "background": "#0d1a2c",
+      "ratio": 8.842007008018458,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Botón primario",
+      "foreground": "#ffffff",
+      "background": "#2164e8",
+      "ratio": 5.181635771907412,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Errores del formulario",
+      "foreground": "#f97b87",
+      "background": "#0d1a2c",
+      "ratio": 6.835420086091591,
+      "minimum": 4.5,
+      "pass": true
+    },
+    {
+      "role": "Borde de control / fondo interior",
+      "foreground": "#587493",
+      "background": "#070e1c",
+      "ratio": 3.9815774548506027,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "Borde de control / panel",
+      "foreground": "#587493",
+      "background": "#0d1a2c",
+      "ratio": 3.6082815390250556,
+      "minimum": 3,
+      "pass": true
+    },
+    {
+      "role": "Foco / fondo",
+      "foreground": "#83cfff",
+      "background": "#070e1c",
+      "ratio": 11.330140244479713,
+      "minimum": 3,
+      "pass": true
+    }
+  ],
+  "imageAssets": [
+    {
+      "file": "nexo-threshold.webp",
+      "bytes": 105014
+    },
+    {
+      "file": "nexo-wordmark.webp",
+      "bytes": 20850
+    }
+  ],
+  "note": "Token contrast supplements axe; the E2E contact scenario also checks actual rendered border contrast. This is not a full accessibility certification."
+}

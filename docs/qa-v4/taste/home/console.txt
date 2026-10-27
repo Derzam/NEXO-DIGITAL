@@ -1,0 +1,37 @@
+TASTESKILL · INSPECT   http://127.0.0.1:3120/
+
+MEASURED (first viewport listed)
+  hero headline   "Construye lo que sigue."  4 words · 2 line(s) · 97.9px (6.8vw) · Manrope 500 · tracking -0.065em · leading 1.03
+  @768px          2 line(s) · 58px
+  @390px          2 line(s) · 56px
+  typefaces       DM Sans 84%, Manrope 16%
+  sizes in use    13 / 14 / 15 / 16 / 17 / 18 / 19 / 20 / 25 / 28 / 43 / 44 / 56 / 98 px   body 18px / 1.63
+  colour          page #070c17 · sections #070e1c #0d1a2c #0a1423 #0b1728 #050b15 · button #2164e8
+  page            5.5 screens · 462 words · 4 images · hero media 86% img
+  headings        12 · longest 2 line(s) · median 4 words
+
+FAIL — fix every one of these
+  [still-page] @1440px  Only 1 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+  [icon-cards] @768px (+390)  1 row(s) of identical cards each topped with a small icon (3 cards).
+      → Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.
+
+WARN — fix, or be able to defend
+  [size-count] @1440px (+768, 390)  14 different font sizes (13, 14, 15, 16, 17, 18, 19, 20, 25, 28, 43, 44, 56, 98).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  docs/qa-v4/taste/home/desktop-fold.jpg
+                  docs/qa-v4/taste/home/desktop-page-01.jpg
+                  docs/qa-v4/taste/home/desktop-page-02.jpg
+  tablet 768px    docs/qa-v4/taste/home/tablet-fold.jpg
+                  docs/qa-v4/taste/home/tablet-page-01.jpg
+                  docs/qa-v4/taste/home/tablet-page-02.jpg
+  mobile 390px    docs/qa-v4/taste/home/mobile-fold.jpg
+                  docs/qa-v4/taste/home/mobile-page-01.jpg
+                  docs/qa-v4/taste/home/mobile-page-02.jpg
+
+report: docs/qa-v4/taste/home/report.json
+RESULT: 2 FAIL, 2 WARN — not done.

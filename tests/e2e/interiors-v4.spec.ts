@@ -49,6 +49,7 @@ test("contact inline errors are announced and native fields keep keyboard order"
   await page.getByRole("button", { name: "Preparar solicitud por WhatsApp" }).click();
   const name = page.getByLabel("Nombre completo");
   await expect(name).toBeFocused();
+  await expect.poll(() => page.locator('label[for="nombre"]').evaluate(label => label.getBoundingClientRect().top - document.querySelector("header")!.getBoundingClientRect().bottom)).toBeGreaterThanOrEqual(0);
   await expect(name).toHaveAttribute("aria-invalid", "true");
   await expect(name).toHaveAttribute("aria-describedby", "nombre-error");
   await expect(page.locator("#nombre-error")).toHaveAttribute("role", "alert");
@@ -59,8 +60,68 @@ test("contact inline errors are announced and native fields keep keyboard order"
   await expect(page.getByLabel("Correo electrónico")).toBeFocused();
   await page.keyboard.press("Tab");
   await expect(page.getByLabel("Servicio que necesitas")).toBeFocused();
+  const fieldContrast = await name.evaluate(element => {
+    const style = getComputedStyle(element);
+    const surrounding = getComputedStyle(element.closest(".interior-form-panel")!);
+    const luminance = (color: string) => {
+      const channels = color.match(/[\d.]+/g)!.slice(0, 3).map(Number).map(value => value / 255).map(value => value <= 0.04045 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4);
+      return channels[0] * 0.2126 + channels[1] * 0.7152 + channels[2] * 0.0722;
+    };
+    const border = luminance(style.borderTopColor);
+    return Math.min(...[style.backgroundColor, surrounding.backgroundColor].map(color => {
+      const background = luminance(color);
+      return (Math.max(border, background) + 0.05) / (Math.min(border, background) + 0.05);
+    }));
+  });
+  expect(fieldContrast).toBeGreaterThanOrEqual(3);
   const accessibility = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
   await testInfo.attach("accessibility", { body: JSON.stringify(accessibility.violations), contentType: "application/json" });
   expect(accessibility.violations).toEqual([]);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test("premium shell, current navigation, menu accessibility and 404 are consistent", async ({ page }, testInfo) => {
+  const mobile = testInfo.project.name !== "desktop-1440";
+  for (const [route, label, current] of [["/servicios/landing-pages", "Servicios", "location"], ["/soluciones", "Soluciones", "page"], ["/blog", "Blog", "page"], ["/contacto", "Contacto", "page"]]) {
+    await page.goto(route);
+    await expect(page.locator("header")).toHaveClass(/proposal-shell/);
+    await expect(page.locator("footer")).toHaveCount(1);
+    await expect(page.locator("header img")).toHaveAttribute("src", "/images/nexo-wordmark.webp");
+    if (mobile) await page.getByRole("button", { name: "Abrir menú", exact: true }).click();
+    const nav = page.getByRole("navigation", { name: mobile ? "Navegación móvil" : "Navegación principal", exact: true });
+    await expect(nav.getByRole("link", { name: label, exact: true })).toHaveAttribute("aria-current", current);
+    if (mobile) {
+      await page.keyboard.press("Escape");
+      await expect(page.getByRole("button", { name: "Abrir menú", exact: true })).toBeFocused();
+    }
+  }
+  if (mobile) await page.getByRole("button", { name: "Abrir menú", exact: true }).click();
+  const menuAxe = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
+  await testInfo.attach("accessibility-menu", { body: JSON.stringify(menuAxe.violations), contentType: "application/json" });
+  expect(menuAxe.violations).toEqual([]);
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  const response = await page.goto("/no-existe");
+  expect(response?.status()).toBe(404);
+  await expect(page.locator("header")).toHaveClass(/proposal-shell/);
+  await expect(page.locator("footer")).toHaveClass(/proposal-shell/);
+  const notFoundAxe = await new AxeBuilder({ page }).withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"]).analyze();
+  await testInfo.attach("accessibility-404", { body: JSON.stringify(notFoundAxe.violations), contentType: "application/json" });
+  expect(notFoundAxe.violations).toEqual([]);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.getByRole("link", { name: "Volver al inicio" }).focus();
+  await page.keyboard.press("Enter");
+  await expect(page).toHaveURL("/");
+});
+
+test("all nine services retain exact quotations and catalog discovery", async ({ page }) => {
+  const services = [["landing-pages", "Landing pages"], ["sitios-corporativos", "Sitios web corporativos"], ["sistemas-web", "Sistemas web a medida"], ["aplicaciones-moviles", "Aplicaciones móviles"], ["inteligencia-artificial", "Inteligencia artificial"], ["automatizacion", "Automatización con n8n"], ["auditoria-qa", "Auditoría y QA de software"], ["seo", "SEO y optimización"], ["integraciones", "APIs e integraciones"]];
+  for (const [slug, title] of services) {
+    await page.goto("/servicios/" + slug);
+    await expect(page.getByRole("heading", { level: 1 })).toHaveText(title);
+    const link = page.getByRole("link", { name: "Cotizar este servicio", exact: true });
+    const url = new URL((await link.getAttribute("href"))!);
+    expect(url.origin + url.pathname).toBe("https://wa.me/593984447960");
+    expect(url.searchParams.get("text")).toBe("Hola, quiero cotizar el servicio de " + title + " con Nexo Digital Studio.");
+    await expect(page.getByRole("link", { name: "Todos los servicios", exact: true })).toHaveAttribute("href", "/servicios");
+  }
 });

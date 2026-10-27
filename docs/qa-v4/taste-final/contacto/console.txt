@@ -1,0 +1,34 @@
+TASTESKILL · INSPECT   http://127.0.0.1:3120/contacto
+
+MEASURED (first viewport listed)
+  hero headline   "Conectemos tu idea."  3 words · 1 line(s) · 66px (4.6vw) · Manrope 500 · tracking -0.05em · leading 1.09
+  @768px          1 line(s) · 36px
+  @390px          1 line(s) · 36px
+  typefaces       DM Sans 95%, Manrope 5%
+  sizes in use    13 / 14 / 15 / 16 / 17 / 18 / 19 / 30 / 66 px   body 16px / 1.65
+  colour          page #070c17 · sections #070e1c #0d1a2c #050b15 · button #2164e8
+  page            1.7 screens · 237 words · 2 images · hero media none
+  headings        3 · longest 1 line(s) · median 5 words
+
+FAIL — fix every one of these
+  [few-pictures] @1440px  Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.
+      → Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve.
+  [still-page] @1440px  Only 0 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+
+WARN — fix, or be able to defend
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [off-centre] @1440px  The margins differ: 80px on the left, 107px on the right, at 1440px.
+      → Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  docs/qa-v4/taste-final/contacto/desktop-fold.jpg
+                  docs/qa-v4/taste-final/contacto/desktop-page-01.jpg
+  tablet 768px    docs/qa-v4/taste-final/contacto/tablet-fold.jpg
+                  docs/qa-v4/taste-final/contacto/tablet-page-01.jpg
+  mobile 390px    docs/qa-v4/taste-final/contacto/mobile-fold.jpg
+                  docs/qa-v4/taste-final/contacto/mobile-page-01.jpg
+
+report: docs/qa-v4/taste-final/contacto/report.json
+RESULT: 2 FAIL, 2 WARN — not done.

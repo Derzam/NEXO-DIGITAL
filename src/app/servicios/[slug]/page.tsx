@@ -54,7 +54,7 @@ export default async function ServiceDetail({ params }: Props) {
       <section className="interior-section">
         <div className="proposal-container">
           <div className="interior-heading-row"><h2>Más conexiones.</h2><Button asChild variant="ghost" className="tw:h-12 tw:text-[16px]"><Link href="/servicios">Todos los servicios <ArrowRight size={18} aria-hidden="true" /></Link></Button></div>
-          <div className="interior-related-grid">{related.map(s => <ServiceTile key={s.slug} service={s} />)}</div>
+          <div className="interior-related-grid">{related.map(s => <ServiceTile key={s.slug} service={s} editorial />)}</div>
         </div>
       </section>
       <InteriorCta />

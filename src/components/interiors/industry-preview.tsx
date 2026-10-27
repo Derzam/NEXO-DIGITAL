@@ -20,7 +20,7 @@ export function IndustryPreview({ index }: { index: number }) {
           <div className="industry-specimen-rows">{example.rows.map((row, i) => <div key={row}>{i === 0 ? <Check size={18} /> : <Circle size={18} />}<span>{row}</span><ArrowRight size={17} /></div>)}</div>
         </div>
       </div>
-      <figcaption className="interior-note">Concepto de interfaz. Ejemplo de un posible recorrido, sujeto al alcance de cada proyecto.</figcaption>
+      <figcaption className="interior-note">Concepto de interfaz. Datos de ejemplo.</figcaption>
     </figure>
   );
 }
