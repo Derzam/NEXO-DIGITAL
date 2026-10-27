@@ -1,6 +1,29 @@
 import type { Metadata } from "next";
-import { CheckCircle2, Compass, HeartHandshake, Layers3 } from "lucide-react";
-import { CtaBand, PageIntro, SectionHeading } from "@/components/ui";
-import { processSteps } from "@/lib/content";
+import { InteriorCta, InteriorIntro, InteriorShell } from "@/components/interiors/shell";
+import { Methodology } from "@/components/proposal/interactions";
 export const metadata:Metadata={alternates:{canonical:"/nosotros"},title:"Nosotros",description:"Conoce el enfoque de trabajo, visión y metodología de Nexo Digital Studio."};
-export default function AboutPage(){return <><PageIntro title="Visión e ingeniería." text="Somos un estudio digital enfocado en diseñar soluciones útiles, comprensibles y sostenibles para negocios, equipos y emprendedores."/><section className="section section-soft"><div className="container industry-grid"><div className="mini-card"><Compass size={30}/><h3>Propósito</h3><p>Acercar el desarrollo de software profesional a quienes buscan transformar una idea en una herramienta real.</p></div><div className="mini-card"><Layers3 size={30}/><h3>Enfoque</h3><p>Comprender el problema antes de escribir código, definir un alcance claro y construir de manera incremental.</p></div><div className="mini-card"><HeartHandshake size={30}/><h3>Compromiso</h3><p>Comunicación transparente, decisiones técnicas justificadas y validación de cada entrega.</p></div></div></section><section className="section"><div className="container"><SectionHeading title="Cada decisión cuenta.">Cada etapa tiene objetivos, revisiones y entregables acordados.</SectionHeading><div className="process-grid">{processSteps.map(step=><div className="process-item" key={step.title}><CheckCircle2 size={24} aria-hidden="true"/><h3>{step.title}</h3><p>{step.text}</p></div>)}</div></div></section><CtaBand/></>}
+export default function AboutPage() {
+  return <InteriorShell>
+    <InteriorIntro title="Visión e ingeniería." text="Somos un estudio digital enfocado en diseñar soluciones útiles, comprensibles y sostenibles para negocios, equipos y emprendedores." />
+    <section className="interior-section interior-section-soft">
+      <div className="proposal-container interior-editorial-grid">
+        <h2>Propósito</h2>
+        <p className="interior-statement">Acercar el desarrollo de software profesional a quienes buscan transformar una idea en una herramienta real.</p>
+      </div>
+    </section>
+    <section className="interior-section">
+      <div className="proposal-container interior-about-grid">
+        <div className="interior-principles">
+          <div><h2>Enfoque</h2><p className="interior-body tw:mt-5">Comprender el problema antes de escribir código, definir un alcance claro y construir de manera incremental.</p></div>
+          <div><h2>Compromiso</h2><p className="interior-body tw:mt-5">Comunicación transparente, decisiones técnicas justificadas y validación de cada entrega.</p></div>
+        </div>
+        <div className="interior-method">
+          <h2>Cada decisión cuenta.</h2>
+          <p className="interior-body tw:mt-5 tw:mb-6">Cada etapa tiene objetivos, revisiones y entregables acordados.</p>
+          <Methodology />
+        </div>
+      </div>
+    </section>
+    <InteriorCta />
+  </InteriorShell>;
+}

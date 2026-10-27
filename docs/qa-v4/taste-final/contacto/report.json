@@ -1,0 +1,1303 @@
+{
+ "url": "http://127.0.0.1:3120/contacto",
+ "at": "2026-10-27T02:22:49.038Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.93,
+    0.93
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 1559,
+     "screens": 1.7,
+     "words": 237,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Conectemos tu idea.",
+     "words": 3,
+     "chars": 19,
+     "lines": 1,
+     "size": 66,
+     "vw": 4.6,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 1.09,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.59,
+     "top": 160,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Conectemos tu idea.",
+     "words": 3,
+     "lines": 1,
+     "size": 66,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Conectemos tu idea.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 66,
+      "vw": 4.6,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.09,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.59,
+      "top": 160,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "De la idea al plan.",
+      "words": 5,
+      "chars": 19,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.31,
+      "top": 385,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuéntanos qué necesitas.",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 421,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      30,
+      66
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.8
+     },
+     "measureChars": 82,
+     "max": {
+      "size": 66,
+      "vw": 4.6,
+      "font": "Manrope",
+      "text": "Conectemos tu idea."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 88,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0d1a2c",
+       "top": 385,
+       "hsl": {
+        "h": 215,
+        "s": 0.54,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 1228,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.73
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.21
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.04
+      },
+      {
+       "color": "#070c17",
+       "share": 0.02
+      },
+      {
+       "color": "#b7e1ff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#2164e8",
+      "hsl": {
+       "h": 220,
+       "s": 0.81,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Cotizar proyecto"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 9,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "dm sans fallback",
+     "manrope",
+     "manrope fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 1559,
+    "margins": {
+     "left": 80,
+     "right": 107
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 88,
+      "height": 1140,
+      "words": 154,
+      "media": 0,
+      "middle": 100,
+      "heading": {
+       "text": "Conectemos tu idea.",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 107,
+      "textLeft": 80,
+      "textRight": 107,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 1228,
+      "height": 331,
+      "words": 35,
+      "media": 0,
+      "middle": 230,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Conectemos tu idea.",
+      "size": 66,
+      "top": 160,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 116,
+      "n": 3
+     },
+     {
+      "x": 80,
+      "n": 2
+     },
+     {
+      "x": 918,
+      "n": 2
+     },
+     {
+      "x": 942,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.12,
+    "voidBox": {
+     "x": 780,
+     "y": 120,
+     "w": 660,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 2,
+   "filled": [
+    0.96,
+    0.96
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 1953,
+     "screens": 1.9,
+     "words": 228,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Conectemos tu idea.",
+     "words": 3,
+     "chars": 19,
+     "lines": 1,
+     "size": 36,
+     "vw": 4.7,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 1.09,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 144,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Conectemos tu idea.",
+     "words": 3,
+     "lines": 1,
+     "size": 36,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Conectemos tu idea.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.09,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 144,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuéntanos qué necesitas.",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 356,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "De la idea al plan.",
+      "words": 5,
+      "chars": 19,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 1149,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      30,
+      36
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.8
+     },
+     "measureChars": 75,
+     "max": {
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "text": "Conectemos tu idea."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 88,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0d1a2c",
+       "top": 320,
+       "hsl": {
+        "h": 215,
+        "s": 0.54,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 1619,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.74
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.21
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#070c17",
+       "share": 0.02
+      },
+      {
+       "color": "#b7e1ff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f0f5ff",
+      "hsl": {
+       "h": 220,
+       "s": 1,
+       "l": 0.97
+      },
+      "fg": "#070c17"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 2,
+     "radius": 6,
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Preparar solicitud por WhatsApp"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "dm sans fallback",
+     "manrope",
+     "manrope fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 1953,
+    "margins": {
+     "left": 47,
+     "right": 47
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 88,
+      "height": 1531,
+      "words": 154,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Conectemos tu idea.",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 47,
+      "right": 58,
+      "textLeft": 47,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 1619,
+      "height": 333,
+      "words": 35,
+      "media": 0,
+      "middle": 48,
+      "heading": null,
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Conectemos tu idea.",
+      "size": 36,
+      "top": 144,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 4
+     },
+     {
+      "x": 83,
+      "n": 3
+     },
+     {
+      "x": 71,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 2734,
+     "screens": 3.2,
+     "words": 228,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 9,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Conectemos tu idea.",
+     "words": 3,
+     "chars": 19,
+     "lines": 1,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 1.09,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 118,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Conectemos tu idea.",
+     "words": 3,
+     "lines": 1,
+     "size": 36,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Conectemos tu idea.",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.09,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 118,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuéntanos qué necesitas.",
+      "words": 3,
+      "chars": 24,
+      "lines": 1,
+      "size": 27,
+      "vw": 6.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 362,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "De la idea al plan.",
+      "words": 5,
+      "chars": 19,
+      "lines": 1,
+      "size": 27,
+      "vw": 6.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1441,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      27,
+      36
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.8
+     },
+     "measureChars": 38,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "text": "Conectemos tu idea."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 76,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0d1a2c",
+       "top": 336,
+       "hsl": {
+        "h": 215,
+        "s": 0.54,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 2023,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.74
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.21
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#070c17",
+       "share": 0.02
+      },
+      {
+       "color": "#b7e1ff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f0f5ff",
+      "hsl": {
+       "h": 220,
+       "s": 1,
+       "l": 0.97
+      },
+      "fg": "#070c17"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 6,
+     "height": 50,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 3,
+     "boxRadius": 12,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope",
+     "manrope fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 2734,
+    "margins": {
+     "left": 20,
+     "right": 26
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 76,
+      "height": 1947,
+      "words": 154,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Conectemos tu idea.",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 26,
+      "textLeft": 20,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 2023,
+      "height": 711,
+      "words": 35,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 65,
+      "textLeft": 20,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Conectemos tu idea.",
+      "size": 36,
+      "top": 118,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 4
+     },
+     {
+      "x": 42,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 8,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 80px on the left, 107px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste-final\\contacto\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste-final\\contacto\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste-final\\contacto\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste-final\\contacto\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste-final\\contacto\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste-final\\contacto\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

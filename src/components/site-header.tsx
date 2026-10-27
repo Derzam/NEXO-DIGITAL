@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { isPremiumRoute } from "@/lib/premium-routes";
 import { usePathname } from "next/navigation";
 import { useRef, useState } from "react";
 import { ArrowUpRight, Menu, MessageCircle, X } from "lucide-react";
@@ -9,7 +10,7 @@ import { whatsappUrl } from "@/lib/content";
 const links = [{ href: "/", label: "Inicio" },{href:"/servicios",label:"Servicios"},{href:"/soluciones",label:"Soluciones"},{href:"/portafolio",label:"Portafolio"},{href:"/nosotros",label:"Nosotros"},{href:"/blog",label:"Blog"},{href:"/contacto",label:"Contacto"}];
 export function Logo(){return <Link className="logo" href="/" title="Nexo Digital Studio — inicio"><NexoMark className="logo-mark"/><span>Nexo Digital<small>Studio</small></span></Link>}
 const ProposalHeader=dynamic(()=>import("@/components/proposal/header").then(module=>module.ProposalHeader));
-export function SiteHeader(){const path=usePathname();return path==="/"?<ProposalHeader/>:<LegacySiteHeader/>}
+export function SiteHeader(){const path=usePathname();return isPremiumRoute(path)?<ProposalHeader/>:<LegacySiteHeader/>}
 function LegacySiteHeader(){
  const menuButton=useRef<HTMLButtonElement>(null);
  const [opened,setOpened]=useState(false);const path=usePathname();

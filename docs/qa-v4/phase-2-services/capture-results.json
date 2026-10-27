@@ -1,0 +1,65 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 390,
+    "status": 200,
+    "height": 4978,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 390,
+    "status": 200,
+    "height": 4416,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 768,
+    "status": 200,
+    "height": 3697,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 768,
+    "status": 200,
+    "height": 3428,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 1440,
+    "status": 200,
+    "height": 3002,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 1440,
+    "status": 200,
+    "height": 2666,
+    "overflow": false
+  }
+]

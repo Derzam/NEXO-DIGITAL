@@ -1,0 +1,261 @@
+{
+ "files": 44,
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/app/globals.css",
+   "line": 327,
+   "match": "box-shadow:",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/app/globals.css",
+   "line": 334,
+   "match": "radial-gradient(",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/app/globals.css",
+   "line": 1460,
+   "match": "box-shadow:",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "file": "src/components/proposal/interactions.tsx",
+   "line": 186,
+   "match": "border",
+   "message": "A 1px outlined box. Prefer a filled surface or no box."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "file": "src/components/proposal/product-previews.tsx",
+   "line": 47,
+   "match": "className=\"screen-kicker",
+   "message": "Eyebrow / kicker label above a heading."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "file": "src/components/proposal/product-previews.tsx",
+   "line": 199,
+   "match": "className=\"screen-kicker",
+   "message": "Eyebrow / kicker label above a heading."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/components/shadcn/accordion.tsx",
+   "line": 21,
+   "match": "border-b",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "WARN",
+   "id": "transition-all",
+   "file": "src/components/shadcn/accordion.tsx",
+   "line": 37,
+   "match": "transition-all",
+   "message": "transition: all. Name the properties (transform, opacity)."
+  },
+  {
+   "level": "WARN",
+   "id": "transition-all",
+   "file": "src/components/shadcn/button.tsx",
+   "line": 7,
+   "match": "transition-all",
+   "message": "transition: all. Name the properties (transform, opacity)."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/components/shadcn/card.tsx",
+   "line": 22,
+   "match": "border-b",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/components/shadcn/card.tsx",
+   "line": 78,
+   "match": "border-t",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "WARN",
+   "id": "outlined-box",
+   "file": "src/components/shadcn/input.tsx",
+   "line": 5,
+   "match": "border",
+   "message": "A 1px outlined box. Prefer a filled surface or no box."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/components/shadcn/navigation-menu.tsx",
+   "line": 92,
+   "match": "from-right-52",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/components/shadcn/navigation-menu.tsx",
+   "line": 93,
+   "match": "shadow",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/components/shadcn/navigation-menu.tsx",
+   "line": 114,
+   "match": "shadow",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "WARN",
+   "id": "transition-all",
+   "file": "src/components/shadcn/navigation-menu.tsx",
+   "line": 131,
+   "match": "transition-all",
+   "message": "transition: all. Name the properties (transform, opacity)."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/components/shadcn/navigation-menu.tsx",
+   "line": 152,
+   "match": "shadow-md",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/components/shadcn/sheet.tsx",
+   "line": 62,
+   "match": "shadow-lg",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/components/shadcn/sheet.tsx",
+   "line": 64,
+   "match": "border-l",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/components/shadcn/sheet.tsx",
+   "line": 66,
+   "match": "border-r",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/components/shadcn/sheet.tsx",
+   "line": 68,
+   "match": "border-b",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/components/shadcn/sheet.tsx",
+   "line": 70,
+   "match": "border-t",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "WARN",
+   "id": "transition-all",
+   "file": "src/components/shadcn/tabs.tsx",
+   "line": 66,
+   "match": "transition-all",
+   "message": "transition: all. Name the properties (transform, opacity)."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/styles/app.css",
+   "line": 91,
+   "match": "linear-gradient(",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/styles/app.css",
+   "line": 92,
+   "match": "linear-gradient(",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/styles/app.css",
+   "line": 100,
+   "match": "linear-gradient(",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/styles/app.css",
+   "line": 193,
+   "match": "box-shadow:",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/styles/app.css",
+   "line": 258,
+   "match": "linear-gradient(",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "file": "src/styles/interiors.css",
+   "line": 86,
+   "match": "box-shadow:",
+   "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "file": "src/styles/interiors.css",
+   "line": 131,
+   "match": "border-bottom: 1px",
+   "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/styles/refinement.css",
+   "line": 405,
+   "match": "linear-gradient(",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "file": "src/styles/refinement.css",
+   "line": 529,
+   "match": "linear-gradient(",
+   "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+  }
+ ]
+}

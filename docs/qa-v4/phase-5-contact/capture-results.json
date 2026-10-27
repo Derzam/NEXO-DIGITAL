@@ -1,0 +1,44 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false
+  },
+  {
+    "route": "/contacto",
+    "width": 390,
+    "status": 200,
+    "height": 2827,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false
+  },
+  {
+    "route": "/contacto",
+    "width": 768,
+    "status": 200,
+    "height": 1916,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false
+  },
+  {
+    "route": "/contacto",
+    "width": 1440,
+    "status": 200,
+    "height": 1549,
+    "overflow": false
+  }
+]

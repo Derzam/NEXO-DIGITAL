@@ -1,0 +1,2053 @@
+{
+ "url": "http://127.0.0.1:3120/",
+ "at": "2026-10-27T01:30:57.108Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.93,
+    0.93,
+    0.93,
+    0.89,
+    0.83,
+    0.93
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 1,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4957,
+     "screens": 5.5,
+     "words": 462,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 39,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "nexo-threshold.webp",
+      "nexo-threshold.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Construye lo que sigue.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 97.9,
+     "vw": 6.8,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.065,
+     "leading": 1.03,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 218,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Construye lo que sigue.",
+     "words": 4,
+     "lines": 2,
+     "size": 97.9,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Construye lo que sigue.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 97.9,
+      "vw": 6.8,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.065,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 218,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que imaginas. Lo que hacemos.",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 966,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "De la pantalla a la acción.",
+      "words": 6,
+      "chars": 27,
+      "lines": 1,
+      "size": 28,
+      "vw": 1.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.2,
+      "top": 1223,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu marca merece su lugar.",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 43.2,
+      "vw": 3,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 1235,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu negocio, bien conectado.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 28,
+      "vw": 1.9,
+      "font": "DM Sans",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 1501,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Del reto a la experiencia.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 2088,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Todo empieza por entender.",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 32,
+      "vw": 2.2,
+      "font": "DM Sans",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.36,
+      "top": 2156,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu negocio, en foco.",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 2707,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Del catálogo al pedido.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.32,
+      "top": 2783,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Un camino claro.",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 3221,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de empezar.",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 3705,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que sigue empieza aquí.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 56,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 4169,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      28,
+      43,
+      44,
+      56,
+      98
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.8
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 97.9,
+      "vw": 6.8,
+      "font": "Manrope",
+      "text": "Construyelo que sigue."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 88,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0d1a2c",
+       "top": 1195,
+       "hsl": {
+        "h": 215,
+        "s": 0.54,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#0a1423",
+       "top": 1963,
+       "hsl": {
+        "h": 216,
+        "s": 0.56,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#0b1728",
+       "top": 4089,
+       "hsl": {
+        "h": 215,
+        "s": 0.57,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 4625,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.42
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.19
+      },
+      {
+       "color": "#a9bed6",
+       "share": 0.04
+      },
+      {
+       "color": "#c7d7e9",
+       "share": 0.03
+      },
+      {
+       "color": "#c4d6ea",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2164e8",
+      "hsl": {
+       "h": 220,
+       "s": 0.81,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Cotizar proyecto",
+      "Explorar servicios"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 16,
+     "squareMedia": 1,
+     "roundedMedia": 1,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.86
+     }
+    ],
+    "nav": {
+     "links": 9,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4957,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 88,
+      "height": 4537,
+      "words": 425,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Construye",
+       "size": 98,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 98,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 4625,
+      "height": 331,
+      "words": 35,
+      "media": 0,
+      "middle": 230,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Construye lo que sigue.",
+      "size": 98,
+      "top": 218,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 17
+     },
+     {
+      "x": 642,
+      "n": 11
+     },
+     {
+      "x": 136,
+      "n": 3
+     },
+     {
+      "x": 554,
+      "n": 3
+     },
+     {
+      "x": 120,
+      "n": 2
+     },
+     {
+      "x": 866,
+      "n": 2
+     },
+     {
+      "x": 826,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 39,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.96,
+    0.96,
+    0.96,
+    0.88,
+    0.95,
+    0.76,
+    0.92
+   ],
+   "motion": {
+    "elements": 2,
+    "css": 2,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6363,
+     "screens": 6.2,
+     "words": 453,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 39,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "nexo-threshold.webp",
+      "nexo-threshold.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Construye lo que sigue.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 58,
+     "vw": 7.6,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.065,
+     "leading": 1.03,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.87,
+     "top": 218,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Construye lo que sigue.",
+     "words": 4,
+     "lines": 2,
+     "size": 58,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Construye lo que sigue.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 58,
+      "vw": 7.6,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.065,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 218,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que imaginas. Lo que hacemos.",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.49,
+      "top": 957,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu marca merece su lugar.",
+      "words": 5,
+      "chars": 25,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 1182,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu negocio, bien conectado.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 28,
+      "vw": 3.6,
+      "font": "DM Sans",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.57,
+      "top": 1432,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "De la pantalla a la acción.",
+      "words": 6,
+      "chars": 27,
+      "lines": 1,
+      "size": 28,
+      "vw": 3.6,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 1731,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Del reto a la experiencia.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 2527,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Todo empieza por entender.",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "DM Sans",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.58,
+      "top": 3034,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu negocio, en foco.",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 3553,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Del catálogo al pedido.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 3892,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Un camino claro.",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 4270,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de empezar.",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 4999,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que sigue empieza aquí.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 5634,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      25,
+      28,
+      30,
+      32,
+      36,
+      58
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 9.8
+     },
+     "measureChars": 54,
+     "max": {
+      "size": 58,
+      "vw": 7.6,
+      "font": "Manrope",
+      "text": "Construyelo que sigue."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 88,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0d1a2c",
+       "top": 1142,
+       "hsl": {
+        "h": 215,
+        "s": 0.54,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#0a1423",
+       "top": 2455,
+       "hsl": {
+        "h": 216,
+        "s": 0.56,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#14283e",
+       "top": 2929,
+       "hsl": {
+        "h": 211,
+        "s": 0.51,
+        "l": 0.16
+       }
+      },
+      {
+       "color": "#0b1728",
+       "top": 5554,
+       "hsl": {
+        "h": 215,
+        "s": 0.57,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 6030,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.42
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.19
+      },
+      {
+       "color": "#a9bed6",
+       "share": 0.04
+      },
+      {
+       "color": "#c7d7e9",
+       "share": 0.03
+      },
+      {
+       "color": "#c4d6ea",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2164e8",
+      "hsl": {
+       "h": 220,
+       "s": 0.81,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Explorar servicios"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 16,
+     "squareMedia": 1,
+     "roundedMedia": 1,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1142
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.74
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "dm sans fallback",
+     "manrope",
+     "manrope fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6363,
+    "margins": {
+     "left": 47,
+     "right": 47
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 88,
+      "height": 5942,
+      "words": 425,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Construye",
+       "size": 58,
+       "tag": "h1"
+      },
+      "left": 15,
+      "right": 15,
+      "textLeft": 47,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 6030,
+      "height": 333,
+      "words": 35,
+      "media": 0,
+      "middle": 48,
+      "heading": null,
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Construye lo que sigue.",
+      "size": 58,
+      "top": 218,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 47,
+      "n": 31
+     },
+     {
+      "x": 103,
+      "n": 3
+     },
+     {
+      "x": 75,
+      "n": 2
+     },
+     {
+      "x": 87,
+      "n": 2
+     },
+     {
+      "x": 445,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 39,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 9,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    0.93,
+    0.81,
+    0.77,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 2,
+    "css": 2,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 7130,
+     "screens": 8.4,
+     "words": 435,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 39,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 3,
+     "uiAbuse": false,
+     "realPictures": 2,
+     "videoCount": 0,
+     "uiPictures": 2,
+     "pictureSamples": [
+      "nexo-threshold.webp",
+      "nexo-threshold.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Construye lo que sigue.",
+     "words": 4,
+     "chars": 23,
+     "lines": 2,
+     "size": 56,
+     "vw": 14.4,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.065,
+     "leading": 1.03,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 150,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Construye lo que sigue.",
+     "words": 4,
+     "lines": 2,
+     "size": 56,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Construye lo que sigue.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 56,
+      "vw": 14.4,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.065,
+      "leading": 1.03,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 150,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que imaginas. Lo que hacemos.",
+      "words": 6,
+      "chars": 32,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1032,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu marca merece su lugar.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 1360,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu negocio, bien conectado.",
+      "words": 4,
+      "chars": 27,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "DM Sans",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.67,
+      "top": 1658,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "De la pantalla a la acción.",
+      "words": 6,
+      "chars": 27,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.64,
+      "top": 1954,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Una oferta. Un objetivo.",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 2350,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Del reto a la experiencia.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 2799,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Todo empieza por entender.",
+      "words": 4,
+      "chars": 26,
+      "lines": 2,
+      "size": 28,
+      "vw": 7.2,
+      "font": "DM Sans",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.78,
+      "top": 3326,
+      "tag": "h4",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu negocio, en foco.",
+      "words": 4,
+      "chars": 20,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3789,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Del catálogo al pedido.",
+      "words": 4,
+      "chars": 23,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4128,
+      "tag": "h3",
+      "kind": "heading"
+     },
+     {
+      "text": "Un camino claro.",
+      "words": 3,
+      "chars": 16,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4642,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Antes de empezar.",
+      "words": 3,
+      "chars": 17,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5365,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que sigue empieza aquí.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.73,
+      "top": 5978,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 13,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.83,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.17,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      25,
+      28,
+      30,
+      32,
+      36,
+      56
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.2
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 56,
+      "vw": 14.4,
+      "font": "Manrope",
+      "text": "Construyelo que sigue."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 76,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0d1a2c",
+       "top": 1328,
+       "hsl": {
+        "h": 215,
+        "s": 0.54,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#0a1423",
+       "top": 2743,
+       "hsl": {
+        "h": 216,
+        "s": 0.56,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#14283e",
+       "top": 3227,
+       "hsl": {
+        "h": 211,
+        "s": 0.51,
+        "l": 0.16
+       }
+      },
+      {
+       "color": "#0b1728",
+       "top": 5922,
+       "hsl": {
+        "h": 215,
+        "s": 0.57,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 6418,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.44
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.2
+      },
+      {
+       "color": "#a9bed6",
+       "share": 0.04
+      },
+      {
+       "color": "#c7d7e9",
+       "share": 0.03
+      },
+      {
+       "color": "#c4d6ea",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2164e8",
+      "hsl": {
+       "h": 220,
+       "s": 0.81,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 40,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Explorar servicios"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 8,
+     "boxRadius": 16,
+     "squareMedia": 1,
+     "roundedMedia": 1,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1328
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.91
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 7130,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 76,
+      "height": 6342,
+      "words": 407,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Construye",
+       "size": 56,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 26,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 6418,
+      "height": 711,
+      "words": 35,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 65,
+      "textLeft": 20,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Construye lo que sigue.",
+      "size": 56,
+      "top": 150,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 20,
+      "n": 32
+     },
+     {
+      "x": 48,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 39,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "14 different font sizes (13, 14, 15, 16, 17, 18, 19, 20, 25, 28, 43, 44, 56, 98).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 768,
+   "message": "1 row(s) of identical cards each topped with a small icon (3 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\desktop-page-01.jpg",
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\tablet-page-01.jpg",
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\mobile-page-01.jpg",
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\home\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

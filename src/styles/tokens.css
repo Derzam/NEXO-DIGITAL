@@ -1,0 +1,27 @@
+.proposal-shell,
+[data-slot="sheet-content"] {
+  --background: #070e1c;
+  --foreground: #eef4ff;
+  --card: #0d1a2c;
+  --card-foreground: #eef4ff;
+  --popover: #0c182a;
+  --popover-foreground: #eef4ff;
+  --primary: #2164e8;
+  --primary-foreground: #ffffff;
+  --secondary: #14253d;
+  --secondary-foreground: #e8f1ff;
+  --muted: #111e31;
+  --muted-foreground: #a9bad0;
+  --accent: #182e4b;
+  --accent-foreground: #f1f7ff;
+  --destructive: #f97b87;
+  --border: #273a54;
+  --input: #344c68;
+  --nexo-control-border: #587493;
+  --ring: #83cfff;
+  --radius: 0.75rem;
+  --nexo-font-display: var(--font-manrope);
+  --nexo-font-text: var(--font-dm-sans);
+  --nexo-radius-panel: 16px;
+  --nexo-section-space: 88px;
+}

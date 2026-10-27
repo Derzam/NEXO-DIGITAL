@@ -1,0 +1,40 @@
+TASTESKILL · INSPECT   http://127.0.0.1:3120/nosotros
+
+MEASURED (first viewport listed)
+  hero headline   "Visión e ingeniería."  3 words · 1 line(s) · 66px (4.6vw) · Manrope 500 · tracking -0.05em · leading 1.09
+  @768px          1 line(s) · 36px
+  @390px          1 line(s) · 36px
+  typefaces       DM Sans 77%, Manrope 23%
+  sizes in use    13 / 14 / 15 / 16 / 17 / 18 / 19 / 20 / 32 / 36 / 38 / 48 / 66 px   body 18px / 1.7
+  colour          page #070c17 · sections #070e1c #0a1423 #0b1728 #050b15 · button #2164e8
+  page            2.7 screens · 163 words · 3 images · hero media none
+  headings        7 · longest 4 line(s) · median 3 words
+
+FAIL — fix every one of these
+  [headline-lines] @1440px  1 headline(s) wrap past two lines at 1440px: "Acercar el desarrollo de software profesional a " → 4 lines (16 words, 38px, a paragraph set above 36px)
+      → Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less.
+  [few-pictures] @1440px  Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.
+      → Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve.
+  [still-page] @1440px  Only 1 element(s) moved while the page loaded and scrolled.
+      → Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback.
+  [headline-lines] @390px  1 headline(s) wrap past two lines at 390px: "Acercar el desarrollo de software profesional a " → 4 lines (16 words, 26px, a paragraph set above 24px)
+      → Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less.
+
+WARN — fix, or be able to defend
+  [size-count] @1440px (+768, 390)  13 different font sizes (13, 14, 15, 16, 17, 18, 19, 20, 32, 36, 38, 48, 66).
+      → A page needs about five: display, heading, lead, body, small.
+  [no-footage] @1440px  No video anywhere on the page.
+      → Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject.
+  [statement-length] @768px  1 large-set statement(s) run past 3 lines at 768px: "Acercar el desarrollo de software profes…" → 4 lines at 26px
+      → A statement set large is about 30 words. Cut it, or set the rest as ordinary body text.
+
+LOOK AT THE RENDER — open these with your image viewer / Read tool before saying anything about quality:
+  desktop 1440px  docs/qa-v4/taste/nosotros/desktop-fold.jpg
+                  docs/qa-v4/taste/nosotros/desktop-page-01.jpg
+  tablet 768px    docs/qa-v4/taste/nosotros/tablet-fold.jpg
+                  docs/qa-v4/taste/nosotros/tablet-page-01.jpg
+  mobile 390px    docs/qa-v4/taste/nosotros/mobile-fold.jpg
+                  docs/qa-v4/taste/nosotros/mobile-page-01.jpg
+
+report: docs/qa-v4/taste/nosotros/report.json
+RESULT: 4 FAIL, 3 WARN — not done.

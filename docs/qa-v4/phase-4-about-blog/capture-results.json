@@ -1,0 +1,65 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false
+  },
+  {
+    "route": "/nosotros",
+    "width": 390,
+    "status": 200,
+    "height": 3324,
+    "overflow": false
+  },
+  {
+    "route": "/blog",
+    "width": 390,
+    "status": 200,
+    "height": 2112,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false
+  },
+  {
+    "route": "/nosotros",
+    "width": 768,
+    "status": 200,
+    "height": 2473,
+    "overflow": false
+  },
+  {
+    "route": "/blog",
+    "width": 768,
+    "status": 200,
+    "height": 1493,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false
+  },
+  {
+    "route": "/nosotros",
+    "width": 1440,
+    "status": 200,
+    "height": 2403,
+    "overflow": false
+  },
+  {
+    "route": "/blog",
+    "width": 1440,
+    "status": 200,
+    "height": 1464,
+    "overflow": false
+  }
+]

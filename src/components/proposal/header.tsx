@@ -1,6 +1,9 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { navigationCurrent } from "@/lib/premium-routes";
+import { cn } from "@/lib/utils";
 import { ArrowUpRight, Menu, MessageCircle, X } from "lucide-react";
 import { Button } from "@/components/shadcn/button";
 import {
@@ -41,6 +44,7 @@ export function ProposalBrand() {
 }
 export function ProposalHeader() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
   return (
     <header
       data-proposal
@@ -58,12 +62,12 @@ export function ProposalHeader() {
               <NavigationMenuItem key={href}>
                 <NavigationMenuLink
                   asChild
-                  active={href === "/"}
-                  className="tw:rounded-md tw:px-3 tw:py-3 tw:text-[14px] tw:text-muted-foreground tw:transition-colors tw:hover:bg-transparent tw:hover:text-foreground tw:focus:bg-transparent tw:data-[active=true]:bg-transparent tw:data-[active=true]:text-foreground"
+                  active={!!navigationCurrent(pathname, href)}
+                  className={cn("tw:rounded-md tw:px-3 tw:py-3 tw:text-[14px] tw:text-muted-foreground tw:transition-colors tw:hover:bg-transparent tw:hover:text-foreground tw:focus:bg-transparent tw:data-[active=true]:bg-transparent tw:data-[active=true]:text-foreground", pathname !== "/" && navigationCurrent(pathname, href) && "tw:text-foreground")}
                 >
                   <Link
                     href={href}
-                    aria-current={href === "/" ? "page" : undefined}
+                    aria-current={navigationCurrent(pathname, href)}
                   >
                     {label}
                   </Link>
@@ -146,8 +150,8 @@ export function ProposalHeader() {
                   <SheetClose asChild key={href}>
                     <Link
                       href={href}
-                      aria-current={href === "/" ? "page" : undefined}
-                      className="tw:rounded-lg tw:px-3 tw:py-3 tw:text-[20px] tw:text-foreground tw:hover:bg-accent"
+                      aria-current={navigationCurrent(pathname, href)}
+                      className={cn("tw:rounded-lg tw:px-3 tw:py-3 tw:text-[20px] tw:text-foreground tw:hover:bg-accent", pathname !== "/" && navigationCurrent(pathname, href) && "tw:bg-accent")}
                     >
                       {label}
                     </Link>

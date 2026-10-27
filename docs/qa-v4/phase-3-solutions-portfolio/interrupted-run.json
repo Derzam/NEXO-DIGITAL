@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "startTime": "2026-10-26T23:31:06.208Z",
+    "duration": 4002979.664,
+    "expected": 86,
+    "skipped": 0,
+    "unexpected": 7,
+    "flaky": 0
+  },
+  "failures": [
+    {
+      "title": "service families support selection and keyboard",
+      "project": "desktop-1440",
+      "results": [
+        {
+          "duration": 1212570,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "FAQ exposes answers and collapses with keyboard",
+      "project": "desktop-1440",
+      "results": [
+        {
+          "duration": 1212660,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "portfolio area remains honest and links to the existing route",
+      "project": "desktop-1440",
+      "results": [
+        {
+          "duration": 1207800,
+          "error": {
+            "message": "\u001b[31mTearing down \"context\" exceeded the test timeout of 45000ms.\u001b[39m",
+            "stack": "\u001b[31mTearing down \"context\" exceeded the test timeout of 45000ms.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "404 pages and return home",
+      "project": "tablet-768",
+      "results": [
+        {
+          "duration": 7598,
+          "error": {
+            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7mhttp://127.0.0.1:3100\u001b[27m/\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mchrome-error://chromewebdata\u001b[27m/\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    13 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m       - unexpected value \"chrome-error://chromewebdata/\"\u001b[22m\n",
+            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"\u001b[7mhttp://127.0.0.1:3100\u001b[27m/\"\u001b[39m\nReceived: \u001b[31m\"\u001b[7mchrome-error://chromewebdata\u001b[27m/\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    13 × locator resolved to <html>…</html>\u001b[22m\n\u001b[2m       - unexpected value \"chrome-error://chromewebdata/\"\u001b[22m\n\n    at C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e\\site.spec.ts:143:24",
+            "location": {
+              "file": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\tests\\e2e\\site.spec.ts",
+              "column": 24,
+              "line": 143
+            },
+            "snippet": "  141 |     await expect(page.getByRole(\"heading\", { level: 1 })).toHaveText(\"Esta página no existe.\");\n  142 |     await page.getByRole(\"link\", { name: \"Volver al inicio\" }).click();\n> 143 |     await expect(page).toHaveURL(\"/\");\n      |                        ^\n  144 |   }\n  145 | });\n  146 |"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /",
+      "project": "desktop-1440",
+      "results": [
+        {
+          "duration": 2678673,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /servicios",
+      "project": "desktop-1440",
+      "results": [
+        {
+          "duration": 2673436,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    },
+    {
+      "title": "page, links, SEO, accessibility and overflow: /soluciones",
+      "project": "desktop-1440",
+      "results": [
+        {
+          "duration": 2672820,
+          "error": {
+            "message": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m",
+            "stack": "\u001b[31mTest timeout of 45000ms exceeded.\u001b[39m"
+          }
+        }
+      ]
+    }
+  ],
+  "note": "FAIL retained. Anomalous wall times (20–44 minutes per affected timeout, 45s configured limit) and one chrome-error navigation. Clean full rerun required before next phase."
+}

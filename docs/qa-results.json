@@ -1,28 +1,190 @@
 {
   "date": "2026-10-26",
-  "phase": "UI Premium V2",
-  "baselineSha": "08eb734fb29ce693f3002143f0230bb662720b0f",
-  "environment": {
-    "node": "24.14.0",
-    "npm": "11.9.0",
-    "next": "16.4.3",
-    "playwright": "1.64.1",
-    "axe": "4.14.0",
-    "browser": "Chromium"
+  "timezone": "America/Guayaquil",
+  "phase": "V4",
+  "branch": "codex/interiors-shadcn-migration",
+  "baselineSha": "881817b5e6a67cdda3d17807d95ff30c64a7ec22",
+  "draftPr": "https://github.com/Derzam/NEXO-DIGITAL/pull/2",
+  "publicationShaReference": "The final commit SHA is the PR head and is provided in the delivery; this report is versioned in that commit.",
+  "checks": {
+    "npmCi": "PASS after releasing verified SWC locks",
+    "lint": "PASS",
+    "typecheck": "PASS",
+    "build": "PASS",
+    "e2e": "PASS",
+    "metadata": "PASS",
+    "homePixels": "PASS",
+    "responsive": "PASS",
+    "tasteVisual": "FAIL",
+    "tasteSource": "FAIL"
   },
   "stats": {
-    "startTime": "2026-10-26T20:07:21.807Z",
-    "duration": 144469.919,
-    "expected": 75,
+    "startTime": "2026-10-27T02:18:08.723Z",
+    "duration": 161084.714,
+    "expected": 105,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
   },
-  "originalTestsPreserved": 72,
-  "addedMethodologyChecks": 3,
+  "originalScenarios": {
+    "count": 90,
+    "unchangedSourceFiles": true,
+    "selectorAdjustments": 0
+  },
+  "addedScenarios": 15,
   "tests": [
     {
       "project": "mobile-390",
+      "title": "cinematic hero keeps enough image resolution for portrait crops",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "service families support selection and keyboard",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "FAQ exposes answers and collapses with keyboard",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "portfolio area remains honest and links to the existing route",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "cinematic hero keeps enough image resolution for portrait crops",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "service families support selection and keyboard",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "FAQ exposes answers and collapses with keyboard",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "portfolio area remains honest and links to the existing route",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "cinematic hero keeps enough image resolution for portrait crops",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "service families support selection and keyboard",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "FAQ exposes answers and collapses with keyboard",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "portfolio area remains honest and links to the existing route",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "refined previews and solutions support pointer, keyboard and route discovery",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "refined previews and solutions support pointer, keyboard and route discovery",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "refined previews and solutions support pointer, keyboard and route discovery",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "industry quotations preserve all six specific contexts",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "about methodology supports keyboard and blog preserves its empty state",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "contact inline errors are announced and native fields keep keyboard order",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "premium shell, current navigation, menu accessibility and 404 are consistent",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
+      "title": "all nine services retain exact quotations and catalog discovery",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "industry quotations preserve all six specific contexts",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "about methodology supports keyboard and blog preserves its empty state",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "contact inline errors are announced and native fields keep keyboard order",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "premium shell, current navigation, menu accessibility and 404 are consistent",
+      "status": "expected"
+    },
+    {
+      "project": "tablet-768",
+      "title": "all nine services retain exact quotations and catalog discovery",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "industry quotations preserve all six specific contexts",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "about methodology supports keyboard and blog preserves its empty state",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "contact inline errors are announced and native fields keep keyboard order",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "premium shell, current navigation, menu accessibility and 404 are consistent",
+      "status": "expected"
+    },
+    {
+      "project": "desktop-1440",
+      "title": "all nine services retain exact quotations and catalog discovery",
+      "status": "expected"
+    },
+    {
+      "project": "mobile-390",
       "title": "page, links, SEO, accessibility and overflow: /",
       "status": "expected"
     },
@@ -397,351 +559,4156 @@
       "status": "expected"
     }
   ],
-  "performance": [
-    {
-      "project": "mobile-390",
-      "route": "/",
-      "lcp": 320,
-      "cls": 0,
-      "ttfb": 20.799999982118607,
-      "domContentLoaded": 375.90000000596046,
-      "jsBytes": 140016,
-      "resourceCount": 13,
-      "externalFonts": 0,
-      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
-    },
-    {
-      "project": "mobile-390",
-      "route": "/contacto",
-      "lcp": 332,
-      "cls": 0,
-      "ttfb": 12.100000023841858,
-      "domContentLoaded": 313.90000000596046,
-      "jsBytes": 141521,
-      "resourceCount": 12,
-      "externalFonts": 0,
-      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
-    },
-    {
-      "project": "tablet-768",
-      "route": "/",
-      "lcp": 296,
-      "cls": 0,
-      "ttfb": 8,
-      "domContentLoaded": 242.90000000596046,
-      "jsBytes": 140016,
-      "resourceCount": 17,
-      "externalFonts": 0,
-      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
-    },
-    {
-      "project": "tablet-768",
-      "route": "/contacto",
-      "lcp": 264,
-      "cls": 0,
-      "ttfb": 10.900000005960464,
-      "domContentLoaded": 229.19999998807907,
-      "jsBytes": 141521,
-      "resourceCount": 12,
-      "externalFonts": 0,
-      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
-    },
-    {
-      "project": "desktop-1440",
-      "route": "/",
-      "lcp": 308,
-      "cls": 0,
-      "ttfb": 6.100000023841858,
-      "domContentLoaded": 86,
-      "jsBytes": 141521,
-      "resourceCount": 24,
-      "externalFonts": 0,
-      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
-    },
-    {
-      "project": "desktop-1440",
-      "route": "/contacto",
-      "lcp": 268,
-      "cls": 0.00012796450014467592,
-      "ttfb": 15.800000011920929,
-      "domContentLoaded": 82.30000001192093,
-      "jsBytes": 141521,
-      "resourceCount": 24,
-      "externalFonts": 0,
-      "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
-    }
-  ],
-  "taste": {
-    "direction": "dark-room",
-    "seed": 1640262902,
-    "rulesDisabled": false,
-    "beforeFindings": [
+  "accessibility": {
+    "totalScans": 69,
+    "attachedScans": 60,
+    "inlineScans": 9,
+    "violations": 0,
+    "inlineAssertionTitles": [
+      "service families support selection and keyboard",
+      "FAQ exposes answers and collapses with keyboard",
+      "refined previews and solutions support pointer, keyboard and route discovery"
+    ],
+    "evidence": [
       {
-        "level": "FAIL",
-        "id": "headline-lines",
-        "width": 1440,
-        "message": "3 headline(s) wrap past two lines at 1440px: \"Transformamos ideas en soluciones digitales real\" → 3 lines (6 words, 67px); \"Más que código, construimos soluciones que funci\" → 3 lines (7 words, 45px); \"Tu sector tiene retos. Nosotros ayudamos a resol\" → 3 lines (8 words, 45px)",
-        "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+        "project": "mobile-390",
+        "test": "about methodology supports keyboard and blog preserves its empty state",
+        "state": "accessibility",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "eyebrow",
-        "width": 1440,
-        "message": "6 eyebrow/kicker label(s) above headings: \"ESTUDIO DE DESARROLLO DIGITAL\" above \"Transformamos ideas en soluciones digita\"; \"QUÉ HACEMOS\" above \"Tecnología diseñada para cada desafío\"; \"POR QUÉ NEXO\" above \"Más que código, construimos soluciones q\"; \"NUESTRO PROCESO\" above \"Una forma clara de hacer las cosas\"; \"SOLUCIONES PARA NEGOCIOS\" above \"Tu sector tiene retos. Nosotros ayudamos\"",
-        "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "mobile-390",
+        "test": "contact inline errors are announced and native fields keep keyboard order",
+        "state": "accessibility",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "mono",
-        "width": 1440,
-        "message": "Monospace type outside code: monospace — e.g. \"build into reality\", \"<\", \"ideas\", \"/>\"",
-        "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "mobile-390",
+        "test": "premium shell, current navigation, menu accessibility and 404 are consistent",
+        "state": "accessibility-menu",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "numbering",
-        "width": 1440,
-        "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\", \"05\", \"06\"",
-        "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "mobile-390",
+        "test": "premium shell, current navigation, menu accessibility and 404 are consistent",
+        "state": "accessibility-404",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "micro-label",
-        "width": 1440,
-        "message": "11 tiny uppercase letter-spaced labels (e.g. \"ESTUDIO DE DESARROLLO DIGITAL\", \"NEXO / DIGITAL WORKSPACE\", \"QUÉ HACEMOS\", \"POR QUÉ NEXO\").",
-        "fix": "Use sentence-case text at a readable size, or delete the label.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "tablet-768",
+        "test": "about methodology supports keyboard and blog preserves its empty state",
+        "state": "accessibility",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "gradient",
-        "width": 1440,
-        "message": "3 gradient fill(s): section.hero → radial-gradient(at 72% 30%, rgb(18, 46, 83) 0%, rgba(0, 0, 0, 0) 52%), linear-gradient(135deg, rgb(7, 17, 31)  | div.feature-visual → linear-gradient(130deg, rgb(16, 30, 54), rgb(9, 19, 38)) | section.container.cta-band → linear-gradient(115deg, rgb(9, 96, 202), rgb(7, 59, 142) 65%, rgb(7, 30, 79))",
-        "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "tablet-768",
+        "test": "contact inline errors are announced and native fields keep keyboard order",
+        "state": "accessibility",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "shadow",
-        "width": 1440,
-        "message": "5 box-shadow(s) on elements at rest: div.dashboard → rgba(3, 8, 17, 0.667) 0px 35px 100px 0px | div.visual-float.float-code → rgba(3, 8, 17, 0.533) 0px 20px 35px 0px | div.visual-float.float-mobile → rgba(3, 8, 17, 0.533) 0px 20px 35px 0px",
-        "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "tablet-768",
+        "test": "premium shell, current navigation, menu accessibility and 404 are consistent",
+        "state": "accessibility-menu",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "hairline",
-        "width": 1440,
-        "message": "5 thin rule(s)/divider line(s): header.site-header 1440px | div.dash-top 510px | div.graph-bars 427px | div.stats-strip 1440px",
-        "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "tablet-768",
+        "test": "premium shell, current navigation, menu accessibility and 404 are consistent",
+        "state": "accessibility-404",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "outlined-box",
-        "width": 1440,
-        "message": "17 boxes drawn with a 1px outline.",
-        "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "desktop-1440",
+        "test": "about methodology supports keyboard and blog preserves its empty state",
+        "state": "accessibility",
+        "violations": []
       },
       {
-        "level": "WARN",
-        "id": "glass",
-        "width": 1440,
-        "message": "3 backdrop-blur surfaces.",
-        "fix": "One blurred sticky bar at most; glass cards are a tell.",
-        "alsoAt": [
-          768
-        ]
+        "project": "desktop-1440",
+        "test": "contact inline errors are announced and native fields keep keyboard order",
+        "state": "accessibility",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "icon-cards",
-        "width": 1440,
-        "message": "1 row(s) of identical cards each topped with a small icon (6 cards).",
-        "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
-        "alsoAt": [
-          768
-        ]
+        "project": "desktop-1440",
+        "test": "premium shell, current navigation, menu accessibility and 404 are consistent",
+        "state": "accessibility-menu",
+        "violations": []
       },
       {
-        "level": "WARN",
-        "id": "font-count",
-        "width": 1440,
-        "message": "3 typefaces in use (DM Sans, Manrope, monospace).",
-        "fix": "Two at most.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "desktop-1440",
+        "test": "premium shell, current navigation, menu accessibility and 404 are consistent",
+        "state": "accessibility-404",
+        "violations": []
       },
       {
-        "level": "WARN",
-        "id": "size-count",
-        "width": 1440,
-        "message": "15 different font sizes (9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 22, 23, 40, 45, 67).",
-        "fix": "A page needs about five: display, heading, lead, body, small.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /",
+        "state": "accessibility",
+        "route": "/",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "few-pictures",
-        "width": 1440,
-        "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
-        "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios",
+        "state": "accessibility",
+        "route": "/servicios",
+        "violations": []
       },
       {
-        "level": "WARN",
-        "id": "no-footage",
-        "width": 1440,
-        "message": "No video anywhere on the page.",
-        "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /soluciones",
+        "state": "accessibility",
+        "route": "/soluciones",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "small-text",
-        "width": 1440,
-        "message": "38 text blocks under 13px.",
-        "fix": "Nothing meant to be read goes below 13px.",
-        "alsoAt": [
-          768,
-          390
-        ]
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /portafolio",
+        "state": "accessibility",
+        "route": "/portafolio",
+        "violations": []
       },
       {
-        "level": "WARN",
-        "id": "off-centre",
-        "width": 1440,
-        "message": "The margins differ: 130px on the left, 160px on the right, at 1440px.",
-        "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
-        "alsoAt": [
-          768
-        ]
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /nosotros",
+        "state": "accessibility",
+        "route": "/nosotros",
+        "violations": []
       },
       {
-        "level": "WARN",
-        "id": "ragged-edges",
-        "width": 1440,
-        "message": "Left-aligned text starts at 11 different lines (130px, 190px, 162px, 562px, 962px, 1076px, 369px); the three most used hold only 56% of it.",
-        "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /blog",
+        "state": "accessibility",
+        "route": "/blog",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "still-page",
-        "width": 1440,
-        "message": "Only 0 element(s) moved while the page loaded and scrolled.",
-        "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /contacto",
+        "state": "accessibility",
+        "route": "/contacto",
+        "violations": []
       },
       {
-        "level": "FAIL",
-        "id": "headline-lines",
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+        "state": "accessibility",
+        "route": "/servicios/landing-pages",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+        "state": "accessibility",
+        "route": "/servicios/sitios-corporativos",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+        "state": "accessibility",
+        "route": "/servicios/sistemas-web",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+        "state": "accessibility",
+        "route": "/servicios/aplicaciones-moviles",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+        "state": "accessibility",
+        "route": "/servicios/inteligencia-artificial",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+        "state": "accessibility",
+        "route": "/servicios/automatizacion",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+        "state": "accessibility",
+        "route": "/servicios/auditoria-qa",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/seo",
+        "state": "accessibility",
+        "route": "/servicios/seo",
+        "violations": []
+      },
+      {
+        "project": "mobile-390",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+        "state": "accessibility",
+        "route": "/servicios/integraciones",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /",
+        "state": "accessibility",
+        "route": "/",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios",
+        "state": "accessibility",
+        "route": "/servicios",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /soluciones",
+        "state": "accessibility",
+        "route": "/soluciones",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /portafolio",
+        "state": "accessibility",
+        "route": "/portafolio",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /nosotros",
+        "state": "accessibility",
+        "route": "/nosotros",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /blog",
+        "state": "accessibility",
+        "route": "/blog",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /contacto",
+        "state": "accessibility",
+        "route": "/contacto",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+        "state": "accessibility",
+        "route": "/servicios/landing-pages",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+        "state": "accessibility",
+        "route": "/servicios/sitios-corporativos",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+        "state": "accessibility",
+        "route": "/servicios/sistemas-web",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+        "state": "accessibility",
+        "route": "/servicios/aplicaciones-moviles",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+        "state": "accessibility",
+        "route": "/servicios/inteligencia-artificial",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+        "state": "accessibility",
+        "route": "/servicios/automatizacion",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+        "state": "accessibility",
+        "route": "/servicios/auditoria-qa",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/seo",
+        "state": "accessibility",
+        "route": "/servicios/seo",
+        "violations": []
+      },
+      {
+        "project": "tablet-768",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+        "state": "accessibility",
+        "route": "/servicios/integraciones",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /",
+        "state": "accessibility",
+        "route": "/",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios",
+        "state": "accessibility",
+        "route": "/servicios",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /soluciones",
+        "state": "accessibility",
+        "route": "/soluciones",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /portafolio",
+        "state": "accessibility",
+        "route": "/portafolio",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /nosotros",
+        "state": "accessibility",
+        "route": "/nosotros",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /blog",
+        "state": "accessibility",
+        "route": "/blog",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /contacto",
+        "state": "accessibility",
+        "route": "/contacto",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/landing-pages",
+        "state": "accessibility",
+        "route": "/servicios/landing-pages",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/sitios-corporativos",
+        "state": "accessibility",
+        "route": "/servicios/sitios-corporativos",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/sistemas-web",
+        "state": "accessibility",
+        "route": "/servicios/sistemas-web",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/aplicaciones-moviles",
+        "state": "accessibility",
+        "route": "/servicios/aplicaciones-moviles",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/inteligencia-artificial",
+        "state": "accessibility",
+        "route": "/servicios/inteligencia-artificial",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/automatizacion",
+        "state": "accessibility",
+        "route": "/servicios/automatizacion",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/auditoria-qa",
+        "state": "accessibility",
+        "route": "/servicios/auditoria-qa",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/seo",
+        "state": "accessibility",
+        "route": "/servicios/seo",
+        "violations": []
+      },
+      {
+        "project": "desktop-1440",
+        "test": "page, links, SEO, accessibility and overflow: /servicios/integraciones",
+        "state": "accessibility",
+        "route": "/servicios/integraciones",
+        "violations": []
+      }
+    ],
+    "contrast": [
+      {
+        "role": "Texto principal",
+        "foreground": "#eef4ff",
+        "background": "#070e1c",
+        "ratio": 17.471428624174195,
+        "minimum": 4.5,
+        "pass": true
+      },
+      {
+        "role": "Texto secundario",
+        "foreground": "#a9bad0",
+        "background": "#070e1c",
+        "ratio": 9.756759659133921,
+        "minimum": 4.5,
+        "pass": true
+      },
+      {
+        "role": "Texto secundario sobre panel",
+        "foreground": "#a9bad0",
+        "background": "#0d1a2c",
+        "ratio": 8.842007008018458,
+        "minimum": 4.5,
+        "pass": true
+      },
+      {
+        "role": "Botón primario",
+        "foreground": "#ffffff",
+        "background": "#2164e8",
+        "ratio": 5.181635771907412,
+        "minimum": 4.5,
+        "pass": true
+      },
+      {
+        "role": "Errores del formulario",
+        "foreground": "#f97b87",
+        "background": "#0d1a2c",
+        "ratio": 6.835420086091591,
+        "minimum": 4.5,
+        "pass": true
+      },
+      {
+        "role": "Borde de control / fondo interior",
+        "foreground": "#587493",
+        "background": "#070e1c",
+        "ratio": 3.9815774548506027,
+        "minimum": 3,
+        "pass": true
+      },
+      {
+        "role": "Borde de control / panel",
+        "foreground": "#587493",
+        "background": "#0d1a2c",
+        "ratio": 3.6082815390250556,
+        "minimum": 3,
+        "pass": true
+      },
+      {
+        "role": "Foco / fondo",
+        "foreground": "#83cfff",
+        "background": "#070e1c",
+        "ratio": 11.330140244479713,
+        "minimum": 3,
+        "pass": true
+      }
+    ],
+    "focus": [
+      {
         "width": 390,
-        "message": "4 headline(s) wrap past two lines at 390px: \"Transformamos ideas en soluciones digitales real\" → 4 lines (6 words, 42px); \"Más que código, construimos soluciones que funci\" → 3 lines (7 words, 31px); \"Tu sector tiene retos. Nosotros ayudamos a resol\" → 3 lines (8 words, 31px); \"Tu próximo proyecto empieza con una conversación\" → 3 lines (7 words, 27px)",
-        "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
-      }
-    ],
-    "afterFindings": [
-      {
-        "level": "WARN",
-        "id": "size-count",
-        "width": 1440,
-        "message": "14 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 24, 25, 32, 54, 58, 104).",
-        "fix": "A page needs about five: display, heading, lead, body, small.",
-        "alsoAt": [
-          768,
-          390
-        ]
-      },
-      {
-        "level": "FAIL",
-        "id": "few-pictures",
-        "width": 1440,
-        "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
-        "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
-      },
-      {
-        "level": "WARN",
-        "id": "no-footage",
-        "width": 1440,
-        "message": "No video anywhere on the page.",
-        "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
-      },
-      {
-        "level": "WARN",
-        "id": "off-centre",
-        "width": 1440,
-        "message": "The margins differ: 80px on the left, 97px on the right, at 1440px.",
-        "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
-      }
-    ],
-    "finalViewports": [
-      {
-        "width": 1440,
-        "overflow": 0,
-        "headingsOverTwoLines": 0,
-        "motionElements": 25
+        "headerBottom": 76,
+        "focused": "nombre",
+        "labelTop": 110.484375,
+        "focusTop": 144.484375,
+        "focusBottom": 196.484375,
+        "overflow": false
       },
       {
         "width": 768,
-        "overflow": 0,
-        "headingsOverTwoLines": 0,
-        "motionElements": 25
+        "headerBottom": 88,
+        "focused": "nombre",
+        "labelTop": 465.71875,
+        "focusTop": 499.71875,
+        "focusBottom": 551.71875,
+        "overflow": false
       },
       {
-        "width": 390,
-        "overflow": 0,
-        "headingsOverTwoLines": 0,
-        "motionElements": 25
+        "width": 1440,
+        "headerBottom": 88,
+        "focused": "nombre",
+        "labelTop": 110.421875,
+        "focusTop": 144.421875,
+        "focusBottom": 196.421875,
+        "overflow": false
+      }
+    ]
+  },
+  "preservation": [
+    {
+      "path": "src/app/page.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "e18a18ebd976abc2f51b226bebd73aa1d262fe99",
+      "sha256": "e38264582d89c750ffddcf07afb098d4307bd4bb16f95d11b4e77d59f4dd8f1a"
+    },
+    {
+      "path": "src/lib/content.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "7c7e47efcae3a8efac7d9642d5978615670a5ec6",
+      "sha256": "3cab2dc2278804e0b0de453e8b0bffc12d98bf71f1690bef282d299ea5bc7107"
+    },
+    {
+      "path": "src/components/proposal/refined-sections.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "d42f8182d2d77ded357a6edc9cfc6308fb325b9b",
+      "sha256": "f6fb0f33ab8216e7592228ec3d8223a731a249755b42bc8c20b733682ed4d471"
+    },
+    {
+      "path": "src/components/proposal/interactions.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "8b86d42a4cfcb643af3a180672b9e7275209cb97",
+      "sha256": "4e350a6a9910b7d90747985224cbe679d7d3b05e46cedd85d69397480cc16994"
+    },
+    {
+      "path": "src/components/proposal/product-previews.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "1b48e7ee33d906d8184718a47ca0e249eec4d627",
+      "sha256": "90441f3e1ef716adc511fa3424c6d9296ce6079bfed1b75598a15ed2954ea579"
+    },
+    {
+      "path": "src/components/nexo-wordmark.tsx",
+      "unchangedFromBase": true,
+      "baseBlob": "7c47ba4a248dd3a4ce01487f47337451cd7e313f",
+      "sha256": "88d8ea8e32b7494fece3df94fd42e7686a07be3e6317bcc5d6b66f52844f2903"
+    },
+    {
+      "path": "src/styles/refinement.css",
+      "unchangedFromBase": true,
+      "baseBlob": "e0be4a2da13428abc8e4b95753aed815abffb8be",
+      "sha256": "020d7378320c1929fb4eb84e1c3fbce28117189dfb3b7302faa1b59757dcdadb"
+    },
+    {
+      "path": "public/images/nexo-threshold.webp",
+      "unchangedFromBase": true,
+      "baseBlob": "4923c6dddc6992810550c823cd1360a1994441ee",
+      "sha256": "22b72be8a5a44ee5f8a51e331b7c9185682ec5e73e5388580bb5bf5b69a56f91"
+    },
+    {
+      "path": "public/images/nexo-wordmark.webp",
+      "unchangedFromBase": true,
+      "baseBlob": "4227c2ad32cd310267a7eed25aa3ebeed25416f1",
+      "sha256": "8892677ab8f142028d104bac80922a0fef8f0d473d3ea6163d3380cf6603ed0e"
+    },
+    {
+      "path": "package.json",
+      "unchangedFromBase": true,
+      "baseBlob": "8e9ef0e2ffd98a92c121fd14c70ec2678da1f355",
+      "sha256": "5c4cd9a356f91c9f7247e6a03e298b7191608b10479e57a84c04bf129343788c"
+    },
+    {
+      "path": "package-lock.json",
+      "unchangedFromBase": true,
+      "baseBlob": "43a5110dd11b8c6029bf87ae60ed87e976eea60a",
+      "sha256": "b71e85e7d6671586bf423dbc8a971c5c8a572f311eb535097f5f3cf462f03712"
+    },
+    {
+      "path": "tests/e2e/site.spec.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "423fb32d1ae11e3b69fdc7e8b1168522bf24018e",
+      "sha256": "c390f3c44fe31c835a0cfa0282315edf2d84ca630c77cc034d03029da3eeefef"
+    },
+    {
+      "path": "tests/e2e/home-proposal.spec.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "d2b64ffdfc0f8bb8e7ae2a15390a26249c72f631",
+      "sha256": "da490a611e39f5cfbfa41119b3cfa315ae0da7dd128a97bfcc0b3d9847807668"
+    },
+    {
+      "path": "tests/e2e/home-refinement.spec.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "d6277f45972375820842617cd81a6274f3c2f7a1",
+      "sha256": "b260e468a6d93ea7bb1dd832eb79ac8c6e22a7c43354248df11f6a34fefd3411"
+    },
+    {
+      "path": "playwright.config.ts",
+      "unchangedFromBase": true,
+      "baseBlob": "c0dfa43405abc894e1c1255a884842744e766175",
+      "sha256": "3e09092d15eee9eaa4cd18d7f713ad7de438effb0ecaa163e0176822430a63c1"
+    }
+  ],
+  "homeComparison": [
+    {
+      "width": 390,
+      "kind": "fold",
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "kind": "full",
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "kind": "fold",
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "kind": "full",
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "kind": "fold",
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "kind": "full",
+      "sameDimensions": true,
+      "changedPixels": 0,
+      "pass": true
+    }
+  ],
+  "responsive": [
+    {
+      "route": "/",
+      "width": 390,
+      "status": 200,
+      "height": 7215,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios",
+      "width": 390,
+      "status": 200,
+      "height": 4971,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/landing-pages",
+      "width": 390,
+      "status": 200,
+      "height": 4420,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/sitios-corporativos",
+      "width": 390,
+      "status": 200,
+      "height": 4397,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/sistemas-web",
+      "width": 390,
+      "status": 200,
+      "height": 4359,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/aplicaciones-moviles",
+      "width": 390,
+      "status": 200,
+      "height": 4360,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/inteligencia-artificial",
+      "width": 390,
+      "status": 200,
+      "height": 4381,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/automatizacion",
+      "width": 390,
+      "status": 200,
+      "height": 4392,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/auditoria-qa",
+      "width": 390,
+      "status": 200,
+      "height": 4451,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/seo",
+      "width": 390,
+      "status": 200,
+      "height": 4360,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/integraciones",
+      "width": 390,
+      "status": 200,
+      "height": 4348,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/soluciones",
+      "width": 390,
+      "status": 200,
+      "height": 5833,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/portafolio",
+      "width": 390,
+      "status": 200,
+      "height": 3165,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/nosotros",
+      "width": 390,
+      "status": 200,
+      "height": 3322,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "width": 390,
+      "status": 200,
+      "height": 2112,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/contacto",
+      "width": 390,
+      "status": 200,
+      "height": 2850,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/no-existe",
+      "width": 390,
+      "status": 404,
+      "height": 1209,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        },
+        {
+          "left": 35,
+          "right": 35,
+          "width": 320,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "status": 200,
+      "height": 6363,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios",
+      "width": 768,
+      "status": 200,
+      "height": 3693,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/landing-pages",
+      "width": 768,
+      "status": 200,
+      "height": 3221,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/sitios-corporativos",
+      "width": 768,
+      "status": 200,
+      "height": 3221,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/sistemas-web",
+      "width": 768,
+      "status": 200,
+      "height": 3224,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/aplicaciones-moviles",
+      "width": 768,
+      "status": 200,
+      "height": 3221,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/inteligencia-artificial",
+      "width": 768,
+      "status": 200,
+      "height": 3240,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/automatizacion",
+      "width": 768,
+      "status": 200,
+      "height": 3207,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/auditoria-qa",
+      "width": 768,
+      "status": 200,
+      "height": 3224,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/seo",
+      "width": 768,
+      "status": 200,
+      "height": 3192,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/integraciones",
+      "width": 768,
+      "status": 200,
+      "height": 3192,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/soluciones",
+      "width": 768,
+      "status": 200,
+      "height": 5288,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/portafolio",
+      "width": 768,
+      "status": 200,
+      "height": 2461,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/nosotros",
+      "width": 768,
+      "status": 200,
+      "height": 2471,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "width": 768,
+      "status": 200,
+      "height": 1493,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/contacto",
+      "width": 768,
+      "status": 200,
+      "height": 1953,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/no-existe",
+      "width": 768,
+      "status": 404,
+      "height": 1024,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        },
+        {
+          "left": 47,
+          "right": 47,
+          "width": 674,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "status": 200,
+      "height": 4957,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios",
+      "width": 1440,
+      "status": 200,
+      "height": 2998,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/landing-pages",
+      "width": 1440,
+      "status": 200,
+      "height": 2946,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/sitios-corporativos",
+      "width": 1440,
+      "status": 200,
+      "height": 2946,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/sistemas-web",
+      "width": 1440,
+      "status": 200,
+      "height": 2978,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/aplicaciones-moviles",
+      "width": 1440,
+      "status": 200,
+      "height": 2946,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/inteligencia-artificial",
+      "width": 1440,
+      "status": 200,
+      "height": 2994,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/automatizacion",
+      "width": 1440,
+      "status": 200,
+      "height": 2994,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/auditoria-qa",
+      "width": 1440,
+      "status": 200,
+      "height": 2978,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/seo",
+      "width": 1440,
+      "status": 200,
+      "height": 2946,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/servicios/integraciones",
+      "width": 1440,
+      "status": 200,
+      "height": 2978,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/soluciones",
+      "width": 1440,
+      "status": 200,
+      "height": 4165,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/portafolio",
+      "width": 1440,
+      "status": 200,
+      "height": 2199,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/nosotros",
+      "width": 1440,
+      "status": 200,
+      "height": 2333,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/blog",
+      "width": 1440,
+      "status": 200,
+      "height": 1464,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/contacto",
+      "width": 1440,
+      "status": 200,
+      "height": 1559,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    },
+    {
+      "route": "/no-existe",
+      "width": 1440,
+      "status": 404,
+      "height": 900,
+      "overflow": false,
+      "containerFrames": [
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        },
+        {
+          "left": 80,
+          "right": 80,
+          "width": 1280,
+          "balanced": true
+        }
+      ]
+    }
+  ],
+  "performance": {
+    "conditions": "Local production build, Windows, Node 24.14.0, npm 11.9.0, Chromium via Playwright 1.64.1, 3 original workers, no CPU/network throttling; one sample per route and viewport. Historical approved V3.1 baseline. Not field CWV, Lighthouse, INP or a causal before/after experiment.",
+    "comparisons": [
+      {
+        "route": "/",
+        "project": "mobile-390",
+        "baseline": {
+          "project": "mobile-390",
+          "route": "/",
+          "lcp": 364,
+          "cls": 0,
+          "ttfb": 20.900000005960464,
+          "domContentLoaded": 304.7999999821186,
+          "jsBytes": 173107,
+          "resourceCount": 20,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "current": {
+          "project": "mobile-390",
+          "route": "/",
+          "lcp": 260,
+          "cls": 0,
+          "ttfb": 13.300000011920929,
+          "domContentLoaded": 224.90000000596046,
+          "jsBytes": 187560,
+          "resourceCount": 20,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "deltaLcpMs": -104,
+        "deltaJsBytes": 14453,
+        "deltaJsPercent": 8.349171321783633
+      },
+      {
+        "route": "/contacto",
+        "project": "mobile-390",
+        "baseline": {
+          "project": "mobile-390",
+          "route": "/contacto",
+          "lcp": 232,
+          "cls": 0,
+          "ttfb": 14,
+          "domContentLoaded": 90.90000000596046,
+          "jsBytes": 174612,
+          "resourceCount": 16,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "current": {
+          "project": "mobile-390",
+          "route": "/contacto",
+          "lcp": 224,
+          "cls": 0,
+          "ttfb": 21.900000005960464,
+          "domContentLoaded": 85,
+          "jsBytes": 189887,
+          "resourceCount": 18,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "deltaLcpMs": -8,
+        "deltaJsBytes": 15275,
+        "deltaJsPercent": 8.747966920944727
+      },
+      {
+        "route": "/",
+        "project": "tablet-768",
+        "baseline": {
+          "project": "tablet-768",
+          "route": "/",
+          "lcp": 492,
+          "cls": 0,
+          "ttfb": 61.400000005960464,
+          "domContentLoaded": 459.10000002384186,
+          "jsBytes": 173107,
+          "resourceCount": 22,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "current": {
+          "project": "tablet-768",
+          "route": "/",
+          "lcp": 392,
+          "cls": 0,
+          "ttfb": 6.800000011920929,
+          "domContentLoaded": 84.09999999403954,
+          "jsBytes": 187560,
+          "resourceCount": 22,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "deltaLcpMs": -100,
+        "deltaJsBytes": 14453,
+        "deltaJsPercent": 8.349171321783633
+      },
+      {
+        "route": "/contacto",
+        "project": "tablet-768",
+        "baseline": {
+          "project": "tablet-768",
+          "route": "/contacto",
+          "lcp": 524,
+          "cls": 0,
+          "ttfb": 83.39999997615814,
+          "domContentLoaded": 482.80000001192093,
+          "jsBytes": 174612,
+          "resourceCount": 16,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "current": {
+          "project": "tablet-768",
+          "route": "/contacto",
+          "lcp": 460,
+          "cls": 0,
+          "ttfb": 40.5,
+          "domContentLoaded": 433.19999998807907,
+          "jsBytes": 189887,
+          "resourceCount": 18,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "deltaLcpMs": -64,
+        "deltaJsBytes": 15275,
+        "deltaJsPercent": 8.747966920944727
+      },
+      {
+        "route": "/",
+        "project": "desktop-1440",
+        "baseline": {
+          "project": "desktop-1440",
+          "route": "/",
+          "lcp": 352,
+          "cls": 0,
+          "ttfb": 8.5,
+          "domContentLoaded": 275.09999999403954,
+          "jsBytes": 174612,
+          "resourceCount": 31,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "current": {
+          "project": "desktop-1440",
+          "route": "/",
+          "lcp": 392,
+          "cls": 0,
+          "ttfb": 23,
+          "domContentLoaded": 324.5,
+          "jsBytes": 189887,
+          "resourceCount": 31,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "deltaLcpMs": 40,
+        "deltaJsBytes": 15275,
+        "deltaJsPercent": 8.747966920944727
+      },
+      {
+        "route": "/contacto",
+        "project": "desktop-1440",
+        "baseline": {
+          "project": "desktop-1440",
+          "route": "/contacto",
+          "lcp": 504,
+          "cls": 0,
+          "ttfb": 58.30000001192093,
+          "domContentLoaded": 442.80000001192093,
+          "jsBytes": 174612,
+          "resourceCount": 28,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "current": {
+          "project": "desktop-1440",
+          "route": "/contacto",
+          "lcp": 424,
+          "cls": 0,
+          "ttfb": 36.599999994039536,
+          "domContentLoaded": 387.90000000596046,
+          "jsBytes": 189887,
+          "resourceCount": 30,
+          "externalFonts": 0,
+          "note": "Local production build; unthrottled Chromium. Not field Core Web Vitals or an INP measurement."
+        },
+        "deltaLcpMs": -80,
+        "deltaJsBytes": 15275,
+        "deltaJsPercent": 8.747966920944727
       }
     ],
-    "sourceLint": {
-      "fail": 3,
-      "warn": 0,
-      "scope": "horizon lighting requested by user",
-      "rulesDisabled": false
-    }
+    "imageAssets": [
+      {
+        "file": "nexo-threshold.webp",
+        "bytes": 105014
+      },
+      {
+        "file": "nexo-wordmark.webp",
+        "bytes": 20850
+      }
+    ],
+    "newDependencies": 0
   },
-  "frameMeasurement": {
-    "viewport": 1440,
-    "clientWidth": 1440,
-    "left": 80,
-    "right": 80,
-    "width": 1280
+  "taste": {
+    "visualBefore": {
+      "FAIL": 56,
+      "WARN": 38
+    },
+    "visualFinal": {
+      "FAIL": 34,
+      "WARN": 36
+    },
+    "source": {
+      "files": 44,
+      "FAIL": 26,
+      "WARN": 6,
+      "findings": [
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/app/globals.css",
+          "line": 327,
+          "match": "box-shadow:",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/app/globals.css",
+          "line": 334,
+          "match": "radial-gradient(",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        },
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/app/globals.css",
+          "line": 1460,
+          "match": "box-shadow:",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "WARN",
+          "id": "outlined-box",
+          "file": "src/components/proposal/interactions.tsx",
+          "line": 186,
+          "match": "border",
+          "message": "A 1px outlined box. Prefer a filled surface or no box."
+        },
+        {
+          "level": "FAIL",
+          "id": "eyebrow",
+          "file": "src/components/proposal/product-previews.tsx",
+          "line": 47,
+          "match": "className=\"screen-kicker",
+          "message": "Eyebrow / kicker label above a heading."
+        },
+        {
+          "level": "FAIL",
+          "id": "eyebrow",
+          "file": "src/components/proposal/product-previews.tsx",
+          "line": 199,
+          "match": "className=\"screen-kicker",
+          "message": "Eyebrow / kicker label above a heading."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/components/shadcn/accordion.tsx",
+          "line": 21,
+          "match": "border-b",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "WARN",
+          "id": "transition-all",
+          "file": "src/components/shadcn/accordion.tsx",
+          "line": 37,
+          "match": "transition-all",
+          "message": "transition: all. Name the properties (transform, opacity)."
+        },
+        {
+          "level": "WARN",
+          "id": "transition-all",
+          "file": "src/components/shadcn/button.tsx",
+          "line": 7,
+          "match": "transition-all",
+          "message": "transition: all. Name the properties (transform, opacity)."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/components/shadcn/card.tsx",
+          "line": 22,
+          "match": "border-b",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/components/shadcn/card.tsx",
+          "line": 78,
+          "match": "border-t",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "WARN",
+          "id": "outlined-box",
+          "file": "src/components/shadcn/input.tsx",
+          "line": 5,
+          "match": "border",
+          "message": "A 1px outlined box. Prefer a filled surface or no box."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/components/shadcn/navigation-menu.tsx",
+          "line": 92,
+          "match": "from-right-52",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        },
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/components/shadcn/navigation-menu.tsx",
+          "line": 93,
+          "match": "shadow",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/components/shadcn/navigation-menu.tsx",
+          "line": 114,
+          "match": "shadow",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "WARN",
+          "id": "transition-all",
+          "file": "src/components/shadcn/navigation-menu.tsx",
+          "line": 131,
+          "match": "transition-all",
+          "message": "transition: all. Name the properties (transform, opacity)."
+        },
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/components/shadcn/navigation-menu.tsx",
+          "line": 152,
+          "match": "shadow-md",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/components/shadcn/sheet.tsx",
+          "line": 62,
+          "match": "shadow-lg",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/components/shadcn/sheet.tsx",
+          "line": 64,
+          "match": "border-l",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/components/shadcn/sheet.tsx",
+          "line": 66,
+          "match": "border-r",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/components/shadcn/sheet.tsx",
+          "line": 68,
+          "match": "border-b",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/components/shadcn/sheet.tsx",
+          "line": 70,
+          "match": "border-t",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "WARN",
+          "id": "transition-all",
+          "file": "src/components/shadcn/tabs.tsx",
+          "line": 66,
+          "match": "transition-all",
+          "message": "transition: all. Name the properties (transform, opacity)."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/styles/app.css",
+          "line": 91,
+          "match": "linear-gradient(",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/styles/app.css",
+          "line": 92,
+          "match": "linear-gradient(",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/styles/app.css",
+          "line": 100,
+          "match": "linear-gradient(",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        },
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/styles/app.css",
+          "line": 193,
+          "match": "box-shadow:",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/styles/app.css",
+          "line": 258,
+          "match": "linear-gradient(",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        },
+        {
+          "level": "FAIL",
+          "id": "shadow",
+          "file": "src/styles/interiors.css",
+          "line": 86,
+          "match": "box-shadow:",
+          "message": "Shadow. Elements at rest carry none; only real overlays (menu, dialog, sticky bar) may."
+        },
+        {
+          "level": "FAIL",
+          "id": "hairline",
+          "file": "src/styles/interiors.css",
+          "line": 131,
+          "match": "border-bottom: 1px",
+          "message": "Thin rule / divider line. Separate with space, tone or scale; lines belong to real tables and form fields."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/styles/refinement.css",
+          "line": 405,
+          "match": "linear-gradient(",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        },
+        {
+          "level": "FAIL",
+          "id": "gradient",
+          "file": "src/styles/refinement.css",
+          "line": 529,
+          "match": "linear-gradient(",
+          "message": "Gradient fill. Use a flat colour or a real image (a neutral scrim over a photo is the one exception)."
+        }
+      ]
+    },
+    "inspections": [
+      {
+        "route": "/blog",
+        "before": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste/blog/report.json",
+        "findings": [
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "WARN",
+            "id": "off-centre",
+            "width": 1440,
+            "message": "The margins differ: 80px on the left, 116px on the right, at 1440px.",
+            "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/contacto",
+        "before": {
+          "FAIL": 3,
+          "WARN": 3
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/contacto/report.json",
+        "findings": [
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "WARN",
+            "id": "off-centre",
+            "width": 1440,
+            "message": "The margins differ: 80px on the left, 107px on the right, at 1440px.",
+            "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/",
+        "before": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste/home/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "14 different font sizes (13, 14, 15, 16, 17, 18, 19, 20, 25, 28, 43, 44, 56, 98).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          },
+          {
+            "level": "FAIL",
+            "id": "icon-cards",
+            "width": 768,
+            "message": "1 row(s) of identical cards each topped with a small icon (3 cards).",
+            "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+            "alsoAt": [
+              390
+            ]
+          }
+        ]
+      },
+      {
+        "route": "/no-existe",
+        "before": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste/no-existe/report.json",
+        "findings": [
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "WARN",
+            "id": "hero-void",
+            "width": 1440,
+            "message": "28% of the first screen is one empty block (1200×300px at 240,300).",
+            "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/nosotros",
+        "before": {
+          "FAIL": 4,
+          "WARN": 3
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/nosotros/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "12 different font sizes (13, 14, 15, 16, 17, 18, 19, 20, 32, 36, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/portafolio",
+        "before": {
+          "FAIL": 2,
+          "WARN": 1
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 1
+        },
+        "report": "taste/portafolio/report.json",
+        "findings": [
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios",
+        "before": {
+          "FAIL": 3,
+          "WARN": 3
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 3
+        },
+        "report": "taste-final/servicios/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "10 different font sizes (13, 14, 15, 16, 17, 18, 19, 26, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 3 picture(s) on the page (1 photographs, footage or raster images, 2 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "WARN",
+            "id": "off-centre",
+            "width": 1440,
+            "message": "The margins differ: 80px on the left, 116px on the right, at 1440px.",
+            "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/aplicaciones-moviles",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-aplicaciones-moviles/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/auditoria-qa",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-auditoria-qa/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/automatizacion",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-automatizacion/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/integraciones",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-integraciones/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/inteligencia-artificial",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-inteligencia-artificial/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/landing-pages",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-landing-pages/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/seo",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-seo/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/sistemas-web",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-sistemas-web/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/servicios/sitios-corporativos",
+        "before": {
+          "FAIL": 4,
+          "WARN": 2
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 2
+        },
+        "report": "taste-final/servicios-sitios-corporativos/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small.",
+            "alsoAt": [
+              768,
+              390
+            ]
+          },
+          {
+            "level": "FAIL",
+            "id": "few-pictures",
+            "width": 1440,
+            "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+            "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          }
+        ]
+      },
+      {
+        "route": "/soluciones",
+        "before": {
+          "FAIL": 2,
+          "WARN": 4
+        },
+        "final": {
+          "FAIL": 2,
+          "WARN": 4
+        },
+        "report": "taste-final/soluciones/report.json",
+        "findings": [
+          {
+            "level": "WARN",
+            "id": "size-count",
+            "width": 1440,
+            "message": "10 different font sizes (13, 14, 15, 16, 17, 18, 19, 42, 48, 66).",
+            "fix": "A page needs about five: display, heading, lead, body, small."
+          },
+          {
+            "level": "WARN",
+            "id": "no-real-pictures",
+            "width": 1440,
+            "message": "Only 1 real photograph(s) or clip(s); the rest are interface fragments.",
+            "fix": "Add two or more real pictures of the customer's world from scripts/assets.mjs, not stock of people at laptops."
+          },
+          {
+            "level": "WARN",
+            "id": "no-footage",
+            "width": 1440,
+            "message": "No video anywhere on the page.",
+            "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+          },
+          {
+            "level": "WARN",
+            "id": "off-centre",
+            "width": 1440,
+            "message": "The margins differ: 80px on the left, 98px on the right, at 1440px.",
+            "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+          },
+          {
+            "level": "FAIL",
+            "id": "still-page",
+            "width": 1440,
+            "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+            "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+          },
+          {
+            "level": "FAIL",
+            "id": "eyebrow",
+            "width": 768,
+            "message": "5 eyebrow/kicker label(s) above headings: \"Concepto de interfaz. Datos de ejemplo.\" above \"Taxis y flotas\"; \"Concepto de interfaz. Datos de ejemplo.\" above \"Delivery y logística\"; \"Concepto de interfaz. Datos de ejemplo.\" above \"Profesionales\"; \"Concepto de interfaz. Datos de ejemplo.\" above \"Equipos empresariales\"; \"Concepto de interfaz. Datos de ejemplo.\" above \"Emprendedores\"",
+            "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+            "alsoAt": [
+              390
+            ]
+          }
+        ]
+      }
+    ],
+    "allowances": [],
+    "appModeForMarketingPages": false,
+    "strictScoreCap": 6
   },
-  "remoteCI": {
-    "status": "previously_blocked_by_billing",
-    "lastVerifiedSha": "08eb734fb29ce693f3002143f0230bb662720b0f",
-    "rerunRequested": false,
-    "billingModified": false
-  }
+  "historicalFailures": [
+    "phase-3-solutions-portfolio/interrupted-run.json",
+    "phase-6-final/parallel-run-failures.json",
+    "phase-6-final/focus-label-failure.json",
+    "phase-6-final/npm-ci-first.txt"
+  ],
+  "environmentEvidence": "phase-6-final/environment-events.json",
+  "limits": [
+    "Chromium emulation only; Safari/Firefox and real assistive technology not tested.",
+    "No real WhatsApp message sent; handoff intercepted by E2E.",
+    "Local canonical origin needs the approved hosted NEXT_PUBLIC_SITE_URL before release.",
+    "Strict TasteSkill remains FAIL; every finding is retained.",
+    "No production deployment, merge, Ready for Review or billing changes. CI not manually retried."
+  ]
 }

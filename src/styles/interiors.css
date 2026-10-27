@@ -1,0 +1,221 @@
+.interior-shell {
+  --nexo-section-space: 88px;
+  min-height: 50vh;
+}
+.interior-section {
+  padding-block: var(--nexo-section-space);
+}
+.interior-section-soft {
+  background: #0a1423;
+}
+.interior-intro {
+  padding-block: 72px 64px;
+}
+.interior-intro h1 {
+  font-size: clamp(36px, 4.6vw, 66px);
+  line-height: 1.09;
+  max-width: 850px;
+}
+.interior-intro-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 64px;
+  align-items: center;
+}
+.interior-lead {
+  font-size: 19px;
+  line-height: 1.7;
+  color: var(--muted-foreground);
+  max-width: 720px;
+  margin-top: 24px;
+}
+.interior-shell h2 {
+  font-size: clamp(30px, 3.5vw, 48px);
+  line-height: 1.15;
+}
+.interior-shell h3 {
+  line-height: 1.25;
+}
+.interior-breadcrumb {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--muted-foreground);
+  margin-bottom: 30px;
+}
+.interior-breadcrumb a:hover {
+  color: var(--foreground);
+}
+.interior-breadcrumb span {
+  color: #cfdef0;
+}
+.interior-cta-copy {
+  position: relative;
+  z-index: 1;
+  max-width: 650px;
+  padding: 64px 56px;
+}
+.interior-cta-copy p {
+  font-size: 18px;
+  line-height: 1.65;
+  color: #c9d9eb;
+  max-width: 450px;
+  margin-top: 20px;
+}
+.interior-note {
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--muted-foreground);
+}
+.interior-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px 25px;
+  margin-top: 28px;
+}
+.interior-body { color: var(--muted-foreground); font-size: 18px; line-height: 1.7; }
+.interior-text-link { display: inline-flex; align-items: center; gap: 12px; color: #acd5ff; font-size: 16px; font-weight: 500; min-height: 44px; }
+.interior-catalog { padding-top: 0; }
+.interior-feature-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 24px; }
+.interior-service-tile { overflow: hidden; }
+.interior-shell .service-card {
+  display: flex; flex-direction: column; align-items: stretch; gap: 28px; padding: 30px; min-height: 0; height: 100%;
+  border: 0; background: transparent; border-radius: 12px; box-shadow: none;
+  transition: background-color 180ms ease;
+}
+.interior-shell .service-card:hover { transform: none; background: #13243a; }
+.interior-shell .service-card:focus-visible { outline: 2px solid var(--ring); outline-offset: -3px; }
+.interior-service-copy { flex: 1; }
+.interior-shell .service-card h2 { font-size: 26px; margin-top: 12px; line-height: 1.2; }
+.interior-shell .service-card p { font-size: 17px; line-height: 1.65; color: var(--muted-foreground); margin-block: 16px; max-width: 540px; }
+.interior-service-preview { display: grid; gap: 12px; padding: 0 30px 30px; }
+.interior-service-featured .service-card { height: auto; flex: 1; }
+.interior-service-list { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 0 40px; margin-top: 36px; }
+.interior-service-list .interior-service-tile { background: transparent; border-radius: 0; }
+.interior-service-list .service-card { padding: 30px 12px; }
+.interior-service-list .interior-service-tile:last-child { grid-column: 1 / -1; }
+.interior-service-list .interior-service-tile:last-child .interior-service-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
+.interior-service-list .interior-service-tile:last-child p { grid-column: 2; grid-row: 1 / 4; align-self: center; }
+.interior-detail-grid, .interior-scope-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: center; gap: 60px; }
+.interior-demo { min-width: 0; margin: 0; }
+.interior-demo figcaption { margin-top: 16px; max-width: 500px; }
+.interior-scope-grid { align-items: start; gap: 100px; }
+.interior-scope-grid h2 { font-size: 32px; }
+.interior-check-list { list-style: none; padding: 0; margin-top: 30px; display: grid; gap: 22px; }
+.interior-check-list li { display: flex; gap: 14px; font-size: 18px; line-height: 1.6; }
+.interior-check-list svg { color: #8ecbff; flex-shrink: 0; margin-top: 5px; }
+.interior-deliverables { list-style: none; padding: 0; margin-top: 20px; }
+.interior-deliverables li { padding-block: 17px; font-size: 18px; line-height: 1.6; }
+.interior-heading-row { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 32px; }
+.interior-related-grid { display: grid; gap: 24px; }
+.interior-related-grid .service-card { padding: 20px 12px; }
+.interior-related-grid .interior-service-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 40px; }
+.interior-related-grid .interior-service-copy > p { grid-column: 2; grid-row: 1 / 4; align-self: center; margin: 0; }
+.interior-related-grid .service-card h2 { font-size: 23px; }
+.industry-stories { display: grid; gap: 72px; }
+.industry-story { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px; align-items: center; }
+.industry-story:nth-child(even) { grid-template-columns: 1.1fr 0.9fr; }
+.industry-story:nth-child(even) .industry-story-copy { order: 2; }
+.industry-story h2 { max-width: 440px; font-size: clamp(30px,3vw,42px); }
+.industry-story-copy .interior-body { max-width: 430px; }
+.industry-specimen { border-radius: 12px; overflow: hidden; background: #101f33; color: #e0edfc; }
+.industry-specimen-body { padding: 30px; }
+.industry-specimen-lead { font-size: 24px; line-height: 1.25; max-width: 330px; letter-spacing: -0.035em; }
+.industry-specimen-rows { display: grid; gap: 12px; margin-top: 28px; }
+.industry-specimen-rows > div { display: flex; align-items: center; gap: 14px; font-size: 16px; line-height: 1.5; padding: 15px; background: #19304a; border-radius: 7px; }
+.industry-specimen-rows svg { color: #98cfff; flex-shrink: 0; }
+.industry-specimen-rows svg:last-child { margin-left: auto; }
+.industry-specimen-1 .industry-specimen-rows > div, .industry-specimen-3 .industry-specimen-rows > div { background: transparent; border-bottom: 1px solid #29435f; border-radius: 0; }
+.interior-portfolio-layout { display: grid; grid-template-columns: 1.4fr 0.8fr; gap: 64px; align-items: center; }
+.interior-editorial-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 80px; }
+.interior-statement { font-family: var(--nexo-font-display), sans-serif; font-size: clamp(24px,2.2vw,32px); line-height: 1.5; letter-spacing: -0.025em; color: #dae9fa; max-width: 710px; }
+.interior-about-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; align-items: start; gap: 100px; }
+.interior-principles { display: grid; gap: 48px; }
+.interior-principles h2 { font-size: 32px; }
+.interior-method { padding: 38px; background: var(--card); border-radius: var(--nexo-radius-panel); }
+.interior-method > h2 { font-size: 36px; }
+.interior-topics { list-style: none; padding: 0; margin-top: 28px; display: grid; gap: 20px; color: #d2e3f7; }
+.interior-contact-grid { display: grid; grid-template-columns: 1.4fr 0.8fr; gap: 64px; align-items: start; }
+.interior-contact-grid h2 { font-size: 30px; }
+.interior-form-panel { min-width: 0; padding: 36px; border-radius: var(--nexo-radius-panel); background: var(--card); }
+.interior-contact-form { --input: var(--nexo-control-border); margin-top: 25px; display: grid; gap: 24px; }
+.interior-field-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 24px; }
+.interior-field { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.interior-field label { font-size: 16px; line-height: 1.5; color: var(--foreground); }
+.interior-field-error { font-size: 15px; line-height: 1.5; color: var(--destructive); }
+.interior-contact-form .interior-note a { color: #b9dfff; text-decoration: underline; text-underline-offset: 3px; }
+.interior-contact-form .interior-note { font-size: 16px; max-width: 60ch; }
+.interior-contact-form :is(input, select, textarea) { scroll-margin-block: 44px 24px; }
+/* Native validation must settle immediately under the sticky header. */
+html:has(.interior-contact-form) { scroll-behavior: auto; }
+.interior-contact-details { display: grid; gap: 14px; margin-top: 28px; }
+.interior-contact-details > * { display: flex; align-items: center; gap: 12px; min-height: 44px; line-height: 1.5; font-size: 17px; }
+.interior-contact-details svg { color: #9dceff; flex-shrink: 0; }
+.interior-price-note { font-size: 16px; line-height: 1.7; color: var(--muted-foreground); background: var(--secondary); border-radius: 12px; padding: 24px; margin-top: 30px; }
+@media (max-width: 1100px) {
+  .interior-contact-grid { grid-template-columns: 1fr; gap: 48px; }
+  .interior-contact-grid > aside { max-width: 650px; }
+}
+@media (max-width: 900px) {
+  .interior-shell {
+    --nexo-section-space: 64px;
+  }
+  .interior-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .interior-intro {
+    padding-block: 56px 48px;
+  }
+  .interior-detail-grid { grid-template-columns: 1fr; gap: 40px; }
+  .interior-detail-grid .interior-demo { max-width: 650px; }
+  .interior-scope-grid { gap: 40px; }
+  .interior-feature-grid, .interior-related-grid { grid-template-columns: 1fr; }
+  .industry-story, .industry-story:nth-child(even), .interior-portfolio-layout { grid-template-columns: 1fr; gap: 32px; }
+  .industry-story:nth-child(even) .industry-story-copy { order: initial; }
+  .industry-story-copy .interior-body { max-width: 600px; }
+  .interior-portfolio-layout > div { max-width: 630px; }
+  .interior-editorial-grid { gap: 40px; }
+  .interior-about-grid { grid-template-columns: 1fr; gap: 48px; }
+  .interior-principles { grid-template-columns: 1fr 1fr; gap: 36px; }
+}
+@media (max-width: 560px) {
+  .interior-shell {
+    --nexo-section-space: 52px;
+  }
+  .interior-intro {
+    padding-block: 42px 36px;
+  }
+  .interior-lead {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .interior-cta-copy {
+    padding: 42px 25px;
+  }
+  .interior-cta-copy p {
+    font-size: 17px;
+  }
+  .interior-service-list, .interior-scope-grid { grid-template-columns: 1fr; }
+  .interior-service-list .interior-service-tile:last-child .interior-service-copy { display: block; }
+  .interior-shell .service-card { padding: 25px; }
+  .interior-service-preview { padding: 0 25px 25px; }
+  .interior-service-list .service-card { padding: 28px 4px; }
+  .interior-shell .service-card h2 { font-size: 25px; }
+  .interior-related-grid .interior-service-copy { display: block; }
+  .interior-related-grid .interior-service-copy > p { margin-block: 16px; }
+  .interior-heading-row { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .industry-stories { gap: 56px; }
+  .industry-specimen-body { padding: 24px; }
+  .industry-specimen-rows > div { padding: 13px 10px; gap: 10px; font-size: 15px; }
+  .interior-editorial-grid { grid-template-columns: 1fr; gap: 24px; }
+  .interior-principles { grid-template-columns: 1fr; gap: 32px; }
+  .interior-method { padding: 28px 24px; }
+  .interior-method > h2 { font-size: 30px; }
+  .interior-form-panel { padding: 26px 22px; }
+  .interior-field-grid { grid-template-columns: 1fr; }
+  .interior-contact-grid h2 { font-size: 27px; }
+}

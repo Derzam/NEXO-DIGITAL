@@ -1,0 +1,359 @@
+[
+  {
+    "route": "/",
+    "width": 390,
+    "status": 200,
+    "height": 7215,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 390,
+    "status": 200,
+    "height": 4496,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 390,
+    "status": 200,
+    "height": 4694,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/sitios-corporativos",
+    "width": 390,
+    "status": 200,
+    "height": 4655,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 390,
+    "status": 200,
+    "height": 4655,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 390,
+    "status": 200,
+    "height": 4679,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/inteligencia-artificial",
+    "width": 390,
+    "status": 200,
+    "height": 4681,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/automatizacion",
+    "width": 390,
+    "status": 200,
+    "height": 4624,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/auditoria-qa",
+    "width": 390,
+    "status": 200,
+    "height": 4649,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/seo",
+    "width": 390,
+    "status": 200,
+    "height": 4594,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/integraciones",
+    "width": 390,
+    "status": 200,
+    "height": 4627,
+    "overflow": false
+  },
+  {
+    "route": "/soluciones",
+    "width": 390,
+    "status": 200,
+    "height": 3634,
+    "overflow": false
+  },
+  {
+    "route": "/portafolio",
+    "width": 390,
+    "status": 200,
+    "height": 2462,
+    "overflow": false
+  },
+  {
+    "route": "/nosotros",
+    "width": 390,
+    "status": 200,
+    "height": 4163,
+    "overflow": false
+  },
+  {
+    "route": "/blog",
+    "width": 390,
+    "status": 200,
+    "height": 1928,
+    "overflow": false
+  },
+  {
+    "route": "/contacto",
+    "width": 390,
+    "status": 200,
+    "height": 2926,
+    "overflow": false
+  },
+  {
+    "route": "/no-existe",
+    "width": 390,
+    "status": 404,
+    "height": 1619,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 768,
+    "status": 200,
+    "height": 6363,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 768,
+    "status": 200,
+    "height": 3595,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 768,
+    "status": 200,
+    "height": 3970,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/sitios-corporativos",
+    "width": 768,
+    "status": 200,
+    "height": 3942,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 768,
+    "status": 200,
+    "height": 3970,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 768,
+    "status": 200,
+    "height": 3942,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/inteligencia-artificial",
+    "width": 768,
+    "status": 200,
+    "height": 3970,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/automatizacion",
+    "width": 768,
+    "status": 200,
+    "height": 3940,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/auditoria-qa",
+    "width": 768,
+    "status": 200,
+    "height": 3942,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/seo",
+    "width": 768,
+    "status": 200,
+    "height": 3914,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/integraciones",
+    "width": 768,
+    "status": 200,
+    "height": 3940,
+    "overflow": false
+  },
+  {
+    "route": "/soluciones",
+    "width": 768,
+    "status": 200,
+    "height": 2792,
+    "overflow": false
+  },
+  {
+    "route": "/portafolio",
+    "width": 768,
+    "status": 200,
+    "height": 2242,
+    "overflow": false
+  },
+  {
+    "route": "/nosotros",
+    "width": 768,
+    "status": 200,
+    "height": 3392,
+    "overflow": false
+  },
+  {
+    "route": "/blog",
+    "width": 768,
+    "status": 200,
+    "height": 1785,
+    "overflow": false
+  },
+  {
+    "route": "/contacto",
+    "width": 768,
+    "status": 200,
+    "height": 2524,
+    "overflow": false
+  },
+  {
+    "route": "/no-existe",
+    "width": 768,
+    "status": 404,
+    "height": 1547,
+    "overflow": false
+  },
+  {
+    "route": "/",
+    "width": 1440,
+    "status": 200,
+    "height": 4957,
+    "overflow": false
+  },
+  {
+    "route": "/servicios",
+    "width": 1440,
+    "status": 200,
+    "height": 3456,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/landing-pages",
+    "width": 1440,
+    "status": 200,
+    "height": 3456,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/sitios-corporativos",
+    "width": 1440,
+    "status": 200,
+    "height": 3456,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/sistemas-web",
+    "width": 1440,
+    "status": 200,
+    "height": 3454,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/aplicaciones-moviles",
+    "width": 1440,
+    "status": 200,
+    "height": 3456,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/inteligencia-artificial",
+    "width": 1440,
+    "status": 200,
+    "height": 3454,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/automatizacion",
+    "width": 1440,
+    "status": 200,
+    "height": 3454,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/auditoria-qa",
+    "width": 1440,
+    "status": 200,
+    "height": 3456,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/seo",
+    "width": 1440,
+    "status": 200,
+    "height": 3456,
+    "overflow": false
+  },
+  {
+    "route": "/servicios/integraciones",
+    "width": 1440,
+    "status": 200,
+    "height": 3454,
+    "overflow": false
+  },
+  {
+    "route": "/soluciones",
+    "width": 1440,
+    "status": 200,
+    "height": 2563,
+    "overflow": false
+  },
+  {
+    "route": "/portafolio",
+    "width": 1440,
+    "status": 200,
+    "height": 2120,
+    "overflow": false
+  },
+  {
+    "route": "/nosotros",
+    "width": 1440,
+    "status": 200,
+    "height": 3046,
+    "overflow": false
+  },
+  {
+    "route": "/blog",
+    "width": 1440,
+    "status": 200,
+    "height": 1681,
+    "overflow": false
+  },
+  {
+    "route": "/contacto",
+    "width": 1440,
+    "status": 200,
+    "height": 1872,
+    "overflow": false
+  },
+  {
+    "route": "/no-existe",
+    "width": 1440,
+    "status": 404,
+    "height": 1397,
+    "overflow": false
+  }
+]

@@ -1,0 +1,1628 @@
+{
+ "url": "http://127.0.0.1:3120/servicios/inteligencia-artificial",
+ "at": "2026-10-27T01:33:27.246Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.93,
+    0.93,
+    0.93,
+    0.93
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2713,
+     "screens": 3,
+     "words": 249,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 20,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "nexo-threshold.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Inteligencia artificial",
+     "words": 2,
+     "chars": 23,
+     "lines": 1,
+     "size": 66,
+     "vw": 4.6,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 1.09,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 292,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Inteligencia artificial",
+     "words": 2,
+     "lines": 1,
+     "size": 66,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Inteligencia artificial",
+      "words": 2,
+      "chars": 23,
+      "lines": 1,
+      "size": 66,
+      "vw": 4.6,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.09,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 292,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Qué podemos incluir?",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 795,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu proyecto incluye",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 795,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Más conexiones.",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.24,
+      "top": 1382,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que sigue empieza aquí.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1960,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      23,
+      32,
+      48,
+      66
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.8
+     },
+     "measureChars": 71,
+     "max": {
+      "size": 66,
+      "vw": 4.6,
+      "font": "Manrope",
+      "text": "Inteligencia artificial"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 88,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#0a1423",
+       "top": 707,
+       "hsl": {
+        "h": 216,
+        "s": 0.56,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#0b1728",
+       "top": 1896,
+       "hsl": {
+        "h": 215,
+        "s": 0.57,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 2382,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.53
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.23
+      },
+      {
+       "color": "#a7bdd5",
+       "share": 0.05
+      },
+      {
+       "color": "#c9d9eb",
+       "share": 0.05
+      },
+      {
+       "color": "#e8f1fc",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#2164e8",
+      "hsl": {
+       "h": 220,
+       "s": 0.81,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Cotizar proyecto",
+      "Cotizar este servicio"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "li 531px",
+      "li 531px",
+      "li 531px",
+      "li 531px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1469
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 9,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2713,
+    "margins": {
+     "left": 80,
+     "right": 80
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 88,
+      "height": 2294,
+      "words": 216,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Inteligencia artificial",
+       "size": 66,
+       "tag": "h1"
+      },
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 2382,
+      "height": 331,
+      "words": 35,
+      "media": 0,
+      "middle": 230,
+      "heading": null,
+      "left": 80,
+      "right": 80,
+      "textLeft": 80,
+      "textRight": 80,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Inteligencia artificial",
+      "size": 66,
+      "top": 292,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 80,
+      "n": 5
+     },
+     {
+      "x": 136,
+      "n": 3
+     },
+     {
+      "x": 106,
+      "n": 2
+     },
+     {
+      "x": 539,
+      "n": 2
+     },
+     {
+      "x": 829,
+      "n": 2
+     },
+     {
+      "x": 973,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.13,
+    "voidBox": {
+     "x": 0,
+     "y": 660,
+     "w": 1440,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.96,
+    0.96,
+    0.96,
+    0.96
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3475,
+     "screens": 3.4,
+     "words": 240,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 20,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "nexo-threshold.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Inteligencia artificial",
+     "words": 2,
+     "chars": 23,
+     "lines": 1,
+     "size": 36,
+     "vw": 4.7,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 1.09,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 197,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Inteligencia artificial",
+     "words": 2,
+     "lines": 1,
+     "size": 36,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Inteligencia artificial",
+      "words": 2,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.09,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 197,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Qué podemos incluir?",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 1043,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu proyecto incluye",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 4.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.37,
+      "top": 1043,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Más conexiones.",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 1667,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que sigue empieza aquí.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.7,
+      "top": 2747,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 5,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      23,
+      30,
+      32,
+      36
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.8
+     },
+     "measureChars": 71,
+     "max": {
+      "size": 36,
+      "vw": 4.7,
+      "font": "Manrope",
+      "text": "Inteligencia artificial"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 88,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#101e30",
+       "top": 477,
+       "hsl": {
+        "h": 214,
+        "s": 0.5,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#0a1423",
+       "top": 955,
+       "hsl": {
+        "h": 216,
+        "s": 0.56,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#0b1728",
+       "top": 2683,
+       "hsl": {
+        "h": 215,
+        "s": 0.57,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 3141,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.52
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.23
+      },
+      {
+       "color": "#a7bdd5",
+       "share": 0.05
+      },
+      {
+       "color": "#c9d9eb",
+       "share": 0.05
+      },
+      {
+       "color": "#e8f1fc",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#2164e8",
+      "hsl": {
+       "h": 220,
+       "s": 0.81,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Cotizar este servicio"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "li 285px",
+      "li 285px",
+      "li 285px",
+      "li 285px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 1740
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope",
+     "manrope fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3475,
+    "margins": {
+     "left": 47,
+     "right": 47
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 88,
+      "height": 3053,
+      "words": 216,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Inteligencia artificial",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 49,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 3141,
+      "height": 333,
+      "words": 35,
+      "media": 0,
+      "middle": 48,
+      "heading": null,
+      "left": 47,
+      "right": 47,
+      "textLeft": 47,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Inteligencia artificial",
+      "size": 36,
+      "top": 197,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 73,
+      "n": 6
+     },
+     {
+      "x": 47,
+      "n": 5
+     },
+     {
+      "x": 103,
+      "n": 3
+     },
+     {
+      "x": 436,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4377,
+     "screens": 5.2,
+     "words": 240,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 20,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 1,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 1,
+     "pictureSamples": [
+      "nexo-threshold.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Inteligencia artificial",
+     "words": 2,
+     "chars": 23,
+     "lines": 1,
+     "size": 36,
+     "vw": 9.2,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.05,
+     "leading": 1.09,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 171,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Inteligencia artificial",
+     "words": 2,
+     "lines": 1,
+     "size": 36,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "Inteligencia artificial",
+      "words": 2,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.09,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 171,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Qué podemos incluir?",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1032,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tu proyecto incluye",
+      "words": 3,
+      "chars": 19,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1368,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Más conexiones.",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.54,
+      "top": 1984,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Landing pages",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2178,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Sitios web corporativos",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2476,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Sistemas web a medida",
+      "words": 4,
+      "chars": 21,
+      "lines": 1,
+      "size": 25,
+      "vw": 6.4,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2747,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Lo que sigue empieza aquí.",
+      "words": 5,
+      "chars": 26,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 3180,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Manrope",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      25,
+      30,
+      32,
+      36
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 17,
+      "leading": 1.65,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 8.8
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 36,
+      "vw": 9.2,
+      "font": "Manrope",
+      "text": "Inteligencia artificial"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#070c17",
+     "bodyBgHsl": {
+      "h": 221,
+      "s": 0.53,
+      "l": 0.06
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#070e1c",
+       "top": 76,
+       "hsl": {
+        "h": 220,
+        "s": 0.6,
+        "l": 0.07
+       }
+      },
+      {
+       "color": "#101e30",
+       "top": 503,
+       "hsl": {
+        "h": 214,
+        "s": 0.5,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#0a1423",
+       "top": 944,
+       "hsl": {
+        "h": 216,
+        "s": 0.56,
+        "l": 0.09
+       }
+      },
+      {
+       "color": "#0b1728",
+       "top": 3138,
+       "hsl": {
+        "h": 215,
+        "s": 0.57,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#050b15",
+       "top": 3666,
+       "hsl": {
+        "h": 218,
+        "s": 0.62,
+        "l": 0.05
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a9bad0",
+       "share": 0.52
+      },
+      {
+       "color": "#eef4ff",
+       "share": 0.23
+      },
+      {
+       "color": "#a7bdd5",
+       "share": 0.05
+      },
+      {
+       "color": "#c9d9eb",
+       "share": 0.05
+      },
+      {
+       "color": "#e8f1fc",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#2164e8",
+      "hsl": {
+       "h": 220,
+       "s": 0.81,
+       "l": 0.52
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 52,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Cotizar este servicio"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 4,
+     "hairlineSamples": [
+      "li 350px",
+      "li 350px",
+      "li 350px",
+      "li 350px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 2114
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "manrope",
+     "manrope fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4377,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "main#contenido",
+      "tag": "main",
+      "top": 76,
+      "height": 3590,
+      "words": 216,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Inteligencia artificial",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.proposal-shell.tw:bg-[#050b15]",
+      "tag": "footer",
+      "top": 3666,
+      "height": 711,
+      "words": 35,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 65,
+      "textLeft": 20,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Inteligencia artificial",
+      "size": 36,
+      "top": 171,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 45,
+      "n": 9
+     },
+     {
+      "x": 20,
+      "n": 7
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "4 thin rule(s)/divider line(s): li 531px | li 531px | li 531px | li 531px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "1 row(s) of identical cards each topped with a small icon (3 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "11 different font sizes (13, 14, 15, 16, 17, 18, 19, 23, 32, 48, 66).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 2 picture(s) on the page (1 photographs, footage or raster images, 1 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\servicios-inteligencia-artificial\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\servicios-inteligencia-artificial\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\servicios-inteligencia-artificial\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\servicios-inteligencia-artificial\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\servicios-inteligencia-artificial\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\Derly Zambrano\\Documents\\ChatGPT\\DISEÑO DE PAGINAS\\NEXO-DIGITAL\\docs\\qa-v4\\taste\\servicios-inteligencia-artificial\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
