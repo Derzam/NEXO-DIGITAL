@@ -1,6 +1,10 @@
 # Historial de QA — Nexo Digital Studio
 
-## Auditoría vigente V4.1
+## Gates V4.2
+
+La rama independiente `codex/v4-2-release-gates`, desde V4.1 `08c3b1bc3bd54a2ce369366e45de302548441eb7`, corrige el acceso al skip link en WebKit automatizado y establece Webpack como build estándar. Las suites completas pasaron 111/111 por motor; la prueba reforzada de prehidratación pasó 9/9 por separado. La Home aprobada sigue idéntica en 6/6 capturas. Safari real, CI/Vercel y aceptación comercial siguen pendientes. El proyecto no está listo para producción. Detalle y evidencia: [QA V4.2](qa-v4-2/QA.md).
+
+## Auditoría V4.1
 
 La auditoría final de experiencia, compatibilidad y rendimiento corresponde a la rama independiente **codex/v4-1-preflight**, iniciada desde V4 `29d1925b4641bad49572c1ac582a45e5d693be04`. El detalle de los seis gates, resultados, riesgos y límites se documenta en [QA V4.1](qa-v4-1/QA.md), con [capturas comparativas](qa-v4-1/GALLERY.md), [rendimiento](qa-v4-1/PERFORMANCE.md), [seguridad y privacidad](qa-v4-1/SECURITY.md) y [plan de integración](qa-v4-1/INTEGRATION.md).
 

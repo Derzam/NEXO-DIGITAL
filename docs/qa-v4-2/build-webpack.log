@@ -1,0 +1,43 @@
+
+> nexo-digital-studio@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.4.3 (webpack)
+⚠ Warning: Next.js ignored package-lock.json in C:\Users\Derly Zambrano because it is outside the current Git repository (C:\Users\Derly Zambrano\Documents\ChatGPT\DISEÑO DE PAGINAS\NEXO-DIGITAL).
+ To use this directory, set `outputFileTracingRoot` in your Next.js config.
+
+✓ Running next.config.ts took 83ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 14.3s
+  Running TypeScript ...
+  Finished TypeScript in 7.8s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/20) ...
+  Generating static pages using 11 workers (5/20)
+  Generating static pages using 11 workers (10/20)
+  Generating static pages using 11 workers (15/20)
+✓ Generating static pages using 11 workers (20/20) in 2.4s
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /blog
+├ ○ /contacto
+├ ○ /nosotros
+├ ○ /portafolio
+├ ○ /robots.txt
+├ ○ /servicios
+├   /servicios/[slug]
+│ ├ ● /servicios/landing-pages
+│ ├ ● /servicios/sitios-corporativos
+│ ├ ● /servicios/sistemas-web
+│ └ ● [+6 more paths]
+├ ○ /sitemap.xml
+└ ○ /soluciones
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)

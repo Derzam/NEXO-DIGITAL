@@ -1,0 +1,16 @@
+{
+  "scannedTrackedTextFiles": 211,
+  "secretScanRules": [
+    "private-key",
+    "aws-access-id",
+    "github-token",
+    "stripe-live-key",
+    "openai-key"
+  ],
+  "findings": [],
+  "trackedEnvironmentFiles": [
+    ".env.example"
+  ],
+  "browserPersistenceApiFiles": [],
+  "applicationRequestsApiUse": false
+}
