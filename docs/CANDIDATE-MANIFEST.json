@@ -15,10 +15,10 @@
       "path": ".github/workflows/website-qa.yml",
       "category": "configuration",
       "sourceGitBlob": "825b41ea8445a4ad65ea800f74af03e0ddc91afd",
-      "origin": "V4.2 sin cambios",
-      "bytes": 1231,
-      "sha256": "9593eed5a08381f4ebd0e00ed75e4ddcb75f3e919cda2c7afe47447941a92608",
-      "matchesV42": true
+      "origin": "V4.2; CI storage change authorized after local snapshot",
+      "bytes": 945,
+      "sha256": "cd294c19947b6d622788febb4666bf3430a7d17a263fd02a309b47e0dedc7688",
+      "matchesV42": false
     },
     {
       "path": ".gitignore",
@@ -779,5 +779,37 @@
   ],
   "selfExcluded": "docs/CANDIDATE-MANIFEST.json",
   "selfExclusionReason": "Evita un hash autorreferente; el commit Git versiona el manifiesto.",
-  "failures": []
+  "failures": [],
+  "authorizedChanges": [
+    {
+      "path": ".github/workflows/website-qa.yml",
+      "authorization": "Owner authorization to remove actions/upload-artifact and setup-node npm cache",
+      "changeCommit": "f305818108d37459fec3cbdce19aeb258c1ab594",
+      "previousManifest": {
+        "manifestSha256": "9593eed5a08381f4ebd0e00ed75e4ddcb75f3e919cda2c7afe47447941a92608",
+        "sourceV42GitBlob": "825b41ea8445a4ad65ea800f74af03e0ddc91afd"
+      },
+      "current": {
+        "bytes": 945,
+        "sha256": "cd294c19947b6d622788febb4666bf3430a7d17a263fd02a309b47e0dedc7688",
+        "gitBlob": "a55d7656c929bd256a85cb0a22e63455966fdab4"
+      },
+      "preserved": [
+        "pull_request to main",
+        "Checkout",
+        "Node.js 22",
+        "npm ci",
+        "lint",
+        "TypeScript",
+        "Webpack build",
+        "Chromium install",
+        "Playwright and accessibility",
+        "workflow_dispatch"
+      ],
+      "removed": [
+        "actions/upload-artifact",
+        "setup-node cache: npm"
+      ]
+    }
+  ]
 }
