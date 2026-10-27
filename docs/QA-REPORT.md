@@ -6,7 +6,7 @@ La auditoría final de experiencia, compatibilidad y rendimiento corresponde a l
 
 La Home aprobada quedó intacta (6/6 comparaciones exactas). Chromium y Firefox pasaron 108/108; WebKit pasó 105/108, con tres fallos del primer Tab al skip link. El build Webpack pasó; el Turbopack predeterminado no pudo iniciar su proceso auxiliar CSS en este host. Revisión legal/dominio y compatibilidad física continúan pendientes.
 
-El PR V4.1 se publicará como Draft separado contra `codex/interiors-shadcn-migration`; sin integración a `main`. PR #1 y #2 permanecen Draft. No se desplegó producción, no se modificó facturación ni se reintentó GitHub Actions.
+El [PR #3 V4.1](https://github.com/Derzam/NEXO-DIGITAL/pull/3) está abierto en Draft contra `codex/interiors-shadcn-migration`; sin integración a `main`. PR #1 y #2 siguen abiertos en Draft. No se desplegó producción, no se modificó facturación ni se reintentó GitHub Actions.
 
 ---
 
