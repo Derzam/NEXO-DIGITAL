@@ -1,0 +1,815 @@
+{
+  "baseMain": "5902bd54b3ac5ccea08114398700551bfa3e3410",
+  "sourceV42": "25f2b9fd9b84ba97f253dd89e417240710b47a54",
+  "files": [
+    {
+      "path": ".env.example",
+      "category": "configuration",
+      "sourceGitBlob": "fc6f0802ba242a0ce9e8b13c4966aae6b1c735ae",
+      "origin": "V4.2 sin cambios",
+      "bytes": 75,
+      "sha256": "a5a2a4b3834d9c13c2b97f682595ceb6265a35b4d3e68f26fb573f73877d6291",
+      "matchesV42": true
+    },
+    {
+      "path": ".github/workflows/website-qa.yml",
+      "category": "configuration",
+      "sourceGitBlob": "825b41ea8445a4ad65ea800f74af03e0ddc91afd",
+      "origin": "V4.2; CI storage change authorized after local snapshot",
+      "bytes": 945,
+      "sha256": "cd294c19947b6d622788febb4666bf3430a7d17a263fd02a309b47e0dedc7688",
+      "matchesV42": false
+    },
+    {
+      "path": ".gitignore",
+      "category": "configuration",
+      "sourceGitBlob": "4f7baddd2d24029d15a8dc4c4e2c71ec622ec497",
+      "origin": "V4.2 sin cambios",
+      "bytes": 173,
+      "sha256": "f6e02565cf249f69ec8bc0d95e5c3691e5f6dad62265fda7899aa66dada4656c",
+      "matchesV42": true
+    },
+    {
+      "path": "README.md",
+      "category": "readme",
+      "sourceGitBlob": "cee02e28d7d5a13f59248c2301dc49651bc821da",
+      "origin": "documentación modificada",
+      "bytes": 6343,
+      "sha256": "3b60ba8afb0067d159fb4e85c12628a0f3a99c99e59d07be81a7c8bca7d03561",
+      "matchesV42": false
+    },
+    {
+      "path": "components.json",
+      "category": "configuration",
+      "sourceGitBlob": "c1e187ae492362120c951639b57792cc499ed378",
+      "origin": "V4.2 sin cambios",
+      "bytes": 436,
+      "sha256": "67f5ca14f81c69a0d1b84caf370232347e5ab4b649903ba1045c0b90466b291f",
+      "matchesV42": true
+    },
+    {
+      "path": "docs/qa-v4/before/home-1440-fold.png",
+      "category": "evidence",
+      "sourceGitBlob": "c03bbc2ac5b96371dba3c636c8f72e67f66cfa95",
+      "origin": "V4.2 sin cambios",
+      "bytes": 962882,
+      "sha256": "a203a5ab5e5b3e5919bc5944e4846222f32cec21c02b9dae71dfa320d218c7cd",
+      "matchesV42": true
+    },
+    {
+      "path": "docs/qa-v4/before/home-1440-full.png",
+      "category": "evidence",
+      "sourceGitBlob": "c4ca720648f591eee32ac1a0168570b28e5c40fd",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1855813,
+      "sha256": "86caf5b5b299aedc139b8af0ba36cf70735e89fdcbc5c4b31f352212247675c7",
+      "matchesV42": true
+    },
+    {
+      "path": "docs/qa-v4/before/home-390-fold.png",
+      "category": "evidence",
+      "sourceGitBlob": "c7bfc264dc5fa58a0c33a72350339f503ff03609",
+      "origin": "V4.2 sin cambios",
+      "bytes": 265747,
+      "sha256": "a9f3b33d5e1d40aa9438fc2f0de8b524c231dd9b9e34d0abbb4d18c669917793",
+      "matchesV42": true
+    },
+    {
+      "path": "docs/qa-v4/before/home-390-full.png",
+      "category": "evidence",
+      "sourceGitBlob": "220f137272b132848fb8d8303a737cec70305bdb",
+      "origin": "V4.2 sin cambios",
+      "bytes": 843279,
+      "sha256": "5894d6e06fd9eb3e9e4844db705ff89b283b9952df69fab6f9ff3ca21d265c30",
+      "matchesV42": true
+    },
+    {
+      "path": "docs/qa-v4/before/home-768-fold.png",
+      "category": "evidence",
+      "sourceGitBlob": "0110f714b6c161516e30d8bad4048695b828aeb2",
+      "origin": "V4.2 sin cambios",
+      "bytes": 616644,
+      "sha256": "dd277a453a3b37b6625c18c12d86bf8be89177700073049c67936fa308c69b80",
+      "matchesV42": true
+    },
+    {
+      "path": "docs/qa-v4/before/home-768-full.png",
+      "category": "evidence",
+      "sourceGitBlob": "231c3dc1363908100cbdba3fca82f5e14460f779",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1254466,
+      "sha256": "6b5bdeeacc2e1b4713ada380d7398573f73d05f9ced8d73299875de09fff2942",
+      "matchesV42": true
+    },
+    {
+      "path": "eslint.config.mjs",
+      "category": "configuration",
+      "sourceGitBlob": "465e9858ec8b8795c228df93e88b57f607e5ad60",
+      "origin": "V4.2 sin cambios",
+      "bytes": 253,
+      "sha256": "8a38d011df2c93a27dd44d13a67835011ff17a9dc6715a1de1bdb22dadd5835f",
+      "matchesV42": true
+    },
+    {
+      "path": "next-env.d.ts",
+      "category": "configuration",
+      "sourceGitBlob": "ce4e94a6b10f160ee021fe18939af160d2927dcf",
+      "origin": "V4.2 sin cambios",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b",
+      "matchesV42": true
+    },
+    {
+      "path": "next.config.ts",
+      "category": "configuration",
+      "sourceGitBlob": "b08f02befeea4759692a9d1c33bb296e2847dad8",
+      "origin": "V4.2 sin cambios",
+      "bytes": 130,
+      "sha256": "313bbd12b7c02687533a9834c38c1052cd8037ad0b47b26713cbaa19e6fbad74",
+      "matchesV42": true
+    },
+    {
+      "path": "package-lock.json",
+      "category": "configuration",
+      "sourceGitBlob": "43a5110dd11b8c6029bf87ae60ed87e976eea60a",
+      "origin": "V4.2 sin cambios",
+      "bytes": 304946,
+      "sha256": "fb0dd0e8244327bca25c4338977f5e7b22cddc967f168554c3c09bd5a9945d09",
+      "matchesV42": true
+    },
+    {
+      "path": "package.json",
+      "category": "configuration",
+      "sourceGitBlob": "38cb904150652c119e58a583946db7a5e163d436",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1026,
+      "sha256": "747329da9167da94311b63614479ccf91d3a00b81d0ae6ad22ff5841c064db1b",
+      "matchesV42": true
+    },
+    {
+      "path": "playwright.compat.config.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "349335127a85437eb1fc39ea2d43d90a8f12a150",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1204,
+      "sha256": "400c5987a23c12be4bd5c5f8ebbf2148a9ae702c63e006db9ca2c0dfcc3509b3",
+      "matchesV42": true
+    },
+    {
+      "path": "playwright.config.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "c0dfa43405abc894e1c1255a884842744e766175",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1072,
+      "sha256": "5e15f04e2f33120d3cda92a7dfe39f1d0535e1393b5dfd5beee02c602871c842",
+      "matchesV42": true
+    },
+    {
+      "path": "postcss.config.mjs",
+      "category": "configuration",
+      "sourceGitBlob": "d062fcdae9dd9b353832f04e63a83de020ec4fbe",
+      "origin": "V4.2 sin cambios",
+      "bytes": 83,
+      "sha256": "b783348d5618047d0f37e12acd15c5a2c5f02809d8711e0764c9cea52750346c",
+      "matchesV42": true
+    },
+    {
+      "path": "public/images/nexo-threshold.webp",
+      "category": "application",
+      "sourceGitBlob": "4923c6dddc6992810550c823cd1360a1994441ee",
+      "origin": "V4.2 sin cambios",
+      "bytes": 105014,
+      "sha256": "22b72be8a5a44ee5f8a51e331b7c9185682ec5e73e5388580bb5bf5b69a56f91",
+      "matchesV42": true
+    },
+    {
+      "path": "public/images/nexo-wordmark.webp",
+      "category": "application",
+      "sourceGitBlob": "4227c2ad32cd310267a7eed25aa3ebeed25416f1",
+      "origin": "V4.2 sin cambios",
+      "bytes": 20850,
+      "sha256": "8892677ab8f142028d104bac80922a0fef8f0d473d3ea6163d3380cf6603ed0e",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4-1/capture.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "81a57694164170a4934cf0658e5b21bfdc71c679",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2709,
+      "sha256": "ca640154067e81117762c6a154f3ac5bd4b7dd96fd28dc5a3f0cc467cec68d4a",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4-1/module-attribution.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "fa88b6ed1376d9b1610863252ab5e595c4fc68b7",
+      "origin": "V4.2 sin cambios",
+      "bytes": 4155,
+      "sha256": "ad96543dd2039ab53da640c48a71ae992e5926c31febb98a5676cebcd188dd03",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4-1/performance.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "654fed53adcf858a24963a63d23fd538b5dc97d9",
+      "origin": "V4.2 sin cambios",
+      "bytes": 5136,
+      "sha256": "b04f99b7ba3e33e94b1368ea42195e0f8f56d170773e2696046faca4fb2f1de6",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4-1/security-scan.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "ee89209496d71547722fab51abe983f46b1bccbd",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1662,
+      "sha256": "abd48d3268c6b2e631e6cce06c0a53f6757aa96150da776f5251dc30babf8382",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4-2/capture-home.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "bfcc36eb27c0f13e8906833a96fb5e6598d015c0",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1608,
+      "sha256": "9544dfa286f25a1f9677038277babfdfc60a7ce7655bca56219a3a16299887e6",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4-2/skip-link.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "7d1987826b96398759eb7f1f806a671b069da2ff",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2594,
+      "sha256": "b4acbecc85e833f301a0309a7106ad7d007eafba4cb8f3116caa8c725f0350c5",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4-2/skip-minimal.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "9d568b6ebbd012ca47f840236a7bdd3d96f971f5",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1282,
+      "sha256": "ca7cd706219933df93d33824859080089e85511a6fa157e5c0413832f26b1c22",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4/capture.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "0d39f47a98bb23d3e819306a172c4706f211f8d2",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2250,
+      "sha256": "5e760ae55180c72694981ba51c27908015bcde6d7c60bf713f86be7f92b51122",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4/compare-home.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "c21f3422d683d205185b6ea559ca4f75d1e33e20",
+      "origin": "V4.2 sin cambios",
+      "bytes": 921,
+      "sha256": "a288a3261db00eb94d1d46516c0c5a89562243203f327669754dda6ffd70586f",
+      "matchesV42": true
+    },
+    {
+      "path": "scripts/qa-v4/metadata.cjs",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "6a0f720fecb75016cdc4a32e18697f2a96c337dd",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2319,
+      "sha256": "ca052312c25232063eab1148465d7de868acf593b59830867d2802f77b4ab17c",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/blog/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "073945fd2a7041fd622739de6c6a22753f274751",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1959,
+      "sha256": "e9e9e193311465db786c850bc2cee6441f132146dcc881a6c79cd87473d6191d",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/contacto/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "7b505b2cd9de14356aba79f910b44460a78bda05",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1760,
+      "sha256": "26e3d18a9401448c8fedebe90f84691c08329bfa985b5a5b9132b1dae7bc30c5",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/globals.css",
+      "category": "application",
+      "sourceGitBlob": "161c3bba6e7a58ee231d2371ee36629f8ee13a44",
+      "origin": "V4.2 sin cambios",
+      "bytes": 30962,
+      "sha256": "c5fbaf281a06ea04189f643c9b8d95083cddce7cefeaefe6eb99cc4b7955f69b",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "category": "application",
+      "sourceGitBlob": "91d5cebd82c5ba88ad738631e8d0513f442a274e",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1601,
+      "sha256": "5f2fea21a0fe00e260ae38e9623943e2fac6aa12900b7be5b0dc189dd9b60e6c",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/nosotros/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "e6a4377209faa87c8798c48cf2b48f907bc3c404",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1818,
+      "sha256": "d5ae36627d50c88510f14ab1ad904eb7deee9fe6aafa14324bf13b6abe0b3d31",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "category": "application",
+      "sourceGitBlob": "4eb368a0c02b42419769ed6d2ea74283fe05215a",
+      "origin": "V4.2 sin cambios",
+      "bytes": 695,
+      "sha256": "2d6c820faadfa2cf26f73ebe6cc2995e117cdee10a23b9113e23784efa290d48",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "e18a18ebd976abc2f51b226bebd73aa1d262fe99",
+      "origin": "V4.2 sin cambios",
+      "bytes": 3380,
+      "sha256": "e38264582d89c750ffddcf07afb098d4307bd4bb16f95d11b4e77d59f4dd8f1a",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/portafolio/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "ffc2735c1016357291522c78045647b9498e2fbc",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2300,
+      "sha256": "1aacca0e2aa7a0537ab31ba1a10ff8a32c8c80cbbc8f54f75b1d09a68eca691a",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/robots.ts",
+      "category": "application",
+      "sourceGitBlob": "9e6c288281417c2e558f07fb7031ec05777e35a9",
+      "origin": "V4.2 sin cambios",
+      "bytes": 211,
+      "sha256": "07e3f0d49fe67974ea37fae1c6f688bdcefb9bdc92a5c21548d2aee40b67efab",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/servicios/[slug]/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "ad93d8c07e672f3b27e49c506022b00a24614d72",
+      "origin": "V4.2 sin cambios",
+      "bytes": 3769,
+      "sha256": "c854976dce08e0ae0954646a22571f06da76444f41b4ecbce693da7a7a116d36",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/servicios/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "1122f8e6d06f938a6c102df68b51d62e44f47c8b",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1370,
+      "sha256": "bbae261447a2997a786f931a35cd7a67bc47c6e68255298e517e6c00c33b9c3c",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "category": "application",
+      "sourceGitBlob": "9d95602fa296340b3468c614cbf1a3a9546e4bae",
+      "origin": "V4.2 sin cambios",
+      "bytes": 474,
+      "sha256": "714be6b54fbe53885a3fd176fc26c12319ea885f448071fc4d47064611121f7e",
+      "matchesV42": true
+    },
+    {
+      "path": "src/app/soluciones/page.tsx",
+      "category": "application",
+      "sourceGitBlob": "a74b5d550a90e5c034a42a38f648e0b6178c26dc",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1748,
+      "sha256": "7390349bf259266659b9c597971a022617df53f769d1d6577e1414e575b433df",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/contact-form.tsx",
+      "category": "application",
+      "sourceGitBlob": "254ccf6f8b8910f562219c5e39ff42691c0f05d7",
+      "origin": "V4.2 sin cambios",
+      "bytes": 7058,
+      "sha256": "da0275f7c8a9d85e39365d0e13df9b11f062a4d2749527e5855f4e01a29e71ad",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/interiors/industry-preview.tsx",
+      "category": "application",
+      "sourceGitBlob": "9f872ed06e7463dc4c0948e1159f0932fcd89f58",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1894,
+      "sha256": "eb6c15b991b40128a195240485cbdf83418c89cfcf5c260f74f32743ce35d661",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/interiors/service-tile.tsx",
+      "category": "application",
+      "sourceGitBlob": "6d4985d06e2c27a2f133ffe841519468be30a42e",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1464,
+      "sha256": "2baeefcab1b2928cf1c2f88743e55de720cfa295657a0604ef76f7283926cf59",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/interiors/shell.tsx",
+      "category": "application",
+      "sourceGitBlob": "1bf0b41cfac9b077be642369c79b11147ab58d91",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2656,
+      "sha256": "3c4ebf6c312d36e7dfb6f1ba577c974dd6fed8164121c3ef8c3852eab903d087",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/nexo-artwork.tsx",
+      "category": "application",
+      "sourceGitBlob": "9f4b1fcc520835e549f7780b4b1ad8e0576fad66",
+      "origin": "V4.2 sin cambios",
+      "bytes": 3389,
+      "sha256": "baec551a28e66321e5ff433e1ae16f135798bb98445d3671679aa2b3b4f2c727",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/nexo-wordmark.tsx",
+      "category": "application",
+      "sourceGitBlob": "7c47ba4a248dd3a4ce01487f47337451cd7e313f",
+      "origin": "V4.2 sin cambios",
+      "bytes": 499,
+      "sha256": "88d8ea8e32b7494fece3df94fd42e7686a07be3e6317bcc5d6b66f52844f2903",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/proposal/footer.tsx",
+      "category": "application",
+      "sourceGitBlob": "c9f416156e1b38d747fdb565194edf0ada7dfa97",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2717,
+      "sha256": "45339be335e75a5f8405f6be2a68946b3b281ff714b40d2477bafeba4061549e",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/proposal/header.tsx",
+      "category": "application",
+      "sourceGitBlob": "3747a375568413018c9d0381ba40cdaf3c998821",
+      "origin": "V4.2 sin cambios",
+      "bytes": 6410,
+      "sha256": "c6004cd9b959dba44d5ae035819e6f975441d99b07a586faa2ff4b815943f376",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/proposal/interactions.tsx",
+      "category": "application",
+      "sourceGitBlob": "8b86d42a4cfcb643af3a180672b9e7275209cb97",
+      "origin": "V4.2 sin cambios",
+      "bytes": 12762,
+      "sha256": "4e350a6a9910b7d90747985224cbe679d7d3b05e46cedd85d69397480cc16994",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/proposal/product-previews.tsx",
+      "category": "application",
+      "sourceGitBlob": "1b48e7ee33d906d8184718a47ca0e249eec4d627",
+      "origin": "V4.2 sin cambios",
+      "bytes": 7405,
+      "sha256": "90441f3e1ef716adc511fa3424c6d9296ce6079bfed1b75598a15ed2954ea579",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/proposal/refined-sections.tsx",
+      "category": "application",
+      "sourceGitBlob": "d42f8182d2d77ded357a6edc9cfc6308fb325b9b",
+      "origin": "V4.2 sin cambios",
+      "bytes": 7498,
+      "sha256": "f6fb0f33ab8216e7592228ec3d8223a731a249755b42bc8c20b733682ed4d471",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/proposal/route-footer.tsx",
+      "category": "application",
+      "sourceGitBlob": "08c37c9f5feefa471c170c5714855525e58439df",
+      "origin": "V4.2 sin cambios",
+      "bytes": 429,
+      "sha256": "298f7ff9c9e502309760269f0c5cd6a7ec66ff72619b5b11d2e873a305830fd9",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/accordion.tsx",
+      "category": "application",
+      "sourceGitBlob": "3bf9f9a9f5884a990efe27a21d3a37fb9aede251",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2163,
+      "sha256": "48cb7bf07e86373ee267d3ebc5541c0d3cc352c6f940f36c7b6c6da74db26d5b",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/button.tsx",
+      "category": "application",
+      "sourceGitBlob": "914b5a30f83957f419b11859b0f84f533642e1f7",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2637,
+      "sha256": "0a4fbce41e0a75ad0e620745a416ebce8a383ead58b4da8715cd9507012c97e1",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/card.tsx",
+      "category": "application",
+      "sourceGitBlob": "9fa2cbe07df730c3b4a1c02209d3dfd6da331be1",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2097,
+      "sha256": "282eb23362fbc1fa2fd8f95e2e24a3c5005e1193bce96639d02dc73164f9bd0c",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/input.tsx",
+      "category": "application",
+      "sourceGitBlob": "6276e140363b9364f6854cff5fe1c664425f72b9",
+      "origin": "V4.2 sin cambios",
+      "bytes": 831,
+      "sha256": "ed7cd965f8ef1d00633f53c752c5491a5bdeb58c9d2f5a5e6ecce835e1eb7202",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/native-select.tsx",
+      "category": "application",
+      "sourceGitBlob": "b97697dc47cfc8bb5ba26a2b515683616c9272ac",
+      "origin": "V4.2 sin cambios",
+      "bytes": 913,
+      "sha256": "bf568a4b9dfe4bb9189fbec59be1d7ebdaebf7292582a0db317dc00c5d7b2318",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/navigation-menu.tsx",
+      "category": "application",
+      "sourceGitBlob": "d8d10660310dcb4260706e83bf1b6a58d6c97a48",
+      "origin": "V4.2 sin cambios",
+      "bytes": 7112,
+      "sha256": "a5e259ca85b481e06b336aa48c1b6acad42ea46efdc6f4b6b557054d5b2b22b3",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/sheet.tsx",
+      "category": "application",
+      "sourceGitBlob": "4d53bcb744ce7f3e6682bec1a9e2b06eeac8d96f",
+      "origin": "V4.2 sin cambios",
+      "bytes": 4466,
+      "sha256": "480e1191e31df74548e29a9aea06d1e480319b0b5f0f0b66782c692a80abdcb7",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/tabs.tsx",
+      "category": "application",
+      "sourceGitBlob": "28b671ad12def4f2769d5857bf2bfa396f6c22fe",
+      "origin": "V4.2 sin cambios",
+      "bytes": 3946,
+      "sha256": "1f2a67354c23ac0a2c98adf97f846cad4fce729814ec878c51388e09ea1ce2a9",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/shadcn/textarea.tsx",
+      "category": "application",
+      "sourceGitBlob": "5fa29c5c66330567cf44d951cacb39c3e9e5f184",
+      "origin": "V4.2 sin cambios",
+      "bytes": 346,
+      "sha256": "81b3befab2bc269420d78769790d98b6dc31c254f72a62195fccf87c574fa08d",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/site-footer.tsx",
+      "category": "application",
+      "sourceGitBlob": "9dae0f4f2e486e632ed0538ae2660b1550718922",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1580,
+      "sha256": "06c33afe4a9767a3c0a15877140c95019126babf67cd50a526d98f3189ba9119",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/site-header.tsx",
+      "category": "application",
+      "sourceGitBlob": "ef19d247e42297772627e3594b3b011f4aad0738",
+      "origin": "V4.2 sin cambios",
+      "bytes": 3021,
+      "sha256": "85b521b1d6cb515abfc7d590cdd9f52aeb9619cd79ee004aba76eba9f5ae1356",
+      "matchesV42": true
+    },
+    {
+      "path": "src/components/ui.tsx",
+      "category": "application",
+      "sourceGitBlob": "779f3dc35d74aa787cbaf03b2d9e63a5863aa22a",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1910,
+      "sha256": "58abd4b690bbfd99197bd34cbe4fff69da4bcec4e48b75d636014323f0bec207",
+      "matchesV42": true
+    },
+    {
+      "path": "src/lib/content.ts",
+      "category": "application",
+      "sourceGitBlob": "7c7e47efcae3a8efac7d9642d5978615670a5ec6",
+      "origin": "V4.2 sin cambios",
+      "bytes": 7746,
+      "sha256": "951ea8a42daf4d95ab0d95ee2896e30d8e2d8b359bd4b6efd7360a37dc004ec8",
+      "matchesV42": true
+    },
+    {
+      "path": "src/lib/premium-routes.ts",
+      "category": "application",
+      "sourceGitBlob": "668fe69f216db10291f042c6483cfc55184bc7de",
+      "origin": "V4.2 sin cambios",
+      "bytes": 646,
+      "sha256": "3f17d81fd811de6642ea0d0ece862682b0c274e04f4cc0c324857b76d9b87902",
+      "matchesV42": true
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "category": "application",
+      "sourceGitBlob": "e1526268a91bcfdd60eaf91c0622902c1766b64d",
+      "origin": "V4.2 sin cambios",
+      "bytes": 231,
+      "sha256": "56e9fee610d23f93dd315a9743a33eef0403442543a951fcccc425b675ab0ab2",
+      "matchesV42": true
+    },
+    {
+      "path": "src/styles/app.css",
+      "category": "application",
+      "sourceGitBlob": "c52cf0f0ff8b89ab78c14914571c4c2db4d94eaa",
+      "origin": "V4.2 sin cambios",
+      "bytes": 7169,
+      "sha256": "9845d25c37241f5fc3cbec20ec78bdc66a8ff44b7b55f77d8612416ded08f21d",
+      "matchesV42": true
+    },
+    {
+      "path": "src/styles/interiors.css",
+      "category": "application",
+      "sourceGitBlob": "6136204a3471b88de83082c4cd2e232063ffdcb3",
+      "origin": "V4.2 sin cambios",
+      "bytes": 11019,
+      "sha256": "08e14839a414b514c45f17b6b83cf4d1b705e88b00368c7fcf6386fbbca1f148",
+      "matchesV42": true
+    },
+    {
+      "path": "src/styles/refinement.css",
+      "category": "application",
+      "sourceGitBlob": "e0be4a2da13428abc8e4b95753aed815abffb8be",
+      "origin": "V4.2 sin cambios",
+      "bytes": 9289,
+      "sha256": "020d7378320c1929fb4eb84e1c3fbce28117189dfb3b7302faa1b59757dcdadb",
+      "matchesV42": true
+    },
+    {
+      "path": "src/styles/tokens.css",
+      "category": "application",
+      "sourceGitBlob": "b7b8f8f22afff5910bd75b2231a5f3eaf2833f18",
+      "origin": "V4.2 sin cambios",
+      "bytes": 706,
+      "sha256": "1d2ca9bc6abee2dbcf8414df8d8f05f8cfb0933e7e47da9d96cbefdc6c66b20d",
+      "matchesV42": true
+    },
+    {
+      "path": "tests/e2e/home-proposal.spec.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "078dc418b15a6cc6f0272c2e0f1ab6e6f77a7b68",
+      "origin": "V4.2 sin cambios",
+      "bytes": 3228,
+      "sha256": "f811ac153d17c2cf18ce0d76ea24c865c269fec1b11b77c7650875b8bf9c126e",
+      "matchesV42": true
+    },
+    {
+      "path": "tests/e2e/home-refinement.spec.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "d6277f45972375820842617cd81a6274f3c2f7a1",
+      "origin": "V4.2 sin cambios",
+      "bytes": 1901,
+      "sha256": "b260e468a6d93ea7bb1dd832eb79ac8c6e22a7c43354248df11f6a34fefd3411",
+      "matchesV42": true
+    },
+    {
+      "path": "tests/e2e/interiors-v4.spec.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "cc08f01a26a69bf0ae6a4558e4c67297a88b10a5",
+      "origin": "V4.2 sin cambios",
+      "bytes": 8771,
+      "sha256": "235435d945d6728a5f50fffbf752c3ae4f14f78c64f3bb9f5b2dccf6ec1ca175",
+      "matchesV42": true
+    },
+    {
+      "path": "tests/e2e/preflight-v4-1.spec.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "649db858f3c0bb09e0a80bc3c96eb3a678877df6",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2824,
+      "sha256": "f572d551f3077402b7b0666c18dd0ed73f5acbeb589fecd8da36a730154ab6d9",
+      "matchesV42": true
+    },
+    {
+      "path": "tests/e2e/preflight-v4-2.spec.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "4b26c36eb625943dacc8d546d6ac66a54ea38315",
+      "origin": "V4.2 sin cambios",
+      "bytes": 2602,
+      "sha256": "2e7dcbd010472fc0778b2364795ba460abef746ef742b90daf1c687c7e8ae6c7",
+      "matchesV42": true
+    },
+    {
+      "path": "tests/e2e/site.spec.ts",
+      "category": "tests_and_tooling",
+      "sourceGitBlob": "be00534212a7f53d2ddd822e7760dccea52751c8",
+      "origin": "V4.2 sin cambios",
+      "bytes": 14095,
+      "sha256": "7573acaae40fcf3555ba76f205f3abefe40a2b8a3b519df4fd0bbdcbdba26589",
+      "matchesV42": true
+    },
+    {
+      "path": "tsconfig.json",
+      "category": "configuration",
+      "sourceGitBlob": "b575f7dac742447c79dd92f8b471b7d5e18c32cc",
+      "origin": "V4.2 sin cambios",
+      "bytes": 702,
+      "sha256": "55134881a23efd2a1f9266d2d0752731ff9c40d0e867136cd8863ea679560a09",
+      "matchesV42": true
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "category": "documentación nueva",
+      "sourceGitBlob": null,
+      "origin": "cierre documental",
+      "bytes": 1460,
+      "sha256": "7f7dc9917ac4a245f93c6e057017548f8fa2f572d95071092f8196982d509b2e"
+    },
+    {
+      "path": "docs/RELEASE-CANDIDATE.md",
+      "category": "documentación nueva",
+      "sourceGitBlob": null,
+      "origin": "cierre documental",
+      "bytes": 2473,
+      "sha256": "b0e5cff344969770dc9235857609684dee12aa60fed48bd384c4245565865b0d"
+    },
+    {
+      "path": "docs/TOOLS.md",
+      "category": "documentación nueva",
+      "sourceGitBlob": null,
+      "origin": "cierre documental",
+      "bytes": 1959,
+      "sha256": "e3aca570161ba32e0312ca69a424878d5fcfea5059aed51bd7077befb93d8f9c"
+    },
+    {
+      "path": "docs/qa-v4/phase-6-final/README.md",
+      "category": "documentación nueva",
+      "sourceGitBlob": null,
+      "origin": "cierre documental",
+      "bytes": 356,
+      "sha256": "d070a3e64ba84ecb4b9ecf7f5e6a268bdefd7b3d9f3d79271968311d024bb1dc"
+    }
+  ],
+  "excludedHistoricalTools": [
+    "scripts/qa-v4/gallery.cjs",
+    "scripts/qa-v4/record-phase.cjs"
+  ],
+  "selfExcluded": "docs/CANDIDATE-MANIFEST.json",
+  "selfExclusionReason": "Evita un hash autorreferente; el commit Git versiona el manifiesto.",
+  "failures": [],
+  "authorizedChanges": [
+    {
+      "path": ".github/workflows/website-qa.yml",
+      "authorization": "Owner authorization to remove actions/upload-artifact and setup-node npm cache",
+      "changeCommit": "f305818108d37459fec3cbdce19aeb258c1ab594",
+      "previousManifest": {
+        "manifestSha256": "9593eed5a08381f4ebd0e00ed75e4ddcb75f3e919cda2c7afe47447941a92608",
+        "sourceV42GitBlob": "825b41ea8445a4ad65ea800f74af03e0ddc91afd"
+      },
+      "current": {
+        "bytes": 945,
+        "sha256": "cd294c19947b6d622788febb4666bf3430a7d17a263fd02a309b47e0dedc7688",
+        "gitBlob": "a55d7656c929bd256a85cb0a22e63455966fdab4"
+      },
+      "preserved": [
+        "pull_request to main",
+        "Checkout",
+        "Node.js 22",
+        "npm ci",
+        "lint",
+        "TypeScript",
+        "Webpack build",
+        "Chromium install",
+        "Playwright and accessibility",
+        "workflow_dispatch"
+      ],
+      "removed": [
+        "actions/upload-artifact",
+        "setup-node cache: npm"
+      ]
+    }
+  ]
+}
