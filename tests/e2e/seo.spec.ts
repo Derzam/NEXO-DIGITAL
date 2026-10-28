@@ -2,6 +2,15 @@ import { expect, test } from "@playwright/test";
 
 const routes = ["/", "/servicios", "/soluciones", "/portafolio", "/nosotros", "/blog", "/contacto", ...["landing-pages", "sitios-corporativos", "sistemas-web", "aplicaciones-moviles", "inteligencia-artificial", "automatizacion", "auditoria-qa", "seo", "integraciones"].map(slug => `/servicios/${slug}`)];
 
+test("Search Console verification appears once in the generated homepage HTML", async ({ request }) => {
+  const response = await request.get("/");
+  expect(response.status()).toBe(200);
+  const html = await response.text();
+  const tags = html.match(/<meta\b[^>]*\bname="google-site-verification"[^>]*>/g) ?? [];
+  expect(tags).toHaveLength(1);
+  expect(tags[0]).toBe('<meta name="google-site-verification" content="_giaGOSE7_ORb7c3inf8k_JPfYCygYD1uX8kLg30XA8"/>');
+});
+
 test("metadata and structured data identify each route", async ({ page, request }) => {
   await page.route("**/_vercel/insights/script.js", route => route.fulfill({ status: 200, contentType: "application/javascript", body: "" }));
   const titles = new Set<string>();
