@@ -1,7 +1,7 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { InteriorCta, InteriorIntro, InteriorShell } from "@/components/interiors/shell";
 import { Methodology } from "@/components/proposal/interactions";
-export const metadata:Metadata={alternates:{canonical:"/nosotros"},title:"Nosotros",description:"Conoce el enfoque de trabajo, visión y metodología de Nexo Digital Studio."};
+export const metadata = pageMetadata("/nosotros", "Sobre Nexo Digital Studio", "Conoce la visión y metodología de Nexo Digital Studio para diseñar y desarrollar soluciones digitales a medida en Ecuador.");
 export default function AboutPage() {
   return <InteriorShell>
     <InteriorIntro title="Visión e ingeniería." text="Somos un estudio digital enfocado en diseñar soluciones útiles, comprensibles y sostenibles para negocios, equipos y emprendedores." />

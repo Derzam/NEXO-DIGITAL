@@ -1,0 +1,146 @@
+{
+  "/": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app",
+    "og_url": "https://nexo-digital-mu.vercel.app",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/soluciones": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/soluciones",
+    "og_url": "https://nexo-digital-mu.vercel.app/soluciones",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/portafolio": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/portafolio",
+    "og_url": "https://nexo-digital-mu.vercel.app/portafolio",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/nosotros": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/nosotros",
+    "og_url": "https://nexo-digital-mu.vercel.app/nosotros",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/blog": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/blog",
+    "og_url": "https://nexo-digital-mu.vercel.app/blog",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/contacto": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/contacto",
+    "og_url": "https://nexo-digital-mu.vercel.app/contacto",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/aplicaciones-moviles": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/aplicaciones-moviles",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/aplicaciones-moviles",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/auditoria-qa": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/auditoria-qa",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/auditoria-qa",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/automatizacion": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/automatizacion",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/automatizacion",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/integraciones": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/integraciones",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/integraciones",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/inteligencia-artificial": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/inteligencia-artificial",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/inteligencia-artificial",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/landing-pages": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/landing-pages",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/landing-pages",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/seo": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/seo",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/seo",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/sistemas-web": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/sistemas-web",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/sistemas-web",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  },
+  "/servicios/sitios-corporativos": {
+    "pass": true,
+    "robots": "noindex, nofollow",
+    "canonical": "https://nexo-digital-mu.vercel.app/servicios/sitios-corporativos",
+    "og_url": "https://nexo-digital-mu.vercel.app/servicios/sitios-corporativos",
+    "og_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_image": "https://nexo-digital-mu.vercel.app/images/nexo-threshold.webp",
+    "twitter_card": "summary_large_image"
+  }
+}

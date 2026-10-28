@@ -14,8 +14,12 @@ export const whatsappNumber = "593984447960";
 export const whatsappUrl = (message = "Hola, quiero información sobre los servicios de Nexo Digital Studio.") =>
   "https://wa.me/" + whatsappNumber + "?text=" + encodeURIComponent(message);
 
-export const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  (process.env.VERCEL_URL ? "https://" + process.env.VERCEL_URL : "http://localhost:3000");
+const canonicalUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
+  (process.env.VERCEL_PROJECT_PRODUCTION_URL ? "https://" + process.env.VERCEL_PROJECT_PRODUCTION_URL : undefined);
+if (process.env.VERCEL_ENV === "production" && (!canonicalUrl || new URL(canonicalUrl).protocol !== "https:")) {
+  throw new Error("Set NEXT_PUBLIC_SITE_URL to the approved HTTPS production domain, or expose VERCEL_PROJECT_PRODUCTION_URL.");
+}
+export const siteUrl = canonicalUrl || "http://localhost:3000";
 
 export const services: Service[] = [
   {

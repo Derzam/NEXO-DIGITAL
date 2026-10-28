@@ -1,0 +1,977 @@
+{
+  "/": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "description": "Desarrollamos páginas web, sistemas empresariales, aplicaciones móviles, automatizaciones e inteligencia artificial para negocios en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Construyelo que sigue."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que imaginas.Lo que hacemos."
+      },
+      {
+        "level": "h2",
+        "text": "Del reto ala experiencia."
+      },
+      {
+        "level": "h2",
+        "text": "Tu negocio,en foco."
+      },
+      {
+        "level": "h2",
+        "text": "Un caminoclaro."
+      },
+      {
+        "level": "h2",
+        "text": "Antes deempezar."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/landing-pages",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Servicios | Nexo Digital Studio",
+      "description": "Servicios de desarrollo web, sistemas, apps móviles, automatización, inteligencia artificial y QA de Nexo Digital Studio.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "El siguiente paso."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Inteligencia artificial"
+      },
+      {
+        "level": "h2",
+        "text": "Automatización con n8n"
+      },
+      {
+        "level": "h2",
+        "text": "Auditoría y QA de software"
+      },
+      {
+        "level": "h2",
+        "text": "SEO y optimización"
+      },
+      {
+        "level": "h2",
+        "text": "APIs e integraciones"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/auditoria-qa",
+      "/servicios/automatizacion",
+      "/servicios/integraciones",
+      "/servicios/inteligencia-artificial",
+      "/servicios/landing-pages",
+      "/servicios/seo",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/soluciones": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Soluciones por industria | Nexo Digital Studio",
+      "description": "Soluciones digitales para comercios, restaurantes, transporte, delivery, emprendedores y empresas.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/soluciones",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Tecnología en contexto."
+      },
+      {
+        "level": "h2",
+        "text": "Restaurantes y comercios"
+      },
+      {
+        "level": "h2",
+        "text": "Taxis y flotas"
+      },
+      {
+        "level": "h2",
+        "text": "Delivery y logística"
+      },
+      {
+        "level": "h2",
+        "text": "Profesionales"
+      },
+      {
+        "level": "h2",
+        "text": "Equipos empresariales"
+      },
+      {
+        "level": "h2",
+        "text": "Emprendedores"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/portafolio": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Portafolio | Nexo Digital Studio",
+      "description": "Conoce las áreas de trabajo y los próximos casos de estudio del portafolio de Nexo Digital Studio.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/portafolio",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Trabajo con propósito."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que viene."
+      },
+      {
+        "level": "h2",
+        "text": "El proceso también cuenta."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/nosotros": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Nosotros | Nexo Digital Studio",
+      "description": "Conoce el enfoque de trabajo, visión y metodología de Nexo Digital Studio.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/nosotros",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Visión e ingeniería."
+      },
+      {
+        "level": "h2",
+        "text": "Propósito"
+      },
+      {
+        "level": "h2",
+        "text": "Enfoque"
+      },
+      {
+        "level": "h2",
+        "text": "Compromiso"
+      },
+      {
+        "level": "h2",
+        "text": "Cada decisión cuenta."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/blog": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Blog y recursos | Nexo Digital Studio",
+      "description": "Próximos recursos sobre desarrollo web, inteligencia artificial, automatización y calidad de software.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/blog",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Pensar para crear."
+      },
+      {
+        "level": "h2",
+        "text": "Ideas en camino."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que queremos compartir."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/contacto": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Contacto y cotizaciones | Nexo Digital Studio",
+      "description": "Solicita una cotización de páginas web, aplicaciones, sistemas e IA con Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/contacto",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Conectemos tu idea."
+      },
+      {
+        "level": "h2",
+        "text": "Cuéntanos qué necesitas."
+      },
+      {
+        "level": "h2",
+        "text": "De la idea al plan."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/servicios/aplicaciones-moviles": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Aplicaciones móviles | Nexo Digital Studio",
+      "description": "Experiencias Android y iOS para conectar servicios con usuarios.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/aplicaciones-moviles",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/auditoria-qa": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Auditoría y QA de software | Nexo Digital Studio",
+      "description": "Revisiones técnicas y pruebas para publicar con mayor confianza.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/auditoria-qa",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Auditoría y QA de software"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/automatizacion": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Automatización con n8n | Nexo Digital Studio",
+      "description": "Conecta herramientas y elimina tareas repetitivas con flujos automáticos.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/automatizacion",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Automatización con n8n"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/integraciones": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "APIs e integraciones | Nexo Digital Studio",
+      "description": "Conectamos aplicaciones, datos y servicios para construir flujos sólidos.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/integraciones",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "APIs e integraciones"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/inteligencia-artificial": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Inteligencia artificial | Nexo Digital Studio",
+      "description": "Asistentes y agentes que mejoran la atención y los procesos internos.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/inteligencia-artificial",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Inteligencia artificial"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/landing-pages": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Landing pages | Nexo Digital Studio",
+      "description": "Páginas enfocadas en presentar tu oferta y convertir visitas en oportunidades.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/landing-pages",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/seo": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "SEO y optimización | Nexo Digital Studio",
+      "description": "Bases técnicas para mejorar descubrimiento, velocidad y usabilidad.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/seo",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "SEO y optimización"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/sistemas-web": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Sistemas web a medida | Nexo Digital Studio",
+      "description": "Plataformas empresariales para ordenar procesos y gestionar información.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/sistemas-web",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/landing-pages",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/sitios-corporativos": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Sitios web corporativos | Nexo Digital Studio",
+      "description": "Sitios multipágina que transmiten confianza y explican tus servicios.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/sitios-corporativos",
+      "og:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "og:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores.",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:type": "website",
+      "twitter:card": "summary",
+      "twitter:title": "Nexo Digital Studio | Soluciones digitales a medida",
+      "twitter:description": "Desarrollo web, apps, sistemas e inteligencia artificial para empresas y emprendedores."
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/soluciones"
+    ]
+  }
+}

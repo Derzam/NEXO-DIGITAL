@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { MessageCircle, MapPin } from "lucide-react";
 import { ContactForm } from "@/components/contact-form";
 import { InteriorIntro, InteriorShell } from "@/components/interiors/shell";
 import { whatsappUrl } from "@/lib/content";
-export const metadata:Metadata={alternates:{canonical:"/contacto"},title:"Contacto y cotizaciones",description:"Solicita una cotización de páginas web, aplicaciones, sistemas e IA con Nexo Digital Studio en Ecuador."};
+export const metadata = pageMetadata("/contacto", "Contacto y cotizaciones de software en Ecuador", "Cuéntanos tu proyecto y solicita una cotización de páginas web, sistemas empresariales, aplicaciones móviles o IA en Ecuador.");
 export default function ContactPage() {
   return <InteriorShell>
     <InteriorIntro title="Conectemos tu idea." text="Explícanos tu idea, las necesidades de tu negocio y las funcionalidades que imaginas. Con esa información podremos conversar sobre el alcance." />

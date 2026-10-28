@@ -167,15 +167,16 @@ test("keyboard skip link and reduced motion", async ({ page }) => {
   expect(await page.evaluate(() => getComputedStyle(document.documentElement).scrollBehavior)).toBe("auto");
 });
 
-test("robots and complete sitemap", async ({ request }) => {
+test("robots and sitemap include indexable routes", async ({ request }) => {
   const robots = await request.get("/robots.txt");
   expect(robots.status()).toBe(200);
   expect(await robots.text()).toContain("Sitemap:");
   const sitemap = await request.get("/sitemap.xml");
   expect(sitemap.status()).toBe(200);
   const xml = await sitemap.text();
-  expect(xml.match(/<loc>/g)).toHaveLength(16);
-  for (const route of routes.filter(route => route !== "/")) expect(xml).toContain(`${route}</loc>`);
+  expect(xml.match(/<loc>/g)).toHaveLength(14);
+  for (const route of routes.filter(route => !["/", "/blog", "/portafolio"].includes(route))) expect(xml).toContain(`${route}</loc>`);
+  for (const route of ["/blog", "/portafolio"]) expect(xml).not.toContain(`${route}</loc>`);
 });
 
 for (const route of ["/", "/contacto"]) {
