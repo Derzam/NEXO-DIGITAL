@@ -6,10 +6,11 @@ import { Button } from "@/components/shadcn/button";
 import { InteriorBreadcrumb, InteriorCta, InteriorShell } from "@/components/interiors/shell";
 import { ServiceTile, serviceFamily } from "@/components/interiors/service-tile";
 import { ProductPreview } from "@/components/proposal/product-previews";
-import { services, whatsappUrl } from "@/lib/content";
+import { services, siteUrl, whatsappUrl } from "@/lib/content";
+import { pageMetadata } from "@/lib/seo";
 type Props={params:Promise<{slug:string}>};
 export function generateStaticParams(){return services.map(s=>({slug:s.slug}))}
-export async function generateMetadata({params}:Props):Promise<Metadata>{const {slug}=await params;const service=services.find(s=>s.slug===slug);return service?{alternates:{canonical:"/servicios/"+service.slug},title:service.title,description:service.short}:{title:"Servicio no encontrado"}}
+export async function generateMetadata({params}:Props):Promise<Metadata>{const {slug}=await params;const service=services.find(s=>s.slug===slug);return service ? pageMetadata("/servicios/" + service.slug, service.title + " en Ecuador", service.short + " Conoce este servicio de Nexo Digital Studio en Ecuador.") : { title: "Servicio no encontrado" }}
 export default async function ServiceDetail({ params }: Props) {
   const { slug } = await params;
   const service = services.find(s => s.slug === slug);
@@ -17,6 +18,7 @@ export default async function ServiceDetail({ params }: Props) {
   const related = services.filter(s => s.slug !== slug).slice(0, 3);
   return (
     <InteriorShell>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Inicio", item: siteUrl + "/" }, { "@type": "ListItem", position: 2, name: "Servicios", item: siteUrl + "/servicios" }, { "@type": "ListItem", position: 3, name: service.title, item: siteUrl + "/servicios/" + service.slug }] }).replace(/</g, "\\u003c") }} />
       <section className="interior-intro">
         <div className="proposal-container">
           <InteriorBreadcrumb title={service.title} services />

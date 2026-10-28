@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { InteriorCta, InteriorIntro, InteriorShell } from "@/components/interiors/shell";
 import { PortfolioPreview } from "@/components/proposal/product-previews";
 import { Button } from "@/components/shadcn/button";
-export const metadata:Metadata={alternates:{canonical:"/portafolio"},title:"Portafolio",description:"Conoce las áreas de trabajo y los próximos casos de estudio del portafolio de Nexo Digital Studio."};
+export const metadata = pageMetadata("/portafolio", "Portafolio de soluciones digitales", "Explora las áreas de trabajo de Nexo Digital Studio y conoce la preparación de sus próximos casos de estudio.");
 export default function PortfolioPage() {
   return <InteriorShell>
     <InteriorIntro title="Trabajo con propósito." text="Estamos preparando casos de estudio para compartir el reto, las decisiones y el resultado detrás de cada solución." />

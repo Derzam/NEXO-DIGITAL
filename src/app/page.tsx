@@ -1,11 +1,11 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ArrowUpRight, MoveDown } from "lucide-react";
 import { Button } from "@/components/shadcn/button";
 import { RefinedSections } from "@/components/proposal/refined-sections";
 import { whatsappUrl } from "@/lib/content";
-export const metadata: Metadata = { alternates: { canonical: "/" } };
+export const metadata = pageMetadata("/", "Páginas web y software a medida en Ecuador | Nexo Digital Studio", "Diseñamos páginas web, sistemas empresariales, aplicaciones móviles y soluciones de inteligencia artificial para negocios en Ecuador.");
 
 export default function Home() {
   return (

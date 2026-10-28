@@ -1,0 +1,1057 @@
+{
+  "/": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Páginas web y software a medida en Ecuador | Nexo Digital Studio",
+      "description": "Diseñamos páginas web, sistemas empresariales, aplicaciones móviles y soluciones de inteligencia artificial para negocios en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000",
+      "og:title": "Páginas web y software a medida en Ecuador | Nexo Digital Studio",
+      "og:description": "Diseñamos páginas web, sistemas empresariales, aplicaciones móviles y soluciones de inteligencia artificial para negocios en Ecuador.",
+      "og:url": "http://localhost:3000",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Páginas web y software a medida en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Diseñamos páginas web, sistemas empresariales, aplicaciones móviles y soluciones de inteligencia artificial para negocios en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Construyelo que sigue."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que imaginas.Lo que hacemos."
+      },
+      {
+        "level": "h2",
+        "text": "Del reto ala experiencia."
+      },
+      {
+        "level": "h2",
+        "text": "Tu negocio,en foco."
+      },
+      {
+        "level": "h2",
+        "text": "Un caminoclaro."
+      },
+      {
+        "level": "h2",
+        "text": "Antes deempezar."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/landing-pages",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Desarrollo web, apps y sistemas en Ecuador | Nexo Digital Studio",
+      "description": "Explora servicios de páginas web, sistemas empresariales, aplicaciones móviles, inteligencia artificial, automatización con n8n y QA en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios",
+      "og:title": "Desarrollo web, apps y sistemas en Ecuador | Nexo Digital Studio",
+      "og:description": "Explora servicios de páginas web, sistemas empresariales, aplicaciones móviles, inteligencia artificial, automatización con n8n y QA en Ecuador.",
+      "og:url": "http://localhost:3000/servicios",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Desarrollo web, apps y sistemas en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Explora servicios de páginas web, sistemas empresariales, aplicaciones móviles, inteligencia artificial, automatización con n8n y QA en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "El siguiente paso."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Inteligencia artificial"
+      },
+      {
+        "level": "h2",
+        "text": "Automatización con n8n"
+      },
+      {
+        "level": "h2",
+        "text": "Auditoría y QA de software"
+      },
+      {
+        "level": "h2",
+        "text": "SEO y optimización"
+      },
+      {
+        "level": "h2",
+        "text": "APIs e integraciones"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/auditoria-qa",
+      "/servicios/automatizacion",
+      "/servicios/integraciones",
+      "/servicios/inteligencia-artificial",
+      "/servicios/landing-pages",
+      "/servicios/seo",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/soluciones": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Soluciones digitales por industria en Ecuador | Nexo Digital Studio",
+      "description": "Soluciones digitales para comercios, restaurantes, logística, profesionales, emprendedores y equipos empresariales en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/soluciones",
+      "og:title": "Soluciones digitales por industria en Ecuador | Nexo Digital Studio",
+      "og:description": "Soluciones digitales para comercios, restaurantes, logística, profesionales, emprendedores y equipos empresariales en Ecuador.",
+      "og:url": "http://localhost:3000/soluciones",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Soluciones digitales por industria en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Soluciones digitales para comercios, restaurantes, logística, profesionales, emprendedores y equipos empresariales en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Tecnología en contexto."
+      },
+      {
+        "level": "h2",
+        "text": "Restaurantes y comercios"
+      },
+      {
+        "level": "h2",
+        "text": "Taxis y flotas"
+      },
+      {
+        "level": "h2",
+        "text": "Delivery y logística"
+      },
+      {
+        "level": "h2",
+        "text": "Profesionales"
+      },
+      {
+        "level": "h2",
+        "text": "Equipos empresariales"
+      },
+      {
+        "level": "h2",
+        "text": "Emprendedores"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/portafolio": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Portafolio de soluciones digitales | Nexo Digital Studio",
+      "description": "Explora las áreas de trabajo de Nexo Digital Studio y conoce la preparación de sus próximos casos de estudio.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/portafolio",
+      "og:title": "Portafolio de soluciones digitales | Nexo Digital Studio",
+      "og:description": "Explora las áreas de trabajo de Nexo Digital Studio y conoce la preparación de sus próximos casos de estudio.",
+      "og:url": "http://localhost:3000/portafolio",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Portafolio de soluciones digitales | Nexo Digital Studio",
+      "twitter:description": "Explora las áreas de trabajo de Nexo Digital Studio y conoce la preparación de sus próximos casos de estudio.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Trabajo con propósito."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que viene."
+      },
+      {
+        "level": "h2",
+        "text": "El proceso también cuenta."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/nosotros": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Sobre Nexo Digital Studio | Nexo Digital Studio",
+      "description": "Conoce la visión y metodología de Nexo Digital Studio para diseñar y desarrollar soluciones digitales a medida en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/nosotros",
+      "og:title": "Sobre Nexo Digital Studio | Nexo Digital Studio",
+      "og:description": "Conoce la visión y metodología de Nexo Digital Studio para diseñar y desarrollar soluciones digitales a medida en Ecuador.",
+      "og:url": "http://localhost:3000/nosotros",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Sobre Nexo Digital Studio | Nexo Digital Studio",
+      "twitter:description": "Conoce la visión y metodología de Nexo Digital Studio para diseñar y desarrollar soluciones digitales a medida en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Visión e ingeniería."
+      },
+      {
+        "level": "h2",
+        "text": "Propósito"
+      },
+      {
+        "level": "h2",
+        "text": "Enfoque"
+      },
+      {
+        "level": "h2",
+        "text": "Compromiso"
+      },
+      {
+        "level": "h2",
+        "text": "Cada decisión cuenta."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/blog": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Blog de tecnología y recursos | Nexo Digital Studio",
+      "description": "Próximos recursos de Nexo Digital Studio sobre desarrollo web, inteligencia artificial, automatización y calidad de software.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/blog",
+      "og:title": "Blog de tecnología y recursos | Nexo Digital Studio",
+      "og:description": "Próximos recursos de Nexo Digital Studio sobre desarrollo web, inteligencia artificial, automatización y calidad de software.",
+      "og:url": "http://localhost:3000/blog",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Blog de tecnología y recursos | Nexo Digital Studio",
+      "twitter:description": "Próximos recursos de Nexo Digital Studio sobre desarrollo web, inteligencia artificial, automatización y calidad de software.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Pensar para crear."
+      },
+      {
+        "level": "h2",
+        "text": "Ideas en camino."
+      },
+      {
+        "level": "h2",
+        "text": "Lo que queremos compartir."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/contacto": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Contacto y cotizaciones de software en Ecuador | Nexo Digital Studio",
+      "description": "Cuéntanos tu proyecto y solicita una cotización de páginas web, sistemas empresariales, aplicaciones móviles o IA en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/contacto",
+      "og:title": "Contacto y cotizaciones de software en Ecuador | Nexo Digital Studio",
+      "og:description": "Cuéntanos tu proyecto y solicita una cotización de páginas web, sistemas empresariales, aplicaciones móviles o IA en Ecuador.",
+      "og:url": "http://localhost:3000/contacto",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Contacto y cotizaciones de software en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Cuéntanos tu proyecto y solicita una cotización de páginas web, sistemas empresariales, aplicaciones móviles o IA en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Conectemos tu idea."
+      },
+      {
+        "level": "h2",
+        "text": "Cuéntanos qué necesitas."
+      },
+      {
+        "level": "h2",
+        "text": "De la idea al plan."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/soluciones"
+    ]
+  },
+  "/servicios/aplicaciones-moviles": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Aplicaciones móviles en Ecuador | Nexo Digital Studio",
+      "description": "Experiencias Android y iOS para conectar servicios con usuarios. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/aplicaciones-moviles",
+      "og:title": "Aplicaciones móviles en Ecuador | Nexo Digital Studio",
+      "og:description": "Experiencias Android y iOS para conectar servicios con usuarios. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/aplicaciones-moviles",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Aplicaciones móviles en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Experiencias Android y iOS para conectar servicios con usuarios. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/auditoria-qa": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Auditoría y QA de software en Ecuador | Nexo Digital Studio",
+      "description": "Revisiones técnicas y pruebas para publicar con mayor confianza. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/auditoria-qa",
+      "og:title": "Auditoría y QA de software en Ecuador | Nexo Digital Studio",
+      "og:description": "Revisiones técnicas y pruebas para publicar con mayor confianza. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/auditoria-qa",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Auditoría y QA de software en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Revisiones técnicas y pruebas para publicar con mayor confianza. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Auditoría y QA de software"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/automatizacion": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Automatización con n8n en Ecuador | Nexo Digital Studio",
+      "description": "Conecta herramientas y elimina tareas repetitivas con flujos automáticos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/automatizacion",
+      "og:title": "Automatización con n8n en Ecuador | Nexo Digital Studio",
+      "og:description": "Conecta herramientas y elimina tareas repetitivas con flujos automáticos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/automatizacion",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Automatización con n8n en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Conecta herramientas y elimina tareas repetitivas con flujos automáticos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Automatización con n8n"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/integraciones": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "APIs e integraciones en Ecuador | Nexo Digital Studio",
+      "description": "Conectamos aplicaciones, datos y servicios para construir flujos sólidos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/integraciones",
+      "og:title": "APIs e integraciones en Ecuador | Nexo Digital Studio",
+      "og:description": "Conectamos aplicaciones, datos y servicios para construir flujos sólidos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/integraciones",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "APIs e integraciones en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Conectamos aplicaciones, datos y servicios para construir flujos sólidos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "APIs e integraciones"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/inteligencia-artificial": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Inteligencia artificial en Ecuador | Nexo Digital Studio",
+      "description": "Asistentes y agentes que mejoran la atención y los procesos internos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/inteligencia-artificial",
+      "og:title": "Inteligencia artificial en Ecuador | Nexo Digital Studio",
+      "og:description": "Asistentes y agentes que mejoran la atención y los procesos internos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/inteligencia-artificial",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Inteligencia artificial en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Asistentes y agentes que mejoran la atención y los procesos internos. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Inteligencia artificial"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/landing-pages": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Landing pages en Ecuador | Nexo Digital Studio",
+      "description": "Páginas enfocadas en presentar tu oferta y convertir visitas en oportunidades. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/landing-pages",
+      "og:title": "Landing pages en Ecuador | Nexo Digital Studio",
+      "og:description": "Páginas enfocadas en presentar tu oferta y convertir visitas en oportunidades. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/landing-pages",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Landing pages en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Páginas enfocadas en presentar tu oferta y convertir visitas en oportunidades. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/seo": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "SEO y optimización en Ecuador | Nexo Digital Studio",
+      "description": "Bases técnicas para mejorar descubrimiento, velocidad y usabilidad. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/seo",
+      "og:title": "SEO y optimización en Ecuador | Nexo Digital Studio",
+      "og:description": "Bases técnicas para mejorar descubrimiento, velocidad y usabilidad. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/seo",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "SEO y optimización en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Bases técnicas para mejorar descubrimiento, velocidad y usabilidad. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "SEO y optimización"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/sistemas-web": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Sistemas web a medida en Ecuador | Nexo Digital Studio",
+      "description": "Plataformas empresariales para ordenar procesos y gestionar información. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/sistemas-web",
+      "og:title": "Sistemas web a medida en Ecuador | Nexo Digital Studio",
+      "og:description": "Plataformas empresariales para ordenar procesos y gestionar información. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/sistemas-web",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Sistemas web a medida en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Plataformas empresariales para ordenar procesos y gestionar información. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/landing-pages",
+      "/servicios/sitios-corporativos",
+      "/soluciones"
+    ]
+  },
+  "/servicios/sitios-corporativos": {
+    "tags": {
+      "viewport": "width=device-width, initial-scale=1",
+      "theme-color": "#081221",
+      "title": "Sitios web corporativos en Ecuador | Nexo Digital Studio",
+      "description": "Sitios multipágina que transmiten confianza y explican tus servicios. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "application-name": "Nexo Digital Studio",
+      "robots": "index, follow",
+      "canonical": "http://localhost:3000/servicios/sitios-corporativos",
+      "og:title": "Sitios web corporativos en Ecuador | Nexo Digital Studio",
+      "og:description": "Sitios multipágina que transmiten confianza y explican tus servicios. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "og:url": "http://localhost:3000/servicios/sitios-corporativos",
+      "og:site_name": "Nexo Digital Studio",
+      "og:locale": "es_EC",
+      "og:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "og:image:alt": "Nexo Digital Studio",
+      "og:type": "website",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Sitios web corporativos en Ecuador | Nexo Digital Studio",
+      "twitter:description": "Sitios multipágina que transmiten confianza y explican tus servicios. Conoce este servicio de Nexo Digital Studio en Ecuador.",
+      "twitter:image": "http://localhost:3000/images/nexo-threshold.webp",
+      "twitter:image:alt": "Nexo Digital Studio"
+    },
+    "headings": [
+      {
+        "level": "h1",
+        "text": "Sitios web corporativos"
+      },
+      {
+        "level": "h2",
+        "text": "¿Qué podemos incluir?"
+      },
+      {
+        "level": "h2",
+        "text": "Tu proyecto incluye"
+      },
+      {
+        "level": "h2",
+        "text": "Más conexiones."
+      },
+      {
+        "level": "h2",
+        "text": "Landing pages"
+      },
+      {
+        "level": "h2",
+        "text": "Sistemas web a medida"
+      },
+      {
+        "level": "h2",
+        "text": "Aplicaciones móviles"
+      },
+      {
+        "level": "h2",
+        "text": "Lo que sigueempieza aquí."
+      }
+    ],
+    "internalLinks": [
+      "/",
+      "/blog",
+      "/contacto",
+      "/nosotros",
+      "/portafolio",
+      "/servicios",
+      "/servicios/aplicaciones-moviles",
+      "/servicios/landing-pages",
+      "/servicios/sistemas-web",
+      "/soluciones"
+    ]
+  }
+}

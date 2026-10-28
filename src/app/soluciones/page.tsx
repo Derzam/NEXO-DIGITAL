@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { ArrowUpRight } from "lucide-react";
 import { InteriorCta, InteriorIntro, InteriorShell } from "@/components/interiors/shell";
 import { IndustryPreview } from "@/components/interiors/industry-preview";
 import { Button } from "@/components/shadcn/button";
 import { industries, whatsappUrl } from "@/lib/content";
-export const metadata:Metadata={alternates:{canonical:"/soluciones"},title:"Soluciones por industria",description:"Soluciones digitales para comercios, restaurantes, transporte, delivery, emprendedores y empresas."};
+export const metadata = pageMetadata("/soluciones", "Soluciones digitales por industria en Ecuador", "Soluciones digitales para comercios, restaurantes, logística, profesionales, emprendedores y equipos empresariales en Ecuador.");
 export default function SolutionsPage() {
   return <InteriorShell>
     <InteriorIntro title="Tecnología en contexto." text="Cada industria enfrenta desafíos distintos. Estas son algunas soluciones que podemos diseñar según tus objetivos y operaciones." />

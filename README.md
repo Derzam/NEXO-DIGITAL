@@ -75,7 +75,7 @@ El formulario prepara un mensaje: la persona lo revisa y pulsa enviar dentro de 
 
 ## Configuración antes de producción
 
-Definir `NEXT_PUBLIC_SITE_URL` con el dominio oficial y sin barra final antes del build para canonical, sitemap y metadataBase. En Vercel se usa `VERCEL_URL` como alternativa; localmente se utiliza `http://localhost:3000`. No usar el dominio local como configuración de producción.
+Definir `NEXT_PUBLIC_SITE_URL` con el dominio HTTPS oficial antes del build para canonical, sitemap y metadataBase. Si no se define, se usa `VERCEL_PROJECT_PRODUCTION_URL` cuando Vercel expone sus variables de sistema; localmente se utiliza `http://localhost:3000`. Una compilación Vercel de producción falla si no dispone de un origen HTTPS. Los previews reciben `noindex, nofollow`. Confirma el dominio canónico con el propietario antes de integrar este cambio.
 
 El logotipo aprobado por el propietario ya está incorporado. Pendientes editoriales: aprobación final de textos y políticas legales necesarias, y añadir únicamente proyectos y publicaciones verificables. Validar la futura Preview y el número de WhatsApp en un dispositivo real antes de aprobar producción.
 

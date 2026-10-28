@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { InteriorCta, InteriorIntro, InteriorShell } from "@/components/interiors/shell";
 import { ServiceTile } from "@/components/interiors/service-tile";
 import { services } from "@/lib/content";
-export const metadata:Metadata={alternates:{canonical:"/servicios"},title:"Servicios",description:"Servicios de desarrollo web, sistemas, apps móviles, automatización, inteligencia artificial y QA de Nexo Digital Studio."};
+export const metadata = pageMetadata("/servicios", "Desarrollo web, apps y sistemas en Ecuador", "Explora servicios de páginas web, sistemas empresariales, aplicaciones móviles, inteligencia artificial, automatización con n8n y QA en Ecuador.");
 export default function ServicesPage() {
   const featured = [services[0], services[2]];
   const remaining = services.filter(service => !featured.includes(service));
