@@ -17,7 +17,7 @@ test("industry quotations preserve all six specific contexts", async ({ page }) 
     await expect(article.locator("figcaption")).toContainText("Concepto de interfaz");
   }
   await page.goto("/portafolio");
-  await expect(page.locator("figcaption")).toContainText("Concepto de diseño y exploración");
+  await expect(page.locator(".interior-portfolio-layout figcaption")).toContainText("Concepto de diseño y exploración");
   await expect(page.getByRole("heading", { name: "Casos de estudio reales." })).toBeVisible();
   await expect(page.getByText("Esta sección permanece en preparación", { exact: false })).toBeVisible();
   await page.locator(".interior-portfolio-layout").getByRole("link", { name: "Cotizar proyecto", exact: true }).click();
