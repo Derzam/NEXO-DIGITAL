@@ -1,6 +1,7 @@
 import { pageMetadata } from "@/lib/seo";
 import { InteriorCta, InteriorIntro, InteriorShell } from "@/components/interiors/shell";
 import { ServiceTile } from "@/components/interiors/service-tile";
+import { ProjectShowcase } from "@/components/interiors/project-showcase";
 import { services } from "@/lib/content";
 export const metadata = pageMetadata("/servicios", "Desarrollo web, apps y sistemas en Ecuador", "Explora servicios de páginas web, sistemas empresariales, aplicaciones móviles, inteligencia artificial, automatización con n8n y QA en Ecuador.");
 export default function ServicesPage() {
@@ -15,6 +16,7 @@ export default function ServicesPage() {
           <div className="interior-service-list">{remaining.map(service => <ServiceTile key={service.slug} service={service} editorial />)}</div>
         </div>
       </section>
+      <ProjectShowcase />
       <InteriorCta />
     </InteriorShell>
   );
