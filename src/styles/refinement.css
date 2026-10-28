@@ -135,11 +135,11 @@
   background: #214263;
   padding: 5px 9px;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 13px;
   white-space: nowrap;
 }
 .screen-state {
-  font-size: 12px;
+  font-size: 13px;
   color: #a5b9d0;
   white-space: nowrap;
 }
@@ -199,7 +199,7 @@
   font-weight: 500;
 }
 .companion-title > span {
-  font-size: 12px;
+  font-size: 13px;
   color: #9eb9d4;
   font-weight: 400;
 }
@@ -302,7 +302,7 @@
   margin-top: 23px;
 }
 .project-brief > span {
-  font-size: 12px;
+  font-size: 13px;
   color: #9ebbd7;
 }
 .project-brief > strong {
@@ -467,7 +467,7 @@
   .screen-bar {
     gap: 10px;
     padding-inline: 15px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .screen-brand {
     font-size: 14px;
@@ -477,7 +477,7 @@
   }
   .screen-status {
     padding: 4px 6px;
-    font-size: 12px;
+    font-size: 13px;
   }
   .workflow-specimen {
     padding: 20px 15px;
@@ -490,7 +490,7 @@
     font-size: 14px;
   }
   .workflow-node span {
-    font-size: 12px;
+    font-size: 13px;
   }
   .companion-preview {
     padding: 16px;
@@ -499,7 +499,7 @@
     font-size: 14px;
   }
   .companion-title > span {
-    font-size: 12px;
+    font-size: 13px;
   }
   .appointment-row {
     gap: 8px;
@@ -508,7 +508,7 @@
     font-size: 13px;
   }
   .appointment-row div > span {
-    font-size: 12px;
+    font-size: 13px;
   }
   .portfolio-screen-main {
     padding: 23px;

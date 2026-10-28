@@ -118,7 +118,7 @@ export function ProposalHeader() {
             </SheetTrigger>
             <SheetContent
               showCloseButton={false}
-              className="proposal-shell tw:z-[150] tw:w-[min(90vw,400px)] tw:border-border tw:p-7 tw:sm:max-w-[400px]"
+              className="proposal-shell proposal-mobile-menu tw:z-[150] tw:w-[min(90vw,400px)] tw:border-border tw:p-7 tw:sm:max-w-[400px]"
               aria-describedby="proposal-menu-description"
             >
               <div className="tw:flex tw:items-center tw:justify-between tw:gap-5">
@@ -164,7 +164,7 @@ export function ProposalHeader() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Conversemos <ArrowUpRight aria-hidden="true" />
+                  Cotizar proyecto <ArrowUpRight aria-hidden="true" />
                 </a>
               </Button>
             </SheetContent>

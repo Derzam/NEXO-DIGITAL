@@ -70,7 +70,7 @@ export function RefinedSections() {
           <figure className="tw:m-0 tw:min-w-0">
             <PortfolioPreview />
             <figcaption className="tw:mt-4 tw:text-[14px] tw:leading-relaxed tw:text-muted-foreground">
-              Concepto de interfaz, sin datos de clientes.
+              Concepto de diseño y exploración de Nexo. Sin clientes ni producto entregado.
             </figcaption>
           </figure>
         </div>
@@ -180,7 +180,7 @@ export function RefinedSections() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Conversemos <ArrowUpRight aria-hidden="true" />
+                  Cotizar proyecto <ArrowUpRight aria-hidden="true" />
                 </a>
               </Button>
               <Link
