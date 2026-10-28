@@ -8,6 +8,7 @@ const routes = [...pages, ...slugs.map(slug => `/servicios/${slug}`)];
 for (const route of routes) {
   test(`page, links, SEO, accessibility and overflow: ${route}`, async ({ page, request }, testInfo) => {
     const errors: string[] = [];
+    await page.route("**/_vercel/insights/script.js", route => route.fulfill({ status: 200, contentType: "application/javascript", body: "" }));
     page.on("pageerror", error => errors.push(error.message));
     page.on("console", message => { if (message.type() === "error") errors.push(message.text()); });
     const response = await page.goto(route);
@@ -48,6 +49,16 @@ for (const route of routes) {
     }
   });
 }
+
+test("Vercel Web Analytics is loaded once by the root layout", async ({ page }) => {
+  let scriptLoads = 0;
+  await page.route("**/_vercel/insights/script.js", route => {
+    scriptLoads += 1;
+    return route.fulfill({ status: 200, contentType: "application/javascript", body: "" });
+  });
+  await page.goto("/");
+  await expect.poll(() => scriptLoads).toBe(1);
+});
 
 test("main navigation and mobile keyboard dismissal", async ({ page }, testInfo) => {
   await page.goto("/");

@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { ProposalFooter } from "@/components/proposal/footer";
 import { ProposalHeader } from "@/components/proposal/header";
 import { brand, siteUrl } from "@/lib/content";
@@ -15,6 +16,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       <ProposalHeader />
       <main id="contenido" tabIndex={-1}>{children}</main>
       <ProposalFooter />
+      <Analytics />
     </body>
   </html>;
 }
