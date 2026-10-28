@@ -53,7 +53,7 @@ export function ProposalFooter() {
               rel="noopener noreferrer"
               className="tw:mt-5 tw:inline-flex tw:min-h-11 tw:items-center tw:gap-3 tw:text-[18px] tw:text-[#b7e1ff]"
             >
-              Conversemos{" "}
+              Cotizar proyecto{" "}
               <ArrowUpRight className="tw:size-5" aria-hidden="true" />
             </a>
             <p className="tw:mt-3 tw:text-[14px] tw:text-muted-foreground">

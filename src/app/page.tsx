@@ -10,7 +10,7 @@ export const metadata = pageMetadata("/", "Páginas web y software a medida en E
 export default function Home() {
   return (
     <div data-proposal className="proposal-shell">
-      <section className="tw:relative tw:isolate tw:min-h-[790px] tw:overflow-hidden tw:max-sm:min-h-[900px]">
+      <section className="tw:relative tw:isolate tw:min-h-[790px] tw:overflow-hidden tw:max-sm:min-h-[790px]">
         <div className="cinematic-scene" aria-hidden="true">
           <Image
             src="/images/nexo-threshold.webp"
@@ -21,7 +21,7 @@ export default function Home() {
             unoptimized
           />
         </div>
-        <div className="proposal-container tw:relative tw:z-10 tw:flex tw:min-h-[790px] tw:flex-col tw:justify-between tw:pb-10 tw:pt-24 tw:max-sm:min-h-[900px] tw:max-sm:pb-7 tw:max-sm:pt-10">
+        <div className="proposal-container tw:relative tw:z-10 tw:flex tw:min-h-[790px] tw:flex-col tw:justify-between tw:pb-10 tw:pt-24 tw:max-sm:min-h-[790px] tw:max-sm:pb-7 tw:max-sm:pt-10">
           <div className="tw:max-w-[670px]">
             <div className="threshold-signal tw:mb-8" aria-hidden="true" />
             <h1 className="tw:text-[clamp(58px,6.8vw,98px)] tw:leading-[1.03] tw:tracking-[-.065em] tw:max-sm:text-[56px]">
@@ -52,7 +52,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="tw:inline-flex tw:min-h-12 tw:items-center tw:gap-3 tw:text-[16px] tw:text-[#edf5ff] tw:hover:text-[#a9dfff]"
               >
-                Hablemos de tu idea{" "}
+                Cotizar proyecto{" "}
                 <ArrowRight className="tw:size-4" aria-hidden="true" />
               </a>
             </div>

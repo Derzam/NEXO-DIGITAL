@@ -165,7 +165,7 @@ export function ServicesBento() {
         </TabsContent>
       ))}
       <p className="tw:text-[14px] tw:leading-relaxed tw:text-muted-foreground">
-        Interfaces demostrativas. Datos de ejemplo.
+        Conceptos de diseño y exploración. Datos ficticios, sin clientes ni productos entregados.
       </p>
     </Tabs>
   );

@@ -95,7 +95,7 @@ export function InteriorCta() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Hablemos de tu proyecto{" "}
+              Cotizar proyecto{" "}
               <ArrowUpRight size={18} aria-hidden="true" />
             </a>
           </Button>

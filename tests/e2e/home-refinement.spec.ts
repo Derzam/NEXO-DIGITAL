@@ -9,10 +9,14 @@ test("refined previews and solutions support pointer, keyboard and route discove
   await expect(page).toHaveURL("/servicios/sitios-corporativos");
   await page.goto("/");
   await expect(
-    page.getByText("Interfaces demostrativas. Datos de ejemplo."),
+    page.getByText(
+      "Conceptos de diseño y exploración. Datos ficticios, sin clientes ni productos entregados.",
+    ),
   ).toBeVisible();
   await expect(
-    page.getByText("Concepto de interfaz, sin datos de clientes."),
+    page.getByText(
+      "Concepto de diseño y exploración de Nexo. Sin clientes ni producto entregado.",
+    ),
   ).toBeVisible();
   const tablist = page.getByRole("tablist", { name: "Soluciones por negocio" });
   const firstHeading = await page

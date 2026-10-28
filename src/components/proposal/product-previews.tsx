@@ -17,7 +17,7 @@ function ScreenBar({ title }: { title: string }) {
     <div className="screen-bar">
       <span className="screen-brand">Nexo</span>
       <span>{title}</span>
-      <span className="screen-demo">Demo</span>
+      <span className="screen-demo">Concepto</span>
     </div>
   );
 }

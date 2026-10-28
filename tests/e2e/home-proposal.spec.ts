@@ -15,6 +15,27 @@ test("cinematic hero keeps enough image resolution for portrait crops", async ({
   ).toBe(1600);
 });
 
+test("390px hero keeps both actions and its closing line within the first viewport", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== "mobile-390");
+  await page.goto("/");
+  const hero = page.locator("main > div[data-proposal] > section").first();
+  await expect(hero.getByRole("link", { name: "Explorar servicios" })).toBeVisible();
+  await expect(hero.getByRole("link", { name: "Cotizar proyecto" })).toBeVisible();
+  const layout = await hero.evaluate((section) => {
+    const closingLine = section.querySelector(".proposal-container > div:last-child p")!;
+    return {
+      sectionHeight: section.getBoundingClientRect().height,
+      closingLineBottom: closingLine.getBoundingClientRect().bottom,
+      viewportHeight: window.innerHeight,
+      documentWidth: document.documentElement.scrollWidth,
+      viewportWidth: window.innerWidth,
+    };
+  });
+  expect(layout.sectionHeight).toBeLessThan(800);
+  expect(layout.closingLineBottom).toBeLessThanOrEqual(layout.viewportHeight);
+  expect(layout.documentWidth).toBe(layout.viewportWidth);
+});
+
 test("service families support selection and keyboard", async ({ page }) => {
   await page.goto("/");
   const software = page.getByRole("tab", { name: "Sistemas", exact: true });

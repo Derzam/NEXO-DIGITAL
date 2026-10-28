@@ -164,7 +164,7 @@ export function ProposalHeader() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Conversemos <ArrowUpRight aria-hidden="true" />
+                  Cotizar proyecto <ArrowUpRight aria-hidden="true" />
                 </a>
               </Button>
             </SheetContent>
