@@ -10,9 +10,9 @@ Base: `047fd9ff56612fa0cd0323f97ad4d83729112da0`. Los archivos `seo-v1-baseline.
 - El fallback anterior usaba `VERCEL_URL`, que puede ser un dominio temporal. Se prioriza `NEXT_PUBLIC_SITE_URL` y luego `VERCEL_PROJECT_PRODUCTION_URL`. En Vercel producción, el build falla si falta un origen HTTPS. El dominio definitivo y los valores efectivos del proyecto siguen pendientes de confirmación; también debe estar habilitada la exposición de variables de sistema si se usa el fallback de Vercel.
 - En un build local simulado con `VERCEL_ENV=preview` y `VERCEL_PROJECT_PRODUCTION_URL=example.test`, 16/16 páginas generaron `noindex, nofollow` y canonical hacia `example.test`. Esta prueba no confirma la configuración del proyecto remoto.
 
-## Indexación propuesta, pendiente de aceptación
+## Indexación aprobada para esta rama
 
-Blog y Portafolio siguen con `index, follow` e incluidos en el sitemap actual. Propuesta para aprobar antes de producción: marcar ambos `noindex, follow` y excluirlos del sitemap mientras estén en preparación; restaurar indexación y entradas cuando exista contenido definitivo. No bloquear esas páginas mediante robots.txt mientras se use noindex: los rastreadores necesitan leer la directiva. No se modificó esta política en la rama.
+Por solicitud del propietario, Blog y Portafolio pasan a `noindex, follow` y se excluyen del sitemap mientras estén en preparación; se conservan las páginas y los enlaces. Restaurar indexación y entradas cuando exista contenido definitivo. En Preview todas las rutas usan `noindex, nofollow`. No bloquear esas páginas mediante robots.txt mientras se use noindex: los rastreadores necesitan leer la directiva. Los archivos `seo-v1-after.json` y `seo-v1-html-comparison.md` representan el snapshot anterior al cierre; véase `seo-v1-closure.md` para la política actual.
 
 ## Rendimiento y contenido
 

@@ -19,7 +19,7 @@ test("metadata and structured data identify each route", async ({ page, request 
     expect(await page.locator('meta[name="twitter:card"]').getAttribute("content")).toBe("summary_large_image");
     expect(await page.locator('meta[name="twitter:title"]').getAttribute("content")).toBe(title);
     expect(await page.locator('meta[name="twitter:description"]').getAttribute("content")).toBe(description);
-    expect(await page.locator('meta[name="robots"]').getAttribute("content")).toBe("index, follow");
+    expect(await page.locator('meta[name="robots"]').getAttribute("content")).toBe(["/blog", "/portafolio"].includes(route) ? "noindex, follow" : "index, follow");
     const image = new URL((await page.locator('meta[property="og:image"]').getAttribute("content"))!);
     expect((await request.get(image.pathname)).status()).toBe(200);
     expect(await page.locator('meta[name="twitter:image"]').getAttribute("content")).toBe(image.href);
@@ -38,6 +38,9 @@ test("metadata and structured data identify each route", async ({ page, request 
   expect(titles.size).toBe(routes.length);
   expect(descriptions.size).toBe(routes.length);
   const sitemap = await (await request.get("/sitemap.xml")).text();
-  for (const route of routes) expect(sitemap).toContain(route === "/" ? "</loc>" : `${route}</loc>`);
+  const included = routes.filter(route => !["/blog", "/portafolio"].includes(route));
+  expect(sitemap.match(/<loc>/g)).toHaveLength(14);
+  for (const route of included) expect(sitemap).toContain(route === "/" ? "</loc>" : `${route}</loc>`);
+  for (const route of ["/blog", "/portafolio"]) expect(sitemap).not.toContain(`${route}</loc>`);
   expect((await (await request.get("/robots.txt")).text())).toContain("sitemap.xml");
 });

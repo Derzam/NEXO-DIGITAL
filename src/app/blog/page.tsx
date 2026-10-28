@@ -1,9 +1,9 @@
-import { pageMetadata } from "@/lib/seo";
+import { pendingPageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { InteriorIntro, InteriorShell } from "@/components/interiors/shell";
 import { Button } from "@/components/shadcn/button";
-export const metadata = pageMetadata("/blog", "Blog de tecnología y recursos", "Próximos recursos de Nexo Digital Studio sobre desarrollo web, inteligencia artificial, automatización y calidad de software.");
+export const metadata = pendingPageMetadata("/blog", "Blog de tecnología y recursos", "Próximos recursos de Nexo Digital Studio sobre desarrollo web, inteligencia artificial, automatización y calidad de software.");
 export default function BlogPage() {
   return <InteriorShell>
     <InteriorIntro title="Pensar para crear." text="Un espacio para compartir lo que aprendemos sobre desarrollo, diseño, automatización e inteligencia artificial." />
