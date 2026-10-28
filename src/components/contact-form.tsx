@@ -18,6 +18,7 @@ export function ContactForm() {
   // Keep native GET submission unavailable until the client handler is ready.
   const hydrated = useSyncExternalStore(subscribeToHydration, clientSnapshot, serverSnapshot);
   const [preparedUrl, setPreparedUrl] = useState("");
+  const [budget, setBudget] = useState("");
   const [errors, setErrors] = useState<Errors>({});
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -87,13 +88,14 @@ export function ContactForm() {
         {errorMessage("servicio")}
       </div>
       <div className="interior-field"><label htmlFor="presupuesto">Presupuesto estimado</label>
-        <NativeSelect id="presupuesto" name="presupuesto" defaultValue=""><NativeSelectOption value="">Prefiero conversar</NativeSelectOption><NativeSelectOption value="Menos de USD 500">Menos de USD 500</NativeSelectOption><NativeSelectOption value="USD 500–1.500">USD 500–1.500</NativeSelectOption><NativeSelectOption value="USD 1.500–5.000">USD 1.500–5.000</NativeSelectOption><NativeSelectOption value="Más de USD 5.000">Más de USD 5.000</NativeSelectOption></NativeSelect>
+        <NativeSelect id="presupuesto" name="presupuesto" defaultValue="" onChange={event => setBudget(event.target.value)} aria-describedby={budget ? "presupuesto-seleccionado" : undefined}><NativeSelectOption value="">Prefiero conversar</NativeSelectOption><NativeSelectOption value="Menos de USD 500">Menos de USD 500</NativeSelectOption><NativeSelectOption value="Desde USD 500 hasta menos de USD 1.500">Desde USD 500 hasta menos de USD 1.500</NativeSelectOption><NativeSelectOption value="Desde USD 1.500 hasta menos de USD 5.000">Desde USD 1.500 hasta menos de USD 5.000</NativeSelectOption><NativeSelectOption value="USD 5.000 o más">USD 5.000 o más</NativeSelectOption></NativeSelect>
+        {budget ? <p id="presupuesto-seleccionado" className="interior-note">Presupuesto seleccionado: {budget}</p> : null}
       </div>
     </div>
     <div className="interior-field"><label htmlFor="proyecto">Cuéntanos sobre tu proyecto *</label><Textarea id="proyecto" name="proyecto" required minLength={15} maxLength={3000} placeholder="¿Qué deseas crear? ¿Qué problema debe resolver?" {...validationProps("proyecto")} />{errorMessage("proyecto")}</div>
     <Button className="tw:h-auto tw:min-h-13 tw:justify-self-start tw:rounded-full tw:px-5 tw:py-4 tw:text-[16px] tw:whitespace-normal tw:text-left tw:disabled:cursor-not-allowed tw:disabled:bg-[#34455e] tw:disabled:text-white tw:disabled:opacity-100" type="submit">Preparar solicitud por WhatsApp <ArrowUpRight size={18} aria-hidden="true" /></Button>
     </fieldset>
-    {preparedUrl ? <p className="interior-note" role="status">Solicitud preparada. Si WhatsApp no se abrió, <a href={preparedUrl} target="_blank" rel="noopener noreferrer">abrir la solicitud en WhatsApp</a>.</p> : null}
+    {preparedUrl ? <p className="interior-note" role="status">Solicitud preparada. Revisa el mensaje y pulsa enviar en WhatsApp para completar tu solicitud. Si WhatsApp no se abrió, <a href={preparedUrl} target="_blank" rel="noopener noreferrer">abrir la solicitud en WhatsApp</a>.</p> : null}
     <p className="interior-note">Al continuar, compartirás los datos del mensaje con WhatsApp mediante el enlace. Revísalo y pulsa enviar allí. Este sitio no guarda la solicitud en el servidor ni envía el mensaje automáticamente.</p>
   </form>;
 }

@@ -125,7 +125,7 @@ test("quotation validation, encoding and blocked-popup fallback", async ({ page 
   expect(await page.evaluate(() => (window as unknown as { openedUrls: string[] }).openedUrls)).toEqual([]);
   const project = "Necesito un sitio para café & té + reservas #2026.";
   await page.getByLabel("Cuéntanos sobre tu proyecto").fill(project);
-  await page.getByLabel("Presupuesto estimado").selectOption("USD 500–1.500");
+  await page.getByLabel("Presupuesto estimado").selectOption("Desde USD 500 hasta menos de USD 1.500");
   await page.getByLabel("Cuéntanos sobre tu proyecto").press("Tab");
   await expect(submit).toBeFocused();
   await submit.click();
@@ -133,7 +133,7 @@ test("quotation validation, encoding and blocked-popup fallback", async ({ page 
   expect(urls).toHaveLength(1);
   const url = new URL(urls[0]);
   expect(url.origin + url.pathname).toBe("https://wa.me/593984447960");
-  expect(url.searchParams.get("text")).toBe(["Hola, quisiera solicitar una cotización a Nexo Digital Studio.", "Nombre: Ana Ñ & Co", "Correo: qa@example.com", "Servicio: Landing pages", `Proyecto: ${project}`, "Presupuesto orientativo: USD 500–1.500"].join("\n"));
+  expect(url.searchParams.get("text")).toBe(["Hola, quisiera solicitar una cotización a Nexo Digital Studio.", "Nombre: Ana Ñ & Co", "Correo: qa@example.com", "Servicio: Landing pages", `Proyecto: ${project}`, "Presupuesto orientativo: Desde USD 500 hasta menos de USD 1.500"].join("\n"));
   await expect(page.getByRole("status")).toContainText("Solicitud preparada");
   await expect(page.getByRole("link", { name: "abrir la solicitud en WhatsApp" })).toHaveAttribute("href", urls[0]);
   await page.getByLabel("Nombre completo").fill("Otra persona");
