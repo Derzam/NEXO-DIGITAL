@@ -1,6 +1,6 @@
 # Matriz de aceptación comercial
 
-Todas las decisiones están **PENDIENTES**. El propietario debe registrar una decisión, responsable y fecha; no se han inventado datos ni modificado los textos comerciales.
+Estado documental V8: las decisiones identificadas abajo permanecen **PENDIENTES** salvo las aprobaciones de alcance expresamente registradas. La aceptación comercial y legal definitiva corresponde al propietario y a su asesoría.
 
 | Decisión | Dato o confirmación necesaria | Estado |
 | --- | --- | --- |
@@ -21,3 +21,18 @@ La medición de clics con eventos personalizados de Vercel Analytics podría eva
 ## Comprobaciones locales V7
 
 `npm ci`, lint, typecheck y build: PASS. Playwright en Chromium a 375, 390, 768 y 1440 px: 130 PASS, 2 SKIP existentes, 0 FAIL; incluye axe y flujos simulados de WhatsApp. La entrega real en WhatsApp, dispositivos físicos y la aceptación comercial permanecen pendientes. Las capturas comparativas locales de Home y Servicios coincidieron píxel a píxel en esas cuatro resoluciones. CI y Preview se verifican por separado.
+
+## Decisiones de alcance registradas
+
+- El propietario aprobó la dirección visual V6 y autorizó los rangos de presupuesto V7; la aceptación comercial final de servicios y textos sigue pendiente.
+- El propietario proporcionó las capturas de ORVENTI y LlevaKí y confirmó que los nombres y valoraciones visibles en LlevaKí son de demostración. La verificación formal de derechos y permisos de todos los materiales sigue pendiente.
+- No hay autorización para publicar políticas legales ni activar seguimiento adicional.
+
+## Riesgos antes de la apertura comercial formal
+
+- Completar identificación del responsable, vías de derechos, base jurídica, conservación, destinatarios y transferencias; revisar obligaciones y texto con asesoría ecuatoriana.
+- Confirmar número comercial, permisos de materiales, dominio y alcance ofrecido; decidir visibilidad del Blog.
+- El enlace de WhatsApp incorpora datos del formulario en su URL: revisar la exposición en el navegador y en el servicio receptor. Los registros técnicos de infraestructura pueden contener datos personales; no equiparar la ausencia de base de datos del formulario con ausencia de tratamiento.
+- GitHub Actions V7 no inició por bloqueo de facturación; validación remota pendiente. No se ha modificado la cuenta ni solicitado reintento.
+
+Ver [borrador interno de privacidad](PRIVACY-DRAFT-V8.md) y [auditoría comercial y técnica](COMMERCIAL-READINESS-V8.md).
