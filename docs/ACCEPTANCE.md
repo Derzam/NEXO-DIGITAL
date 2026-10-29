@@ -5,8 +5,8 @@ Estado documental V8: las decisiones identificadas abajo permanecen **PENDIENTES
 | Decisión | Dato o confirmación necesaria | Estado |
 | --- | --- | --- |
 | Dominio definitivo | Dominio HTTPS autorizado y valor de `NEXT_PUBLIC_SITE_URL`; validar canonical, robots y sitemap después de configurarlo. | PENDIENTE |
-| Modalidad operativa | El propietario decidió operar Nexo Digital Studio como **persona natural en Ecuador**. No se programa una transferencia a LlevaKí S.A.S. | APROBADA — 2026-10-28 |
-| Identificación del responsable | Nombre legal de la persona natural, domicilio de contacto y correo profesional verificables; no colocar números de identificación ni domicilio privado sin revisión. | PENDIENTE |
+| Modalidad operativa | **Nueva decisión del 29/10/2026:** Nexo Digital Studio operará temporalmente bajo **LlevaKí S.A.S.** como marca/línea comercial. Esta decisión **sustituye** la modalidad de persona natural del 28/10. | APROBADA COMO DIRECCIÓN COMERCIAL; HABILITACIÓN TRIBUTARIA POR VERIFICAR |
+| Identificación del responsable | Verificar razón social exacta, RUC activo, representación legal, datos empresariales aptos para publicación y actividades registradas; no inventar RUC ni datos. | PENDIENTE |
 | Avisos legales y privacidad | Texto revisado, canal de contacto y tratamiento de datos y WhatsApp, con asesoría competente. | PENDIENTE |
 | WhatsApp | Confirmar titularidad y disponibilidad comercial del número mostrado `+593 98 444 7960`. | PENDIENTE |
 | Presupuesto | Rangos corregidos: menos de USD 500; desde USD 500 hasta menos de USD 1.500; desde USD 1.500 hasta menos de USD 5.000; USD 5.000 o más. Aceptación comercial final pendiente. | PENDIENTE |
@@ -27,7 +27,7 @@ La medición de clics con eventos personalizados de Vercel Analytics podría eva
 
 - El propietario aprobó la dirección visual V6 y autorizó los rangos de presupuesto V7; la aceptación comercial final de servicios y textos sigue pendiente.
 - El propietario proporcionó las capturas de ORVENTI y LlevaKí y confirmó que los nombres y valoraciones visibles en LlevaKí son de demostración. La verificación formal de derechos y permisos de todos los materiales sigue pendiente.
-- El propietario confirmó que Nexo Digital Studio operará como **persona natural**; reemplaza la alternativa de hacerlo bajo LlevaKí S.A.S. y cualquier transición automática prevista para 2027. La identificación y condiciones tributarias deben verificarse por separado.
+- **Decisión posterior (29/10/2026):** el propietario eligió operar Nexo durante estos meses bajo **LlevaKí S.A.S.**, en sustitución de la opción de persona natural. La compatibilidad del objeto social fue examinada con el documento compartido por el propietario, pero **el RUC, las actividades registradas, la representación y el cumplimiento tributario no están verificados**. El alcance temporal no establece fecha automática de finalización ni transferencia.
 - No hay autorización para publicar políticas legales ni activar seguimiento adicional.
 
 ## Riesgos antes de la apertura comercial formal
@@ -39,6 +39,6 @@ La medición de clics con eventos personalizados de Vercel Analytics podría eva
 
 Ver [borrador interno de privacidad](PRIVACY-DRAFT-V8.md) y [auditoría comercial y técnica](COMMERCIAL-READINESS-V8.md).
 
-## Preparación tributaria para persona natural
+## Preparación tributaria bajo LlevaKí S.A.S.
 
-La aprobación de la modalidad **no verifica** que el RUC exista, esté activo o incluya las actividades de Nexo. Revisar estado, actividades económicas, nombre comercial, régimen tributario, obligaciones y emisión de comprobantes antes de facturar. No presumir elegibilidad RIMPE; el SRI excluye determinadas actividades profesionales según su clasificación. Guía interna: [RUC y formalización — persona natural](RUC-PERSONA-NATURAL-V8.md). No registrar números, claves, direcciones privadas ni comprobantes en este repositorio.
+La decisión comercial no acredita que el RUC de **LlevaKí S.A.S.** esté activo, ni que incluya actividades de desarrollo de software, diseño web y servicios de Nexo. Antes de ofertar y facturar verificar razón social, estado, CIIU/actividades, nombre comercial, representante legal, obligaciones y comprobantes, además de la situación societaria y contable con asesoría. Guía vigente: [verificación societaria y tributaria V8](RUC-SOCIEDAD-LLEVAKI-V8.md). La [guía previa de persona natural](RUC-PERSONA-NATURAL-V8.md) es histórica y no gobierna la operación actual. No registrar números, claves ni documentos privados en este repositorio.
