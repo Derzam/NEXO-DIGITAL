@@ -4,10 +4,13 @@
 
 ## Responsable y contacto
 
-- Responsable del tratamiento y, cuando corresponda, razón social: **[PENDIENTE DE IDENTIFICACIÓN]**.
+- **Modalidad comercial confirmada:** Nexo Digital Studio operará como **persona natural en Ecuador**, decisión del propietario de 2026-10-28. La marca no es una persona jurídica distinta y **no se identificará a LlevaKí S.A.S. como operador de Nexo**.
+- **Identidad del responsable del tratamiento:** **[NOMBRE LEGAL DE LA PERSONA NATURAL — PENDIENTE DE CONFIRMAR Y AUTORIZAR PARA PUBLICACIÓN]**. Esta decisión comercial no acredita todavía la identidad legal ni el RUC.
 - Domicilio legal y correo de contacto: **[PENDIENTES]**.
 - Canal para ejercer derechos y, si aplica, datos del delegado: **[PENDIENTES DE DEFINIR Y VERIFICAR]**.
-- No se presume relación jurídica con otra empresa del propietario.
+- No se presume relación jurídica con otra empresa del propietario. No hay transición automática prevista a LlevaKí S.A.S. en enero de 2027.
+
+El artículo 12 de la LOPDP requiere información verificable del responsable (incluidos domicilio legal, teléfono y correo de contacto), entre otros extremos. **No publicar** un aviso que conserve estos campos vacíos; considerar un canal comercial de contacto adecuado sin revelar un domicilio privado innecesariamente, sujeto a asesoría competente.
 
 ## Datos y finalidades que deben confirmarse
 
