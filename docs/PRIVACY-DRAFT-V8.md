@@ -4,11 +4,11 @@
 
 ## Responsable y contacto
 
-- **Modalidad comercial confirmada:** Nexo Digital Studio operará como **persona natural en Ecuador**, decisión del propietario de 2026-10-28. La marca no es una persona jurídica distinta y **no se identificará a LlevaKí S.A.S. como operador de Nexo**.
-- **Identidad del responsable del tratamiento:** **[NOMBRE LEGAL DE LA PERSONA NATURAL — PENDIENTE DE CONFIRMAR Y AUTORIZAR PARA PUBLICACIÓN]**. Esta decisión comercial no acredita todavía la identidad legal ni el RUC.
+- **Modalidad comercial más reciente (29/10/2026):** el propietario decidió que **Nexo Digital Studio operará temporalmente como línea/marca de LlevaKí S.A.S.** La decisión del 28/10 de persona natural quedó sustituida. La empresa, no la marca comercial, sería responsable de los tratamientos que efectivamente controle, sujeto a verificación y revisión jurídica.
+- **Identidad del responsable del tratamiento:** **[RAZÓN SOCIAL, RUC, REPRESENTANTE Y DATOS DE CONTACTO DE LA SOCIEDAD — PENDIENTES DE VERIFICACIÓN Y AUTORIZACIÓN PARA PUBLICACIÓN]**. No afirmar que el RUC esté activo o que el nombre comercial ya conste registrado.
 - Domicilio legal y correo de contacto: **[PENDIENTES]**.
 - Canal para ejercer derechos y, si aplica, datos del delegado: **[PENDIENTES DE DEFINIR Y VERIFICAR]**.
-- No se presume relación jurídica con otra empresa del propietario. No hay transición automática prevista a LlevaKí S.A.S. en enero de 2027.
+- No existe transferencia automática futura ni plazo de operación jurídicamente definido; la decisión posterior de cambiar nuevamente el operador exigirá actualización de contratos y avisos. No publicar este borrador con campos pendientes.
 
 El artículo 12 de la LOPDP requiere información verificable del responsable (incluidos domicilio legal, teléfono y correo de contacto), entre otros extremos. **No publicar** un aviso que conserve estos campos vacíos; considerar un canal comercial de contacto adecuado sin revelar un domicilio privado innecesariamente, sujeto a asesoría competente.
 
