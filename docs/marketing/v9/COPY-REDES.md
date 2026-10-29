@@ -1,6 +1,6 @@
 # Textos para redes — V9
 
-**Borradores para revisión. No publicar ni contratar anuncios sin aprobación.** La preparación de estas piezas no autoriza actividad comercial remunerada; el RUC de persona natural y las verificaciones tributarias y legales correspondientes siguen pendientes.
+**Textos de campaña para las piezas V9.** El propietario solicitó publicarlas y decidió operar temporalmente Nexo Digital Studio bajo **LlevaKí S.A.S.** el 29/10/2026, en lugar de la opción de persona natural. **La publicación efectiva no ha sido confirmada**: falta vincular una cuenta/página social y verificar el RUC activo de la sociedad, las actividades económicas, la representación, permisos de recursos y aspectos legales antes de formalizar operaciones comerciales. No se conoce ni se incluye el número de RUC; los textos de los anuncios no deben afirmar que la sociedad ha sido verificada.
 
 ## 1. Landing pages
 
