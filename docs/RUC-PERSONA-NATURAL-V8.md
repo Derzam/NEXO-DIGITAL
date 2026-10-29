@@ -1,3 +1,9 @@
+# DOCUMENTO HISTÓRICO — NO VIGENTE PARA LA OPERACIÓN ACTUAL
+
+**La decisión de operar Nexo como persona natural fue sustituida el 29 de octubre de 2026 por la de operar temporalmente bajo LlevaKí S.A.S.** Esta lista queda archivada por trazabilidad; no debe utilizarse como gate operativo actual. Véase [verificación de LlevaKí S.A.S.](RUC-SOCIEDAD-LLEVAKI-V8.md).
+
+---
+
 # Formalización de Nexo Digital Studio — persona natural (V8)
 
 **Documento interno, 2026-10-28. No se han realizado trámites tributarios ni se ha validado el RUC del propietario.** No colocar aquí números de identificación, contraseñas, domicilio privado ni documentos tributarios. La decisión aprobada es operar Nexo Digital Studio como **persona natural en Ecuador**; Nexo es el nombre comercial y no una sociedad separada. **LlevaKí S.A.S. no operará Nexo** y no existe una transición automática prevista para enero de 2027.
