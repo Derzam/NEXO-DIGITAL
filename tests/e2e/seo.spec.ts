@@ -53,3 +53,52 @@ test("metadata and structured data identify each route", async ({ page, request 
   for (const route of ["/blog", "/portafolio"]) expect(sitemap).not.toContain(`${route}</loc>`);
   expect((await (await request.get("/robots.txt")).text())).toContain("sitemap.xml");
 });
+
+
+test("sitemap URLs and canonicals use the same public origin", async ({ request }) => {
+  const home = await request.get("/");
+  expect(home.status()).toBe(200);
+  const homeHtml = await home.text();
+  const linkTag = homeHtml.match(/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/i)?.[0];
+  const homeCanonical = linkTag?.match(/\bhref=["']([^"']+)["']/i)?.[1];
+  expect(homeCanonical, "Home must declare its absolute canonical URL").toBeTruthy();
+
+  // SEO_EXPECTED_ORIGIN is an explicit release gate, not inferred from the build.
+  // Example: SEO_EXPECTED_ORIGIN=https://nexodigitalstudio.net
+  const expectedOrigin = (process.env.SEO_EXPECTED_ORIGIN || new URL(homeCanonical!).origin).replace(/\/$/, "");
+  expect(new URL(homeCanonical!).href).toBe(`${expectedOrigin}/`);
+
+  const sitemapResponse = await request.get("/sitemap.xml");
+  expect(sitemapResponse.status()).toBe(200);
+  expect(sitemapResponse.headers()["content-type"]).toMatch(/xml/i);
+  const xml = await sitemapResponse.text();
+  const locations = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1].replaceAll("&amp;", "&"));
+  const publicPaths = routes.filter((route) => !["/blog", "/portafolio"].includes(route));
+  const expectedUrls = publicPaths.map((path) => new URL(path, `${expectedOrigin}/`).toString());
+
+  expect(locations).toHaveLength(14);
+  expect(new Set(locations).size).toBe(locations.length);
+  expect(new Set(locations)).toEqual(new Set(expectedUrls));
+  for (const url of locations) {
+    const parsed = new URL(url);
+    expect(parsed.protocol).toBe(new URL(expectedOrigin).protocol);
+    expect(parsed.origin).toBe(expectedOrigin);
+    expect(parsed.search).toBe("");
+    expect(parsed.hash).toBe("");
+  }
+
+  const robotsResponse = await request.get("/robots.txt");
+  expect(robotsResponse.status()).toBe(200);
+  const robotsText = await robotsResponse.text();
+  expect(robotsText).toMatch(/User-agent:\s*\*/i);
+  expect(robotsText).toContain(`Sitemap: ${expectedOrigin}/sitemap.xml`);
+
+  for (const path of publicPaths) {
+    const response = await request.get(path);
+    expect(response.status(), `Public route: ${path}`).toBe(200);
+    const html = await response.text();
+    const tag = html.match(/<link\b(?=[^>]*\brel=["']canonical["'])[^>]*>/i)?.[0];
+    const canonical = tag?.match(/\bhref=["']([^"']+)["']/i)?.[1];
+    expect(canonical, `Canonical for ${path}`).toBe(new URL(path, `${expectedOrigin}/`).toString());
+  }
+});
