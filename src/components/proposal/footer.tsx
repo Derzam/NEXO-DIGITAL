@@ -31,6 +31,7 @@ export function ProposalFooter() {
               ["/soluciones", "Soluciones"],
               ["/nosotros", "Nosotros"],
               ["/portafolio", "Portafolio"],
+              ["/#resenas", "Reseñas"],
               ["/blog", "Blog"],
               ["/contacto", "Contacto"],
             ].map(([href, label]) => (
