@@ -5,7 +5,8 @@ Estado documental V8: las decisiones identificadas abajo permanecen **PENDIENTES
 | Decisión | Dato o confirmación necesaria | Estado |
 | --- | --- | --- |
 | Dominio definitivo | Dominio HTTPS autorizado y valor de `NEXT_PUBLIC_SITE_URL`; validar canonical, robots y sitemap después de configurarlo. | PENDIENTE |
-| Responsable | Nombre o razón social verificable y datos de contacto del responsable del sitio. | PENDIENTE |
+| Modalidad operativa | El propietario decidió operar Nexo Digital Studio como **persona natural en Ecuador**. No se programa una transferencia a LlevaKí S.A.S. | APROBADA — 2026-10-28 |
+| Identificación del responsable | Nombre legal de la persona natural, domicilio de contacto y correo profesional verificables; no colocar números de identificación ni domicilio privado sin revisión. | PENDIENTE |
 | Avisos legales y privacidad | Texto revisado, canal de contacto y tratamiento de datos y WhatsApp, con asesoría competente. | PENDIENTE |
 | WhatsApp | Confirmar titularidad y disponibilidad comercial del número mostrado `+593 98 444 7960`. | PENDIENTE |
 | Presupuesto | Rangos corregidos: menos de USD 500; desde USD 500 hasta menos de USD 1.500; desde USD 1.500 hasta menos de USD 5.000; USD 5.000 o más. Aceptación comercial final pendiente. | PENDIENTE |
@@ -26,6 +27,7 @@ La medición de clics con eventos personalizados de Vercel Analytics podría eva
 
 - El propietario aprobó la dirección visual V6 y autorizó los rangos de presupuesto V7; la aceptación comercial final de servicios y textos sigue pendiente.
 - El propietario proporcionó las capturas de ORVENTI y LlevaKí y confirmó que los nombres y valoraciones visibles en LlevaKí son de demostración. La verificación formal de derechos y permisos de todos los materiales sigue pendiente.
+- El propietario confirmó que Nexo Digital Studio operará como **persona natural**; reemplaza la alternativa de hacerlo bajo LlevaKí S.A.S. y cualquier transición automática prevista para 2027. La identificación y condiciones tributarias deben verificarse por separado.
 - No hay autorización para publicar políticas legales ni activar seguimiento adicional.
 
 ## Riesgos antes de la apertura comercial formal
@@ -36,3 +38,7 @@ La medición de clics con eventos personalizados de Vercel Analytics podría eva
 - GitHub Actions V7 no inició por bloqueo de facturación; validación remota pendiente. No se ha modificado la cuenta ni solicitado reintento.
 
 Ver [borrador interno de privacidad](PRIVACY-DRAFT-V8.md) y [auditoría comercial y técnica](COMMERCIAL-READINESS-V8.md).
+
+## Preparación tributaria para persona natural
+
+La aprobación de la modalidad **no verifica** que el RUC exista, esté activo o incluya las actividades de Nexo. Revisar estado, actividades económicas, nombre comercial, régimen tributario, obligaciones y emisión de comprobantes antes de facturar. No presumir elegibilidad RIMPE; el SRI excluye determinadas actividades profesionales según su clasificación. Guía interna: [RUC y formalización — persona natural](RUC-PERSONA-NATURAL-V8.md). No registrar números, claves, direcciones privadas ni comprobantes en este repositorio.
