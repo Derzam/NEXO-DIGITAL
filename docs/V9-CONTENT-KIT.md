@@ -1,6 +1,6 @@
 # V9 — Kit de mensajes y contenidos comerciales (borradores)
 
-**USO INTERNO / NO PUBLICADO.** Material preparatorio de Nexo Digital Studio, marca prevista para operar como **persona natural en Ecuador**. Aún no se ha gestionado el RUC; antes de iniciar actividades comerciales remuneradas deben verificarse formalización, privacidad, facturación y contratos. No publicar estos textos ni activar campañas sin aprobación del propietario.
+**USO INTERNO / NO PUBLICADO.** Material preparatorio de Nexo Digital Studio, marca que el propietario decidió operar temporalmente bajo **LlevaKí S.A.S.** (29/10/2026), sujeto a verificar el **RUC activo** de la sociedad y sus actividades económicas; antes del lanzamiento comercial, revisar privacidad, facturación y contratos. Sustituye la propuesta anterior de persona natural. No publicar estos textos ni activar campañas sin aprobación del propietario.
 
 ## Principios editoriales
 
@@ -127,8 +127,8 @@ No enviar mensajes masivos ni automatizados. No sugerir relación previa o inter
 
 1. Titularidad y utilización comercial del WhatsApp de Nexo.
 2. Autorización y derechos sobre capturas, nombres e imágenes incluidas.
-3. RUC, clasificación de actividad, comprobantes, términos y privacidad antes de iniciar operación remunerada.
+3. RUC activo, actividades económicas de LlevaKí S.A.S., comprobantes, representación, términos y privacidad antes de iniciar operación remunerada.
 4. Precios, paquetes, promociones y responsabilidades de soporte.
 5. Fecha y canales de publicación; sin aprobación no hay lanzamiento ni publicaciones.
 
-**Referencias:** [plan de validación V9](V9-PRELAUNCH-PLAYBOOK.md); [servicios actuales](https://nexo-digital-mu.vercel.app/servicios); [SRI RUC personas naturales](https://www.sri.gob.ec/ruc-personas-naturales).
+**Referencias:** [plan de validación V9](V9-PRELAUNCH-PLAYBOOK.md); [servicios actuales](https://nexo-digital-mu.vercel.app/servicios); [SRI RUC sociedades](https://www.sri.gob.ec/ruc-sociedades).
