@@ -22,3 +22,21 @@ Las tres piezas son 1080 × 1350 px (4:5); `comparativa.png` reúne versiones re
 - Pendientes: aprobación visual y editorial, autorización formal de marcas/capturas para uso comercial, titularidad del contacto, condiciones de privacidad, RUC y obligaciones antes de operación remunerada. No activar difusión sin autorización expresa.
 
 Cambios limitados a `docs/marketing/v9/`. Las pruebas de aplicación no se ejecutaron porque no se modificó código o configuración. La revisión técnica automatizada de texto dentro de capturas no sustituye la aprobación visual del propietario.
+
+## Validación visual final — V9
+
+Revisión de los PNG, WebP y SVG completos del HEAD inicial `3e640abb36bc0e2bd4f16040ecfb17ac490e7ec8`, y del comentario de revisión del PR #14. Los originales ya medían 1080 × 1350 y **no tenían el borde inferior cortado**; se descarta que el recorte observado en las imágenes compartidas demuestre un defecto del archivo original. Cada PNG y WebP final conserva 1080 × 1350 y relación 4:5; los SVG se analizaron como XML válido y conservan texto, formas e imágenes editables por separado.
+
+| Pieza | Hallazgo y corrección | Revisión a 360, 390 y 430 px |
+| --- | --- | --- |
+| Landing | Titular, dispositivos y CTA completos. La leyenda conceptual y la URL se veían demasiado pequeñas; se amplió su tipografía, junto con los beneficios. | Titular y CTA legibles; subtítulo y beneficios pequeños pero legibles; leyenda y URL pequeñas, visibles sin recorte. |
+| ORVENTI | Captura auténtica y leyenda presentes; se amplió la leyenda, la URL y los beneficios sin cambiar el panel. | Titular y CTA legibles; beneficios y leyenda legibles a escala reducida; URL pequeña y completa. Los detalles del panel no son legibles en móvil. |
+| LlevaKí | Se amplió la leyenda, la URL y los beneficios. Se conserva el tamaño del teléfono: ampliarlo taparía más de la captura original, que ya incluye la interfaz móvil. | Titular y CTA legibles; beneficios y leyenda legibles; URL pequeña y completa. Los detalles dentro de la captura no son legibles en móvil. |
+
+Las nueve imágenes de `qa/` terminadas en `-360`, `-390` y `-430` son reducciones proporcionales de los anuncios completos; las alturas se redondean al píxel más próximo. `*-completo.webp` ofrece la vista completa de cada archivo y `qa/comparativa.webp` reúne las tres piezas. En `*-antes-despues.webp`, la imagen anterior está a la izquierda y la corregida a la derecha; hay una comparación por cada pieza modificada. `*-png-webp.webp` compara visualmente PNG a la izquierda con WebP a la derecha.
+
+La comprobación geométrica en Chromium no detectó textos fuera del lienzo: el borde inferior de la URL conserva al menos 175 px en landing y 109 px en las otras dos piezas, en el lienzo de 1350 px. Esto no garantiza la ausencia de recortes en todas las superficies de redes sociales. Las URL completas también están en `COPY-REDES.md`; los CTA dibujados no son enlaces interactivos.
+
+Se comprobó que los PNG son idénticos al render del SVG correspondiente; los WebP tienen una diferencia media inferior a 1,1 niveles por canal frente a PNG, acorde con la compresión con pérdida. La revisión visual de cada par no mostró diferencias materiales. Las imágenes incrustadas de ORVENTI y LlevaKí y el recurso visual de Nexo se compararon píxel a píxel con sus archivos originales; el logotipo también se verificó. No se alteraron las capturas ni se añadieron datos reales, clientes, métricas o resultados. Los nombres y valoraciones visibles en LlevaKí son datos de demostración confirmados por el propietario.
+
+**Archivos modificados:** los tres SVG y sus PNG/WebP, `comparativa.png` y este informe; `qa/` contiene evidencias nuevas. Las verificaciones se realizaron por simulación local, no en dispositivos físicos o aplicaciones de redes. La aprobación visual, autorización formal de materiales, RUC y revisión legal/tributaria siguen pendientes. No se ejecutaron lint, build ni E2E de la aplicación. No se han publicado anuncios ni modificado producción.
