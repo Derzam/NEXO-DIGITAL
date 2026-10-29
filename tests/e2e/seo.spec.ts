@@ -6,8 +6,8 @@ test("both Search Console owners have exactly one verification tag", async ({ re
   const response = await request.get("/");
   expect(response.status()).toBe(200);
   const html = await response.text();
-  const tags = html.match(/<meta\\b[^>]*\\bname="google-site-verification"[^>]*>/g) ?? [];
-  const values = tags.map((tag) => tag.match(/\\bcontent="([^"]+)"/)?.[1]);
+  const tags = html.match(/<meta\b[^>]*\bname="google-site-verification"[^>]*>/g) ?? [];
+  const values = tags.map((tag) => tag.match(/\bcontent="([^"]+)"/)?.[1]);
   expect(values).toHaveLength(2);
   expect(values).toEqual(expect.arrayContaining([
     "_giaGOSE7_ORb7c3inf8k_JPfYCygYD1uX8kLg30XA8",
