@@ -1,12 +1,12 @@
 # V9 — Plan de validación comercial previa al lanzamiento
 
-**Estado: propuesta interna, no aprobada para publicación ni para actividad remunerada.** Base: main@07f31157032841369cd4e4dd89e98ad1f9128d5d. Fase V8 de privacidad y formalización: PR #12 abierto en Draft, independiente de esta rama. Decisión del propietario: **Nexo Digital Studio funcionará como persona natural**; **aún no tiene RUC y ha pospuesto el trámite**. No se proyecta traspaso automático a LlevaKí S.A.S.
+**Estado: propuesta interna, no aprobada para publicación ni para actividad remunerada.** Base: main@07f31157032841369cd4e4dd89e98ad1f9128d5d. Fase V8 de privacidad y formalización: PR #12 abierto en Draft, independiente de esta rama. **Decisión más reciente del propietario (29/10/2026): Nexo Digital Studio operará temporalmente bajo LlevaKí S.A.S.** Sustituye la propuesta de persona natural. El RUC y actividades de la S.A.S. deben verificarse; no se afirma habilitación ni cumplimiento tributario.
 
 ## Objetivo
 
 Validar el interés por tres líneas de servicios y preparar materiales honestos antes del lanzamiento comercial: páginas de presentación, sistemas web empresariales y plataformas/aplicaciones a medida. No se inventarán clientes, resultados, testimonios, cifras de uso o desarrollos entregados. ORVENTI y LlevaKí son referencias de producto y tecnología con capturas de demostración, **no casos de éxito de clientes externos**.
 
-**Límite formal:** esta etapa es preparación editorial, estudio de necesidades y revisión de materiales. Antes de iniciar actividades económicas, contratos, facturación o cobros, tramitar el RUC de persona natural y verificar obligaciones tributarias, titularidad de WhatsApp, privacidad y condiciones contractuales con asesoría apropiada. No se interpreta la preparación del sitio como autorización para operar sin registro; consultar el [SRI — RUC personas naturales](https://www.sri.gob.ec/ruc-personas-naturales).
+**Límite formal:** esta etapa es preparación editorial, estudio de necesidades y revisión de materiales. Antes de iniciar o continuar actividades remuneradas bajo la nueva estructura, verificar el RUC **activo** de LlevaKí S.A.S., las actividades económicas pertinentes, las obligaciones tributarias, la representación legal, la titularidad de WhatsApp, privacidad y condiciones contractuales. El objeto social por sí solo no sustituye esta verificación. Consultar [SRI — RUC sociedades](https://www.sri.gob.ec/ruc-sociedades).
 
 ## Propuesta de valor verificable
 
@@ -55,7 +55,7 @@ No incorporar etiquetas de seguimiento, píxeles, PostHog, eventos personalizado
 ## Responsabilidades y puertas de salida
 
 - Propietario: aprobar o rechazar textos, imágenes y canales; confirmar permisos de marcas y materiales.
-- V8/legal: confirmar responsable, tratamiento de datos, WhatsApp y RUC **antes del lanzamiento comercial formal**. V8 permanece Draft hasta decisión separada.
+- V8/legal: verificar sociedad, RUC y actividades de LlevaKí S.A.S., responsable del tratamiento, representación, datos de contacto y WhatsApp antes del lanzamiento comercial formal. V8 permanece Draft hasta decisión separada.
 - Marketing: preparar mensajes de muestra sin prometer precios, plazos, certificaciones o resultados que no hayan sido aprobados.
 - Desarrollo: no cambiar el diseño V5–V7 ni producción en V9; cualquier ajuste de sitio requiere PR independiente y revisión responsive.
 
@@ -67,7 +67,7 @@ No incorporar etiquetas de seguimiento, píxeles, PostHog, eventos personalizado
 - Servicios: https://nexo-digital-mu.vercel.app/servicios
 - Referencias: https://nexo-digital-mu.vercel.app/servicios#proyectos-referencia
 - Matriz comercial: docs/ACCEPTANCE.md (main, V7); borradores legales V8 en PR #12.
-- [SRI — RUC personas naturales](https://www.sri.gob.ec/ruc-personas-naturales).
+- [SRI — RUC sociedades](https://www.sri.gob.ec/ruc-sociedades).
 - [INEC — TIC 2025](https://www.ecuadorencifras.gob.ec/tecnologias-de-la-informacion-y-comunicacion-tic/).
 
 **Este documento no autoriza publicaciones, contactos automatizados, cobros, contratación, cambios en producción ni fusión de PR.**
