@@ -81,7 +81,7 @@ test("sitemap URLs and canonicals use the same public origin", async ({ request 
   expect(new Set(locations)).toEqual(new Set(expectedUrls));
   for (const url of locations) {
     const parsed = new URL(url);
-    expect(parsed.protocol).toBe("https:");
+    expect(parsed.protocol).toBe(new URL(expectedOrigin).protocol);
     expect(parsed.origin).toBe(expectedOrigin);
     expect(parsed.search).toBe("");
     expect(parsed.hash).toBe("");
