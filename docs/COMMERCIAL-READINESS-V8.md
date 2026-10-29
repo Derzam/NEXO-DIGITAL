@@ -2,6 +2,12 @@
 
 **Interno, pendiente de revisión y aprobación.** Base revisada: `07f31157032841369cd4e4dd89e98ad1f9128d5d` (main; PR #11 fusionado). Al consultar Vercel, se observó un despliegue de producción READY asociado a ese mismo SHA. Esta observación no verifica todas las opciones del proyecto, el dominio definitivo ni el cumplimiento legal.
 
+## Modelo de operación confirmado (decisión del propietario, 2026-10-28)
+
+Nexo Digital Studio operará como **persona natural en Ecuador**. El nombre es una **marca comercial**, no una persona jurídica por separado. No se prevé una migración automática en enero de 2027 a LlevaKí S.A.S.; esa sociedad no debe figurar como responsable ni emisor de Nexo sin una decisión futura expresa y verificaciones correspondientes.
+
+**Pendiente de verificar antes de operar y facturar:** identidad legal y datos públicos de contacto de la persona natural, inscripción y estado del RUC, actividades y nombre comercial declarados, régimen tributario, obligaciones, emisión de comprobantes y tratamiento de datos. No insertar documentos o números personales en este repositorio. Ver [lista de formalización de persona natural](RUC-PERSONA-NATURAL-V8.md). Un RUC existente a nombre de la persona natural no acredita por sí solo que las actividades de Nexo estén incluidas.
+
 ## Inventario de operaciones y evidencia
 
 | Operación | Evidencia en el repositorio | Límites y decisiones |
