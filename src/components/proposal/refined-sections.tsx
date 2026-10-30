@@ -9,6 +9,7 @@ import {
   SolutionsExplorer,
 } from "@/components/proposal/interactions";
 import { PortfolioPreview } from "@/components/proposal/product-previews";
+import { CustomerReviews } from "@/components/proposal/customer-reviews";
 import { whatsappUrl } from "@/lib/content";
 
 export function RefinedSections() {
@@ -130,6 +131,8 @@ export function RefinedSections() {
           <Methodology />
         </div>
       </section>
+
+      <CustomerReviews />
 
       <section id="preguntas" className="refinement-section refinement-compact">
         <div className="proposal-container tw:grid tw:gap-8 tw:lg:grid-cols-[.85fr_1.15fr]">
