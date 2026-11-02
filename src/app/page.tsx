@@ -5,6 +5,9 @@ import { ArrowRight, ArrowUpRight, MoveDown } from "lucide-react";
 import { Button } from "@/components/shadcn/button";
 import { RefinedSections } from "@/components/proposal/refined-sections";
 import { whatsappUrl } from "@/lib/content";
+// Server-render approved testimonials on each request; never cache pending reviews.
+export const dynamic = "force-dynamic";
+
 export const metadata = pageMetadata("/", "Páginas web y software a medida en Ecuador | Nexo Digital Studio", "Diseñamos páginas web, sistemas empresariales, aplicaciones móviles y soluciones de inteligencia artificial para negocios en Ecuador.");
 
 export default function Home() {
