@@ -35,7 +35,7 @@ on public.nexo_customer_reviews for select to anon, authenticated
 using (moderation_status = 'published' and publication_consent = true);
 
 -- No public INSERT/UPDATE/DELETE policies. The only submission path is the
--- rate-limited /api/reviews server route using the server-only Supabase service role key.
+-- Turnstile-verified /api/reviews server route using the server-only Supabase service role key.
 -- Supabase Studio / SQL editor (postgres role) handles moderation.
 -- To publish, review actual customer consent and run in SQL editor:
 -- update public.nexo_customer_reviews
