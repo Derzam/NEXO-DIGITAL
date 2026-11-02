@@ -35,13 +35,13 @@ Tabla `public.nexo_customer_reviews`:
 
 Entorno **Production** (y Preview solamente con un proyecto aislado de staging si se habilita):
 - `NEXO_SUPABASE_URL` = URL del proyecto **de Nexo**.
-- `NEXO_SUPABASE_ANON_KEY` = clave **anon legacy JWT** del proyecto, solo para lectura pública con RLS.
+- `NEXO_SUPABASE_PUBLISHABLE_KEY` = clave pública moderna `sb_publishable_...` del proyecto de Nexo, usada solo para lectura con RLS.
 - `NEXO_SUPABASE_SERVICE_ROLE_KEY` = clave **service_role legacy JWT**, secreto de Vercel, **solo servidor**.
 - `REVIEWS_SUBMISSION_ENABLED=false` hasta completar el gate.
 - `NEXT_PUBLIC_REVIEWS_TURNSTILE_SITE_KEY` = clave pública de widget Cloudflare Turnstile para `nexodigitalstudio.net`.
 - `REVIEWS_TURNSTILE_SECRET` = secreto del mismo widget, solo servidor.
 
-El uso de claves legacy JWT se documenta explícitamente por compatibilidad con el encabezado `Authorization: Bearer` de PostgREST. Si se cambia a claves publicables `sb_publishable_` o secret `sb_secret_`, adaptar y probar el acceso REST conforme a la documentación vigente. No subir secretos a GitHub.
+La consulta pública usa solo `apikey: sb_publishable_...` y RLS. La ruta de escritura todavía utiliza `NEXO_SUPABASE_SERVICE_ROLE_KEY` con clave legacy JWT (server-only), pues requiere acceso privilegiado. Para migrarla a `sb_secret_...`, utilizar `apikey` sin un Bearer no-JWT y probar el endpoint antes de activar. No subir secretos a GitHub.
 
 **Seguridad:** Turnstile frena automatizaciones triviales, pero no reemplaza el rate limit duradero, WAF ni políticas contra abuso. Para apertura pública significativa conviene añadir límite por IP/identidad en un almacenamiento duradero y alertas; no afirmar que el sistema ya está libre de spam. El sistema empieza **cerrado**.
 
