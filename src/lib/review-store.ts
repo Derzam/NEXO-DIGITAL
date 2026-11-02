@@ -10,7 +10,7 @@ type PublicRow = {
 
 function databaseConfig() {
   const url = process.env.NEXO_SUPABASE_URL;
-  const key = process.env.NEXO_SUPABASE_ANON_KEY;
+  const key = process.env.NEXO_SUPABASE_PUBLISHABLE_KEY;
   if (!url || !key || !/^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(url)) return null;
   return { url, key };
 }
@@ -26,7 +26,7 @@ export async function loadPublishedReviews(): Promise<PublishedReview[]> {
     endpoint.searchParams.set("order", "published_at.desc");
     endpoint.searchParams.set("limit", "9");
     const response = await fetch(endpoint, {
-      headers: { apikey: config.key, Authorization: "Bearer " + config.key },
+      headers: { apikey: config.key },
       cache: "no-store",
       signal: AbortSignal.timeout(8000),
     });
