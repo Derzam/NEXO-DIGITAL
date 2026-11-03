@@ -1,8 +1,12 @@
-/* Motion Experience: restrained, transform/opacity-only progressive enhancement. */
+/* V4.1 Motion Enhancement: progressive, transform/opacity-led public motion. */
+.proposal-shell {
+  --nexo-motion-ease: cubic-bezier(0.2, 0.58, 0.36, 1);
+}
+
 @keyframes motion-hero-rise {
   from {
     opacity: 0;
-    transform: translate3d(0, 18px, 0);
+    transform: translate3d(0, var(--motion-rise-distance, 32px), 0);
   }
   to {
     opacity: 1;
@@ -15,72 +19,203 @@
   to { opacity: 1; }
 }
 
+@keyframes motion-hero-cta-rise {
+  from { transform: translate3d(0, 20px, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
+
+@keyframes motion-hero-signal-in {
+  from {
+    opacity: 0;
+    transform: scaleX(0.62);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@keyframes motion-ambient-light {
+  0% {
+    opacity: 0.12;
+    transform: translate3d(-2%, 1%, 0) scale(0.98);
+  }
+  50% {
+    opacity: 0.24;
+    transform: translate3d(1%, -1%, 0) scale(1.01);
+  }
+  100% {
+    opacity: 0.18;
+    transform: translate3d(2%, 1.5%, 0) scale(1.035);
+  }
+}
+
+.cinematic-scene::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: -12%;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    radial-gradient(ellipse 38% 35% at 72% 32%, rgb(53 125 244 / 0.5), transparent 72%),
+    radial-gradient(ellipse 34% 30% at 58% 72%, rgb(118 207 255 / 0.28), transparent 76%);
+  transform: translate3d(-2%, 1%, 0) scale(0.98);
+  animation: motion-ambient-light 18s ease-in-out infinite alternate;
+}
+
+.cinematic-scene::after {
+  z-index: 2;
+}
+
 .motion-hero-signal {
-  animation: motion-hero-fade 350ms var(--ease) both;
+  transform-origin: left center;
+  animation: motion-hero-signal-in 450ms var(--nexo-motion-ease) both;
 }
 
 .motion-hero-title {
-  animation: motion-hero-rise 650ms var(--ease) 60ms both;
+  --motion-rise-distance: 32px;
+  animation: motion-hero-rise 850ms var(--nexo-motion-ease) 110ms both;
 }
 
 .motion-hero-copy {
-  animation: motion-hero-rise 550ms var(--ease) 140ms both;
+  --motion-rise-distance: 24px;
+  animation: motion-hero-rise 700ms var(--nexo-motion-ease) 230ms both;
 }
 
 .motion-hero-actions {
-  animation: motion-hero-rise 450ms var(--ease) 220ms both;
+  animation: motion-hero-cta-rise 600ms var(--nexo-motion-ease) 350ms both;
 }
 
 .motion-hero-footer {
-  animation: motion-hero-fade 450ms var(--ease) 300ms both;
+  animation: motion-hero-fade 650ms var(--nexo-motion-ease) 470ms both;
 }
 
-/* Sections are visible by default; the client enhancer marks only off-screen ones. */
+/* Keep actionable hero content ready when focus or pointer reaches it early. */
+.motion-hero-actions:is(:hover, :focus-within) {
+  animation-duration: 1ms;
+  animation-delay: 0ms;
+}
+
+/* The transition lives in both states; content stays fully opaque throughout. */
+main section[data-motion] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: transform 680ms var(--nexo-motion-ease);
+}
+
 main section[data-motion="pending"] {
-  opacity: 0.96;
-  transform: translate3d(0, 20px, 0);
-  transition:
-    opacity 560ms var(--ease),
-    transform 560ms var(--ease);
+  transform: translate3d(0, 32px, 0);
 }
 
 main section[data-motion="visible"] {
-  opacity: 1;
   transform: translate3d(0, 0, 0);
 }
 
 main section[data-motion="visible"]:focus-within {
   transition: none;
+  transform: translate3d(0, 0, 0);
+}
+
+/* Selected visual groups rise in a short, capped stagger without fading text. */
+main section[data-motion] [data-motion-item] {
+  transition-property: background-color, border-color, transform, translate, scale;
+  transition-duration: 250ms, 280ms, 280ms, 620ms, 620ms;
+  transition-timing-function:
+    ease,
+    var(--nexo-motion-ease),
+    var(--nexo-motion-ease),
+    var(--nexo-motion-ease),
+    var(--nexo-motion-ease);
+  transition-delay: 0ms, 0ms, 0ms, var(--motion-delay, 0ms), var(--motion-delay, 0ms);
+}
+
+main section[data-motion="pending"] [data-motion-item="pending"] {
+  translate: 0 20px;
+  scale: 0.985;
+}
+
+main section[data-motion="visible"] [data-motion-item="visible"] {
+  translate: 0 0;
+  scale: 1;
+}
+
+main section[data-motion="visible"]:focus-within [data-motion-item] {
+  transition-delay: 0ms;
+  transition-duration: 0ms;
+  translate: 0 0;
+  scale: 1;
+}
+
+main section[data-motion-instant] {
+  transition: none !important;
+  transform: none !important;
+}
+
+main section[data-motion-instant] [data-motion-item] {
+  transition: none !important;
+  translate: 0 0 !important;
+  scale: 1 !important;
+}
+
+.proposal-grid-card[data-motion-item] {
+  border-color: #243953;
+}
+
+.interior-shell .service-card {
+  transition:
+    background-color 220ms ease,
+    transform 280ms var(--nexo-motion-ease);
 }
 
 /* Small icon feedback is limited to hover-capable pointers. */
 .proposal-shell a > svg[class*="lucide-arrow"],
 .proposal-shell a > svg[class*="lucide-move"] {
-  transition: transform 220ms var(--ease);
+  transition: transform 250ms var(--nexo-motion-ease);
 }
 
 @media (hover: hover) and (pointer: fine) {
   .proposal-shell a:hover > svg[class*="lucide-arrow"],
   .proposal-shell a:hover > svg[class*="lucide-move"] {
-    transform: translate3d(2px, -1px, 0);
+    transform: translate3d(3px, -1px, 0);
   }
 
-  .proposal-grid-card:hover {
-    transform: translate3d(0, -3px, 0);
+  .proposal-shell .proposal-grid-card:hover {
+    border-color: #416486;
+    background: #11233b;
+    box-shadow: 0 14px 32px rgb(0 0 0 / 0.18);
+    transform: translate3d(0, -6px, 0);
   }
 
-  .interior-shell .service-card:hover {
-    transform: translate3d(0, -3px, 0);
+  .interior-shell .service-card.service-card:hover {
+    transform: translate3d(0, -6px, 0);
+  }
+
+  main [data-proposal] :is(a, button)[data-slot="button"]:hover,
+  header[data-proposal] :is(a, button)[data-slot="button"]:hover {
+    transform: translate3d(0, -2px, 0);
+  }
+
+  main [data-proposal] .motion-hero-actions > a:not([data-slot="button"]):hover {
+    transform: translate3d(0, -2px, 0);
   }
 }
 
-.proposal-shell :is(a, button, [role="button"]):active {
-  transition-duration: 100ms;
+main [data-proposal] :is(a, button)[data-slot="button"]:active,
+header[data-proposal] :is(a, button)[data-slot="button"]:active,
+main [data-proposal] .motion-hero-actions > a:not([data-slot="button"]):active {
+  transform: scale(0.98);
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto !important;
+  }
+
+  .cinematic-scene::before {
+    animation: none !important;
+    opacity: 0 !important;
+    transform: none !important;
   }
 
   .motion-hero-signal,
@@ -95,8 +230,26 @@ main section[data-motion="visible"]:focus-within {
     transition: none !important;
   }
 
+  main section[data-motion] [data-motion-item] {
+    transition: none !important;
+    translate: 0 0 !important;
+    scale: 1 !important;
+  }
+
   .proposal-shell a > svg[class*="lucide-arrow"],
   .proposal-shell a > svg[class*="lucide-move"] {
     transition: none !important;
+    transform: none !important;
+  }
+
+  .proposal-shell .proposal-grid-card:hover,
+  .interior-shell .service-card.service-card:hover {
+    transform: none !important;
+  }
+
+  main [data-proposal] :is(a, button)[data-slot="button"],
+  header[data-proposal] :is(a, button)[data-slot="button"],
+  main [data-proposal] .motion-hero-actions > a:not([data-slot="button"]) {
+    transform: none !important;
   }
 }

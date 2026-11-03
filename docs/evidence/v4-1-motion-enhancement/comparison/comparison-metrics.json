@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-11-03T12:46:10.080Z",
+  "baselineCommit": "52e678d3653728e07542d70deb59123e0af2e928",
+  "route": "/",
+  "viewportComparisons": {
+    "desktop-1440": {
+      "main": {
+        "home": "desktop-1440-main-home.png",
+        "services": "desktop-1440-main-services.png",
+        "reducedMotion": true
+      },
+      "v41": {
+        "home": "desktop-1440-v41-home.png",
+        "services": "desktop-1440-v41-services.png",
+        "reducedMotion": true
+      }
+    },
+    "tablet-768": {
+      "main": {
+        "home": "tablet-768-main-home.png",
+        "services": "tablet-768-main-services.png",
+        "reducedMotion": true
+      },
+      "v41": {
+        "home": "tablet-768-v41-home.png",
+        "services": "tablet-768-v41-services.png",
+        "reducedMotion": true
+      }
+    },
+    "mobile-390": {
+      "main": {
+        "home": "mobile-390-main-home.png",
+        "services": "mobile-390-main-services.png",
+        "reducedMotion": true
+      },
+      "v41": {
+        "home": "mobile-390-v41-home.png",
+        "services": "mobile-390-v41-services.png",
+        "reducedMotion": true
+      }
+    },
+    "mobile-375": {
+      "main": {
+        "home": "mobile-375-main-home.png",
+        "services": "mobile-375-main-services.png",
+        "reducedMotion": true
+      },
+      "v41": {
+        "home": "mobile-375-v41-home.png",
+        "services": "mobile-375-v41-services.png",
+        "reducedMotion": true
+      }
+    }
+  },
+  "performance": {
+    "desktop-1440": {
+      "main": {
+        "lcpMs": 96,
+        "cls": 0,
+        "domContentLoadedMs": 41.1,
+        "loadEventMs": 153.9,
+        "documentResponseBytes": 16953,
+        "totalJsResponseBytes": 869241,
+        "jsFileCount": 20,
+        "wallToQuietMs": 1333
+      },
+      "v41": {
+        "lcpMs": 188,
+        "cls": 0,
+        "domContentLoadedMs": 126.6,
+        "loadEventMs": 195.4,
+        "documentResponseBytes": 16957,
+        "totalJsResponseBytes": 871063,
+        "jsFileCount": 20,
+        "wallToQuietMs": 1404
+      }
+    },
+    "tablet-768": {
+      "main": {
+        "lcpMs": 100,
+        "cls": 0,
+        "domContentLoadedMs": 33.5,
+        "loadEventMs": 144.8,
+        "documentResponseBytes": 16953,
+        "totalJsResponseBytes": 842461,
+        "jsFileCount": 16,
+        "wallToQuietMs": 1276
+      },
+      "v41": {
+        "lcpMs": 148,
+        "cls": 0,
+        "domContentLoadedMs": 39.6,
+        "loadEventMs": 156.5,
+        "documentResponseBytes": 16957,
+        "totalJsResponseBytes": 844274,
+        "jsFileCount": 16,
+        "wallToQuietMs": 1339
+      }
+    },
+    "mobile-390": {
+      "main": {
+        "lcpMs": 88,
+        "cls": 0,
+        "domContentLoadedMs": 49.1,
+        "loadEventMs": 157.8,
+        "documentResponseBytes": 16953,
+        "totalJsResponseBytes": 840893,
+        "jsFileCount": 15,
+        "wallToQuietMs": 1349
+      },
+      "v41": {
+        "lcpMs": 112,
+        "cls": 0,
+        "domContentLoadedMs": 74.1,
+        "loadEventMs": 152.6,
+        "documentResponseBytes": 16957,
+        "totalJsResponseBytes": 842702,
+        "jsFileCount": 15,
+        "wallToQuietMs": 1361
+      }
+    },
+    "mobile-375": {
+      "main": {
+        "lcpMs": 92,
+        "cls": 0,
+        "domContentLoadedMs": 44.3,
+        "loadEventMs": 158.5,
+        "documentResponseBytes": 16953,
+        "totalJsResponseBytes": 840893,
+        "jsFileCount": 15,
+        "wallToQuietMs": 1346
+      },
+      "v41": {
+        "lcpMs": 88,
+        "cls": 0,
+        "domContentLoadedMs": 124.6,
+        "loadEventMs": 124.8,
+        "documentResponseBytes": 16957,
+        "totalJsResponseBytes": 842702,
+        "jsFileCount": 15,
+        "wallToQuietMs": 1360
+      }
+    }
+  }
+}
