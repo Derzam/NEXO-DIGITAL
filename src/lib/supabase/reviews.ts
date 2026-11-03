@@ -152,185 +152,80 @@ export async function fetchAdminReviews(params: FetchAdminReviewsParams = {}) {
   };
 }
 
-export async function approveReview(reviewId: string, notes?: string) {
+export type ModerateAction = "approve" | "reject" | "withdraw";
+
+/**
+ * Moderación atómica y segura mediante función transaccional de PostgreSQL (`nexo_moderate_review`).
+ *
+ * Invariantes y garantías:
+ * 1. La actualización del estado y el registro de auditoría ocurren en una sola transacción.
+ * 2. Si falla cualquiera de las operaciones, ninguna se confirma (rollback automático).
+ * 3. Se bloquea la fila mediante SELECT ... FOR UPDATE para impedir condiciones de carrera y dobles clics.
+ * 4. Transiciones estrictas permitidas:
+ *    - pending -> published (solo mediante approve y con publication_consent = true)
+ *    - pending -> rejected (solo mediante reject)
+ *    - published -> rejected (solo mediante withdraw)
+ * 5. Privilegios mínimos: la función está restringida exclusivamente a service_role.
+ */
+export async function moderateReviewAtomic(
+  reviewId: string,
+  action: ModerateAction,
+  notes?: string
+): Promise<{ success: boolean; error: string | null; data?: Record<string, unknown> }> {
   const auth = await getAuthenticatedAdminUser();
   if (auth.error || !auth.user || !auth.admin) {
     return {
       success: false,
-      error: auth.error === "FORBIDDEN" ? "No autorizado" : "No autenticado",
+      error: auth.error === "FORBIDDEN"
+        ? "Acceso denegado: tu usuario no cuenta con autorización administrativa."
+        : "No autenticado. Inicia sesión como administrador.",
+    };
+  }
+
+  if (action !== "approve" && action !== "reject" && action !== "withdraw") {
+    return {
+      success: false,
+      error: `Acción inválida (${action}). Solo se permite approve, reject o withdraw.`,
     };
   }
 
   const adminClient = createSupabaseAdminClient();
   if (!adminClient) {
-    return { success: false, error: "Servicio no configurado" };
+    return { success: false, error: "El servicio de base de datos no está configurado." };
   }
 
-  // 1. Fetch current review
-  const { data: review, error: fetchError } = await adminClient
-    .from("nexo_customer_reviews")
-    .select("id, display_name, moderation_status, publication_consent")
-    .eq("id", reviewId)
-    .single();
+  // Ejecución transaccional atómica en PostgreSQL
+  const { data, error } = await adminClient.rpc("nexo_moderate_review", {
+    p_review_id: reviewId,
+    p_action: action,
+    p_admin_id: auth.admin.user_id,
+    p_admin_email: auth.admin.email,
+    p_notes: notes?.trim() || null,
+  });
 
-  if (fetchError || !review) {
-    return { success: false, error: "Reseña no encontrada." };
-  }
-
-  // 2. Strict invariant check: Must have publication_consent = true
-  if (review.publication_consent !== true) {
+  if (error) {
+    console.error("Atomic moderation RPC failed:", error.message);
     return {
       success: false,
-      error: "No se puede publicar una reseña sin el consentimiento explícito del cliente para publicación.",
+      error: error.message || "Error al procesar la moderación atómica.",
     };
   }
 
-  const previousStatus = review.moderation_status;
-  const publishedAt = new Date().toISOString();
-
-  // 3. Update status
-  const { error: updateError } = await adminClient
-    .from("nexo_customer_reviews")
-    .update({
-      moderation_status: "published",
-      published_at: publishedAt,
-    })
-    .eq("id", reviewId);
-
-  if (updateError) {
-    console.error("Error approving review:", updateError.message);
-    return { success: false, error: "No se pudo actualizar el estado de la reseña." };
-  }
-
-  // 4. Log moderation action
-  await adminClient.from("nexo_review_moderation_logs").insert({
-    review_id: reviewId,
-    action: "approve",
-    previous_status: previousStatus,
-    new_status: "published",
-    admin_id: auth.admin.user_id,
-    admin_email: auth.admin.email,
-    notes: notes?.trim() || null,
-  });
-
-  // 5. Invalidate cache on public site immediately
+  // Purga inmediata de caché en la web pública y en el panel
   revalidatePath("/");
   revalidatePath("/admin/resenas");
 
-  return { success: true, error: null };
+  return { success: true, error: null, data: (data as Record<string, unknown>) || undefined };
+}
+
+export async function approveReview(reviewId: string, notes?: string) {
+  return await moderateReviewAtomic(reviewId, "approve", notes);
 }
 
 export async function rejectReview(reviewId: string, notes?: string) {
-  const auth = await getAuthenticatedAdminUser();
-  if (auth.error || !auth.user || !auth.admin) {
-    return {
-      success: false,
-      error: auth.error === "FORBIDDEN" ? "No autorizado" : "No autenticado",
-    };
-  }
-
-  const adminClient = createSupabaseAdminClient();
-  if (!adminClient) {
-    return { success: false, error: "Servicio no configurado" };
-  }
-
-  const { data: review, error: fetchError } = await adminClient
-    .from("nexo_customer_reviews")
-    .select("id, moderation_status")
-    .eq("id", reviewId)
-    .single();
-
-  if (fetchError || !review) {
-    return { success: false, error: "Reseña no encontrada." };
-  }
-
-  const previousStatus = review.moderation_status;
-
-  const { error: updateError } = await adminClient
-    .from("nexo_customer_reviews")
-    .update({
-      moderation_status: "rejected",
-      published_at: null,
-    })
-    .eq("id", reviewId);
-
-  if (updateError) {
-    console.error("Error rejecting review:", updateError.message);
-    return { success: false, error: "No se pudo rechazar la reseña." };
-  }
-
-  await adminClient.from("nexo_review_moderation_logs").insert({
-    review_id: reviewId,
-    action: "reject",
-    previous_status: previousStatus,
-    new_status: "rejected",
-    admin_id: auth.admin.user_id,
-    admin_email: auth.admin.email,
-    notes: notes?.trim() || null,
-  });
-
-  revalidatePath("/");
-  revalidatePath("/admin/resenas");
-
-  return { success: true, error: null };
+  return await moderateReviewAtomic(reviewId, "reject", notes);
 }
 
 export async function withdrawReview(reviewId: string, notes?: string) {
-  const auth = await getAuthenticatedAdminUser();
-  if (auth.error || !auth.user || !auth.admin) {
-    return {
-      success: false,
-      error: auth.error === "FORBIDDEN" ? "No autorizado" : "No autenticado",
-    };
-  }
-
-  const adminClient = createSupabaseAdminClient();
-  if (!adminClient) {
-    return { success: false, error: "Servicio no configurado" };
-  }
-
-  const { data: review, error: fetchError } = await adminClient
-    .from("nexo_customer_reviews")
-    .select("id, moderation_status")
-    .eq("id", reviewId)
-    .single();
-
-  if (fetchError || !review) {
-    return { success: false, error: "Reseña no encontrada." };
-  }
-
-  if (review.moderation_status !== "published") {
-    return { success: false, error: "Solo es posible retirar reseñas que estén actualmente publicadas." };
-  }
-
-  const previousStatus = review.moderation_status;
-
-  const { error: updateError } = await adminClient
-    .from("nexo_customer_reviews")
-    .update({
-      moderation_status: "rejected",
-      published_at: null,
-    })
-    .eq("id", reviewId);
-
-  if (updateError) {
-    console.error("Error withdrawing review:", updateError.message);
-    return { success: false, error: "No se pudo retirar la reseña." };
-  }
-
-  await adminClient.from("nexo_review_moderation_logs").insert({
-    review_id: reviewId,
-    action: "withdraw",
-    previous_status: previousStatus,
-    new_status: "rejected",
-    admin_id: auth.admin.user_id,
-    admin_email: auth.admin.email,
-    notes: notes?.trim() || null,
-  });
-
-  revalidatePath("/");
-  revalidatePath("/admin/resenas");
-
-  return { success: true, error: null };
+  return await moderateReviewAtomic(reviewId, "withdraw", notes);
 }
-

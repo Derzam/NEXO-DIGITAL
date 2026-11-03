@@ -12,10 +12,37 @@ const noStoreHeaders = {
 
 const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
+function isValidAdminOrigin(request: NextRequest): boolean {
+  const origin = request.headers.get("origin");
+  if (!origin) return true; // Allow non-browser requests without origin header
+
+  const allowed = new Set<string>();
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    try {
+      allowed.add(new URL(process.env.NEXT_PUBLIC_SITE_URL).origin);
+    } catch {}
+  }
+  if (process.env.VERCEL_URL) allowed.add("https://" + process.env.VERCEL_URL);
+  allowed.add("http://localhost:3000");
+  allowed.add("http://127.0.0.1:3000");
+  allowed.add("http://127.0.0.1:3100");
+  allowed.add("http://localhost:3100");
+
+  return allowed.has(origin);
+}
+
 export async function PATCH(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  // CSRF Protection: check origin if present
+  if (!isValidAdminOrigin(request)) {
+    return NextResponse.json(
+      { error: "Origen no autorizado para operaciones administrativas." },
+      { status: 403, headers: noStoreHeaders }
+    );
+  }
+
   const auth = await getAuthenticatedAdminUser();
   if (auth.error || !auth.user || !auth.admin) {
     const status = auth.error === "FORBIDDEN" ? 403 : 401;
@@ -52,7 +79,7 @@ export async function PATCH(
     );
   }
 
-  let result: { success: boolean; error: string | null };
+  let result: { success: boolean; error: string | null; data?: Record<string, unknown> };
   if (action === "approve") {
     result = await approveReview(id, notes);
   } else if (action === "reject") {
@@ -68,6 +95,8 @@ export async function PATCH(
     );
   }
 
-  return NextResponse.json({ success: true, action, reviewId: id }, { headers: noStoreHeaders });
+  return NextResponse.json(
+    { success: true, action, reviewId: id, details: result.data },
+    { headers: noStoreHeaders }
+  );
 }
-

@@ -1,6 +1,11 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
+function applyAdminSecurityHeaders(res: NextResponse) {
+  res.headers.set("X-Robots-Tag", "noindex, nofollow");
+  res.headers.set("Cache-Control", "no-store, no-cache, must-revalidate");
+}
+
 export async function middleware(request: NextRequest) {
   let response = NextResponse.next({
     request: {
@@ -16,8 +21,7 @@ export async function middleware(request: NextRequest) {
   }
 
   // Security headers for administrative routes
-  response.headers.set("X-Robots-Tag", "noindex, nofollow");
-  response.headers.set("Cache-Control", "no-store, no-cache, must-revalidate");
+  applyAdminSecurityHeaders(response);
 
   const url = process.env.NEXO_SUPABASE_URL;
   const key = process.env.NEXO_SUPABASE_PUBLISHABLE_KEY;
@@ -28,7 +32,9 @@ export async function middleware(request: NextRequest) {
       const redirectUrl = request.nextUrl.clone();
       redirectUrl.pathname = "/admin/login";
       redirectUrl.searchParams.set("next", request.nextUrl.pathname);
-      return NextResponse.redirect(redirectUrl);
+      const redirectRes = NextResponse.redirect(redirectUrl);
+      applyAdminSecurityHeaders(redirectRes);
+      return redirectRes;
     }
     return response;
   }
@@ -48,6 +54,8 @@ export async function middleware(request: NextRequest) {
         cookiesToSet.forEach(({ name, value, options }) =>
           response.cookies.set(name, value, options)
         );
+        // Guarantee security headers are retained after cookie refresh
+        applyAdminSecurityHeaders(response);
       },
     },
   });
@@ -60,14 +68,18 @@ export async function middleware(request: NextRequest) {
     const redirectUrl = request.nextUrl.clone();
     redirectUrl.pathname = "/admin/login";
     redirectUrl.searchParams.set("next", request.nextUrl.pathname);
-    return NextResponse.redirect(redirectUrl);
+    const redirectRes = NextResponse.redirect(redirectUrl);
+    applyAdminSecurityHeaders(redirectRes);
+    return redirectRes;
   }
 
   if (isLoginPage && user) {
     const redirectUrl = request.nextUrl.clone();
     redirectUrl.pathname = "/admin/resenas";
     redirectUrl.search = "";
-    return NextResponse.redirect(redirectUrl);
+    const redirectRes = NextResponse.redirect(redirectUrl);
+    applyAdminSecurityHeaders(redirectRes);
+    return redirectRes;
   }
 
   return response;

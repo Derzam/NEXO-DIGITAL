@@ -645,22 +645,9 @@ export function AdminReviewsClient({
                           <span>Retirar de la web</span>
                         </button>
                       ) : (
-                        /* Rejected: allow re-approving if consented */
-                        hasConsent ? (
-                          <button
-                            type="button"
-                            onClick={() => openConfirmation("approve", review)}
-                            disabled={isWorking}
-                            className="tw:inline-flex tw:items-center tw:justify-center tw:gap-2 tw:rounded-xl tw:border tw:border-emerald-600/60 tw:bg-[#0e2920] tw:px-4 tw:py-2.5 tw:text-[13px] tw:font-medium tw:text-emerald-200 tw:transition-colors tw:hover:bg-[#153f31] tw:disabled:opacity-60"
-                          >
-                            <CheckCircle2 className="tw:size-4" aria-hidden="true" />
-                            <span>Reactivar y Publicar</span>
-                          </button>
-                        ) : (
-                          <span className="tw:text-center tw:text-[12px] tw:text-[#6a849f]">
-                            Sin acciones disponibles (sin consentimiento).
-                          </span>
-                        )
+                        <span className="tw:rounded-lg tw:border tw:border-[#2b2126] tw:bg-[#150d12] tw:px-3 tw:py-2 tw:text-center tw:text-[12px] tw:text-[#9e7a83]">
+                          Archivada / Estado final (sin acciones)
+                        </span>
                       )}
 
                       {!hasConsent && review.moderationStatus === "pending" ? (

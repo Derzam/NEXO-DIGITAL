@@ -10,7 +10,33 @@ const noStoreHeaders = {
   "X-Robots-Tag": "noindex, nofollow",
 };
 
+function isValidAdminOrigin(request: NextRequest): boolean {
+  const origin = request.headers.get("origin");
+  if (!origin) return true;
+
+  const allowed = new Set<string>();
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    try {
+      allowed.add(new URL(process.env.NEXT_PUBLIC_SITE_URL).origin);
+    } catch {}
+  }
+  if (process.env.VERCEL_URL) allowed.add("https://" + process.env.VERCEL_URL);
+  allowed.add("http://localhost:3000");
+  allowed.add("http://127.0.0.1:3000");
+  allowed.add("http://127.0.0.1:3100");
+  allowed.add("http://localhost:3100");
+
+  return allowed.has(origin);
+}
+
 export async function GET(request: NextRequest) {
+  if (!isValidAdminOrigin(request)) {
+    return NextResponse.json(
+      { error: "Origen no permitido." },
+      { status: 403, headers: noStoreHeaders }
+    );
+  }
+
   const auth = await getAuthenticatedAdminUser();
   if (auth.error || !auth.user || !auth.admin) {
     const status = auth.error === "FORBIDDEN" ? 403 : 401;
@@ -47,4 +73,3 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: message }, { status: 500, headers: noStoreHeaders });
   }
 }
-
