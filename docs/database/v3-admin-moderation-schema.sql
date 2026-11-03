@@ -51,14 +51,40 @@ revoke all on table public.nexo_review_moderation_logs from public, anon, authen
 -- Privilegios mínimos: SOLO select e insert para service_role. Nunca UPDATE ni DELETE.
 grant select, insert on table public.nexo_review_moderation_logs to service_role;
 
--- 3. Trigger de protección: Impide cualquier modificación o eliminación de registros de auditoría
+-- 3. Trigger de protección: Impide modificación y eliminación arbitraria de registros de auditoría
+-- Permite exclusivamente la actualización interna de foreign keys (ON DELETE SET NULL),
+-- pero aborta con excepción cualquier intento de modificar datos o eliminar registros.
 create or replace function public.nexo_prevent_audit_log_tampering()
 returns trigger
 language plpgsql
 security definer
 as $$
 begin
-  raise exception 'Los registros de auditoría de moderación son inmutables y no pueden modificarse ni eliminarse.';
+  if TG_OP = 'DELETE' then
+    raise exception 'Los registros de auditoría de moderación son inmutables y no pueden eliminarse.'
+      using errcode = 'INTEGRITY_CONSTRAINT_VIOLATION';
+  end if;
+
+  if TG_OP = 'UPDATE' then
+    -- Permitir exclusivamente actualizaciones en cascada de foreign keys a NULL manteniendo todos los demás campos idénticos
+    if (OLD.review_id is not null and NEW.review_id is null) or (OLD.admin_id is not null and NEW.admin_id is null) then
+      if NEW.id = OLD.id
+         and NEW.target_review_uuid = OLD.target_review_uuid
+         and NEW.action = OLD.action
+         and NEW.previous_status = OLD.previous_status
+         and NEW.new_status = OLD.new_status
+         and NEW.admin_email = OLD.admin_email
+         and NEW.created_at = OLD.created_at
+         and (NEW.notes is not distinct from OLD.notes) then
+        return NEW;
+      end if;
+    end if;
+
+    raise exception 'Los registros de auditoría de moderación son inmutables y no pueden modificarse.'
+      using errcode = 'INTEGRITY_CONSTRAINT_VIOLATION';
+  end if;
+
+  return NEW;
 end;
 $$;
 
@@ -232,10 +258,18 @@ grant execute on function public.nexo_moderate_review(uuid, text, uuid, text, te
 --    sin almacenar datos de carácter personal del cliente.
 --
 -- ==============================================================================
--- PROCEDIMIENTO DE REVERSIÓN (ROLLBACK)
+-- PROCEDIMIENTO DE REVERSIÓN NO DESTRUCTIVO (ROLLBACK PLAN)
 -- ==============================================================================
--- drop function if exists public.nexo_moderate_review(uuid, text, uuid, text, text);
--- drop trigger if exists trg_prevent_audit_log_tampering on public.nexo_review_moderation_logs;
--- drop function if exists public.nexo_prevent_audit_log_tampering();
--- drop table if exists public.nexo_review_moderation_logs cascade;
--- drop table if exists public.nexo_admin_users cascade;
+-- En caso de incidente, NO ejecutar 'DROP TABLE' destructivos para no perder
+-- los registros de auditoría ni la lista de administradores históricos.
+--
+-- 1. Revocar la ejecución de la función de moderación (congelar mutaciones):
+--    revoke execute on function public.nexo_moderate_review(uuid, text, uuid, text, text) from service_role;
+--
+-- 2. Desactivar administradores sin borrar datos:
+--    update public.nexo_admin_users set is_active = false;
+--
+-- 3. Si se requiere retirar la versión completamente en desarrollo/staging:
+--    drop function if exists public.nexo_moderate_review(uuid, text, uuid, text, text);
+--    drop trigger if exists trg_prevent_audit_log_tampering on public.nexo_review_moderation_logs;
+--    drop function if exists public.nexo_prevent_audit_log_tampering();

@@ -20,10 +20,10 @@
 - **Control de Acceso:**
   1. No existe autoregistro público. La creación de usuarios administradores se realiza exclusivamente mediante invitación o alta manual por el propietario en el panel de Supabase Auth.
   2. La autenticación se verifica en el servidor en cada petición con `auth.getUser()` (validación criptográfica del JWT contra Supabase, no solo lectura de cookies locales).
-  3. Comprobación estricta de autorización: la identidad autenticada debe coincidir con un registro activo en la tabla privada `public.nexo_admin_users`. Si el usuario está autenticado pero no está autorizado, se responde con HTTP 403 y se deniega todo acceso.
+  3. Comprobación estricta de autorización: la identidad autenticada debe coincidir con un registro activo en la tabla privada `public.nexo_admin_users` (`is_active = true`). Si el usuario está autenticado pero inactivo o no autorizado, se responde con HTTP 403 y se deniega todo acceso.
   4. Redirección automática de usuarios anónimos hacia `/admin/login?next=/admin/resenas`.
   5. Exclusión total de motores de búsqueda: metadatos con `robots: { index: false, follow: false, nocache: true }`, encabezados `X-Robots-Tag: noindex, nofollow`, `Cache-Control: no-store, no-cache, must-revalidate` garantizados antes y después de la actualización de cookies de sesión, y regla `Disallow: /admin/` en `robots.txt`.
-  6. **Protección CSRF y Origen:** Todos los endpoints mutadores (`POST`, `PATCH`) validan la cabecera `Origin` contra los dominios autorizados de Nexo Digital Studio antes de procesar cualquier cambio de estado.
+  6. **Protección CSRF y Validación de Origen Reforzada (`src/lib/supabase/origin.ts`):** Todos los endpoints mutadores (`POST`, `PATCH`) validan la cabecera `Sec-Fetch-Site` (rechazando solicitudes `cross-site`) y verifican que `Origin` o `Referer` provengan estrictamente de dominios autorizados de Nexo Digital Studio (`NEXT_PUBLIC_SITE_URL`, `VERCEL_URL` o `localhost` en desarrollo). En producción, peticiones mutadoras de navegador sin origen o referer son bloqueadas por defecto (fail-closed).
 
 ### 1.2 Transacciones Atómicas y Máquina de Estados Estricta
 - **Función PostgreSQL Transaccional (`public.nexo_moderate_review`):**
@@ -40,7 +40,7 @@
 ### 1.3 Integridad de la Bitácora y Privacidad (LOPDP / GDPR)
 - **Inmutabilidad Absoluta:**
   - La tabla `public.nexo_review_moderation_logs` es append-only: solo se otorga privilegio `INSERT` y `SELECT` a `service_role`.
-  - Un trigger a nivel de base de datos (`trg_prevent_audit_log_tampering`) intercepta y aborta con excepción cualquier intento de `UPDATE` o `DELETE`.
+  - Un trigger a nivel de base de datos (`trg_prevent_audit_log_tampering`) intercepta y aborta con excepción cualquier intento de `UPDATE` o `DELETE`. Para soportar borrados de reseñas en pruebas o supresión sin romper la integridad referencial, el trigger permite únicamente la nulificación interna de foreign keys (`ON DELETE SET NULL`) verificando que todos los demás campos permanezcan estrictamente idénticos (`id`, `target_review_uuid`, `action`, `previous_status`, `new_status`, `admin_email`, `created_at`, `notes`).
 - **Integridad Referencial Segura (Sin Cascada Destructiva):**
   - Anteriormente, una relación `ON DELETE CASCADE` borraba la bitácora si se eliminaba una reseña o un usuario.
   - Se modificó a `ON DELETE SET NULL`, incorporando adicionalmente `target_review_uuid text not null` y `admin_email text not null`. De esta forma, el rastro de auditoría permanece intacto e inmutable para siempre.
@@ -70,11 +70,22 @@ Para garantizar la reproducibilidad y la seguridad sin incurrir en costes ni exp
 
 ---
 
-## 3. Esquema de Base de Datos y Migraciones
+## 3. Esquema de Base de Datos, Staging y Migraciones
 
+### 3.1 Migración Principal
 El archivo `docs/database/v3-admin-moderation-schema.sql` contiene la migración para aplicar en Supabase Studio (proyecto `nnujqzopkbzoddqhnavr`):
 1. Creación de la tabla `public.nexo_admin_users` con RLS.
 2. Creación de la tabla `public.nexo_review_moderation_logs` con trigger de inmutabilidad y columnas inmutables.
 3. Creación de la función transaccional atómica `public.nexo_moderate_review`.
 4. Procedimiento SQL para dar de alta al primer administrador de forma segura.
-5. Procedimiento de reversión (rollback).
+5. Procedimiento de reversión no destructivo (congelar mutaciones y desactivar accesos sin borrar datos de auditoría).
+
+### 3.2 Scripts de Validación en Staging Aislado
+- `docs/database/staging-synthetic-seed.sql`: Inserción de reseñas y administradores sintéticos deterministas con UUIDs `00000000-...` para pruebas exhaustivas sin datos reales.
+- `docs/database/staging-validation-runner.sql`: Suite de 5 bloques anónimos PL/pgSQL que verifican la función RPC atómica, el bloqueo de aprobación sin consentimiento, la retirada, el bloqueo de transiciones inválidas y el trigger de inmutabilidad de la bitácora.
+
+---
+
+## 4. Auditoría Técnica y Validación de Staging (Fase V3.6)
+
+Para el informe consolidado completo de auditoría, severidad de hallazgos (P0-P3), mitigaciones, resultados de pruebas y dictamen técnico de pase a staging, consultar `docs/V3-6-STAGING-VALIDATION.md`.

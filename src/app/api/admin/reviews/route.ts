@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getAuthenticatedAdminUser } from "@/lib/supabase/auth";
 import { fetchAdminReviews, ReviewModerationStatus } from "@/lib/supabase/reviews";
+import { isValidAdminOrigin } from "@/lib/supabase/origin";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -9,25 +10,6 @@ const noStoreHeaders = {
   "Cache-Control": "no-store, no-cache, must-revalidate",
   "X-Robots-Tag": "noindex, nofollow",
 };
-
-function isValidAdminOrigin(request: NextRequest): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return true;
-
-  const allowed = new Set<string>();
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    try {
-      allowed.add(new URL(process.env.NEXT_PUBLIC_SITE_URL).origin);
-    } catch {}
-  }
-  if (process.env.VERCEL_URL) allowed.add("https://" + process.env.VERCEL_URL);
-  allowed.add("http://localhost:3000");
-  allowed.add("http://127.0.0.1:3000");
-  allowed.add("http://127.0.0.1:3100");
-  allowed.add("http://localhost:3100");
-
-  return allowed.has(origin);
-}
 
 export async function GET(request: NextRequest) {
   if (!isValidAdminOrigin(request)) {

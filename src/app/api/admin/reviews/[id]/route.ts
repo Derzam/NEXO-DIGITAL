@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getAuthenticatedAdminUser } from "@/lib/supabase/auth";
 import { approveReview, rejectReview, withdrawReview } from "@/lib/supabase/reviews";
+import { isValidAdminOrigin } from "@/lib/supabase/origin";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -12,30 +13,11 @@ const noStoreHeaders = {
 
 const UUID_REGEX = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
-function isValidAdminOrigin(request: NextRequest): boolean {
-  const origin = request.headers.get("origin");
-  if (!origin) return true; // Allow non-browser requests without origin header
-
-  const allowed = new Set<string>();
-  if (process.env.NEXT_PUBLIC_SITE_URL) {
-    try {
-      allowed.add(new URL(process.env.NEXT_PUBLIC_SITE_URL).origin);
-    } catch {}
-  }
-  if (process.env.VERCEL_URL) allowed.add("https://" + process.env.VERCEL_URL);
-  allowed.add("http://localhost:3000");
-  allowed.add("http://127.0.0.1:3000");
-  allowed.add("http://127.0.0.1:3100");
-  allowed.add("http://localhost:3100");
-
-  return allowed.has(origin);
-}
-
 export async function PATCH(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
-  // CSRF Protection: check origin if present
+  // CSRF Protection: check origin/referer
   if (!isValidAdminOrigin(request)) {
     return NextResponse.json(
       { error: "Origen no autorizado para operaciones administrativas." },
