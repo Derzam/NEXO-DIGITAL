@@ -24,6 +24,8 @@ Cuando `IntersectionObserver` cambia el atributo a `data-motion="visible"`, esa 
 
 Las animaciones del hero sí están conectadas: Chromium resolvió `--ease` a `cubic-bezier(0.16, 1, 0.3, 1)` y encontró los keyframes `motion-hero-rise` y `motion-hero-fade` en ejecución. No se observó una anulación del cascade ni errores JavaScript. La causa de su baja presencia visual es de intensidad y duración: el ascenso actual es de 18 px y dura entre 450 y 650 ms en los elementos principales; la secuencia acaba rápidamente y no existe una capa ambiental animada en el hero. El indicador de 350 ms y el pie de 450 ms solo hacen fade.
 
+Al fijar la animación real del título en el 50 % de su duración mediante la API Web Animations, Chromium calculó opacidad `0.971779` y solo `0.508 px` restantes desde su posición final, frente a los `18 px` de inicio. La curva global es válida, pero tan front-loaded que gran parte del cambio visual ocurre al comienzo y casi no hay progresión perceptible en la mitad restante. V4.1 usará una curva de movimiento local al sistema Motion, sin alterar `--ease` global ni otras páginas.
+
 La tarjeta de servicios comprobada se eleva **3 px** al pasar el puntero. El efecto funciona, pero queda por debajo de la profundidad visual solicitada. El selector global antiguo basado en `animation-timeline: view()` está soportado por Chromium, pero sus selectores `.home-service-grid > a` / `.section-topline > *` no coinciden con el Home actual, por lo que no causan el fallo observado.
 
 ### Cascada, carga y runtime
