@@ -1,0 +1,39 @@
+{
+  "measurement": "Local production builds; Chromium; unthrottled; one cold context per route; no-preference motion; local Resource Timing and PerformanceObserver, not field Core Web Vitals.",
+  "viewport": "1440x900",
+  "routes": {
+    "main": {
+      "/": {
+        "lcpMs": 76,
+        "cls": 0,
+        "jsEncodedBytes": 262220,
+        "jsResourceCount": 19,
+        "ttfbMs": 13.400000000023283
+      },
+      "/contacto": {
+        "lcpMs": 48,
+        "cls": 0,
+        "jsEncodedBytes": 255491,
+        "jsResourceCount": 18,
+        "ttfbMs": 4.099999999976717
+      }
+    },
+    "feature": {
+      "/": {
+        "lcpMs": 88,
+        "cls": 0,
+        "jsEncodedBytes": 263570,
+        "jsResourceCount": 20,
+        "ttfbMs": 12
+      },
+      "/contacto": {
+        "lcpMs": 48,
+        "cls": 0,
+        "jsEncodedBytes": 256185,
+        "jsResourceCount": 17,
+        "ttfbMs": 4
+      }
+    }
+  },
+  "inp": "Not measured; requires representative user interaction sampling and is not inferred from this local run."
+}

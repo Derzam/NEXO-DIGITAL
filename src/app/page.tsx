@@ -26,17 +26,17 @@ export default function Home() {
         </div>
         <div className="proposal-container tw:relative tw:z-10 tw:flex tw:min-h-[790px] tw:flex-col tw:justify-between tw:pb-10 tw:pt-24 tw:max-sm:min-h-[790px] tw:max-sm:pb-7 tw:max-sm:pt-10">
           <div className="tw:max-w-[670px]">
-            <div className="threshold-signal tw:mb-8" aria-hidden="true" />
-            <h1 className="tw:text-[clamp(58px,6.8vw,98px)] tw:leading-[1.03] tw:tracking-[-.065em] tw:max-sm:text-[56px]">
+            <div className="threshold-signal motion-hero-signal tw:mb-8" aria-hidden="true" />
+            <h1 className="motion-hero-title tw:text-[clamp(58px,6.8vw,98px)] tw:leading-[1.03] tw:tracking-[-.065em] tw:max-sm:text-[56px]">
               Construye
               <br />
               lo que sigue.
             </h1>
-            <p className="tw:mt-7 tw:max-w-[480px] tw:text-[19px] tw:leading-[1.7] tw:text-[#c7d7e9] tw:max-sm:text-[18px]">
+            <p className="motion-hero-copy tw:mt-7 tw:max-w-[480px] tw:text-[19px] tw:leading-[1.7] tw:text-[#c7d7e9] tw:max-sm:text-[18px]">
               Software, diseño e inteligencia artificial para dar forma a tu
               próxima idea.
             </p>
-            <div className="tw:mt-9 tw:flex tw:flex-wrap tw:items-center tw:gap-x-7 tw:gap-y-4">
+            <div className="motion-hero-actions tw:mt-9 tw:flex tw:flex-wrap tw:items-center tw:gap-x-7 tw:gap-y-4">
               <Button
                 asChild
                 size="lg"
@@ -60,7 +60,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="tw:flex tw:items-end tw:justify-between tw:gap-8 tw:max-sm:items-center">
+          <div className="motion-hero-footer tw:flex tw:items-end tw:justify-between tw:gap-8 tw:max-sm:items-center">
             <p className="tw:max-w-[310px] tw:text-[14px] tw:leading-relaxed tw:text-[#b8cce2]">
               Una visión clara.
               <br />

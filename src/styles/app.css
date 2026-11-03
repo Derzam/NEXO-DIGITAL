@@ -3,6 +3,7 @@
 @import "../app/globals.css" layer(legacy);
 @import "./refinement.css" layer(components);
 @import "./interiors.css" layer(components);
+@import "./motion.css" layer(components);
 @import "./tokens.css";
 @import "tailwindcss/utilities.css" layer(utilities) prefix(tw);
 @import "tw-animate-css";
