@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { ProposalFooter } from "@/components/proposal/footer";
 import { ProposalHeader } from "@/components/proposal/header";
 import { brand, siteUrl } from "@/lib/content";
+import { MotionEnhancer } from "@/components/motion/motion-enhancer";
 import { DM_Sans, Manrope } from "next/font/google";
 import "../styles/app.css";
 const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans", display: "swap" });
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <body className={`${dmSans.variable} ${manrope.variable}`}>
       <a className="skip-link" href="#contenido" tabIndex={0}>Saltar al contenido</a>
       <ProposalHeader />
+      <MotionEnhancer />
       <main id="contenido" tabIndex={-1}>{children}</main>
       <ProposalFooter />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Organization", name: brand, url: siteUrl, logo: new URL("/images/nexo-wordmark.webp", siteUrl).toString() }).replace(/</g, "\\u003c") }} />

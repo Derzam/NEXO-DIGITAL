@@ -1,0 +1,102 @@
+/* Motion Experience: restrained, transform/opacity-only progressive enhancement. */
+@keyframes motion-hero-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes motion-hero-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.motion-hero-signal {
+  animation: motion-hero-fade 350ms var(--ease) both;
+}
+
+.motion-hero-title {
+  animation: motion-hero-rise 650ms var(--ease) 60ms both;
+}
+
+.motion-hero-copy {
+  animation: motion-hero-rise 550ms var(--ease) 140ms both;
+}
+
+.motion-hero-actions {
+  animation: motion-hero-rise 450ms var(--ease) 220ms both;
+}
+
+.motion-hero-footer {
+  animation: motion-hero-fade 450ms var(--ease) 300ms both;
+}
+
+/* Sections are visible by default; the client enhancer marks only off-screen ones. */
+main section[data-motion="pending"] {
+  opacity: 0.96;
+  transform: translate3d(0, 20px, 0);
+  transition:
+    opacity 560ms var(--ease),
+    transform 560ms var(--ease);
+}
+
+main section[data-motion="visible"] {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+main section[data-motion="visible"]:focus-within {
+  transition: none;
+}
+
+/* Small icon feedback is limited to hover-capable pointers. */
+.proposal-shell a > svg[class*="lucide-arrow"],
+.proposal-shell a > svg[class*="lucide-move"] {
+  transition: transform 220ms var(--ease);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .proposal-shell a:hover > svg[class*="lucide-arrow"],
+  .proposal-shell a:hover > svg[class*="lucide-move"] {
+    transform: translate3d(2px, -1px, 0);
+  }
+
+  .proposal-grid-card:hover {
+    transform: translate3d(0, -3px, 0);
+  }
+
+  .interior-shell .service-card:hover {
+    transform: translate3d(0, -3px, 0);
+  }
+}
+
+.proposal-shell :is(a, button, [role="button"]):active {
+  transition-duration: 100ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  .motion-hero-signal,
+  .motion-hero-title,
+  .motion-hero-copy,
+  .motion-hero-actions,
+  .motion-hero-footer,
+  main section[data-motion] {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .proposal-shell a > svg[class*="lucide-arrow"],
+  .proposal-shell a > svg[class*="lucide-move"] {
+    transition: none !important;
+  }
+}
