@@ -3,8 +3,8 @@ import { siteUrl } from "@/lib/content";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    // Do not disallow /blog or /portafolio: crawlers must see their noindex tags.
-    rules: { userAgent: "*", allow: "/" },
+    // Exclude administrative routes from web crawlers.
+    rules: { userAgent: "*", allow: "/", disallow: ["/admin/"] },
     sitemap: new URL("/sitemap.xml", siteUrl).toString(),
   };
 }
