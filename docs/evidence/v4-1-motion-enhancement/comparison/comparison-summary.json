@@ -1,0 +1,129 @@
+{
+  "baselineCommit": "52e678d3653728e07542d70deb59123e0af2e928",
+  "route": "/",
+  "screenshotsReducedMotion": true,
+  "visualDiff": {
+    "desktop-1440": {
+      "home": {
+        "dimensions": [
+          1440,
+          900
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      },
+      "services": {
+        "dimensions": [
+          1440,
+          900
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      }
+    },
+    "tablet-768": {
+      "home": {
+        "dimensions": [
+          768,
+          1024
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      },
+      "services": {
+        "dimensions": [
+          768,
+          1024
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      }
+    },
+    "mobile-390": {
+      "home": {
+        "dimensions": [
+          390,
+          844
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      },
+      "services": {
+        "dimensions": [
+          390,
+          844
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      }
+    },
+    "mobile-375": {
+      "home": {
+        "dimensions": [
+          375,
+          667
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      },
+      "services": {
+        "dimensions": [
+          375,
+          667
+        ],
+        "changedPixels": 0,
+        "pixelIdentity": true
+      }
+    }
+  },
+  "performanceDeltas": {
+    "desktop-1440": {
+      "jsBytesMain": 869241,
+      "jsBytesV41": 871063,
+      "jsDeltaBytes": 1822,
+      "jsDeltaPercent": 0.2096,
+      "lcpMainMs": 96,
+      "lcpV41Ms": 188,
+      "lcpDeltaMs": 92,
+      "clsMain": 0,
+      "clsV41": 0,
+      "clsDelta": 0
+    },
+    "tablet-768": {
+      "jsBytesMain": 842461,
+      "jsBytesV41": 844274,
+      "jsDeltaBytes": 1813,
+      "jsDeltaPercent": 0.2152,
+      "lcpMainMs": 100,
+      "lcpV41Ms": 148,
+      "lcpDeltaMs": 48,
+      "clsMain": 0,
+      "clsV41": 0,
+      "clsDelta": 0
+    },
+    "mobile-390": {
+      "jsBytesMain": 840893,
+      "jsBytesV41": 842702,
+      "jsDeltaBytes": 1809,
+      "jsDeltaPercent": 0.2151,
+      "lcpMainMs": 88,
+      "lcpV41Ms": 112,
+      "lcpDeltaMs": 24,
+      "clsMain": 0,
+      "clsV41": 0,
+      "clsDelta": 0
+    },
+    "mobile-375": {
+      "jsBytesMain": 840893,
+      "jsBytesV41": 842702,
+      "jsDeltaBytes": 1809,
+      "jsDeltaPercent": 0.2151,
+      "lcpMainMs": 92,
+      "lcpV41Ms": 88,
+      "lcpDeltaMs": -4,
+      "clsMain": 0,
+      "clsV41": 0,
+      "clsDelta": 0
+    }
+  }
+}
