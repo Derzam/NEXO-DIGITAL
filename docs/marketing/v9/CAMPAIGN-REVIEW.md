@@ -1,6 +1,6 @@
 # Revisión de campaña V9
 
-**Estado: borradores para revisión del propietario; sin aprobación de publicación.** No se han publicado anuncios, contratado campañas ni contactado personas. Nexo operará como persona natural; el RUC está pendiente. Antes de la actividad remunerada deben completarse las verificaciones legales y tributarias aplicables. No se afirma que el permiso de uso comercial de todos los materiales ya esté formalizado.
+**Estado de publicación: pendiente de verificar cuentas sociales, permisos de uso y situación tributaria.** El propietario solicitó publicar las piezas y decidió el **29/10/2026** que Nexo Digital Studio trabajará temporalmente bajo **LlevaKí S.A.S.** (sustituye el esquema anterior de persona natural). **Aún no hay publicación confirmada en plataformas sociales**. Antes de facturar y operar comercialmente, verificar RUC activo de la sociedad, actividades correspondientes, situación contable, representante y obligaciones legales. No se ha validado el RUC concreto ni formalizado la autorización de todos los materiales.
 
 ## Entregables y fuentes
 
