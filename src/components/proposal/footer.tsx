@@ -1,8 +1,12 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { ArrowUpRight } from "lucide-react";
 import { NexoWordmark } from "@/components/nexo-wordmark";
 import { whatsappUrl } from "@/lib/content";
 export function ProposalFooter() {
+  const pathname = usePathname();
+  if (pathname?.startsWith("/admin")) return null;
   return (
     <footer
       data-proposal
